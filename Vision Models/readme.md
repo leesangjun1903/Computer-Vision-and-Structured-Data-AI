@@ -292,6 +292,7 @@
 - LightGlue: Local Feature Matching at Light Speed | 2023 · 795회 인용, Feature Matching, 3D resonstruction, Image matching
 - Lite DETR: An Interleaved Multi-Scale Encoder for Efficient DETR | 2023 · 130회 인용, Object detection
 - LoRA: Low-Rank Adaptation of Large Language Models | 2021 · 18638회 인용, LLM, Fine-tuning
+- Low-Light Image Enhancement with Wavelet-based Diffusion Models | 2023 · 262회 인용, Image Enhancement
 - MAE : Masked Autoencoders Are Scalable Vision Learners | 2021 · 11570회 인용, Image reconstruction, Image generation
 - MAGVIT: Masked Generative Video Transformer | 2022 · 334회 인용, Video generation, Text-to-video generation
 - MAGVIT-v2 : Language Model Beats Diffusion -- Tokenizer is Key to Visual Generation | 2023 · 428회 인용, Image generation, Language modeling, Video generation
