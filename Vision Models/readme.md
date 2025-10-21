@@ -497,6 +497,7 @@
 - ViTMatte: Boosting Image Matting with Pretrained Plain Vision Transformers | 2023 · 94회 인용, Image matting
 - ViViT: A Video Vision Transformer | 2021 · 3361회 인용, Video classification, Action recognition
 - VideoMAE: Masked Autoencoders are Data-Efficient Learners for Self-Supervised Video Pre-Training | 2022 · 1649회 인용, Video reconstruction
+- VmambaIR: Visual State Space Model for Image Restoration | 2023 · 230회 인용, Image Enhancement
 - WAE : Wasserstein Auto-Encoders | 2017 · 1494회 인용, Image generation
 - WB-DETR: Transformer-Based Detector without Backbone | 2021 · 50회 인용, Object detection
 - WDSR : Wide Activation for Efficient and Accurate Image Super-Resolution | 2018 · 524회 인용, Super resolution
