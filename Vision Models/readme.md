@@ -158,6 +158,7 @@
 - DiT : Scalable Diffusion Models with Transformers | 2022 · 3548회 인용, Image generation
 - Diff-Instruct: A Universal Approach for Transferring Knowledge From Pre-trained Diffusion Models | 2023 · 155회 인용, Image generation
 - Diff-Pruning : Structural Pruning for Diffusion Models | 2023 · 355회 인용, Image generation
+- Diff-Retinex: Rethinking Low-light Image Enhancement with A Generative Diffusion Model | 2023 · 230회 인용, Image Enhancement
 - DiffBIR: Towards Blind Image Restoration with Generative Diffusion Prior | 2023 · 370회 인용, Image denoising, Super resolution, Image restoration
 - DiffIR: Efficient Diffusion Model for Image Restoration | 2023 · 427회 인용, Image Enhancement
 - DiffPIR : Denoising Diffusion Models for Plug-and-Play Image Restoration | 2023 · 323회 인용, Image restoration
