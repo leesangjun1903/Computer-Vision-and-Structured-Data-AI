@@ -43,6 +43,7 @@
 - Awesome-Super-Resolution https://github.com/ChaofWang/Awesome-Super-Resolution?tab=readme-ov-file
 - Single-Image-Super-Resolution(7 years ago) : https://github.com/YapengTian/Single-Image-Super-Resolution?tab=readme-ov-file
 - Awesome Segment Anything : https://github.com/Hedlen/awesome-segment-anything , https://github.com/dk-liang/Awesome-Segment-Anything , https://github.com/baibizhe/Awesome-SAM
+- Awesome Semantic Segmentation : https://github.com/mrgloom/awesome-semantic-segmentation
 - Awesome-Diffusion-Models : https://github.com/diff-usion/Awesome-Diffusion-Models
 - Awesome-diffusion-model-for-image-processing : https://github.com/lixinustc/Awesome-diffusion-model-for-image-processing?tab=readme-ov-file
 - awesome-object-detection : https://github.com/amusi/awesome-object-detection
