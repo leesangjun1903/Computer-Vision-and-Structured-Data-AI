@@ -129,6 +129,7 @@
 - DPSR : Deep Plug-and-Play Super-Resolution for Arbitrary Blur Kernels | 2019 · 495회 인용, Super resolution
 - DPSRGAN: Dilation Patch Super-Resolution Generative Adversarial Networks | 2021 · 7회 인용, Super resolution : https://github.com/kushalchordiya216/DPSRGAN/tree/master?tab=readme-ov-file
 - DPT : Vision Transformers for Dense Prediction | 2021 · 2962회 인용, Depth estimation, Semantic segmentation
+- DR2: Diffusion-based Robust Degradation Remover for Blind Face Restoration | 2023 · 128회 인용, Image Enhancement, Face Restoration
 - DRAW: A Recurrent Neural Network For Image Generation | 2015 · 2650회 인용, Image generation
 - DSD : Diffusion Self-Distillation for Zero-Shot Customized Image Generation | 2024 · 16회 인용, Image generation
 - Deep Generator Priors for Bayesian Seismic Inversion | 2020 · 18회 인용, Image generation, Seismic Imaging, Uncertainty Quantification
