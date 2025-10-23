@@ -79,6 +79,7 @@
 - CLIPDraw: Exploring Text-to-Drawing Synthesis through Language-Image Encoders | 2021 · 254회 인용, Image generation
 - CM : Consistency Models | 2023 · 1357회 인용, Image generation, Accelerate Sampling
 - CNN Image Retrieval Learns from BoW: Unsupervised Fine-Tuning with Hard Examples | 2016 · 769회 인용, Image retrieval
+- CNN-Generated Images are Surprisingly Easy to Spot... for Now | 2019 · 1445회 인용, Deepfake Detection
 - COLMAP : Structure-from-Motion Revisited | 2016 . 8045회 인용, 3D reconstruction
 - CPVT : Conditional Positional Encodings for Vision Transformers | 2021 · 914회 인용, Image classification, Transformer technique
 - CSPNet: A New Backbone that can Enhance Learning Capability of CNN | 2019 · 5843회 인용, Image classification, Object detection
