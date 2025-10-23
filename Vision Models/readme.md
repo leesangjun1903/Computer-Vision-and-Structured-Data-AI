@@ -480,6 +480,7 @@
 - Tracking-by-Segmentation with Online Gradient Boosting Decision Tree | 2015 · 169회 인용, Object Detection
 - Training Deep Networks for Facial Expression Recognition with Crowd-Sourced Label Distribution | 2016 · 990회 인용, Image classification, Facial emotion recognition
 - Transformer in Transformer | 2021 · 2416회 인용, Image classification
+- TryOnDiffusion: A Tale of Two UNets | 2023 · 185회 인용, Virtual Try-on 
 - Twins: Revisiting the Design of Spatial Attention in Vision Transformers | 2021 · 1383회 인용, Image classification, Semantic segmentation, Object detection
 - Two-stage Discriminative Re-ranking for Large-scale Landmark Retrieval | 2020 · 41회 인용, Image retrieval
 - U-GAT-IT: Unsupervised Generative Attentional Networks with Adaptive Layer-Instance Normalization for Image-to-Image Translation | 2019 · 804회 인용, Image generation
