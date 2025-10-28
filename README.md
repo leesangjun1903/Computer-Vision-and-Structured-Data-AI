@@ -11,7 +11,7 @@
 - Paper with code : Computer Vision https://paperswithcode.com/area/computer-vision
 - computer-vision-research-papers https://github.com/maunesh/computer-vision-research-papers?tab=readme-ov-file
 - Top 10 Open Source Computer Vision Repositories : https://encord.com/blog/open-source-computer-vision-repositories/
-
+- Awesome-Image-Forensics : https://github.com/ChenqiKONG/Awesome-Image-Forensics
 
 ## Image Classification
 - Awesome - Image Classification(E) : https://github.com/weiaicunzai/awesome-image-classification
