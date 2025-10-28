@@ -2,7 +2,7 @@
 - Computer Vision and Pattern Recognition : https://scholar.google.co.kr/citations?view_op=top_venues&hl=ko&vq=eng_computervisionpatternrecognition
 - CVPR, WACV, ICCV, etc journal papers : https://github.com/52CV?tab=repositories
 
-## Awesome Series
+# Awesome Series
 > ## 현재 paperswithcode 사이트가 터진 상태입니다. (언제 복원될지 미정) 아카이브로 우회접속가능. : https://github.com/World-Snapshot/papers-with-code?tab=readme-ov-file
 > https://web.archive.org/web/20250616051252/https://paperswithcode.com/
 > https://web.archive.org/web/20240416020926/https://paperswithcode.com/task/conditional-image-generation/latest?page=3
@@ -26,6 +26,7 @@
 - Awesome-Scene-Change-Detection(SCD)(-ing 2020) : https://github.com/DoongLi/Awesome-Scene-Change-Detection?tab=readme-ov-file
 - Awesome Remote Sensing Change Detection : https://github.com/wenhwu/awesome-remote-sensing-change-detection?tab=readme-ov-file#code
 - awesome-object-detection : https://github.com/amusi/awesome-object-detection
+- Awesome Deepfakes Detection : https://github.com/Daisy-Zhang/Awesome-Deepfakes-Detection
 
 
 ## Image Localization
