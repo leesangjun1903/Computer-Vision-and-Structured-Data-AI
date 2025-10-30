@@ -60,7 +60,7 @@
 - reproducible-image-denoising-state-of-the-art https://github.com/wenbihan/reproducible-image-denoising-state-of-the-art?tab=readme-ov-file
 - Awesome-Super-Resolution https://github.com/ChaofWang/Awesome-Super-Resolution?tab=readme-ov-file
 - Single-Image-Super-Resolution(7 years ago) : https://github.com/YapengTian/Single-Image-Super-Resolution?tab=readme-ov-file
-
+- Image and Video Deblurring : https://github.com/subeeshvasu/Awesome-Deblurring
 
 ## Image-to-Image generation
 - Image-to-Image papers : https://github.com/lzhbrian/image-to-image-papers?tab=readme-ov-file
