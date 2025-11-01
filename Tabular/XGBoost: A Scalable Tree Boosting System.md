@@ -176,6 +176,58 @@ $$
 
 Gain 공식은 분할 후 자식 노드들의 최적화된 손실 감소량 - 분할 전 부모 노드의 최적화된 손실에 정규화 패널티를 더한 값의 음수, 즉 **"손실 감소량"**을 나타냅니다.
 
+## Sparsity-aware Split Finding
+
+XGBoost의 Sparsity-aware Split Finding (희소성 인식 분할 탐색)은 **"결측값(missing value)을 어디로 보내야 가장 이득이 큰가"**를 학습하는 알고리즘입니다.  
+일반적인 트리 알고리즘과 달리, XGBoost는 결측값을 특정 방향으로 보내도록 미리 정해놓지 않고, 데이터로부터 최적의 방향을 학습합니다.
+
+트리 분할 과정에서 XGBoost는 값이 존재하는 데이터들만 가지고 분할점을 찾습니다. 이후, 결측값은 Gain 공식을 이용하여 왼쪽으로 보냈을 때와 오른쪽으로 보냈을 때 중 어느 쪽이 Gain을 더 높이는지 계산하여 최적의 방향을 결정합니다
+
+<img width="541" height="616" alt="image" src="https://github.com/user-attachments/assets/04433e09-a001-4a7a-9578-a7a778b18a45" />
+
+수학 기호를 많이 사용하지 않고 그 작동 방식을 설명하겠습니다.
+
+- 분할이 필요한 경우, 데이터를 두 그룹, 즉 값이 누락된 데이터와 값이 누락되지 않은 데이터로 분할합니다.
+- 누락된 값이 없는 데이터를 사용하여 잘라낼 최적의 임계값을 찾습니다.
+- 결측값이 있는 모든 데이터를 한쪽에 놓고, 반대쪽에서 Gain을 계산해 보세요. 결측값이 있는 쪽의 Gain은 부모 Gain에서 결측값이 없는 Gain을 뺀 값으로 계산됩니다.
+- 양쪽을 계산하고 누락된 값을 어느 방향으로 넣는 것이 가장 좋은지 알아보세요.
+
+기본적으로 XGBoost는 누락된 값이 있는 모든 데이터를 양쪽에 배치하고, 누락된 값이 배치되는 방향에서 최대 이득을 찾으려고 합니다.
+
+수식과 함께 설명하면 :
+
+##### 1단계: 값 있는 데이터로 분할점 찾기 
+먼저, 현재 노드에 있는 값이 누락되지 않은(non-missing) 데이터만을 사용하여 모든 가능한 분할점을 탐색합니다. 이 과정은 일반적인 트리 알고리즘과 유사합니다.
+
+##### 2단계: 결측값의 "기본 방향" 테스트 (두 가지 시나리오) 
+특정 분할점 $\(d\)$ 에서 분할을 고려할 때, XGBoost는 결측값 $\(I_{miss}\)$ 를 어디로 보낼지 결정하기 위해 다음 두 가지 시나리오를 테스트합니다. 
+
+- 시나리오 A: 
+
+"결측값을 모두 오른쪽으로 보냈을 때"의 Gain 계산 왼쪽 노드에는 누락되지 않은 왼쪽 데이터만, 오른쪽 노드에는 누락되지 않은 오른쪽 데이터와 모든 결측값이 포함됩니다. 
+
+```math
+\text{Gain}_{A}=\frac{1}{2}\left[\frac{G_{\text{non-missing},L}^{2}}{H_{\text{non-missing},L}+\lambda }+\frac{(G_{\text{non-missing},R}+G_{\text{missing}})^{2}}{(H_{\text{non-missing},R}+H_{\text{missing}})+\lambda }-\cdots \right]
+```
+
+(이때 $\(G_{\text{non-missing},L}\$ ) 등은 해당 그룹의 그라디언트 합계입니다.)
+
+- 시나리오 B:
+"결측값을 모두 왼쪽으로 보냈을 때"의 Gain 계산 왼쪽 노드에 누락되지 않은 왼쪽 데이터와 모든 결측값이 포함되고, 오른쪽 노드에는 누락되지 않은 오른쪽 데이터만 포함됩니다.
+
+```math
+\text{Gain}_{B}=\frac{1}{2}\left[\frac{(G_{\text{non-missing},L}+G_{\text{missing}})^{2}}{(H_{\text{non-missing},L}+H_{\text{missing}})+\lambda }+\frac{G_{\text{non-missing},R}^{2}}{H_{\text{non-missing},R}+\lambda }-\cdots \right]
+```
+
+##### 3단계: 최대 이득(Optimal Gain) 선택 
+
+$\(\text{Gain}\_{A}\)$ 와 $\(\text{Gain}_{B}\)$ 중 더 큰 값을 최종 이득으로 선택합니다.  
+
+$\(\text{Optimal\ Gain}=\max (\text{Gain}\_{A},\text{Gain}_{B})\)$ 
+
+이 과정을 통해 XGBoost는 데이터의 희소 패턴으로부터 결측값을 처리하는 가장 최적의 방법을 스스로 학습하며, 별도의 결측값 대체(imputation) 없이도 높은 성능을 발휘할 수 있습니다.  
+XGBoost의 Sparsity-aware Split Finding (희소성 인식 분할 탐색) 알고리즘은 데이터에 결측값이나 0값이 많을 때, 이를 무시하거나 사전에 대체(imputation)하지 않고도 최적의 분할 방향을 스스로 학습하는 효율적인 방법입니다. 
+
 ## 성능 향상 요인과 한계
 
 ### 주요 성능 향상 요인
@@ -207,3 +259,10 @@ XGBoost는 이후의 다양한 트리 기반 앙상블, 페더레이티드 러�
 - 기존 머신러닝과 deep learning의 융합 구조 적용 가능성 등에 주목해야 한다.
 
 XGBoost의 강력한 성능과 범용성은 앞으로도 다양한 연구 분야에 큰 영향을 미칠 것이다.
+
+# Reference
+How XGBoost Handles Sparsities Arising From of Missing Data? (With an Example) :
+https://medium.com/hypatai/how-xgboost-handles-sparsities-arising-from-of-missing-data-with-an-example-90ce8e4ba9ca
+
+How XGBoost Handles Missing Values :
+https://hackmd.io/@ar851060/BJhOHNPSR
