@@ -49,6 +49,7 @@
 - ArcFace: Additive Angular Margin Loss for Deep Face Recognition | 2018 · 9174회 인용, Image classification, Face recognition
 - Attention U-Net: Learning Where to Look for the Pancreas | 2018 · 9212회 인용, Semantic segmentation
 - AttentionGAN: Unpaired Image-to-Image Translation using Attention-Guided Generative Adversarial Networks | 2019 · 331회 인용, Image generation
+- Attentive Group Equivariant Convolutional Networks | 2020 · 113회 인용, Image Classification, Object Detection
 - AuXFT : Cross-Architecture Auxiliary Feature Space Translation for Efficient Few-Shot Personalized Object Detection | 2024 · 5회 인용, Object detection
 - Auto-Exposure Fusion for Single-Image Shadow Removal | 2021 · 201회 인용, Shadow removal
 - Auxiliary Classifier GAN : Conditional Image Synthesis with Auxiliary Classifier GANs | 2016 · 4651회 인용, Image generation
