@@ -260,6 +260,7 @@
 - Improving Foreground Segmentations with Probabilistic Superpixel Markov Random Fields | 2012 · 200회 인용, Change detection
 - Inceptionv2, 3 : Rethinking the Inception Architecture for Computer Vision | 2015 · 40956회 인용, Image classification
 - Inception-v4, Inception-ResNet and the Impact of Residual Connections on Learning | 2016 · 19858회 인용, Image classification
+- InfoGAN: Interpretable Representation Learning by Information Maximizing Generative Adversarial Nets | 2016 · 6178회 인용, Image generation, Interpretable representation
 - InstaFlow: One Step is Enough for High-Quality Diffusion-Based Text-to-Image Generation | 2023 · 312회 인용, Image generation
 - Instant-NGP : Instant Neural Graphics Primitives with a Multiresolution Hash Encoding | 2022 · 5205회 인용, 3D reconstruction
 - IPViT : Intriguing Properties of Vision Transformers | 2021 · 834회 인용 , Image classification
