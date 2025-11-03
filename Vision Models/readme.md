@@ -285,6 +285,7 @@
 - LW-DETR: A Transformer Replacement to YOLO for Real-Time Detection | 2024 · 30회 인용, Object detection
 - Label-Efficient Semantic Segmentation with Diffusion Models | Semantic segmentation
 - LaplacianShot : Laplacian Regularized Few-Shot Learning | 2020 · 250회 인용, Image classification
+- Large-scale Video Classification with Convolutional Neural Networks | 2014 · 9257회 인용, Video Classification
 - LassoNet: Deep Lasso-Selection of 3D Point Clouds | 2019 · 60회 인용, 3D Point Cloud Preparation, Lasso-Selection
 - LayerCAM: Exploring Hierarchical Class Activation Maps for Localization | 2021 · 1158회 인용, XAI
 - LeViT: a Vision Transformer in ConvNet’s Clothing for Faster Inference | 2021 · 932회 인용 , Image classification
