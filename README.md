@@ -79,8 +79,10 @@
 ## Application
 - Satellite-image-deep-learning https://github.com/satellite-image-deep-learning/techniques?tab=readme-ov-file
 
+## Fraud Detection
+Awesome Fraud Detection Research Papers : https://github.com/benedekrozemberczki/awesome-fraud-detection-papers
 
-#### Tabular
+## Tabular
 - Awesome Decision, Classification, and Regression Tree Research Papers : https://github.com/benedekrozemberczki/awesome-decision-tree-papers
 - Awesome Gradient Boosting Research Papers : https://github.com/benedekrozemberczki/awesome-gradient-boosting-papers
 - Awesome Self-Supervised Learning for Non-Sequential Tabular Data : https://github.com/wwweiwei/awesome-self-supervised-learning-for-tabular-data
