@@ -1,7 +1,6 @@
 
 Source :   
 https://www.analyticsvidhya.com/blog/2020/01/computer-vision-learning-path/  
-https://www.analyticsvidhya.com/blog/2020/01/computer-vision-learning-path/
 
 # A Comprehensive Learning Path to Master Computer Vision in 2024
 
