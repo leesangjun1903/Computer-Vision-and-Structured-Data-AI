@@ -352,6 +352,7 @@
 - Diffusion Models Distillation : On Distillation of Guided Diffusion Models | 2022 · 682회 인용, Image generation
 - On the Importance of Noise Scheduling for Diﬀusion Models | 2023 · 188회 인용, Image generation
 - One-Step Effective Diffusion Network for Real-World Image Super-Resolution | 2024 · 124회 인용, Image Enhancement
+- OverFeat: Integrated Recognition, Localization and Detection using Convolutional Networks | 2013 · 8137회 인용, Object Detection, Localization
 - P2 weighting : Perception Prioritized Training of Diffusion Models | 2022 · 318회 인용, Image generation
 - PASD : Pixel-Aware Stable Diffusion for Realistic Image Super-Resolution and Personalized Stylization | 2023 · 195회 인용, Super resolution
 - PFGM : Poisson Flow Generative Models | 2022 · 123회 인용, Image generation
