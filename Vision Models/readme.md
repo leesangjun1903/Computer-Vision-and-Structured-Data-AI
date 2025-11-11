@@ -361,6 +361,7 @@
 - PRNet :  Joint 3D Face Reconstruction and Dense Alignment with Position Map Regression Network | 2018 · 953회 인용, 3D reconstruction, Face alignment, Face reconstruction
 - PSConv: Squeezing Feature Pyramid into One Compact Poly-Scale Convolutional Layer | 2020 · 46회 인용, Image classification
 - PSLD : Solving Linear Inverse Problems Provably via Posterior Sampling with Latent Diffusion Models | 2023 · 118회 인용, Image Enhancement
+- PVANET: Deep but Lightweight Neural Networks for Real-time Object Detection | 2016 · 332회 인용, Object Detection
 - Palette: Image-to-Image Diffusion Models | 2021 · 1988회 인용, Image-to-Image translation
 - Perceptual Losses for Real-Time Style Transfer and Super-Resolution | 2016 · 13726회 인용, Image generation, Optimization
 - Personalized Face Inpainting with Diffusion Models by Parallel Visual Attention | 2023 · 20회 인용, Image Inpainting, Facial Inpainting
