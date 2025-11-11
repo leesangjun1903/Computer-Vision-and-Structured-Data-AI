@@ -383,6 +383,7 @@
 - PvT : Pyramid Vision Transformer: A Versatile Backbone for Dense Prediction without Convolutions | 2021 · 5799회 인용, Image classification, Semantic segmenation, Object detection
 - PVTv2: Improved Baselines with Pyramid Vision Transformer | 2021 · 2229회 인용, Image classification, Object detection, Semantic segmentation
 - R-CNN : Rich Feature Hierarchies for Accurate Object Detection and Semantic Segmentation | 2013 · 44495회 인용, Object detection, Semantic segmentation
+- R-CNN minus R | 2015 · 143회 인용, Object Detection
 - R-MAC : Particular Object Retrieval with Integral Max-Pooling of CNN Activations | 2015 · 1265회 인용, Image retrieval
 - RAN : Residual Attention Network for Image Classification | 2017 · 4843회 인용, Image classification
 - RDDM : Residual Denoising Diffusion Models | 2023 · 120회 인용, Image generation, Image Enhancement
