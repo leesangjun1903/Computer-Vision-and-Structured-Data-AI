@@ -459,6 +459,7 @@
 - SinSR: Diffusion-Based Image Super-Resolution in a Single Step | 2023 · 177회 인용 ,Super resolution
 - SnapFusion: Text-to-Image Diffusion Model on Mobile Devices within Two Seconds | 2023 · 232회 인용, Image generation
 - Sparse DETR: Efficient End-to-End Object Detection with Learnable Sparsity | 2021 · 280회 인용, Object detection
+- Spatial Pyramid Pooling in Deep Convolutional Networks for Visual Recognition | 2014 · 18665회 인용, Image Classification
 - Spectral Normalization for Generative Adversarial Networks | 2018 · 6124회 인용, GAN technique, Image generation
 - Spectral Regularization for Combating Mode Collapse in GANs | 2019 · 113회 인용, Improve techniques for GANs, Image generation
 - SqueezeNet: AlexNet-level accuracy with 50x fewer parameters and <0.5MB model size | 2016 · 11719회 인용, Image classification
