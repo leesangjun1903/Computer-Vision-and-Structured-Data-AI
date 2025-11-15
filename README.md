@@ -2,16 +2,23 @@
 - Computer Vision and Pattern Recognition : https://scholar.google.co.kr/citations?view_op=top_venues&hl=ko&vq=eng_computervisionpatternrecognition
 - CVPR, WACV, ICCV, etc journal papers : https://github.com/52CV?tab=repositories
 
-# Awesome Series
+## Awesome Series
 > ## 현재 paperswithcode 사이트가 터진 상태입니다. (언제 복원될지 미정) 아카이브로 우회접속가능. : https://github.com/World-Snapshot/papers-with-code?tab=readme-ov-file
 > https://web.archive.org/web/20250616051252/https://paperswithcode.com/
 > https://web.archive.org/web/20240416020926/https://paperswithcode.com/task/conditional-image-generation/latest?page=3
+> Paper with code : Computer Vision https://paperswithcode.com/area/computer-vision
 
-- Awesome Computer Vision https://github.com/jbhuang0604/awesome-computer-vision?tab=readme-ov-file
-- Paper with code : Computer Vision https://paperswithcode.com/area/computer-vision
-- computer-vision-research-papers https://github.com/maunesh/computer-vision-research-papers?tab=readme-ov-file
+- Awesome Computer Vision : https://github.com/jbhuang0604/awesome-computer-vision
+- LearnOpenCV : https://github.com/spmallick/learnopencv
+- CVPR 2025 papers : https://github.com/amusi/CVPR2025-Papers-with-Code
+- Microsoft : examples and best practice guidelines for building computer vision systems : https://github.com/microsoft/computervision-recipes
+
+- A curated list of deep learning resources for computer vision : https://github.com/kjw0612/awesome-deep-vision
+
 - Top 10 Open Source Computer Vision Repositories : https://encord.com/blog/open-source-computer-vision-repositories/
-- Awesome-Image-Forensics : https://github.com/ChenqiKONG/Awesome-Image-Forensics
+
+- computer-vision-research-papers : https://github.com/maunesh/computer-vision-research-papers?tab=readme-ov-file
+
 
 ## Image Classification
 - Awesome - Image Classification(E) : https://github.com/weiaicunzai/awesome-image-classification
@@ -73,25 +80,41 @@
 - Benchmark for visual localization on 3D mesh models https://github.com/v-pnk/cadloc?tab=readme-ov-file
 
 ## Image Segmentation
-- Awesome Segment Anything : https://github.com/Hedlen/awesome-segment-anything , https://github.com/dk-liang/Awesome-Segment-Anything , https://github.com/baibizhe/Awesome-SAM
+- SAM 2: Segment Anything in Images and Videos : https://github.com/facebookresearch/segment-anything
+
 - Awesome Semantic Segmentation : https://github.com/mrgloom/awesome-semantic-segmentation
 
+- Awesome Segment Anything : https://github.com/Hedlen/awesome-segment-anything
+
+- Awesome-Segment-Anything : https://github.com/dk-liang/Awesome-Segment-Anything
+- Awesome-SAM : https://github.com/baibizhe/Awesome-SAM
+
 ## Application
+### Satelite Image
 - Satellite-image-deep-learning https://github.com/satellite-image-deep-learning/techniques?tab=readme-ov-file
 
-## Fraud Detection
-Awesome Fraud Detection Research Papers : https://github.com/benedekrozemberczki/awesome-fraud-detection-papers
+### Face Recognition
+- Recognize and manipulate faces from Python or from the command line with the world's simplest face recognition library : https://github.com/ageitgey/face_recognition
 
-## Tabular
+### Image Forensics
+- Awesome-Image-Forensics : https://github.com/ChenqiKONG/Awesome-Image-Forensics
+
+
+# Structured Data(정형 데이터) : Tabular, etc.
+## Tree Models
 - Awesome Decision, Classification, and Regression Tree Research Papers : https://github.com/benedekrozemberczki/awesome-decision-tree-papers
 - Awesome Gradient Boosting Research Papers : https://github.com/benedekrozemberczki/awesome-gradient-boosting-papers
+- Awesome random forest : https://github.com/kjw0612/awesome-random-forest
+
 - Awesome Self-Supervised Learning for Non-Sequential Tabular Data : https://github.com/wwweiwei/awesome-self-supervised-learning-for-tabular-data
-- Awesome random forest : https://github.com/kjw0612/awesome-random-forest?tab=readme-ov-file
-- Awesome Self-Supervised Learning for Non-Sequential Tabular Data (SSL4NSTD) : https://github.com/wwweiwei/awesome-self-supervised-learning-for-tabular-data?tab=readme-ov-file
+
+## Tabular Data
 - Awesome Table Structure Recognition : https://github.com/MathamPollard/awesome-table-structure-recognition
 - List of all Regression, Classification and Clustering models : https://www.kaggle.com/discussions/general/309745
-- Awesome Random Forest https://github.com/kjw0612/awesome-random-forest
 
+## Application
+### Fraud Detection
+Awesome Fraud Detection Research Papers : https://github.com/benedekrozemberczki/awesome-fraud-detection-papers
 
 (E) : Already read paper
 (-ing ~ ) : - ing paper ( ~ : 까지 진행됨)
