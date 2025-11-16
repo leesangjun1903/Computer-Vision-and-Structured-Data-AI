@@ -175,6 +175,7 @@
 
 ### Face releated algorithm, datasets and papers
 - face releated algorithm, datasets and papers : https://github.com/polarisZhao/awesome-face
+- Awesome Make Up Transfer : https://github.com/thaoshibe/awesome-makeup-transfer
 
 ### Image Forensics
 - Awesome-Image-Forensics : https://github.com/ChenqiKONG/Awesome-Image-Forensics
