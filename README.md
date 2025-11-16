@@ -131,7 +131,9 @@
 - Awesome-Segment-Anything : https://github.com/dk-liang/Awesome-Segment-Anything
 - Awesome-SAM : https://github.com/baibizhe/Awesome-SAM
 
-
+## Implicit Neural Representations
+> Implicit Neural Representations (INR, 암시적 신경 표현)는 이미지, 3D 형상, 비디오, 오디오와 같은 다양한 신호를 신경망을 통해 연속적인 함수로 표현하는 딥러닝 기법입니다.
+- Awesome Implicit Neural Representations : https://github.com/vsitzmann/awesome-implicit-representations
 
 ## Application
 ### Satelite Image
