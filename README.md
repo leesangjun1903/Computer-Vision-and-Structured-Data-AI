@@ -197,6 +197,8 @@ Awesome Fraud Detection Research Papers : https://github.com/benedekrozemberczki
 
 
 # Video
+- Awesome Deep Learning for Video Analysis : https://github.com/HuaizhengZhang/Awsome-Deep-Learning-for-Video-Analysis
+
 - Awesome Video-Text Retrieval by Deep Learning : https://github.com/danieljf24/awesome-video-text-retrieval
 
 - Awesome-Video-Generation : https://github.com/matthewvowels1/Awesome-Video-Generation
