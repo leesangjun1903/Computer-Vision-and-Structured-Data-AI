@@ -103,7 +103,7 @@
 
 ## Image-to-Image generation
 - Image-to-Image papers : https://github.com/lzhbrian/image-to-image-papers?tab=readme-ov-file
-- Awesome Image Translation : https://github.com/weihaox/awesome-image-translation/tree/master
+- Awesome Image Translation : https://github.com/weihaox/awesome-image-translation
 
 
 ## Image Segmentation
