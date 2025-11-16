@@ -192,6 +192,7 @@ Awesome Fraud Detection Research Papers : https://github.com/benedekrozemberczki
 # Video
 - Awesome Video-Text Retrieval by Deep Learning : https://github.com/danieljf24/awesome-video-text-retrieval
 
+- Awesome-Video-Generation : https://github.com/matthewvowels1/Awesome-Video-Generation
 
 (E) : Already read paper
 (-ing ~ ) : - ing paper ( ~ : 까지 진행됨)
