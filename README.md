@@ -106,6 +106,16 @@
 - Awesome Image Translation : https://github.com/weihaox/awesome-image-translation/tree/master
 
 
+## Image Segmentation
+- SAM 2: Segment Anything in Images and Videos : https://github.com/facebookresearch/segment-anything
+
+- Awesome Semantic Segmentation : https://github.com/mrgloom/awesome-semantic-segmentation
+
+- Awesome Segment Anything : https://github.com/Hedlen/awesome-segment-anything
+
+- Awesome-Segment-Anything : https://github.com/dk-liang/Awesome-Segment-Anything
+- Awesome-SAM : https://github.com/baibizhe/Awesome-SAM
+
 ## 3D Reconstruction
 - 3D Machine Learning : https://github.com/timzhang642/3D-Machine-Learning
 
@@ -120,16 +130,9 @@
 
 - Benchmark for visual localization on 3D mesh models : https://github.com/v-pnk/cadloc
 
-
-## Image Segmentation
-- SAM 2: Segment Anything in Images and Videos : https://github.com/facebookresearch/segment-anything
-
-- Awesome Semantic Segmentation : https://github.com/mrgloom/awesome-semantic-segmentation
-
-- Awesome Segment Anything : https://github.com/Hedlen/awesome-segment-anything
-
-- Awesome-Segment-Anything : https://github.com/dk-liang/Awesome-Segment-Anything
-- Awesome-SAM : https://github.com/baibizhe/Awesome-SAM
+## Neural Rendering
+> Neural Rendering은 딥러닝 기술을 컴퓨터 그래픽스 렌더링 파이프라인과 결합하여 현실감 넘치는 2D 이미지 또는 3D 장면을 합성하거나 재구성하는 분야입니다. 전통적인 렌더링 방식이 복잡한 물리 법칙과 명시적인 기하학적 모델(예: 폴리곤 메쉬)에 의존하는 것과 달리, 신경 렌더링은 신경망을 활용하여 장면의 속성과 시각적 표현 간의 복잡한 관계를 학습합니다. 
+- Awesome Neural Rendering : https://github.com/weihaox/awesome-neural-rendering
 
 ## Implicit Neural Representations
 > Implicit Neural Representations (INR, 암시적 신경 표현)는 이미지, 3D 형상, 비디오, 오디오와 같은 다양한 신호를 신경망을 통해 연속적인 함수로 표현하는 딥러닝 기법입니다.
