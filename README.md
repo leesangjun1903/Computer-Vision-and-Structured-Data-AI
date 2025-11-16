@@ -32,6 +32,11 @@
 
 - PyTorch Implementations of various state of the art architectures(MLP-Mixer, TransUNet, ViT, Fastformer, Single Image Super-Resolution via a Holistic Attention Network) https://github.com/04RR/SOTA-Vision
 
+- Weekly-Top-Computer-Vision-Papers : https://github.com/youssefHosni/Weekly-Top-Computer-Vision-Papers
+
+
+### Autoencoders
+- Awesome Masked Autoencoders : https://github.com/EdisonLeeeee/Awesome-Masked-Autoencoders
 
 ### GAN
 - AdversarialNetsPapers : https://github.com/zhangqianhui/AdversarialNetsPapers
@@ -68,6 +73,8 @@
 
 - Transformer-in-Vision : https://github.com/Yangzhangcst/Transformer-in-Computer-Vision
 
+- Transformer-Based Visual Segmentation: A Survey : https://github.com/lxtGH/Awesome-Segmentation-With-Transformer
+- 
 
 ## Image Classification
 - Awesome - Image Classification(E) : https://github.com/weiaicunzai/awesome-image-classification
@@ -97,10 +104,10 @@
 
 - Awesome Action Recognition : https://github.com/jinwchoi/awesome-action-recognition
 
+- Awesome-Temporal-Action-Detection-Temporal-Action-Proposal-Generation : https://github.com/zhenyingfang/Awesome-Temporal-Action-Detection-Temporal-Action-Proposal-Generation
+
+
 - Awesome-Scene-Change-Detection(SCD)(-ing 2020) : https://github.com/DoongLi/Awesome-Scene-Change-Detection
-
-
-
 
 ## Image Localization
 - Awesome works on Unsupervised Object Localization(E) : https://github.com/valeoai/Awesome-Unsupervised-Object-Localization
