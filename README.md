@@ -201,6 +201,9 @@
 ### Human Pose Estimation
 - Awesome Human Pose Estimation : https://github.com/wangzheallen/awesome-human-pose-estimation
 
+### Delineation
+- Awsome Delineation : https://github.com/subeeshvasu/Awsome_Delineation
+
 # Structured Data(정형 데이터) : Tabular, etc.
 ## Tree Models
 - Awesome Decision, Classification, and Regression Tree Research Papers : https://github.com/benedekrozemberczki/awesome-decision-tree-papers
