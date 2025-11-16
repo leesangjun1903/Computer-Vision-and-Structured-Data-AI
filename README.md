@@ -31,6 +31,9 @@
 
 ### GAN
 - AdversarialNetsPapers : https://github.com/zhangqianhui/AdversarialNetsPapers
+
+- Curated list of awesome GAN applications and demonstrations. : https://github.com/nashory/gans-awesome-applications
+
 - really-awesome-gan : https://github.com/nightrome/really-awesome-gan
 
 - Awesome Adversarial Machine Learning : https://github.com/yenchenlin/awesome-adversarial-machine-learning
