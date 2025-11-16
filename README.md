@@ -116,6 +116,10 @@
 - Awesome-Segment-Anything : https://github.com/dk-liang/Awesome-Segment-Anything
 - Awesome-SAM : https://github.com/baibizhe/Awesome-SAM
 
+## Image Inpainting
+- Awesome-Inpainting-Tech : https://github.com/zengyh1900/Awesome-Image-Inpainting
+
+
 ## 3D Reconstruction
 - 3D Machine Learning : https://github.com/timzhang642/3D-Machine-Learning
 
