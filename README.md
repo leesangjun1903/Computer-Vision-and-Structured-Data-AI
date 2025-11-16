@@ -24,6 +24,8 @@
 
 - Awesome Deep Vision https://github.com/kjw0612/awesome-deep-vision
 
+- Recent Advances in Vision and Language PreTrained Models (VL-PTMs) : https://github.com/yuewang-cuhk/awesome-vision-language-pretraining-papers
+
 - Awesome Computer Vision Models : https://github.com/gmalivenko/awesome-computer-vision-models
 
 - PyTorch Implementations of various state of the art architectures(MLP-Mixer, TransUNet, ViT, Fastformer, Single Image Super-Resolution via a Holistic Attention Network) https://github.com/04RR/SOTA-Vision
