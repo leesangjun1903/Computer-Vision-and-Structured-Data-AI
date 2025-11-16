@@ -22,18 +22,20 @@
 ## Models
 - Paper with code list(~2018) https://github.com/zziz/pwc
 
+- Awesome Deep Vision https://github.com/kjw0612/awesome-deep-vision
 
 - Awesome Computer Vision Models : https://github.com/gmalivenko/awesome-computer-vision-models
 
 - PyTorch Implementations of various state of the art architectures(MLP-Mixer, TransUNet, ViT, Fastformer, Single Image Super-Resolution via a Holistic Attention Network) https://github.com/04RR/SOTA-Vision
 
+
 ### GAN
 - AdversarialNetsPapers : https://github.com/zhangqianhui/AdversarialNetsPapers
 - really-awesome-gan : https://github.com/nightrome/really-awesome-gan
 
+- Awesome Adversarial Machine Learning : https://github.com/yenchenlin/awesome-adversarial-machine-learning
 
-- Awesome Deep Vision https://github.com/kjw0612/awesome-deep-vision
-
+- Awesome Adversarial Examples for Deep Learning : https://github.com/chbrian/awesome-adversarial-examples-dl
 
 ### Diffusion Models
 - Awesome-Diffusion-Models : https://github.com/diff-usion/Awesome-Diffusion-Models
@@ -66,10 +68,21 @@
 - Image-Matching-Paper-List https://github.com/chicleee/Image-Matching-Paper-List
 
 ## Image Detection
-- Awesome-Scene-Change-Detection(SCD)(-ing 2020) : https://github.com/DoongLi/Awesome-Scene-Change-Detection?tab=readme-ov-file
-- Awesome Remote Sensing Change Detection : https://github.com/wenhwu/awesome-remote-sensing-change-detection?tab=readme-ov-file#code
+
 - awesome-object-detection : https://github.com/amusi/awesome-object-detection
-- Awesome Deepfakes Detection : https://github.com/Daisy-Zhang/Awesome-Deepfakes-Detection
+
+### Action Regognition
+- Awesome Action Recognition : https://github.com/jinwchoi/awesome-action-recognition
+
+- Awesome Remote Sensing Change Detection : https://github.com/wenhwu/awesome-remote-sensing-change-detection
+
+
+
+- Awesome Action Recognition : https://github.com/jinwchoi/awesome-action-recognition
+
+- Awesome-Scene-Change-Detection(SCD)(-ing 2020) : https://github.com/DoongLi/Awesome-Scene-Change-Detection
+
+
 
 
 ## Image Localization
@@ -124,12 +137,23 @@
 ### Face Recognition
 - Recognize and manipulate faces from Python or from the command line with the world's simplest face recognition library : https://github.com/ageitgey/face_recognition
 
+
+- awesome-Face_Recognition : https://github.com/ChanChiChoi/awesome-Face_Recognition
+
+### Deepfake Detection
+- Awesome Deepfakes Detection : https://github.com/Daisy-Zhang/Awesome-Deepfakes-Detection
+
+### Face releated algorithm, datasets and papers
+- face releated algorithm, datasets and papers : https://github.com/polarisZhao/awesome-face
+
 ### Image Forensics
 - Awesome-Image-Forensics : https://github.com/ChenqiKONG/Awesome-Image-Forensics
 
 ### Optical Flow
 - Awesome-Optical-Flow : https://github.com/hzwer/Awesome-Optical-Flow
 
+### Scene Understanding
+- Awesome Scene Understanding : https://github.com/bertjiazheng/awesome-scene-understanding
 
 # Structured Data(정형 데이터) : Tabular, etc.
 ## Tree Models
