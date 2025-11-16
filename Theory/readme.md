@@ -1,3 +1,6 @@
+# Computer Graphics
+- Computer Graphics Resources : https://github.com/ericjang/awesome-graphics
+
 # Lecture
 - Computer Vision Video Lectures https://github.com/kuzand/Computer-Vision-Video-Lectures?tab=readme-ov-file  
 - Practical Deep Learning for Computer Vision with Python https://github.com/DavidLandup0/dl4cv
