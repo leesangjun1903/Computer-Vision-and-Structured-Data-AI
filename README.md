@@ -94,9 +94,16 @@
 
 
 ## 3D Reconstruction
+- 3D Machine Learning : https://github.com/timzhang642/3D-Machine-Learning
+
+- 3D-Reconstruction-with-Deep-Learning-Methods : https://github.com/natowi/3D-Reconstruction-with-Deep-Learning-Methods
+
+
 - Awesome 3D Reconstruction Papers https://github.com/bluestyle97/awesome-3d-reconstruction-papers
-- 3D-Reconstruction-with-Deep-Learning-Methods https://github.com/natowi/3D-Reconstruction-with-Deep-Learning-Methods
-- Benchmark for visual localization on 3D mesh models https://github.com/v-pnk/cadloc?tab=readme-ov-file
+
+
+- Benchmark for visual localization on 3D mesh models : https://github.com/v-pnk/cadloc
+
 
 ## Image Segmentation
 - SAM 2: Segment Anything in Images and Videos : https://github.com/facebookresearch/segment-anything
