@@ -13,15 +13,9 @@
 - 컴퓨터 비전 실습 https://www.boostcourse.org/search/show?searchQuery=%EC%BB%B4%ED%93%A8%ED%84%B0+%EB%B9%84%EC%A0%84+%EC%8B%A4%EC%8A%B5&MAX=20
 - Computer Vision Notes and Exercises : https://github.com/mantasu/uob-cv/tree/master?tab=readme-ov-file
 
-## [Classification]
-(https://wikidocs.net/204186)
-
-## Metrics
-On Getting Confidence Estimates from Neural Networks : https://bharathpbhat.github.io/2021/04/04/getting-confidence-estimates-from-neural-networks.html
-Visualize bounding box errors and confidence : https://www.kaggle.com/code/kretes/visualize-bounding-box-errors-and-confidence/notebook
-
-## Tabular Models
-- HACNet :  https://github.com/matsutakk/HACNet/tree/46d7867c06475c337d453dd70f51c22e415475dc
+- [Classification] : (https://wikidocs.net/204186)
+- On Getting Confidence Estimates from Neural Networks : https://bharathpbhat.github.io/2021/04/04/getting-confidence-estimates-from-neural-networks.html
+- Visualize bounding box errors and confidence : https://www.kaggle.com/code/kretes/visualize-bounding-box-errors-and-confidence/notebook
 
 # Theory
 ## Intelligent Autonomous Drones with Cognitive Deep Learning, David Allen Blubaugh
