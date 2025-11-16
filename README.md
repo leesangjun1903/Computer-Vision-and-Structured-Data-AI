@@ -44,6 +44,8 @@
 
 - Awesome Adversarial Examples for Deep Learning : https://github.com/chbrian/awesome-adversarial-examples-dl
 
+- Awsome-GAN-Training : https://github.com/subeeshvasu/Awsome-GAN-Training
+
 ### Diffusion Models
 - Awesome-Diffusion-Models : https://github.com/diff-usion/Awesome-Diffusion-Models
 
