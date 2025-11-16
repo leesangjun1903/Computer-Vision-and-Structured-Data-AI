@@ -74,6 +74,8 @@
 
 - awesome-object-detection : https://github.com/amusi/awesome-object-detection
 
+- Collection of papers, datasets, code and other resources for object detection and tracking using deep learning : https://github.com/abhineet123/Deep-Learning-for-Tracking-and-Detection
+
 ### Action Regognition
 - Awesome Action Recognition : https://github.com/jinwchoi/awesome-action-recognition
 
