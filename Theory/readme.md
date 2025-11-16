@@ -13,9 +13,6 @@
 - 컴퓨터 비전 실습 https://www.boostcourse.org/search/show?searchQuery=%EC%BB%B4%ED%93%A8%ED%84%B0+%EB%B9%84%EC%A0%84+%EC%8B%A4%EC%8A%B5&MAX=20
 - Computer Vision Notes and Exercises : https://github.com/mantasu/uob-cv/tree/master?tab=readme-ov-file
 
-# Dataset
-- OpenML : https://www.openml.org/search?type=data&status=active
-
 ## [Classification]
 (https://wikidocs.net/204186)
 
