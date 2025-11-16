@@ -103,18 +103,30 @@
 ## Image Localization
 - Awesome works on Unsupervised Object Localization(E) : https://github.com/valeoai/Awesome-Unsupervised-Object-Localization
 
-## Shadow Removal
-- Awesome-Shadow-Removal(-ing 2021) : https://github.com/GuoLanqing/Awesome-Shadow-Removal
-
 ## Image, Video Enhancement
 - Paper with code : https://paperswithcode.com/task/super-resolution
 - Paper with code : https://paperswithcode.com/task/image-denoising
+
+### Denoising
 - Awesome Image or Video Denoising Algorithms https://github.com/z-bingo/awesome-image-denoising-state-of-the-art
 - Image Denoising State-of-the-art https://github.com/flyywh/Image-Denoising-State-of-the-art
 - reproducible-image-denoising-state-of-the-art https://github.com/wenbihan/reproducible-image-denoising-state-of-the-art?tab=readme-ov-file
+
+### Super-Resolution
 - Awesome-Super-Resolution https://github.com/ChaofWang/Awesome-Super-Resolution?tab=readme-ov-file
 - Single-Image-Super-Resolution(7 years ago) : https://github.com/YapengTian/Single-Image-Super-Resolution?tab=readme-ov-file
+
+### Deblurring
 - Image and Video Deblurring : https://github.com/subeeshvasu/Awesome-Deblurring
+
+### Image Inpainting
+- Awesome-Inpainting-Tech : https://github.com/zengyh1900/Awesome-Image-Inpainting
+
+## Shadow Removal
+- Awesome-Shadow-Removal(-ing 2021) : https://github.com/GuoLanqing/Awesome-Shadow-Removal
+
+## Image Distortion Correction
+- A curated list of resources on Handling Rolling Shutter Effects, Radial Distortions, and Text distortions. : https://github.com/subeeshvasu/Awesome-Image-Distortion-Correction
 
 ## Image-to-Image generation
 - Image-to-Image papers : https://github.com/lzhbrian/image-to-image-papers?tab=readme-ov-file
@@ -133,9 +145,6 @@
 
 - Awesome-Segment-Anything : https://github.com/dk-liang/Awesome-Segment-Anything
 - Awesome-SAM : https://github.com/baibizhe/Awesome-SAM
-
-## Image Inpainting
-- Awesome-Inpainting-Tech : https://github.com/zengyh1900/Awesome-Image-Inpainting
 
 
 ## 3D Reconstruction
@@ -159,6 +168,9 @@
 ## Implicit Neural Representations
 > Implicit Neural Representations (INR, 암시적 신경 표현)는 이미지, 3D 형상, 비디오, 오디오와 같은 다양한 신호를 신경망을 통해 연속적인 함수로 표현하는 딥러닝 기법입니다.
 - Awesome Implicit Neural Representations : https://github.com/vsitzmann/awesome-implicit-representations
+
+## Deep Geometry Learning
+- A curated list of resources for Deep Geometry Learning : https://github.com/subeeshvasu/Awsome_Deep_Geometry_Learning
 
 ## Application
 ### Satelite Image
