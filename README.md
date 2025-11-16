@@ -26,6 +26,8 @@
 
 - Recent Advances in Vision and Language PreTrained Models (VL-PTMs) : https://github.com/yuewang-cuhk/awesome-vision-language-pretraining-papers
 
+- Awesome Embodied Vision : https://github.com/ChanganVR/awesome-embodied-vision
+
 - Awesome Computer Vision Models : https://github.com/gmalivenko/awesome-computer-vision-models
 
 - PyTorch Implementations of various state of the art architectures(MLP-Mixer, TransUNet, ViT, Fastformer, Single Image Super-Resolution via a Holistic Attention Network) https://github.com/04RR/SOTA-Vision
@@ -79,6 +81,10 @@
 - awesome-object-detection : https://github.com/amusi/awesome-object-detection
 
 - Collection of papers, datasets, code and other resources for object detection and tracking using deep learning : https://github.com/abhineet123/Deep-Learning-for-Tracking-and-Detection
+
+## Anomaly Detection
+- awesome anomaly detection : https://github.com/hoya012/awesome-anomaly-detection
+
 
 ### Action Regognition
 - Awesome Action Recognition : https://github.com/jinwchoi/awesome-action-recognition
