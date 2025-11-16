@@ -105,6 +105,7 @@
 - Image-to-Image papers : https://github.com/lzhbrian/image-to-image-papers?tab=readme-ov-file
 - Awesome Image Translation : https://github.com/weihaox/awesome-image-translation
 
+- A collection of deep learning based methods for HDR image synthesis : https://github.com/vinthony/awesome-deep-hdr
 
 ## Image Segmentation
 - SAM 2: Segment Anything in Images and Videos : https://github.com/facebookresearch/segment-anything
