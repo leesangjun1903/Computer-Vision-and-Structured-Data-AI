@@ -60,7 +60,9 @@
 - Awesome Normalizing Flows : https://github.com/janosh/awesome-normalizing-flows?tab=readme-ov-file
 
 ### Transformers
-- Transformer-in-Vision : https://github.com/Yangzhangcst/Transformer-in-Computer-Vision/tree/main
+- Awesome Visual-Transformer : https://github.com/dk-liang/Awesome-Visual-Transformer
+
+- Transformer-in-Vision : https://github.com/Yangzhangcst/Transformer-in-Computer-Vision
 
 
 ## Image Classification
