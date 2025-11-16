@@ -145,8 +145,13 @@
 
 - Awesome Segment Anything : https://github.com/Hedlen/awesome-segment-anything
 
+- Awesome-Referring-Image-Segmentation : https://github.com/MarkMoHR/Awesome-Referring-Image-Segmentation
+
+
+
 - Awesome-Segment-Anything : https://github.com/dk-liang/Awesome-Segment-Anything
 - Awesome-SAM : https://github.com/baibizhe/Awesome-SAM
+
 
 ## Image Harmonization
 > Image Harmonization은 배경 이미지와 전경 객체 이미지를 합성할 때, 두 이미지 간의 시각적 불일치(색상, 밝기, 조명 등)를 최소화하여 자연스럽고 조화로운 합성 이미지를 만드는 컴퓨터 비전 기술입니다.
