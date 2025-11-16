@@ -110,6 +110,8 @@
 
 - A collection of deep learning based methods for HDR image synthesis : https://github.com/vinthony/awesome-deep-hdr
 
+- Papers on generative modeling : https://github.com/zhoubolei/awesome-generative-modeling
+
 ## Image Segmentation
 - SAM 2: Segment Anything in Images and Videos : https://github.com/facebookresearch/segment-anything
 
