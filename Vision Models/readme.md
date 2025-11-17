@@ -29,6 +29,7 @@
 - 수정필:
 
 # Models(papers)
+- 3D Gaussian Splatting for Real-Time Radiance Field Rendering | 2023 · 6412회 인용, 3D Rendering
 - 3D Object Representations for Fine-Grained Categorization | 2013 · 5280회 인용, 3D estimation
 - 3D Semantic Segmentation with Submanifold Sparse Convolutional Networks | 2017 · 2051회 인용, Semantic segmentation
 - 3DiM : Novel View Synthesis with Diffusion Models | 2022 · 320회 인용, Novel View Synthesis, 3D generation
