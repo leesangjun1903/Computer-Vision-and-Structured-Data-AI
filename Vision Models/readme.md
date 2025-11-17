@@ -271,6 +271,7 @@
 - Instant-NGP : Instant Neural Graphics Primitives with a Multiresolution Hash Encoding | 2022 · 5205회 인용, 3D reconstruction
 - IPViT : Intriguing Properties of Vision Transformers | 2021 · 834회 인용 , Image classification
 - InvSR : Arbitrary-steps Image Super-resolution via Diffusion Inversion | 2024 · 26회 인용, Super-Resolution
+- K-Planes: Explicit Radiance Fields in Space, Time, and Appearance | 2023 · 792회 인용, 3D reconstruction
 - TimeSformer : Is Space-Time Attention All You Need for Video Understanding? | 2021 · 3033회 인용, Action recognition
 - KernelGAN : Blind Super-Resolution Kernel Estimation using an Internal-GAN | 2019 · 620회 인용, Super resolution
 - LAVT: Language-Aware Vision Transformer for Referring Image Segmentation | 2021 · 488회 인용, Semantic segmentation
