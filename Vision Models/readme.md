@@ -220,6 +220,7 @@
 - Focal Transformer : Focal Self-attention for Local-Global Interactions in Vision Transformers | 2021 · 600회 인용, Image classification, Object detection, Semantic segmentation
 - FocalNet : Focal Modulation Networks | 2022 · 445회 인용, Image classification, Object detection, Semantic segmentation
 - FractalNet: Ultra-Deep Neural Networks without Residuals | 2016 · 1355회 인용, Image classification
+- FreeNeRF: Improving Few-shot Neural Rendering with Free Frequency Regularization | 2023 · 403회 인용, 3D reconstruction
 - FreeSOLO: Learning to Segment Objects without Annotations | 2022 · 160회 인용, Object detection, Semantic segmentation
 - FreqNet : Frequency-Aware Deepfake Detection | 2024 · 134회 인용, Image detection
 - GAN Dissection: Visualizing and Understanding Generative Adversarial Networks | 2018 · 710회 인용, XAI
