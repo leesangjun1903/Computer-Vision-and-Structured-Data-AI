@@ -287,6 +287,7 @@
 - LU-NeRF: Scene and Pose Estimation by Synchronizing Local Unposed NeRFs | 2023 · 43회 인용, Pose Estimation, global-optimization
 - LW-DETR: A Transformer Replacement to YOLO for Real-Time Detection | 2024 · 30회 인용, Object detection
 - Label-Efficient Semantic Segmentation with Diffusion Models | Semantic segmentation
+- Labelling unlabelled videos from scratch with multi-modal self-supervision | 2020 · 200회 인용
 - LaplacianShot : Laplacian Regularized Few-Shot Learning | 2020 · 250회 인용, Image classification
 - Large-scale Video Classification with Convolutional Neural Networks | 2014 · 9257회 인용, Video Classification
 - LassoNet: Deep Lasso-Selection of 3D Point Clouds | 2019 · 60회 인용, 3D Point Cloud Preparation, Lasso-Selection
