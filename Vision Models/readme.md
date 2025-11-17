@@ -217,6 +217,7 @@
 - FixEfficientNet : Fixing the Train–Test Resolution Discrepancy | 2020 · 713회 인용, Image classification, Data augmentation, preprocessing
 - Flexible Background Subtraction With Self-Balanced Local Sensitivity | 2014 · 158회 인용, Change detection
 - Flow Contrastive Estimation of Energy-Based Models | 2019 · 131회 인용, Image generation
+- Flow Straight and Fast: Learning to Generate and Transfer Data with Rectified Flow | 2022 · 1696회 인용, Rectified Flow (RF), image-to-image translation
 - Focal Transformer : Focal Self-attention for Local-Global Interactions in Vision Transformers | 2021 · 600회 인용, Image classification, Object detection, Semantic segmentation
 - FocalNet : Focal Modulation Networks | 2022 · 445회 인용, Image classification, Object detection, Semantic segmentation
 - FractalNet: Ultra-Deep Neural Networks without Residuals | 2016 · 1355회 인용, Image classification
