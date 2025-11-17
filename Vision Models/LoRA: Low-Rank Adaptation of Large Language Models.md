@@ -119,3 +119,6 @@ LoRA(Low-Rank Adaptation)는 대규모 언어 모델(LLM)을 효율적으로 미
 [18] https://arxiv.org/abs/2106.09685
 [19] https://github.com/microsoft/LoRA
 [20] https://aclanthology.org/2024.lrec-main.206.pdf
+
+- [LoRA] 논문 쉽게 설명하기 :
+https://beeny-ds.tistory.com/m/entry/LORA-%EB%85%BC%EB%AC%B8-%EC%89%BD%EA%B2%8C-%EC%84%A4%EB%AA%85%ED%95%98%EA%B8%B0
