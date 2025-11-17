@@ -24,6 +24,7 @@
 - Deep Visual Domain Adaptation: A Survey
 - Deep Learning for Anomaly Detection: A Survey
 - Image Matching from Handcrafted to Deep Features: A Survey
+- A Review on Deep Learning Techniques for Video Prediction
 
 - 수정필:
 
