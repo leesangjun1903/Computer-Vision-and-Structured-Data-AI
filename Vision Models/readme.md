@@ -388,6 +388,7 @@
 - Prompt-to-Prompt : Prompt-to-Prompt Image Editing with Cross Attention Control | 2022 · 2130회 인용, Image editing, Image generation
 - PromptSR : Image Super-Resolution with Text Prompt Diffusion | 2023 · 21회 인용, Super resolution
 - ProxylessNAS: Direct Neural Architecture Search on Target Task and Hardware |  2018 · 2511회 인용, NAS
+- Pseudo Numerical Methods for Diffusion Models on Manifolds | 2022 · 816회 인용, Sampling Method, Pseudo Numerical Methods
 - PvT : Pyramid Vision Transformer: A Versatile Backbone for Dense Prediction without Convolutions | 2021 · 5799회 인용, Image classification, Semantic segmenation, Object detection
 - PVTv2: Improved Baselines with Pyramid Vision Transformer | 2021 · 2229회 인용, Image classification, Object detection, Semantic segmentation
 - R-CNN : Rich Feature Hierarchies for Accurate Object Detection and Semantic Segmentation | 2013 · 44495회 인용, Object detection, Semantic segmentation
