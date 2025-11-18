@@ -213,6 +213,7 @@
 - Feature-Critic Networks for Heterogeneous Domain Generalization | 2019 · 340회 인용, Domain Generalization, Meta-Learning, Feature-Critic Network
 - Few-Example Object Detection with Model Communication | 2017 · 212회 인용, Object detection
 - FastGAN : Towards Faster and Stabilized GAN Training for High-fidelity Few-shot Image Synthesis | 2021 · 357회 인용, Image generation
+- FastNeRF: High-Fidelity Neural Rendering at 200FPS | 2021 · 814회 인용, 3D reconstruction
 - Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks | 2015 · 55990회 인용, Object detection
 - Fine-Tuning Image-Conditional Diffusion Models Is Easier than You Think | 2024 · 47회 인용, Depth estimation
 - FixEfficientNet : Fixing the Train–Test Resolution Discrepancy | 2020 · 713회 인용, Image classification, Data augmentation, preprocessing
