@@ -277,6 +277,7 @@
 - K-Planes: Explicit Radiance Fields in Space, Time, and Appearance | 2023 · 792회 인용, 3D reconstruction
 - TimeSformer : Is Space-Time Attention All You Need for Video Understanding? | 2021 · 3033회 인용, Action recognition
 - KernelGAN : Blind Super-Resolution Kernel Estimation using an Internal-GAN | 2019 · 620회 인용, Super resolution
+- KiloNeRF: Speeding up Neural Radiance Fields with Thousands of Tiny MLPs | 2021 · 993회 인용, 3D reconstruction
 - LAVT: Language-Aware Vision Transformer for Referring Image Segmentation | 2021 · 488회 인용, Semantic segmentation
 - LCM : Latent Consistency Models: Synthesizing High-Resolution Images with Few-Step Inference | 2023 · 523회 인용, Image generation, Accelerate sampling
 - LCM-LoRA: A Universal Stable-Diffusion Acceleration Module | 2023 · 180회 인용, Accelerate Sampling
