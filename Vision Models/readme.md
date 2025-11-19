@@ -331,6 +331,7 @@
 - Mesh R-CNN | 2019 · 665회 인용, 3D segmentation
 - MetaFormer : MetaFormer Is Actually What You Need for Vision | 2021 · 1496회 인용, Image classification, Object detection, Semantic segmentation
 - MetaQNN : Designing Neural Network Architectures using Reinforcement Learning | 2016 · 2059회 인용 , Image classification, Reinforcement Learning
+- Microsoft COCO: Common Objects in Context | 2014 · 65007회 인용, Object Detection
 - MixDL : Few-shot Image Generation with Mixup-based Distance Learning | 2021 · 29회 인용, Image generation
 - MoCov2 : Improved Baselines with Momentum Contrastive Learning | 2020 · 4325회 인용, Image classification, Object detection
 - MoCov3 : An Empirical Study of Training Self-Supervised Vision Transformers | 2021 · 2474회 인용, Image classification
