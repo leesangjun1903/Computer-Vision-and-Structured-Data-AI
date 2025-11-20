@@ -453,6 +453,7 @@
 - ST-CGAN : Stacked Conditional Generative Adversarial Networks for Jointly Learning Shadow Detection and Shadow Removal | 2017 · 571회 인용, Shadow detection, Shadow removal
 - SUPIR : Scaling Up to Excellence: Practicing Model Scaling for Photo-Realistic Image Restoration In the Wild | 2024 · 87회 인용, Super resolution
 - SWAGAN: A Style-based Wavelet-driven Generative Model | 2021 · 130회 인용, Super-resolution
+- Scaling Vision Transformers to 22BillionParameters | 2023 · 841회 인용, 22B-parameter ViT
 - Score-SDE : Score-Based Generative Modeling through Stochastic Differential Equations | 2020 · 8748회 인용, Image generation, Density estimation, Image inpainting
 - SeeSR: Towards Semantics-Aware Real-World Image Super-Resolution | 2023 · 215회 인용, Super resolution
 - SeemoRe : See More Details: Efficient Image Super-Resolution by Experts Mining | 2024 · 25회 인용, Super resolution
