@@ -498,6 +498,7 @@
 - Swin2SR: SwinV2 Transformer for Compressed Image Super-Resolution and Restoration | 2022 · 218회 인용, Super resolution, Image restoration
 - SwinIA: Self-Supervised Blind-Spot Image Denoising without Convolutions | 2023 · 7회 인용, Image denoising
 - SwinIR : Image Restoration Using Swin Transformer | 2021 · 4934회 인용, Image reconstruction, Super resolution, Image denoising : https://github.com/JingyunLiang/SwinIR/tree/main
+- Synthetic Data from Diffusion Models Improves ImageNet Classification | 2023 · 441회 인용, Image Augmentation, Image Classification
 - TSIT: A Simple and Versatile Framework for Image-to-Image Translation | 2020 · 166회 인용
 - TSP-DETR : Rethinking Transformer-based Set Prediction for Object Detection | 2020 · 461회 인용, Object detection
 - TUNIT : Rethinking the Truly Unsupervised Image-to-Image Translation | 2020 · 142회 인용, Image generation
