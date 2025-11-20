@@ -358,6 +358,7 @@
 - NeRF: Neural Radiance Fields for View Synthesis | 2020 · 14429회 인용, 3D reconstruction, Neural rendering, Novel view synthesis
 - NetVLAD: CNN architecture for weakly supervised place recognition | 2015 · 3910회 인용, Image retrieval, Visual localization
 - Neural Architecture Search with Reinforcement Learning | 2016 · 7555회 인용, NAS
+- Neuralangelo: High-Fidelity Neural Surface Reconstruction | 2023 · 586회 인용, 3D reconstruction
 - Noise Flow: Noise Modeling with Conditional Normalizing Flows | 2019 · 222회 인용, Image denoising
 - Noise2Noise: Learning Image Restoration without Clean Data | 2018 · 2454회 인용, Image denoising
 - Noise2Void - Learning Denoising from Single Noisy Images | 2018 · 1627회 인용, Image denoising
