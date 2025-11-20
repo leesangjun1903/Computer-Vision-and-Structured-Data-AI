@@ -179,6 +179,7 @@
 - Direction-aware Spatial Context Features for Shadow Detection and Removal | 2018 · 507회 인용, Shadow detection, Shadow removal
 - DiscoGAN : Learning to Discover Cross-Domain Relations with Generative Adversarial Networks | 2017 · 2874회 인용, Image generation
 - DnCNN : Beyond a Gaussian Denoiser: Residual Learning of Deep CNN for Image Denoising | 2016 · 10020회 인용, Image Denoising, Super resolution : https://github.com/anushkayadav/Denoising_cifar10
+- Drag Your GAN: Interactive Point-based Manipulation on the Generative Image Manifold | 2023 · 313회 인용, Image manipulation
 - DreamBooth: Fine Tuning Text-to-Image Diffusion Models for Subject-Driven Generation | 2022 · 3668회 인용, Image generation
 - Drop an Octave: Reducing Spatial Redundancy in Convolutional Neural Networks with Octave Convolution | 2019 · 866회 인용, Image classification, Video action recognition
 - Dynamic Convolution: Attention over Convolution Kernels | 2019 · 1503회 인용, Image classification
