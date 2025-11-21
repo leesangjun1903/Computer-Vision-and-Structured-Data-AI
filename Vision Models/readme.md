@@ -322,6 +322,7 @@
 - MnasNet: Platform-Aware Neural Architecture Search for Mobile | 2018 · 4325회 인용, NAS
 - MPRNet : Multi-Stage Progressive Image Restoration | 2021 · 2334회 인용, Image deblurring, Image denoising, Image restoration
 - MS-DETR: Efficient DETR Training with Mixed Supervision | 2024 · 53회 인용, Object detection
+- MVDream: Multi-view Diffusion for 3D Generation | 2023 · 897회 인용, 3D Generation
 - MWDCNN : Multi-stage image denoising with the wavelet transform | 2022 · 360회 인용, Image Denoising : https://github.com/hellloxiaotian/MWDCNN
 - Marigold : Repurposing Diffusion-Based Image Generators for Monocular Depth Estimation | 2023 · 556회 인용, Depth estimation
 - Mask DINO: Towards A Unified Transformer-based Framework for Object Detection and Segmentation | 2022 · 617회 인용, Object detection, Semantic segmentation
