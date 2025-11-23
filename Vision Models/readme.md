@@ -83,6 +83,7 @@
 - CLIP : Learning Transferable Visual Models From Natural Language Supervision | 2021 · 43122회 인용, Image recognition, Image generation
 - CLIPDraw: Exploring Text-to-Drawing Synthesis through Language-Image Encoders | 2021 · 254회 인용, Image generation
 - CM : Consistency Models | 2023 · 1357회 인용, Image generation, Accelerate Sampling
+- CMT: Convolutional Neural Networks Meet Vision Transformers | 2021 · 1183회 인용, Hybrid Architecture(CNN + ViT)
 - CNN Image Retrieval Learns from BoW: Unsupervised Fine-Tuning with Hard Examples | 2016 · 769회 인용, Image retrieval
 - CNN-Generated Images are Surprisingly Easy to Spot... for Now | 2019 · 1445회 인용, Deepfake Detection
 - COLMAP : Structure-from-Motion Revisited | 2016 . 8045회 인용, 3D reconstruction
