@@ -508,6 +508,7 @@
 - TSIT: A Simple and Versatile Framework for Image-to-Image Translation | 2020 · 166회 인용
 - TSP-DETR : Rethinking Transformer-based Set Prediction for Object Detection | 2020 · 461회 인용, Object detection
 - TUNIT : Rethinking the Truly Unsupervised Image-to-Image Translation | 2020 · 142회 인용, Image generation
+- TensoRF: Tensorial Radiance Fields | 2022 · 1879회 인용, 3D reconstruction
 - TerDiT: Ternary Diffusion Models with Transformers | 2024 · 4회 인용, Image generation
 - That’s BAD: Blind Anomaly Detection by Implicit Local Feature Clustering | 2023 · 6회 인용, Anomaly detection
 - The GAN is dead; long live the GAN! A Modern Baseline GAN | 2025 · 50회 인용, Image generation
