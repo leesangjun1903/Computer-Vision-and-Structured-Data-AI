@@ -178,6 +178,7 @@
 - Diffusion Classifier : Your Diffusion Model is Secretly a Zero-Shot Classifier | 2023 · 320회 인용, Image classification
 - Diffusion-GAN: Training GANs with Diffusion | 2022 · 353회 인용, Image generation
 - DiffusionCLIP: Text-Guided Diffusion Models for Robust Image Manipulation | 2021 · 870회 인용, Image generation
+- DiffusionDet: Diffusion Model for Object Detection | 2022 · 800회 인용, Object Detection
 - Direction-aware Spatial Context Features for Shadow Detection and Removal | 2018 · 507회 인용, Shadow detection, Shadow removal
 - DiscoGAN : Learning to Discover Cross-Domain Relations with Generative Adversarial Networks | 2017 · 2874회 인용, Image generation
 - DnCNN : Beyond a Gaussian Denoiser: Residual Learning of Deep CNN for Image Denoising | 2016 · 10020회 인용, Image Denoising, Super resolution : https://github.com/anushkayadav/Denoising_cifar10
