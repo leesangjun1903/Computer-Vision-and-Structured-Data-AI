@@ -148,6 +148,7 @@
 - ResNet : Deep Residual Learning for Image Recognition | 2015 · 286531회 인용, Optimization, Object Detection/Localization, Image classification
 - DeepBedMap: a deep neural network for resolving the bed topography of Antarctica | 2020 · 53회 인용, Super resolution, GAN
 - DeepCache: Accelerating Diffusion Models for Free | 2023 · 235회 인용, Image generation
+- DeepFaceDrawing: Deep Generation of Face Images from Sketches | 2020 · 207회 인용, Image Drawing
 - DeepFashion: Powering Robust Clothes Recognition and Retrieval with Rich Annotations | 2016 · 2397회 인용, Image classification
 - DeepPainter: Painter Classification Using Deep Convolutional Autoencoders | 2017 · 93회 인용, Image classification
 - DeepSIM : Image Shape Manipulation from a Single Augmented Training Sample | 2020 · 28회 인용, Image generation, Image manipulation
