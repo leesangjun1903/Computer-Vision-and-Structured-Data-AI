@@ -542,6 +542,7 @@
 - VAN : Visual Attention Network | 2022 · 1100회 인용, Image classification, Object detection, Semantic segmentation, Pose estimation
 - VGG : Very Deep Convolutional Networks for Large-Scale Image Recognition | 2014 · 150415회 인용, Image classification
 - VMRF: View Matching Neural Radiance Fields | 2022 · 88회 인용, 3D reconstruction
+- VOLO: Vision Outlooker for Visual Recognition | 2021 · 432회 인용, Image Classification
 - VPD : Unleashing Text-to-Image Diffusion Models for Visual Perception | 2023 · 284회 인용, Semantic segmentation, Depth estimation
 - ViT : An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale | 2020 · 73108회 인용, Image classification
 - ViTDet : Exploring Plain Vision Transformer Backbones for Object Detection | 2022 · 1230회 인용, Object detection
