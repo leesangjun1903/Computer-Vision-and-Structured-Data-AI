@@ -213,6 +213,7 @@
 - FVAE : Factorized Variational Autoencoders for Modeling Audience Reactions to Movies | 2017 · 71회 인용, Facial Expression Recognition
 - Face Alignment using Cascade Gaussian Process Regression Trees | 2015 · 152회 인용, Face Alignment
 - Face-SPARNet : Learning Spatial Attention for Face Super-Resolution | 2020 · 231회 인용, Super resolution
+- FaceNet: A Unified Embedding for Face Recognition and Clustering | 2015 · 20143회 인용, Face recognition
 - Facial Landmark Detection by Deep Multi-task Learning | 2014 · 1941회 인용, Facial Landmark Detection
 - Fast R-CNN | 2015 · 42594회 인용, Object detection
 - Feature-Critic Networks for Heterogeneous Domain Generalization | 2019 · 340회 인용, Domain Generalization, Meta-Learning, Feature-Critic Network
