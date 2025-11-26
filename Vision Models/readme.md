@@ -437,6 +437,7 @@
 - Robust and Efficient Object Change Detection by Combining Global Semantic Information and Local Geometric Verification | 2020 · 28회 인용, 3D object detection
 - S3Diff : Degradation-Guided One-Step Image Super-Resolution with Diffusion Priors | 2024 · 14회 인용, Super resolution
 - SAGAN : Self-Attention Generative Adversarial Networks | 2018 · 5484회 인용, Image generation
+- SAM 3D: 3Dfy Anything in Images | 3D reconstruction
 - SAM-DiffSR: Structure-Modulated Diffusion Model for Image Super-Resolution | 2024 · 21회 인용, Super resolution
 - SAM : Segment Anything | 2023 · 13948회 인용, Semantic segmentation :  https://github.com/facebookresearch/segment-anything/tree/main
 - SAM-DETR : Accelerating DETR Convergence via Semantic-Aligned Matching | 2022 · 145회 인용, Object detection
