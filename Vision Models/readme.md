@@ -441,6 +441,7 @@
 - SAM : Segment Anything | 2023 · 13948회 인용, Semantic segmentation :  https://github.com/facebookresearch/segment-anything/tree/main
 - SAM-DETR : Accelerating DETR Convergence via Semantic-Aligned Matching | 2022 · 145회 인용, Object detection
 - SAM 2: Segment Anything in Images and Videos | 2024 · 1840회 인용, Semantic segmentation : https://github.com/facebookresearch/sam2
+- SAM 3: Segment Anything with Concepts | Semantic Segmentation
 - SAN : Second-order Attention Network for Single Image Super-Resolution | 2019 · 2184회 인용, Super resolution
 - SASCNet : Change Detection in Images Using Shape-Aware Siamese Convolutional Network | 2020 · 18회 인용, Change detection
 - SCSNet : An Efficient Paradigm for Learning Simultaneously Image Colorization and Super-Resolution | 2022 · 21회 인용, Image Colorization, Image reconstruction, Super-Resolution
