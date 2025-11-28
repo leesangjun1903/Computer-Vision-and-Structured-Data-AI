@@ -66,6 +66,7 @@
 - BSConv : Rethinking Depthwise Separable Convolutions: How Intra-Kernel Correlations Lead to Improved MobileNets | 2020 · 246회 인용, Image classification
 - BSRGAN : Designing a Practical Degradation Model for Deep Blind Image Super-Resolution | 2021 · 943회 인용, Super resolution
 - BYOL : Bootstrap your own latent, A new approach to self-supervised Learning | 2020 · 9134회 인용, Image augmentation, Image classification
+- Back to Basics: Let Denoising Generative Models Denoise | x-prediction, Image Denoising
 - Big Transfer (BiT): General Visual Representation Learning | 2019 · 1586회 인용, Image classification
 - Block-NeRF: Scalable Large Scene Neural View Synthesis | 2022 · 1039회 인용, 3D representation
 - Background Segmentation with Feedback: The Pixel-Based Adaptive Segmenter | 2012 · 769회 인용, Change detection
