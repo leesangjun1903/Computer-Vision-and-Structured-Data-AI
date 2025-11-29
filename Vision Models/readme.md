@@ -499,6 +499,7 @@
 - StableVSR : Enhancing Perceptual Quality in Video Super-Resolution through Temporally-Consistent Detail Synthesis using Diffusion Models | 2023 · 14회 인용, Super resolution
 - StarGAN v2: Diverse Image Synthesis for Multiple Domains | 2019 · 2312회 인용, Image generation
 - Static and Moving Object Detection Using Flux Tensor with Split Gaussian Models | 2014 · 289회 인용, Change detection
+- SteadyDancer: Harmonized and Coherent Human Image Animation with First-Frame Preservation | Image-to-Video
 - StoryDiffusion: Consistent Self-Attention for Long-Range Image and Video Generation | 2024 · 132회 인용, Image, Video Generation
 - Structural-analogy from a Single Image Pair | 2020 · 21회 인용, Image generation
 - Structure and Content-Guided Video Synthesis with Diffusion Models | 2023 · 708회 인용, Video
