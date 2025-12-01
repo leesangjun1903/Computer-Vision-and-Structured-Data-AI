@@ -324,6 +324,7 @@
 - MAE : Masked Autoencoders Are Scalable Vision Learners | 2021 · 11570회 인용, Image reconstruction, Image generation
 - MAGVIT: Masked Generative Video Transformer | 2022 · 334회 인용, Video generation, Text-to-video generation
 - MAGVIT-v2 : Language Model Beats Diffusion -- Tokenizer is Key to Visual Generation | 2023 · 428회 인용, Image generation, Language modeling, Video generation
+- MHR: Momentum Human Rig | 3D representation
 - MIRNet : Learning Enriched Features for Fast Image Restoration and Enhancement | 2022 · 462회 인용, Image deblurring, Image enhancement, Super resolution : https://github.com/swz30/MIRNetv2/tree/main
 - MLP-Mixer: An all-MLP Architecture for Vision | 2021 · 3808회 인용, Image classification :  https://github.com/sijan67/Exploring-the-MLP-Mixer-Architecture/tree/main?tab=readme-ov-file, https://github.com/lucidrains/mlp-mixer-pytorch
 - MnasNet: Platform-Aware Neural Architecture Search for Mobile | 2018 · 4325회 인용, NAS
