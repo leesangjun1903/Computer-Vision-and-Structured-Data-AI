@@ -127,6 +127,7 @@
 - DINO : DETR with Improved DeNoising Anchor Boxes for End-to-End Object Detection | 2022 · 2463회 인용, Object detection
 - DINO : Emerging Properties in Self-Supervised Vision Transformers | 2021 · 8409회 인용, Semantic segmentation, Image classification, Image retrieval, Object detection
 - DINOv2: Learning Robust Visual Features without Supervision | 2023 · 4757회 인용, Image classification, Video classification, Image recognition, Semantic segmentation, Depth prediction, Action recognition
+- DINOv3
 - DIP : Deep Image Prior | 2017 · 4045회 인용, Image denoising, Image generation, Super resolution : https://github.com/DmitryUlyanov/deep-image-prior/tree/master
 - DLSM : Denoising Likelihood Score Matching for Conditional Score-Based Data Generation | 2022 · 45회 인용, Image generation
 - DMD : One-step Diffusion with Distribution Matching Distillation | 2023 · 355회 인용, Image generation
