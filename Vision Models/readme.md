@@ -280,6 +280,7 @@
 - Improved Contrastive Divergence Training of Energy-Based Model | 2020 · 183회 인용, Image generation
 - Improved Techniques for Training GANs | 2016 · 12624회 인용, GAN technique, Image generation
 - Improving Foreground Segmentations with Probabilistic Superpixel Markov Random Fields | 2012 · 200회 인용, Change detection
+- In-Domain GAN Inversion for Real Image Editing | 2020 · 821회 인용, Image Editing
 - Inceptionv2, 3 : Rethinking the Inception Architecture for Computer Vision | 2015 · 40956회 인용, Image classification
 - Inception-v4, Inception-ResNet and the Impact of Residual Connections on Learning | 2016 · 19858회 인용, Image classification
 - InfoGAN: Interpretable Representation Learning by Information Maximizing Generative Adversarial Nets | 2016 · 6178회 인용, Image generation, Interpretable representation
