@@ -428,6 +428,7 @@
 - RLFN : Residual Local Feature Network for Efficient Super-Resolution | 2022 · 292회 인용, Super-Resolution
 - RT-DETR : DETRs Beat YOLOs on Real-time Object Detection | 2023 · 2350회 인용, Object detection
 - ReACGAN : Rebooting ACGAN: Auxiliary Classifier GANs with Stable Training | 2021 · 144회 인용, Image generation, Data diversity
+- RePaint: Inpainting using Denoising Diffusion Probabilistic Models | 2022 · 2505회 인용, Image Inpainting
 - ReStyle: A Residual-Based StyleGAN Encoder via Iterative Refinement | 2021 · 440회 인용, Image Editing, iterative refinement, residual learning
 - Real-ESRGAN: Training Real-World Blind Super-Resolution with Pure Synthetic Data | 2021 · 1911회 인용, Super resolution : https://github.com/xinntao/Real-ESRGAN
 - DG : Refining Generative Process with Discriminator Guidance in Score-based Diffusion Models | 2022 · 118회 인용, Image generation
