@@ -203,6 +203,7 @@
 - ESRGAN: Enhanced Super-Resolution Generative Adversarial Networks | 2018 · 5950회 인용, Super resolution
 - EdgeConnect: Generative Image Inpainting with Adversarial Edge Learning | 2019 · 1048회 인용, Image generation
 - EdgeSRGAN : Generative Adversarial Super-Resolution at the Edge with Knowledge Distillation | 2022 · 48회 인용, Super resolution : https://github.com/PIC4SeR/EdgeSRGAN?tab=readme-ov-file
+- Effective Data Augmentation With Diffusion Models | 2023 · 400회 인용, Data Augmentation
 - Efficient DETR: Improving End-to-End Object Detector with Dense Prior | 2021 · 294회 인용, Object detection
 - EfficientFormer: Vision Transformers at MobileNet Speed | 2022 · 593회 인용, Image classification, Object detection, Instance segmentation, Semantic segmentation
 - EfficientNet: Rethinking Model Scaling for Convolutional Neural Networks | 2019 · 30645회 인용, Image classification
