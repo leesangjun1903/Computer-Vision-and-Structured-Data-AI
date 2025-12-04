@@ -524,6 +524,7 @@
 - TSP-DETR : Rethinking Transformer-based Set Prediction for Object Detection | 2020 · 461회 인용, Object detection
 - TTT3R: 3D Reconstruction as Test-Time Training | 3D reconstruction
 - TUNIT : Rethinking the Truly Unsupervised Image-to-Image Translation | 2020 · 142회 인용, Image generation
+- Taming Video Diffusion Prior with Scene-Grounding Guidance for 3D Gaussian Splatting from Sparse Inputs | 3D Gaussian Splatting
 - TensoRF: Tensorial Radiance Fields | 2022 · 1879회 인용, 3D reconstruction
 - TerDiT: Ternary Diffusion Models with Transformers | 2024 · 4회 인용, Image generation
 - That’s BAD: Blind Anomaly Detection by Implicit Local Feature Clustering | 2023 · 6회 인용, Anomaly detection
