@@ -54,6 +54,7 @@
 - Attentive Group Equivariant Convolutional Networks | 2020 · 113회 인용, Image Classification, Object Detection
 - AuXFT : Cross-Architecture Auxiliary Feature Space Translation for Efficient Few-Shot Personalized Object Detection | 2024 · 5회 인용, Object detection
 - Auto-Exposure Fusion for Single-Image Shadow Removal | 2021 · 201회 인용, Shadow removal
+- Autoregressive Image Generation using Residual Quantization | 2022 · 648회 인용, Image Generation, Residual Quantization
 - Auxiliary Classifier GAN : Conditional Image Synthesis with Auxiliary Classifier GANs | 2016 · 4651회 인용, Image generation
 - BAM : Bottleneck Attention Module | 2018 · 1883회 인용, Image classification, Object detection
 - BARF: Bundle-Adjusting Neural Radiance Fields | 2021 · 889회 인용, 3D reconstruction
