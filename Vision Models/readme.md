@@ -143,6 +143,7 @@
 - DRAW: A Recurrent Neural Network For Image Generation | 2015 · 2650회 인용, Image generation
 - DSD : Diffusion Self-Distillation for Zero-Shot Customized Image Generation | 2024 · 16회 인용, Image generation
 - DeCo: Frequency-Decoupled Pixel Diffusion for End-to-End Image Generation | Image generation
+- Decoupled DMD: CFG Augmentation as the Spear, Distribution Matching as the Shield | Distribution Matching Distillation
 - Deep Generator Priors for Bayesian Seismic Inversion | 2020 · 18회 인용, Image generation, Seismic Imaging, Uncertainty Quantification
 - Deep Layer Aggregation | 2017 · 1914회 인용, Image classification, Fine-grained Recognition, Semantic Segmentation
 - Deep Learning of Partial Graph Matching via Differentiable Top-K | 2023 · 18회 인용, Graph matching, Image matching
