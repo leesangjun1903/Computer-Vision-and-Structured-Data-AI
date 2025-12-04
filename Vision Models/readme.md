@@ -178,6 +178,7 @@
 - Diff-Pruning : Structural Pruning for Diffusion Models | 2023 · 355회 인용, Image generation
 - Diff-Retinex: Rethinking Low-light Image Enhancement with A Generative Diffusion Model | 2023 · 230회 인용, Image Enhancement
 - DiffBIR: Towards Blind Image Restoration with Generative Diffusion Prior | 2023 · 370회 인용, Image denoising, Super resolution, Image restoration
+- DiffFace: Diffusion-based Face Swapping with Facial Guidance | 2022 · 112회 인용, Face Swapping
 - DiffIR: Efficient Diffusion Model for Image Restoration | 2023 · 427회 인용, Image Enhancement
 - DiffPIR : Denoising Diffusion Models for Plug-and-Play Image Restoration | 2023 · 323회 인용, Image restoration
 - DiffTSR : Diffusion-based Blind Text Image Super-Resolution | 2023 · 25회 인용, Super resolution
