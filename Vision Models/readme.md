@@ -522,6 +522,7 @@
 - Synthetic Data from Diffusion Models Improves ImageNet Classification | 2023 · 441회 인용, Image Augmentation, Image Classification
 - TSIT: A Simple and Versatile Framework for Image-to-Image Translation | 2020 · 166회 인용
 - TSP-DETR : Rethinking Transformer-based Set Prediction for Object Detection | 2020 · 461회 인용, Object detection
+- TTT3R: 3D Reconstruction as Test-Time Training | 3D reconstruction
 - TUNIT : Rethinking the Truly Unsupervised Image-to-Image Translation | 2020 · 142회 인용, Image generation
 - TensoRF: Tensorial Radiance Fields | 2022 · 1879회 인용, 3D reconstruction
 - TerDiT: Ternary Diffusion Models with Transformers | 2024 · 4회 인용, Image generation
