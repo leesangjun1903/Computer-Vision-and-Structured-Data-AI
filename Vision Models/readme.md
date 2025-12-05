@@ -197,6 +197,7 @@
 - Drop an Octave: Reducing Spatial Redundancy in Convolutional Neural Networks with Octave Convolution | 2019 · 866회 인용, Image classification, Video action recognition
 - Dynamic Convolution: Attention over Convolution Kernels | 2019 · 1503회 인용, Image classification
 - Dynamic DETR: End-to-End Object Detection with Dynamic Attention | 2021 · 486회 인용, Object detection
+- Dynamic Dual-Output Diffusion Models | 2022 · 42회 인용, Image Prediction
 - D²ETR: Decoder-Only DETR with Computationally Efficient Cross-Scale Attention | 2022 · 42회 인용, Object detection
 - EDM : Elucidating the Design Space of Diffusion-Based Generative Models | 2022 · 2592회 인용, Image generation
 - EDSR : Enhanced Deep Residual Networks for Single Image Super-Resolution | 2017 · 8961회 인용, Super-Resolution
