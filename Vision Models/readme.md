@@ -183,6 +183,7 @@
 - DiffPIR : Denoising Diffusion Models for Plug-and-Play Image Restoration | 2023 · 323회 인용, Image restoration
 - DiffTSR : Diffusion-based Blind Text Image Super-Resolution | 2023 · 25회 인용, Super resolution
 - DiffuseIT : Diffusion-based Image Translation using Disentangled Style and Content Representation | 2022 · 215회 인용, Image-to-Image Translation
+- Diffusion Autoencoders: Toward a Meaningful and Decodable Representation | 2021 · 618회 인용, Image Reconstruction
 - Diffusion Classifier : Your Diffusion Model is Secretly a Zero-Shot Classifier | 2023 · 320회 인용, Image classification
 - Diﬀusion models for Handwriting Generation | 2020 · 33회 인용, Handwriting Generation
 - Diffusion-GAN: Training GANs with Diffusion | 2022 · 353회 인용, Image generation
