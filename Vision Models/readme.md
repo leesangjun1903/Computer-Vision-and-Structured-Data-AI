@@ -189,6 +189,7 @@
 - DiffuseIT : Diffusion-based Image Translation using Disentangled Style and Content Representation | 2022 · 215회 인용, Image-to-Image Translation
 - Diffusion Autoencoders: Toward a Meaningful and Decodable Representation | 2021 · 618회 인용, Image Reconstruction
 - Diffusion Classifier : Your Diffusion Model is Secretly a Zero-Shot Classifier | 2023 · 320회 인용, Image classification
+- Diffusion Video Autoencoders: Toward Temporally Consistent Face Video Editing via Disentangled Video Encoding | 2022 · 49회 인용, Face Video Editing, time-invariant, Disentangled Encoding
 - Diﬀusion models for Handwriting Generation | 2020 · 33회 인용, Handwriting Generation
 - Diffusion-GAN: Training GANs with Diffusion | 2022 · 353회 인용, Image generation
 - DiffusionCLIP: Text-Guided Diffusion Models for Robust Image Manipulation | 2021 · 870회 인용, Image generation
