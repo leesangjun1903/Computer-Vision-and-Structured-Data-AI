@@ -413,6 +413,7 @@
 - ConvMixer : Patches Are All You Need? | 2022 · 686회 인용, Image Classification
 - Perceptual Losses for Real-Time Style Transfer and Super-Resolution | 2016 · 13726회 인용, Image generation, Optimization
 - Personalized Face Inpainting with Diffusion Models by Parallel Visual Attention | 2023 · 20회 인용, Image Inpainting, Facial Inpainting
+- PhysDiff: Physics-Guided Human Motion Diffusion Model | 2022 · 422회 인용, Human Motion Generation, physics-based motion projection
 - Physics-informed deep neural network for image denoising | 2023 · 10회 인용, Image denoising : https://codeocean.com/capsule/9043085/tree/v1
 - Pix2Pix : Image-to-Image Translation with Conditional Adversarial Networks | 2016 · 28621회 인용, Image generation : https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix?tab=readme-ov-file
 - Pix2Pix-zero : Zero-shot Image-to-Image Translation | 2023 · 582회 인용, Image generation
