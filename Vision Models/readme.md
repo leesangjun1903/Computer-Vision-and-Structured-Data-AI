@@ -516,6 +516,7 @@
 - SimSiam : Exploring Simple Siamese Representation Learning | 2020 · 5727회 인용, Self-Supervised Image Classification
 - SimpleShot: Revisiting Nearest-Neighbor Classification for Few-Shot Learning | 2019 · 490회 인용, Image classification
 - simple diffusion: End-to-end diffusion for high resolution images | 2023 · 315회 인용, Image generation
+- SinFusion: Training Diffusion Models on a Single Image or Video | 2022 · 83회 인용, Image, Video Generation
 - SinGAN: Learning a Generative Model from a Single Natural Image | 2019 · 1151회 인용, Image generation
 - SinSR: Diffusion-Based Image Super-Resolution in a Single Step | 2023 · 177회 인용 ,Super resolution
 - SnapFusion: Text-to-Image Diffusion Model on Mobile Devices within Two Seconds | 2023 · 232회 인용, Image generation
