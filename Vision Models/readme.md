@@ -560,6 +560,7 @@
 - TokenCut Video : Segmenting Objects in Images and Videos with Self-supervised Transformer and Normalized Cut | 2022 · 125회 인용, Unsupervised object discovery
 - Tokens-to-Token ViT: Training Vision Transformers from Scratch on ImageNet | 2021 · 2915회 인용, Image classification
 - Towards Ghost-free Shadow Removal via Dual Hierarchical Aggregation Network and Shadow Matting GAN | 2019 · 281회 인용, Shadow removal, Shadow matting
+- Towards Practical Plug-and-Play Diffusion Models | 2022 · 20회 인용, Parameter-Efficient Fine-Tuning, data-free knowledge transfer
 - Tracking-by-Segmentation with Online Gradient Boosting Decision Tree | 2015 · 169회 인용, Object Detection
 - Training Deep Networks for Facial Expression Recognition with Crowd-Sourced Label Distribution | 2016 · 990회 인용, Image classification, Facial emotion recognition
 - Transformer in Transformer | 2021 · 2416회 인용, Image classification
