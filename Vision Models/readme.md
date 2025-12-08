@@ -522,6 +522,7 @@
 - Spectral Regularization for Combating Mode Collapse in GANs | 2019 · 113회 인용, Improve techniques for GANs, Image generation
 - SqueezeNet: AlexNet-level accuracy with 50x fewer parameters and <0.5MB model size | 2016 · 11719회 인용, Image classification
 - StableVSR : Enhancing Perceptual Quality in Video Super-Resolution through Temporally-Consistent Detail Synthesis using Diffusion Models | 2023 · 14회 인용, Super resolution
+- Star-Shaped Denoising Diffusion Probabilistic Models | 2023 · 17회 인용, Non-Gaussian Noise Distribution, Non-Markovian
 - StarGAN v2: Diverse Image Synthesis for Multiple Domains | 2019 · 2312회 인용, Image generation
 - Static and Moving Object Detection Using Flux Tensor with Split Gaussian Models | 2014 · 289회 인용, Change detection
 - SteadyDancer: Harmonized and Coherent Human Image Animation with First-Frame Preservation | Image-to-Video
