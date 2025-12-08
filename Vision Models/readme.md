@@ -459,6 +459,7 @@
 - ResShift: Efficient Diffusion Model for Image Super-Resolution by Residual Shifting | 2023 · 362회 인용, Super resolution
 - ResViT: Residual Vision Transformers for Multi-Modal Medical Image Synthesis | 2021 · 549회 인용, Image generation
 - Resnet in Resnet: Generalizing Residual Architectures | 2016 · 1490회 인용, Image classification
+- Restoration based Generative Models | 2023 · 6회 인용, Image Reconstruction
 - Rethinking the Up-Sampling Operations in CNN-based Generative Network for Generalizable Deepfake Detection | 2023 · 210회 인용, Deepfake Detection
 - RetinaNet : Focal Loss for Dense Object Detection | 2017 · 41640회 인용, Object detection
 - Robust and Efficient Object Change Detection by Combining Global Semantic Information and Local Geometric Verification | 2020 · 28회 인용, 3D object detection
