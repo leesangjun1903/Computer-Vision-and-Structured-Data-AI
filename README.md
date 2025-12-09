@@ -93,7 +93,7 @@
 
 ## Anomaly Detection
 - awesome anomaly detection : https://github.com/hoya012/awesome-anomaly-detection
-
+- Awesome Industrial Anomaly Detection : https://github.com/M-3LAB/awesome-industrial-anomaly-detection
 
 ### Action Regognition
 - Awesome Action Recognition : https://github.com/jinwchoi/awesome-action-recognition
