@@ -504,6 +504,7 @@
 - TokenCut : Self-Supervised Transformers for Unsupervised Object Discovery using Normalized Cut | 2022 · 221회 인용, Object detection
 - Semantic Image Synthesis via Diffusion Models | 2022 · 256회 인용, Semantic Image Synthesis 
 - Semantics Lead the Way: Harmonizing Semantic and Texture Modeling with Asynchronous Latent Diffusion | Image Generation, Asynchronous Denoising, Semantic-First Diffusion
+- Semi-Parametric Neural Image Synthesis | 2022 · 44회 인용, Image Generation, Parametric Model, Non-parametric Model
 - Semi-Supervised Learning with Generative Adversarial Networks | 2016 · 977회 인용, Image generation
 - Shadow Removal via Shadow Image Decomposition | 2019 · 255회 인용, Shadow removal
 - Sharing Residual Units Through Collective Tensor Factorization in Deep Neural Networks | 2017 · 26회 인용, Image classification
