@@ -79,6 +79,7 @@
 - CAE : Stacked Convolutional Auto-Encoders for Hierarchical Feature Extraction | 2011 · 2931회 인용, Image reconstruction : https://github.com/bogus215/Stacked-Convolutional-Auto-Encoders-for-Hierarchical-Feature-Extraction
 - CAMixerSR: Only Details Need More “Attention” | 2024 · 63회 인용, Super resolution : https://github.com/icandle/CAMixerSR/tree/main?tab=readme-ov-file
 - CANet: A Context-Aware Network for Shadow Removal | 2021 · 131회 인용, Shadow removal
+- CARD: Classification and Regression Diffusion Models | 2022 · 201회 인용, Image Classification, Image Regression
 - CBAM: Convolutional Block Attention Module | 2018 · 30618회 인용, Image classification, Object detection
 - CDM : Cascaded Diffusion Models for High Fidelity Image Generation | 2021 · 1500회 인용, Image generation, Super resolution
 - CF-DETR: Coarse-to-Fine Transformers for End-to-End Object Detection | 2022 · 53회 인용, Object detection
