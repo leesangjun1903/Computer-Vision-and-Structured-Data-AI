@@ -413,6 +413,7 @@
 - PVANET: Deep but Lightweight Neural Networks for Real-time Object Detection | 2016 · 332회 인용, Object Detection
 - Palette: Image-to-Image Diffusion Models | 2021 · 1988회 인용, Image-to-Image translation
 - Parsing R-CNN for Instance-Level Human Analysis | 2018 · 167회 인용, Human Analysis
+- Pastiche Master: Exemplar-Based High-Resolution Portrait Style Transfer | 2022 · 183회 인용, Image-to-Image Translation
 - ConvMixer : Patches Are All You Need? | 2022 · 686회 인용, Image Classification
 - Perceptual Losses for Real-Time Style Transfer and Super-Resolution | 2016 · 13726회 인용, Image generation, Optimization
 - Personalized Face Inpainting with Diffusion Models by Parallel Visual Attention | 2023 · 20회 인용, Image Inpainting, Facial Inpainting
