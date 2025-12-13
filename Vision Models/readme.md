@@ -281,6 +281,7 @@
 - Hierarchical Representations for Efficient Architecture Search | 2017 · 1237회 인용, NAS
 - HiDT : High-Resolution Daytime Translation Without Domain Labels | 2020 · 116회 인용, Image generation
 - How to Train Your Energy-Based Models | 2021 · 360회 인용, Generation, EBM
+- HyperStyle: StyleGAN Inversion with HyperNetworks for Real Image Editing | 2021 · 385회 인용, Image Editing
 - I-ViT: Integer-only Quantization for Efficient Vision Transformer Inference | 2022 · 156회 인용, Image classification
 - IGCNet : Interleaved Group Convolutions for Deep Neural Networks | 2017 · 434회 인용, Image classification
 - IGCv2: Interleaved Structured Sparse Convolutional Neural Networks | 2018 · 165회 인용, Image classification
