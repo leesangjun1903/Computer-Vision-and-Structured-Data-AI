@@ -641,6 +641,7 @@
 - f-GAN: Training Generative Neural Samplers using Variational Divergence Minimization | 2016 · 2138회 인용, Image generation
 - iDDPM : Improved Denoising Diffusion Probabilistic Models | 2021 · 5039회 인용, Super resolution, Image generation, Image denoising
 - pGAN : Image Synthesis in Multi-Contrast MRI with Conditional Generative Adversarial Networks | 2018 · 682회 인용, Image generation
+- ∞-Diff: Infinite Resolution Diffusion with Subsampled Mollified States | 2023 · 24회 인용, Super-Resolution, Infinite Resolution, Subsampled Mollified States, Non-local Integral Operators
 - 출입 통제에 활용 가능한 딥러닝 기반 마스크 착용 판별 | 2020 · 5회 인용, Image classification, Face recognization
 - OmniSplat: Taming Feed-Forward 3D Gaussian Splatting for Omnidirectional Images with Editable Capabilities | 2024 · 3회 인용
 
