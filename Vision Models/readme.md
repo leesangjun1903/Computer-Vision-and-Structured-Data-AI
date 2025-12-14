@@ -257,6 +257,7 @@
 - FreeSOLO: Learning to Segment Objects without Annotations | 2022 · 160회 인용, Object detection, Semantic segmentation
 - FreqNet : Frequency-Aware Deepfake Detection | 2024 · 134회 인용, Image detection
 - GAN Dissection: Visualizing and Understanding Generative Adversarial Networks | 2018 · 710회 인용, XAI
+- GANomaly: Semi-Supervised Anomaly Detection via Adversarial Training | 2018 · 2337회 인용, Anomaly Detection, Semi-supervised Learning, Adversarial Training
 - GDP : Generative Diffusion Prior for Unified Image Restoration and Enhancement | 2023 · 320회 인용, Image restoration
 - GeBMs : Generalized Energy Based Models | 2020 · 107회 인용, Image generation
 - GLAM : All the attention you need: Global-local, spatial-channel attention for image retrieval | 2021 · 106회 인용, Image retrieval
