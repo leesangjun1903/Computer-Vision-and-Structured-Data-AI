@@ -600,6 +600,7 @@
 - VGG : Very Deep Convolutional Networks for Large-Scale Image Recognition | 2014 · 150415회 인용, Image classification
 - VMRF: View Matching Neural Radiance Fields | 2022 · 88회 인용, 3D reconstruction
 - VOLO: Vision Outlooker for Visual Recognition | 2021 · 432회 인용, Image Classification
+- VT-ADL: A Vision Transformer Network for Image Anomaly Detection and Localization | 2021 · 571회 인용, Industrial Anomaly Detection, Reconstruction-based, Patch Embedding, Gaussian Mixture Density Network
 - Variational Diffusion Models | 2021 · 1509회 인용, Content(Image, Audio, Text, etc) Generation
 - VPD : Unleashing Text-to-Image Diffusion Models for Visual Perception | 2023 · 284회 인용, Semantic segmentation, Depth estimation
 - ViT : An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale | 2020 · 73108회 인용, Image classification
