@@ -496,6 +496,7 @@
 - SKNet : Selective Kernel Networks | 2019 · 3507회 인용, Image classification
 - SMCA-DETR : Fast Convergence of DETR with Spatially Modulated Co-Attention | 2021 · 410회 인용, Object detection
 - SPADE : Semantic Image Synthesis with Spatially-Adaptive Normalization | 2019 · 3893회 인용, Image generation
+- SPADE : Sub-Image Anomaly Detection with Deep Pyramid Correspondences | 2020 · 807회 인용, Anomaly Detection, Deep Pyramid, Nearest neighbor (kNN) methods
 - SR3 : Image Super-Resolution via Iterative Refinement | 2021 · 2547회 인용, Super resolution
 - SR3+ : Denoising Diffusion Probabilistic Models for Robust Image Super-Resolution in the Wild | 2023 · 85회 인용, Super resolution
 - SRCNN : Image Super-Resolution Using Deep Convolutional Networks | 2014 · 11819회 인용, Super-resolution
