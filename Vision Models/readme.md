@@ -318,6 +318,7 @@
 - LCM : Latent Consistency Models: Synthesizing High-Resolution Images with Few-Step Inference | 2023 · 523회 인용, Image generation, Accelerate sampling
 - LCM-LoRA: A Universal Stable-Diffusion Acceleration Module | 2023 · 180회 인용, Accelerate Sampling
 - LDM : High-Resolution Image Synthesis with Latent Diffusion Models | 2021 · 23912회 인용, Image generation, Super resolution
+- LEO: Generative Latent Image Animator for Human Video Synthesis | 2023 · 43회 인용, Human Video Synthesis, Latent Motion Diffusion Model, Flow-based Image Animator
 - LESRCNN : Lightweight Image Super-Resolution with Enhanced CNN | 2020 · 185회 인용, Super resolution : https://github.com/hellloxiaotian/LESRCNN/tree/master?tab=readme-ov-file
 - LGGAN : Local Class-Specific and Global Image-Level Generative Adversarial Networks for Semantic-Guided Scene Generation | 2019 · 198회 인용, Image reconstruction, Image generation
 - LIP: Local Importance-based Pooling | 2019 · 183회 인용, Image classification, Pooling technique, Object detection
