@@ -182,6 +182,7 @@
 - DiNAT : Dilated Neighborhood Attention Transformer | 2022 · 121회 인용, Image classification, Object detection, Semantic segmentation
 - DiT : Scalable Diffusion Models with Transformers | 2022 · 3548회 인용, Image generation
 - DifFace: Blind Face Restoration with Diffused Error Contraction | 2022 · 128회 인용, Image Enhancement, Face Restoration
+- DiffFit: Unlocking Transferability of Large Diffusion Models via Simple Parameter-Efficient Fine-Tuning | 2023 · 111회 인용, Image Generation, Diffusion Model, PEFT, Parameter-Efficient Fine-Tuning
 - Diff-Instruct: A Universal Approach for Transferring Knowledge From Pre-trained Diffusion Models | 2023 · 155회 인용, Image generation
 - Diff-Pruning : Structural Pruning for Diffusion Models | 2023 · 355회 인용, Image generation
 - Diff-Retinex: Rethinking Low-light Image Enhancement with A Generative Diffusion Model | 2023 · 230회 인용, Image Enhancement
