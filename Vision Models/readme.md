@@ -126,6 +126,7 @@
 - DCLGAN : Dual Contrastive Learning for Unsupervised Image-to-Image Translation | 2021 · 266회 인용, Image generation
 - DDGANs : Tackling the Generative Learning Trilemma with Denoising Diffusion GANs | 2021 · 765회 인용, Image generation
 - DDIM : Denoising Diffusion Implicit Models | 2020 · 10266회 인용, Image generation
+- DDP: Diffusion Model for Dense Visual Prediction | 2023 · 223회 인용, Dense Visual Prediction, Conditional Diffusion Model, Decoupled Design
 - DDNM : Zero-Shot Image Restoration Using Denoising Diffusion Null-Space Model | 2022 · 595회 인용, Super resolution
 - DDPM : Denoising Diffusion Probabilistic Models | 2020 · 27532회 인용, Image generation : https://github.com/lucidrains/denoising-diffusion-pytorch?tab=readme-ov-file
 - DDPM-PA : Few-shot Image Generation with Diffusion Models | 2022 · 31회 인용, Image generation
