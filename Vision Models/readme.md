@@ -308,6 +308,7 @@
 - Improving Foreground Segmentations with Probabilistic Superpixel Markov Random Fields | 2012 · 200회 인용, Change detection
 - Improving Sample Quality of Diffusion Models Using Self-Attention Guidance | 2022 · 147회 인용, Image generation
 - In-Domain GAN Inversion for Real Image Editing | 2020 · 821회 인용, Image Editing
+- InSPyReNet : Revisiting Image Pyramid Structure for High-Resolution Salient Object Detection | 2022 · 78회 인용, Object Detection, SICA (Saliency Image Cross-Attention), Pyramid Blending
 - Inceptionv2, 3 : Rethinking the Inception Architecture for Computer Vision | 2015 · 40956회 인용, Image classification
 - Inception-v4, Inception-ResNet and the Impact of Residual Connections on Learning | 2016 · 19858회 인용, Image classification
 - InfoGAN: Interpretable Representation Learning by Information Maximizing Generative Adversarial Nets | 2016 · 6178회 인용, Image generation, Interpretable representation
