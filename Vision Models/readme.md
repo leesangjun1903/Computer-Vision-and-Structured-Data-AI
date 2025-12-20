@@ -595,6 +595,7 @@
 - U-GAT-IT: Unsupervised Generative Attentional Networks with Adaptive Layer-Instance Normalization for Image-to-Image Translation | 2019 · 804회 인용, Image generation
 - U-Net: Convolutional Networks for Biomedical Image Segmentation | 2015 · 120618회 인용, Semantic segmentation
 - UDIS++ : Parallax-Tolerant Unsupervised Deep Image Stitching | 2023 · 87회 인용, Image stitching
+- UDPM: Upsampling Diffusion Probabilistic Models | 2023 · 5회 인용, Super-Resolution, Image Denoising, Multi-dimensional Diffusion, Upsampling in Reverse
 - UFOGen: You Forward Once Large Scale Text-to-Image Generation via Diffusion GANs | 2023 · 130회 인용, Image generation
 - UP-DETR : Unsupervised Pre-training for Detection Transformers | 2020 · 711회 인용, Object detection
 - UPerNet : Unified Perceptual Parsing for Scene Understanding | 2018 · 2642회 인용, Semantic segementation
