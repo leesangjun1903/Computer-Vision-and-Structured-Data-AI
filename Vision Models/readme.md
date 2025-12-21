@@ -638,6 +638,7 @@
 - WRN : Wide Residual Networks | 2016 · 10868회 인용, Image classification
 - What is YOLOv8: An In-Depth Exploration of the Internal Features of the Next-Generation Object Detector | 2024 · 197회 인용, Object detection
 - Xception: Deep Learning with Depthwise Separable Convolutions | 2016 · 24140회 인용, Image classification
+- YOLACT Real-time Instance Segmentation | 2019 · 3374회 인용, Instance Segmentation, Protonet (Prototype Generation), Prediction Head (Mask Coefficients), Assembly, Fast NMS(Non-Maximum Suppression) 
 - YOLO : You Only Look Once: Unified, Real-Time Object Detection | 2015 · 66874회 인용, Object detection
 - YOLOS : You Only Look at One Sequence: Rethinking Transformer in Vision through Object Detection | 2021 · 448회 인용, Object detection
 - YOLOr : You Only Learn One Representation: Unified Network for Multiple Tasks | 2021 · 870회 인용, Object detection, Semantic segmentation, Keypoint detection, Image classification
