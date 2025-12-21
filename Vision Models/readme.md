@@ -48,6 +48,7 @@
 - AlexNet : ImageNet Classification with Deep Convolutional Neural Networks | 2012 · 149105회 인용, Image classification
 - AnomalyDiffusion: Few-Shot Anomaly Image Generation with Diffusion Model | 2023 · 120회 인용, Anomaly Detection
 - Anchor DETR: Query Design for Transformer-Based Object Detection | 2021 · 75회 인용, Object detection
+- Anomaly Detection with Conditioned Denoising Diffusion Models | 2023 · 153회 인용, Anomaly Detection, Conditioned Denoising, Domain Adaptation
 - AnomalySD: Few-Shot Multi-Class Anomaly Detection with Stable Diffusion Model | 2024 · 3회 인용, Anomaly detection
 - ArcFace: Additive Angular Margin Loss for Deep Face Recognition | 2018 · 9174회 인용, Image classification, Face recognition
 - Attention U-Net: Learning Where to Look for the Pancreas | 2018 · 9212회 인용, Semantic segmentation
