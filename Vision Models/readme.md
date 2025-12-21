@@ -86,6 +86,7 @@
 - CDM : Cascaded Diffusion Models for High Fidelity Image Generation | 2021 · 1500회 인용, Image generation, Super resolution
 - CF-DETR: Coarse-to-Fine Transformers for End-to-End Object Detection | 2022 · 53회 인용, Object detection
 - CFG : Classifier-Free Diffusion Guidance | 2022 · 5339회 인용, Data diversity, Optimization
+- CFLOW-AD: Real-Time Unsupervised Anomaly Detection with Localization via Conditional Normalizing Flows | 2021 · 762회 인용, Anomaly Detection, Conditional Normalizing Flows, Localization
 - CLIP : Learning Transferable Visual Models From Natural Language Supervision | 2021 · 43122회 인용, Image recognition, Image generation
 - CLIPDraw: Exploring Text-to-Drawing Synthesis through Language-Image Encoders | 2021 · 254회 인용, Image generation
 - CM : Consistency Models | 2023 · 1357회 인용, Image generation, Accelerate Sampling
