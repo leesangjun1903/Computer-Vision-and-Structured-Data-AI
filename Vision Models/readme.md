@@ -625,6 +625,7 @@
 - Variational Diffusion Models | 2021 · 1509회 인용, Content(Image, Audio, Text, etc) Generation
 - VPD : Unleashing Text-to-Image Diffusion Models for Visual Perception | 2023 · 284회 인용, Semantic segmentation, Depth estimation
 - ViT : An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale | 2020 · 73108회 인용, Image classification
+- ViTAE: Vision Transformer Advanced by Exploring Intrinsic Inductive Bias | 2021 · 750회 인용, Image Classification, Image Segmentation, Object Detection, Reduction Cell (RC), Normal Cell (NC)
 - ViTDet : Exploring Plain Vision Transformer Backbones for Object Detection | 2022 · 1230회 인용, Object detection
 - ViTMAE : Masked Autoencoders Are Scalable Vision Learners | 2021 · 11600회 인용, Object detection, Semantic segmentation
 - ViTMSN : Masked Siamese Networks for Label-Efficient Learning | 2022 · 437회 인용, Image classification
