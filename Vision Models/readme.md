@@ -505,6 +505,7 @@
 - SENet : Squeeze-and-Excitation Networks | 2017 · 44660회 인용, Image classification, Object detection
 - SFG : Stochastic Filter Groups for Multi-Task CNNs: Learning Specialist and Generalist Convolution Kernels | 2019 · 114회 인용, Image classification, Image regression, Image segmentation
 - SFT-GAN : Recovering Realistic Texture in Image Super-resolution by Deep Spatial Feature Transform | 2018 · 1381회 인용, Super resolution
+- SIDDMs : Semi-Implicit Denoising Diffusion Models | 2023 · 18회 인용, Image Generation, Distribution Decomposition, Implicit GAN Loss Function, Explicit L2 Loss Function
 - SIFT : Distinctive Image Features from Scale-Invariant Keypoints | 2004 · 80403회 인용, Image retrieval
 - SKNet : Selective Kernel Networks | 2019 · 3507회 인용, Image classification
 - SMCA-DETR : Fast Convergence of DETR with Spatially Modulated Co-Attention | 2021 · 410회 인용, Object detection
