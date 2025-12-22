@@ -578,6 +578,7 @@
 - TRACT: Denoising Diffusion Models with Transitive Closure Time-Distillation |  2023 · 127회 인용, Image Generation, Transitive Closure Time-Distillation, Fast Sampling
 - TSIT: A Simple and Versatile Framework for Image-to-Image Translation | 2020 · 166회 인용
 - TSP-DETR : Rethinking Transformer-based Set Prediction for Object Detection | 2020 · 461회 인용, Object detection
+- TSRFormer: Table Structure Recognition with Transformers | 2022 · 64회 인용, Table Structure Recognition, Line Regression, SepRETR (Separator REgression TRansformer), Relation Network-based Cell Merging
 - TTT3R: 3D Reconstruction as Test-Time Training | 3D reconstruction
 - TUNIT : Rethinking the Truly Unsupervised Image-to-Image Translation | 2020 · 142회 인용, Image generation
 - Taming Video Diffusion Prior with Scene-Grounding Guidance for 3D Gaussian Splatting from Sparse Inputs | 3D Gaussian Splatting
