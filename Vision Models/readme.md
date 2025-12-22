@@ -546,6 +546,7 @@
 - Siamese Neural Networks for One-shot Image Recognition | 2015 . 6215회 인용, Meta-learning
 - SimCLR: A Simple Framework for Contrastive Learning of Visual Representations | 2020 · 26555회 인용, Image Classification, Object Recognition
 - SimCLRv2 : Big Self-Supervised Models are Strong Semi-Supervised Learners | 2020 · 2942회 인용, Self-Supervised Image Classification, Semi-Supervised Image Classification
+- SimMIM: a Simple Framework for Masked Image Modeling | 2021 · 2001회 인용, Image Classification, Object Detection, Semantic Segmentation, Random Masking, Raw Pixel Regression, Lightweight Prediction Head
 - SimSiam : Exploring Simple Siamese Representation Learning | 2020 · 5727회 인용, Self-Supervised Image Classification
 - SimpleShot: Revisiting Nearest-Neighbor Classification for Few-Shot Learning | 2019 · 490회 인용, Image classification
 - simple diffusion: End-to-end diffusion for high resolution images | 2023 · 315회 인용, Image generation
