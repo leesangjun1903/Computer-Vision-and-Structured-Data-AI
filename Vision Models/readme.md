@@ -135,6 +135,7 @@
 - DDPM-PA : Few-shot Image Generation with Diffusion Models | 2022 · 31회 인용, Image generation
 - DETA : NMS Strikes Back | 2022 · 73회 인용, Object detection
 - DETR : End-to-End Object Detection with Transformers | 2020 · 20308회 인용, Object detection
+- DFormer: Diffusion-guided Transformer for Universal Image Segmentation | 2023 · 32회 인용, Image Segmentation, Diffusion Model, Diffusion-based Decoder
 - DIFFGUARD: Semantic Mismatch-Guided Out-of-Distribution Detection using Pre-trained Diffusion Models | 2023 · 25회 인용, Out of distribution(OOD) detection
 - DINO : DETR with Improved DeNoising Anchor Boxes for End-to-End Object Detection | 2022 · 2463회 인용, Object detection
 - DINO : Emerging Properties in Self-Supervised Vision Transformers | 2021 · 8409회 인용, Semantic segmentation, Image classification, Image retrieval, Object detection
