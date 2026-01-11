@@ -667,6 +667,7 @@
 - YOLOv11: An Overview of the Key Architectural Enhancements | 2024 · 1492회 인용, Object detection
 - YOLOv12: Attention-Centric Real-Time Object Detectors | 2025 · 597회 인용, Object detection
 - YOLOv13: Real-Time Object Detection with Hypergraph-Enhanced Adaptive Visual Perception | 2025 · 30회 인용, Object detection
+- YOLO26: Key Architectural Enhancements and Performance Benchmarking for Real-Time Object Detection | 2025 · 8회 인용, Object Detection
 - ZSSR : "Zero-Shot" Super-Resolution using Deep Internal Learning | 2018 · 1111회 인용, Image generation, zero shot learning
 - ZeCon : Zero-Shot Contrastive Loss for Text-Guided Diffusion Image Style Transfer | 2023 · 100회 인용, Image-to-Image generation
 - cGAN : Conditional Generative Adversarial Nets | 2014 · 16150회 인용, Image generation
