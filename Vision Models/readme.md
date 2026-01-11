@@ -493,6 +493,7 @@
 - Restoration based Generative Models | 2023 · 6회 인용, Image Reconstruction
 - Rethinking the Up-Sampling Operations in CNN-based Generative Network for Generalizable Deepfake Detection | 2023 · 210회 인용, Deepfake Detection
 - RetinaNet : Focal Loss for Dense Object Detection | 2017 · 41640회 인용, Object detection
+- Reverse Convolution and Its Applications to Image Restoration | 2025 · 1회 인용, Image Restoration, Image Reconstruction, Reverse Convolution, Fourier Transform
 - Robust Classification via a Single Diffusion Model | 2023 · 100회 인용, Image Classification, Generative Classifier, Adversarial Robustness, Multi-head U-Net
 - Robust and Efficient Object Change Detection by Combining Global Semantic Information and Local Geometric Verification | 2020 · 28회 인용, 3D object detection
 - S3Diff : Degradation-Guided One-Step Image Super-Resolution with Diffusion Priors | 2024 · 14회 인용, Super resolution
