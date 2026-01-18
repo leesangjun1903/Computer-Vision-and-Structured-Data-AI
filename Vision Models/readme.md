@@ -606,6 +606,7 @@
 - Towards Practical Plug-and-Play Diffusion Models | 2022 · 20회 인용, Parameter-Efficient Fine-Tuning, data-free knowledge transfer
 - Tracking-by-Segmentation with Online Gradient Boosting Decision Tree | 2015 · 169회 인용, Object Detection
 - Training Deep Networks for Facial Expression Recognition with Crowd-Sourced Label Distribution | 2016 · 990회 인용, Image classification, Facial emotion recognition
+- TransUNet: Transformers Make Strong Encoders for Medical Image Segmentation | 2021 · 8483회 인용, Image Segmentation
 - Transformer in Transformer | 2021 · 2416회 인용, Image classification
 - Tree-Ring Watermarks: Fingerprints for Diffusion Images that are Invisible and Robust | 2023 · 197회 인용, Wartermarks Technique, Digital Fingerprint
 - TryOnDiffusion: A Tale of Two UNets | 2023 · 185회 인용, Virtual Try-on 
