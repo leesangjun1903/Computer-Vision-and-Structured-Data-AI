@@ -116,6 +116,7 @@
 - ControlNet : Adding Conditional Control to Text-to-Image Diffusion Models | 2023 · 5873회 인용, Image generation
 - ConvNeXt : A ConvNet for the 2020s | 2022 · 9671회 인용, Image classification, Object detection, Semantic Segmentation
 - ConvNeXt V2: Co-designing and Scaling ConvNets with Masked Autoencoders | 2023 · 1535회 인용, Image classification, Object detection, Semantic segmentation
+- Convolutional Clustering for Unsupervised Learning | 2015 · 103회 인용, Convolution K-Mean Clustering, Unsupervised Convolution Technique
 - Cross-domain Compositing with Pretrained Diffusion Models | 2023 · 22회 인용, Image Blending
 - CrossViT: Cross-Attention Multi-Scale Vision Transformer for Image Classification | 2021 · 2401회 인용, Image classification
 - CutLER: Cut and Learn for Unsupervised Object Detection and Instance Segmentation | 2023 · 274회 인용, Object detection, Semantic segmentation
