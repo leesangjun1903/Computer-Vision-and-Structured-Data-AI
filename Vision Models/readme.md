@@ -221,6 +221,7 @@
 - DreamBooth: Fine Tuning Text-to-Image Diffusion Models for Subject-Driven Generation | 2022 · 3668회 인용, Image generation
 - Drop an Octave: Reducing Spatial Redundancy in Convolutional Neural Networks with Octave Convolution | 2019 · 866회 인용, Image classification, Video action recognition
 - DuDGAN: Improving Class-Conditional GANs via Dual-Diffusion | 2023 · 18회 인용, Image Generation, Dual-Diffusion
+- Dynamic Clustering Convolutional Neural Network | DCConv(Dynamic Clustering Convolution)
 - Dynamic Convolution: Attention over Convolution Kernels | 2019 · 1503회 인용, Image classification
 - Dynamic DETR: End-to-End Object Detection with Dynamic Attention | 2021 · 486회 인용, Object detection
 - Dynamic Dual-Output Diffusion Models | 2022 · 42회 인용, Image Prediction
