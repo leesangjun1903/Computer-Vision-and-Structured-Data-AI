@@ -564,6 +564,7 @@
 - SimMIM: a Simple Framework for Masked Image Modeling | 2021 · 2001회 인용, Image Classification, Object Detection, Semantic Segmentation, Random Masking, Raw Pixel Regression, Lightweight Prediction Head
 - SimSiam : Exploring Simple Siamese Representation Learning | 2020 · 5727회 인용, Self-Supervised Image Classification
 - SimpleShot: Revisiting Nearest-Neighbor Classification for Few-Shot Learning | 2019 · 490회 인용, Image classification
+- Simplifying, Stabilizing and Scaling Continuous-Time Consistency Models | 2024 · 132회 인용, Single-Step Inference, Image Generation, sCM
 - simple diffusion: End-to-end diffusion for high resolution images | 2023 · 315회 인용, Image generation
 - SinFusion: Training Diffusion Models on a Single Image or Video | 2022 · 83회 인용, Image, Video Generation
 - SinGAN: Learning a Generative Model from a Single Natural Image | 2019 · 1151회 인용, Image generation
