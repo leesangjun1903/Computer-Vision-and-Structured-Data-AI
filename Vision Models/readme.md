@@ -679,6 +679,7 @@
 - YOLO26: Key Architectural Enhancements and Performance Benchmarking for Real-Time Object Detection | 2025 · 8회 인용, Object Detection
 - ZSSR : "Zero-Shot" Super-Resolution using Deep Internal Learning | 2018 · 1111회 인용, Image generation, zero shot learning
 - ZeCon : Zero-Shot Contrastive Loss for Text-Guided Diffusion Image Style Transfer | 2023 · 100회 인용, Image-to-Image generation
+- Zero-1-to-3: Zero-shot One Image to 3D Object | 2023 · 1462회 인용, 3D Reconstruction,. Hybrid Conditioning
 - cGAN : Conditional Generative Adversarial Nets | 2014 · 16150회 인용, Image generation
 - f-GAN: Training Generative Neural Samplers using Variational Divergence Minimization | 2016 · 2138회 인용, Image generation
 - iDDPM : Improved Denoising Diffusion Probabilistic Models | 2021 · 5039회 인용, Super resolution, Image generation, Image denoising
