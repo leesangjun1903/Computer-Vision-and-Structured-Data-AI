@@ -587,6 +587,7 @@
 - Structure from Motion with Objects | 2016 · 58회 인용, 3D reconstruction
 - StyleGAN-XL: Scaling StyleGAN to Large Diverse Datasets | 2022 · 669회 인용, Image Generation, StyleGAN3, Projected GAN
 - StyleGAN2 : Analyzing and Improving the Image Quality of StyleGAN | 2019 · 8374회 인용, Image generation
+- StyleNAT: Efficient Image Generation with Variadic Attention Heads | Image Generation, Variadic Attention Heads, Neighborhood Attention(NA)
 - SuperPoint: Self-Supervised Interest Point Detection and Description | 2017 · 3820회 인용, Image matching, 3D reconstruction, Point detection
 - SwAV : Unsupervised Learning of Visual Features by Contrasting Cluster Assignments | 2020 · 5217회 인용, Image classification
 - SwiftFormer: Efficient Additive Attention for Transformer-based Real-time Mobile Vision Applications | 2023 · 217회 인용, Image classification
