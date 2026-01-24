@@ -330,6 +330,7 @@
 - InstaFlow: One Step is Enough for High-Quality Diffusion-Based Text-to-Image Generation | 2023 · 312회 인용, Image generation
 - Instant-NGP : Instant Neural Graphics Primitives with a Multiresolution Hash Encoding | 2022 · 5205회 인용, 3D reconstruction
 - InternImage: Exploring Large-Scale Vision Foundation Models with Deformable Convolutions | 2022 · 1349회 인용, DCNv3 (Deformable Convolution v3), Adaptive Spatial Aggregation, CNN Foundation Model
+- Interpolating between Images with Diffusion Models | 2023 · 31회 인용, Image Interpolation, Latent Diffusion Models, Zero-shot, Latent Interpolation, Conditioning
 - IPViT : Intriguing Properties of Vision Transformers | 2021 · 834회 인용 , Image classification
 - InvSR : Arbitrary-steps Image Super-resolution via Diffusion Inversion | 2024 · 26회 인용, Super-Resolution
 - K-Planes: Explicit Radiance Fields in Space, Time, and Appearance | 2023 · 792회 인용, 3D reconstruction
