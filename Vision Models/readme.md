@@ -493,6 +493,7 @@
 - RegNet : Designing Network Design Spaces | 2020 · 2495회 인용, Image classification
 - Region Mutual Information Loss for Semantic Segmentation | 2019 · 158회 인용, Semantic segmentation, Optimization
 - Regularized Evolution for Image Classifier Architecture Search | 2018 · 3957회 인용, NAS
+- Relay Diffusion: Unifying diffusion process across resolutions for image synthesis | 2023 · 69회 인용, Super-Resolution, Blurring Diffusion, Block Noise
 - RCM : Reparameterizing Convolutions for Incremental Multi-Task Learning without Task Interference | 2020 · 112회 인용, Image classification, Semantic segmentation, Multi-Task Learning
 - Res2Net: A New Multi-scale Backbone Architecture | 2019 · 3684회 인용, Image classification
 - ResNeXt: Aggregated Residual Transformations for Deep Neural Networks | 2016 · 15486회 인용, Image classification
