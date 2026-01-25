@@ -468,6 +468,7 @@
 - PolyNet: A Pursuit of Structural Diversity in Very Deep Networks | 2016 · 339회 인용, Image classification
 - Progressive Distillation for Fast Sampling of Diffusion Models | 2022 · 1677회 인용, Image generation
 - Progressive Neural Architecture Search | 2017 · 2661회 인용, NAS
+- Prompt-Free Diffusion: Taking “Text” out of Text-to-Image Diffusion Models | 2023 · 94회 인용, Free-Text(Prompt), SeeCoder
 - Prompt-to-Prompt : Prompt-to-Prompt Image Editing with Cross Attention Control | 2022 · 2130회 인용, Image editing, Image generation
 - PromptSR : Image Super-Resolution with Text Prompt Diffusion | 2023 · 21회 인용, Super resolution
 - ProxylessNAS: Direct Neural Architecture Search on Target Task and Hardware |  2018 · 2511회 인용, NAS
