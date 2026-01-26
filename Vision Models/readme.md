@@ -317,6 +317,7 @@
 - ImageGPT : Generative Pretraining from Pixels | 2020 · 2122회 인용, Image classification
 - Implicit Generation and Modeling with Energy-Based Models | 2019 · 896회 인용, Image generation, Image reconstruction
 - Improved Contrastive Divergence Training of Energy-Based Model | 2020 · 183회 인용, Image generation
+- Improved Masked Image Generation with Token-Critic | 2022 · 67회 인용, Image Generation, MaskGIT Improvement, Token-Critic
 - Improved Techniques for Training GANs | 2016 · 12624회 인용, GAN technique, Image generation
 - Improving Foreground Segmentations with Probabilistic Superpixel Markov Random Fields | 2012 · 200회 인용, Change detection
 - Improving Sample Quality of Diffusion Models Using Self-Attention Guidance | 2022 · 147회 인용, Image generation
