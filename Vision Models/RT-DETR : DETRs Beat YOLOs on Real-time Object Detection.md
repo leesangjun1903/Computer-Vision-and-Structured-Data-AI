@@ -1,5 +1,5 @@
 
-# DETRs Beat YOLOs on Real-time Object Detection 논문 분석 보고서
+# RT-DETR : DETRs Beat YOLOs on Real-time Object Detection
 
 ## 1. 논문의 핵심 주장 및 기여도 요약
 
