@@ -440,6 +440,7 @@
 - One-Step Effective Diffusion Network for Real-World Image Super-Resolution | 2024 · 124회 인용, Image Enhancement
 - OverFeat: Integrated Recognition, Localization and Detection using Convolutional Networks | 2013 · 8137회 인용, Object Detection, Localization
 - P2 weighting : Perception Prioritized Training of Diffusion Models | 2022 · 318회 인용, Image generation
+- Path Aggregation Network for Instance Segmentation | 2018 · 11419회 인용, Instance Segmentation, Bottom-up Path Augmentation, Adaptive Feature Pooling, Fully-connected Fusion
 - PASD : Pixel-Aware Stable Diffusion for Realistic Image Super-Resolution and Personalized Stylization | 2023 · 195회 인용, Super resolution
 - PFGM : Poisson Flow Generative Models | 2022 · 123회 인용, Image generation
 - PFGM++: Unlocking the Potential of Physics-Inspired Generative Models | 2023 · 78회 인용, Image generation
