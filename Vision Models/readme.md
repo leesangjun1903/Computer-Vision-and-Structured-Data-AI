@@ -76,6 +76,7 @@
 - Block-NeRF: Scalable Large Scene Neural View Synthesis | 2022 · 1039회 인용, 3D representation
 - Background Segmentation with Feedback: The Pixel-Based Adaptive Segmenter | 2012 · 769회 인용, Change detection
 - Background Subtraction: Experiments and Improvements for ViBe | 2012 · 382회 인용, Semantic segmentation
+- BatchNorm-based Weakly Supervised Video Anomaly Detection | 2023 · 52회 인용, Video Anomaly Detection, DFM(Divergence of Feature from Mean), Batch-level Selection Strategy(SBS), BatchNorm Technique
 - BicycleGAN : Toward Multimodal Image-to-Image Translation | 2017 · 2094회 인용, Image-to-Image generation
 - BlockQNN : Practical Block-wise Neural Network Architecture Generation | 2017 · 671회 인용, Image classification, Reinforcement Learning
 - Boosting Robustness of Image Matting with Context Assembling and Strong Data Augmentation | 2022 · 42회 인용, Image matting
