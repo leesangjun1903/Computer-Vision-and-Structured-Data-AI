@@ -456,6 +456,7 @@
 - Parsing R-CNN for Instance-Level Human Analysis | 2018 · 167회 인용, Human Analysis
 - Pastiche Master: Exemplar-Based High-Resolution Portrait Style Transfer | 2022 · 183회 인용, Image-to-Image Translation
 - Patch Diffusion: Faster and More Data-Efficient Training of Diffusion Models | 2023 · 387회 인용, Image Generation, Patch-wise Training, Coordinate-conditioned Score Function, Plug-and-Play
+- Patch SVDD: Patch-level SVDD for Anomaly Detection and Segmentation | 2020 · 731회 인용, Anomaly Detection
 - ConvMixer : Patches Are All You Need? | 2022 · 686회 인용, Image Classification
 - Perceptual Losses for Real-Time Style Transfer and Super-Resolution | 2016 · 13726회 인용, Image generation, Optimization
 - Personalize Segment Anything Model with One Shot | 2023 · 344회 인용, Image Segmentation, One-shot Personalization, Training-free, PerSAM-F
