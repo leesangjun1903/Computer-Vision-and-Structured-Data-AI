@@ -1,15 +1,4 @@
-<img src="https://r2cdn.perplexity.ai/pplx-full-logo-primary-dark%402x.png" style="height:64px;margin-right:32px"/>
-
-# 1. 당신은 AI 분야의 연구자입니다. "Semi-DETR: Semi-Supervised Object Detection with Detection Transformers"의 핵심 주장과 주요 기여를 간결하게 요약하세요.
-
-2. 이 논문이 "해결하고자 하는 문제, 제안하는 방법(수식 포함), 모델 구조, 성능 향상 및 한계"를 중심으로 자세하게 설명하세요.
-3.특히 "모델의 일반화 성능 향상 가능성"과 관련된 내용을 중점적으로 다뤄 주세요.
-4.요약 후에는 "해당 논문이 앞으로의 연구에 미치는 영향과 앞으로 연구 시 고려할 점"도 자세히 기술해 주세요.
-“2020년 이후 관련 최신 연구 비교 분석”
-수식을 LaTeX 코드로 답변 형식을 맞춰주고, LaTeX 렌더링을 위해 마크다운에 달러 기호를 사용해 주세요.
-
-답변을 제시할 때, 참고한 사이트의 출처 또는 참고자료의 제목을 반드시 모두 적어주세요.
-답변의 정확도가 100% 확신이 서지 않는다면, 억지로 답변을 지어내지 말고 정확한 답변만 제시하세요.
+# Semi-DETR: Semi-Supervised Object Detection with Detection Transformers
 
 논문의 핵심은, (1) DETR 계열을 그대로 SSOD에 쓰면 “헝가리안 one-to-one 매칭 + 노이즈 많은 pseudo box” 때문에 학습이 비효율적이고, (2) 쿼리–출력 간 일대일 대응이 없어 기존 consistency regularization을 적용하기 어렵다는 한계를 분석한 뒤, 이를 해결하는 Semi-DETR 프레임워크(하이브리드 매칭 + cross-view query consistency + cost 기반 pseudo-label mining)를 제안해 COCO/VOC 전 설정에서 기존 SOTA SSOD를 크게 능가한다는 것입니다.[^1_1][^1_2]
 
@@ -65,7 +54,7 @@ $$
 
 초기에는 pseudo box가 부정확하므로, 각 pseudo box에 대해 **여러 개의 양성 proposal**을 할당하는 one-to-many 매칭을 사용합니다.[^1_2][^1_1]
 
-$$
+```math
 \{\boldsymbol{\sigma}_i\}_{\text{o2m}}
 =
 \left\{
@@ -73,7 +62,7 @@ $$
 \sum_{j=1}^{M} 
 \mathcal{C}_{\text{match}}\left(\hat{y}^{t}_{i}, \hat{y}^{s}_{\boldsymbol{\sigma}_i(j)}\right)
 \right\}_{i=1}^{|\hat{y}^t|},
-$$
+```
 
 여기서 $C^M_N$은 $N$개 중 $M$개를 고르는 조합, 즉 각 pseudo box마다 $M$개의 proposal을 positive로 고르는 것을 의미합니다.[^1_1][^1_2]
 
@@ -89,7 +78,7 @@ $$
 
 양성/음성 수가 크게 달라지는 one-to-many 세팅에 맞춰 classification/regression loss를 가중합니다.[^1_2][^1_1]
 
-$$
+```math
 \mathcal{L}^{\text{o2m}}_{\text{cls}}
 =
 \sum_{i=1}^{N_{\text{pos}}}
@@ -99,9 +88,9 @@ $$
 \sum_{j=1}^{N_{\text{neg}}}
 s_j^{\gamma}
 \text{BCE}(s_j, 0),
-$$
+```
 
-$$
+```math
 \mathcal{L}^{\text{o2m}}_{\text{reg}}
 =
 \sum_{i=1}^{N_{\text{pos}}}
@@ -109,15 +98,15 @@ $$
 +
 \sum_{i=1}^{N_{\text{pos}}}
 \hat{m}_i \mathcal{L}_{L_1}(b_i, \hat{b}_i),
-$$
+```
 
-$$
+```math
 \mathcal{L}^{\text{o2m}}
 =
 \mathcal{L}^{\text{o2m}}_{\text{cls}}
 +
 \mathcal{L}^{\text{o2m}}_{\text{reg}}.
-$$
+```
 
 여기서 $\hat{m}_i$는 해당 proposal의 매칭 score 정규화 버전, $\gamma$는 Focal Loss와 유사한 조절 파라미터(기본값 2)입니다.[^1_1][^1_2]
 
@@ -180,7 +169,7 @@ CQC에 사용할 pseudo box는 많을수록 좋지만, 품질이 너무 나쁘�
 
 초기 pseudo box(예: score threshold $\tau_s = 0.4$로 필터링)를 teacher에서 얻은 뒤, student 예측과 다시 bipartite matching을 수행하고, 각 pseudo box–prediction 쌍 $(i, j)$에 대해 다음의 cost를 계산합니다.[^1_2][^1_1]
 
-$$
+```math
 C_{ij}
 = 
 \lambda_1 C_{\text{Cls}}(p_i, \hat{p}_j)
@@ -188,7 +177,7 @@ C_{ij}
 \lambda_2 C_{\text{GIoU}}(b_i, \hat{b}_j)
 +
 \lambda_3 C_{L_1}(b_i, \hat{b}_j),
-$$
+```
 
 여기서 $p_i, b_i$는 i번째 prediction의 class/box, $\hat{p}_j, \hat{b}_j$는 j번째 pseudo box의 class/box입니다.[^1_1][^1_2]
 
