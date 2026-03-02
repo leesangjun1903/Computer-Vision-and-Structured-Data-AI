@@ -1,15 +1,4 @@
-<img src="https://r2cdn.perplexity.ai/pplx-full-logo-primary-dark%402x.png" style="height:64px;margin-right:32px"/>
-
-# 1. 당신은 AI 분야의 연구자입니다. "VideoFusion: Decomposed Diffusion Models for High-Quality Video Generation"의 핵심 주장과 주요 기여를 간결하게 요약하세요.
-
-2. 이 논문이 "해결하고자 하는 문제, 제안하는 방법(수식 포함), 모델 구조, 성능 향상 및 한계"를 중심으로 자세하게 설명하세요.
-3.특히 "모델의 일반화 성능 향상 가능성"과 관련된 내용을 중점적으로 다뤄 주세요.
-4.요약 후에는 "해당 논문이 앞으로의 연구에 미치는 영향과 앞으로 연구 시 고려할 점"도 자세히 기술해 주세요.
-“2020년 이후 관련 최신 연구 비교 분석”
-수식을 LaTeX 코드로 답변 형식을 맞춰주고, LaTeX 렌더링을 위해 마크다운에 달러 기호를 사용해 주세요.
-
-답변을 제시할 때, 참고한 사이트의 출처 또는 참고자료의 제목을 반드시 모두 적어주세요.
-답변의 정확도가 100% 확신이 서지 않는다면, 억지로 답변을 지어내지 말고 정확한 답변만 제시하세요.
+# VideoFusion: Decomposed Diffusion Models for High-Quality Video Generation
 
 VideoFusion은 비디오용 확산모델에서 **프레임마다 독립적으로 노이즈를 넣는 표준 설계 대신, ‘공통(base) 노이즈 + 잔차(residual) 노이즈’로 노이즈를 분해해 공유**함으로써, 고해상도·장시간 비디오를 더 안정적으로 생성하고, 이미지 확산모델의 사전학습 지식을 효율적으로 재사용하는 것이 핵심 주장입니다.[^1_1][^1_2]
 
@@ -109,14 +98,14 @@ $$
 
 이를 앞의 분해된 프레임 표현에 대입하면,
 
-$$
+```math
 \begin{aligned}
 z_{i,t}
 &= \sqrt{\hat{\alpha}_t}\,x_i + \sqrt{1-\hat{\alpha}_t}\,\epsilon_{i,t} \\
 &= \sqrt{\hat{\alpha}_t}\bigl(\sqrt{\lambda_i}x^0 + \sqrt{1-\lambda_i}\Delta x_i\bigr)
   + \sqrt{1-\hat{\alpha}_t}\bigl(\sqrt{\lambda_i}b_t + \sqrt{1-\lambda_i}r_{i,t}\bigr).
 \end{aligned}
-$$
+```
 
 이를 두 부분으로 해석하면,[^1_1]
 
@@ -151,14 +140,16 @@ $$
 
 최종적으로 전체 노이즈 $\epsilon_{i,t}$의 추정치는
 
-$$
+```math
 \epsilon_{i,t} =
 \begin{cases}
 z^b_\phi(z_{i_0,t},t), & i = i_0,\\[4pt]
 \sqrt{\lambda_i}\,z^b_\phi(z_{i_0,t},t)
 + \sqrt{1-\lambda_i}\,z^r_\psi(z'_{i,t}, t,i), & i\neq i_0.
 \end{cases}
-$$[file:1]
+```
+
+[file:1]
 
 이를 DDIM 또는 DDPM 샘플링 식에 대입해 한 스텝씩 역확산합니다.[file:1]
 
@@ -166,7 +157,7 @@ $$[file:1]
 
 DDPM의 $\epsilon$-prediction 손실을 기반으로, base/residual에 대해 다음과 같은 손실을 정의합니다.[file:1]
 
-$$
+```math
 L_t =
 \begin{cases}
 \lVert \epsilon_{i,t} - z^b_\phi(z_{i_0,t},t)\rVert^2, & i = i_0,\\[4pt]
@@ -176,7 +167,7 @@ L_t =
 - \sqrt{1-\lambda_i}\,z^r_\psi(z'_{i,t}, t,i)
 \right\rVert^2, & i\neq i_0,
 \end{cases}
-$$
+```
 
 여기서 $[\cdot]_{\text{sg}}$는 **stop-gradient** 연산입니다.[^1_1]
 
