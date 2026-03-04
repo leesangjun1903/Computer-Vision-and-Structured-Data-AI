@@ -1,15 +1,4 @@
-<img src="https://r2cdn.perplexity.ai/pplx-full-logo-primary-dark%402x.png" style="height:64px;margin-right:32px"/>
-
-# 1. 당신은 AI 분야의 연구자입니다. "Paint by Example: Exemplar-based Image Editing with Diffusion Models"의 핵심 주장과 주요 기여를 간결하게 요약하세요.
-
-2. 이 논문이 "해결하고자 하는 문제, 제안하는 방법(수식 포함), 모델 구조, 성능 향상 및 한계"를 중심으로 자세하게 설명하세요.
-3.특히 "모델의 일반화 성능 향상 가능성"과 관련된 내용을 중점적으로 다뤄 주세요.
-4.요약 후에는 "해당 논문이 앞으로의 연구에 미치는 영향과 앞으로 연구 시 고려할 점"도 자세히 기술해 주세요.
-“2020년 이후 관련 최신 연구 비교 분석”
-수식을 LaTeX 코드로 답변 형식을 맞춰주고, LaTeX 렌더링을 위해 마크다운에 달러 기호를 사용해 주세요.
-
-답변을 제시할 때, 참고한 사이트의 출처 또는 참고자료의 제목을 반드시 모두 적어주세요.
-답변의 정확도가 100% 확신이 서지 않는다면, 억지로 답변을 지어내지 말고 정확한 답변만 제시하세요.
+# Paint by Example: Exemplar-based Image Editing with Diffusion Models
 
 Paint by Example(PbE)는 예시 이미지(exemplar)를 조건으로 하는 확산모델 기반 편집을 처음으로 체계화하고, 자기지도 학습·정보 병목·강한 증강을 결합해 “복사‑붙여넣기” 붕괴 없이 일반화 가능한 subject‑driven 편집을 구현한 논문입니다.[^1_1][^1_2][^1_3]
 
@@ -168,7 +157,7 @@ $$
 
 - 실제 구현에서는 노이즈 예측자에 대해
 
-$$
+```math
 \tilde\epsilon_\theta(y_t, c)
 =
 \epsilon_\theta(y_t, v)
@@ -176,7 +165,7 @@ $$
 s\bigl(
 \epsilon_\theta(y_t, c) - \epsilon_\theta(y_t, v)
 \bigr)
-$$
+```
 
 로 guidance scale $s$를 조절합니다.[^1_4][^1_1]
 
