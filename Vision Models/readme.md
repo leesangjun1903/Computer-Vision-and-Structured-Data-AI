@@ -452,6 +452,7 @@
 - PSLD : Solving Linear Inverse Problems Provably via Posterior Sampling with Latent Diffusion Models | 2023 · 118회 인용, Image Enhancement
 - PVANET: Deep but Lightweight Neural Networks for Real-time Object Detection | 2016 · 332회 인용, Object Detection
 - PaDiM: a Patch Distribution Modeling Framework for Anomaly Detection and Localization | 2020 · 1562회 인용, Industrial Anomaly Detection, Localization, Pre-trained CNN
+- Paint by Example: Exemplar-based Image Editing with Diffusion Models | 2022 · 652회 인용, Image Editing
 - Palette: Image-to-Image Diffusion Models | 2021 · 1988회 인용, Image-to-Image translation
 - Parsing R-CNN for Instance-Level Human Analysis | 2018 · 167회 인용, Human Analysis
 - Pastiche Master: Exemplar-Based High-Resolution Portrait Style Transfer | 2022 · 183회 인용, Image-to-Image Translation
