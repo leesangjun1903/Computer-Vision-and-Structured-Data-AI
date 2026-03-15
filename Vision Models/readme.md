@@ -687,6 +687,7 @@
 - WGAN : Wasserstein GAN | 2017 · 19892회 인용, Image generation
 - WGAN GP : Improved Training of Wasserstein GANs | 2017 · 13836회 인용, Image generation, Optimization
 - WRN : Wide Residual Networks | 2016 · 10868회 인용, Image classification
+- Wavelet Diffusion Models are fast and scalable Image Generators | 2022 · 216회 인용, Image Generation
 - What is YOLOv8: An In-Depth Exploration of the Internal Features of the Next-Generation Object Detector | 2024 · 197회 인용, Object detection
 - Xception: Deep Learning with Depthwise Separable Convolutions | 2016 · 24140회 인용, Image classification
 - YOLACT Real-time Instance Segmentation | 2019 · 3374회 인용, Instance Segmentation, Protonet (Prototype Generation), Prediction Head (Mask Coefficients), Assembly, Fast NMS(Non-Maximum Suppression)
