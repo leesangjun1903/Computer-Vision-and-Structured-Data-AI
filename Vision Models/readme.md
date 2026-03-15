@@ -35,6 +35,7 @@
 - 3D Semantic Segmentation with Submanifold Sparse Convolutional Networks | 2017 · 2051회 인용, Semantic segmentation
 - 3DiM : Novel View Synthesis with Diffusion Models | 2022 · 320회 인용, Novel View Synthesis, 3D generation
 - A Performance Evaluation of Local Descriptors | 2005 · 11129회 인용, local descriptors, interest points, interest regions, invariance, Image matching, Image recognition
+- A Strong and Reproducible Object Detector with Only Public Datasets | 2023 · 15회 인용, Object Detection
 - A Theory of Generative ConvNet | 2016 · 388회 인용, Generation, EBM
 - AAE : Adversarial Autoencoders | 2015 · 3689회 인용, Image generation
 - ADM : Diffusion Models Beat GANs on Image Synthesis | 2021 · 10611회 인용, Image generation
