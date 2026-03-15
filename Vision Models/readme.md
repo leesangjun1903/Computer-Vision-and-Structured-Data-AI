@@ -116,6 +116,7 @@
 - Conditional DETR for Fast Training Convergence | 2021 · 1016회 인용, Object detection
 - Conffusion: Confidence Intervals for Diffusion Models | 2022 · 38회 인용, Super-Resolution, Image Inpainting, Image Colorization, Image-to-Image Translation
 - Contrastive Feature Loss for Image Prediction | 2021 · 43회 인용, Image generation
+- Contrastive Learning Rivals Masked Image Modeling in Fine-tuning via Feature Distillation | 2022 · 171회 인용, Image Classification, Masked Image Modelling
 - ControlNet : Adding Conditional Control to Text-to-Image Diffusion Models | 2023 · 5873회 인용, Image generation
 - ConvNeXt : A ConvNet for the 2020s | 2022 · 9671회 인용, Image classification, Object detection, Semantic Segmentation
 - ConvNeXt V2: Co-designing and Scaling ConvNets with Masked Autoencoders | 2023 · 1535회 인용, Image classification, Object detection, Semantic segmentation
