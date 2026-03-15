@@ -674,6 +674,7 @@
 - Video Probabilistic Diffusion Models in Projected Latent Space | 2023 · 256회 인용 , Video Generation
 - VideoFusion: Decomposed Diffusion Models for High-Quality Video Generation | 2023 · 473회 인용, Video Generation
 - VideoMAE: Masked Autoencoders are Data-Efficient Learners for Self-Supervised Video Pre-Training | 2022 · 1649회 인용, Video reconstruction
+- Vision Transformer Adapter for Dense Predictions | 2022 · 1005회 인용, Dense Prediction
 - VmambaIR: Visual State Space Model for Image Restoration | 2023 · 230회 인용, Image Enhancement
 - WAE : Wasserstein Auto-Encoders | 2017 · 1494회 인용, Image generation
 - WB-DETR: Transformer-Based Detector without Backbone | 2021 · 50회 인용, Object detection
