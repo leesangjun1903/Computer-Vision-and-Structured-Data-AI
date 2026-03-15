@@ -189,6 +189,7 @@
 - Depth-Aware Multi-Grid Deep Homography Estimation with Contextual Correlation | 2021 · 98회 인용, Image stitching
 - DeshadowNet: A Multi-context Embedding Deep Network for Shadow Removal | 2017 · 396회 인용, Shadow removal
 - Detecting AI-Generated Images via Diffusion Snap-Back Reconstruction | Image Reconstruction, Snapshot-based Reconstruction, Diffusion Model
+- Detection Transformer with Stable Matching | 2023 · 86회 인용, Object Detection
 - DiNAT : Dilated Neighborhood Attention Transformer | 2022 · 121회 인용, Image classification, Object detection, Semantic segmentation
 - DiT : Scalable Diffusion Models with Transformers | 2022 · 3548회 인용, Image generation
 - DifFace: Blind Face Restoration with Diffused Error Contraction | 2022 · 128회 인용, Image Enhancement, Face Restoration
