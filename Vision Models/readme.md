@@ -320,6 +320,7 @@
 - Image Inpainting via Iteratively Decoupled Probabilistic Modeling | 2022 · 16회 인용, Image Inpainting, Iteratively Decoupled Probabilistic Modeling
 - Image Style Transfer Using Convolutional Neural Networks | 2016 · 7513회 인용, Image generation
 - ImageGPT : Generative Pretraining from Pixels | 2020 · 2122회 인용, Image classification
+- Images Speak in Images: A Generalist Painter for In-Context Visual Learning | 2022 · 409회 인용, Image Segmentation, Visual-Learning
 - Implicit Generation and Modeling with Energy-Based Models | 2019 · 896회 인용, Image generation, Image reconstruction
 - Improved Contrastive Divergence Training of Energy-Based Model | 2020 · 183회 인용, Image generation
 - Improved Masked Image Generation with Token-Critic | 2022 · 67회 인용, Image Generation, MaskGIT Improvement, Token-Critic
