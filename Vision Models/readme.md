@@ -245,6 +245,7 @@
 - Efficient DETR: Improving End-to-End Object Detector with Dense Prior | 2021 · 294회 인용, Object detection
 - EfficientFormer: Vision Transformers at MobileNet Speed | 2022 · 593회 인용, Image classification, Object detection, Instance segmentation, Semantic segmentation
 - EfficientNet: Rethinking Model Scaling for Convolutional Neural Networks | 2019 · 30645회 인용, Image classification
+- EfficientViT: Memory Efficient Vision Transformer with Cascaded Group Attention | 2023 · 1028회 인용, Image Classification
 - EluCD : Elucidating The Design Space of Classifier-Guided Diffusion Generation | 2023 · 16회 인용, Image generation, Image denoising
 - End-to-End Learning of Deep Visual Representations for Image Retrieval | 2016 · 711회 인용, Image retrieval
 - Energy-Based Learning for Scene Graph Generation | 2021 · 213회 인용, Scene Graph Generation
