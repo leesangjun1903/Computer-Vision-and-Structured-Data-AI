@@ -600,6 +600,7 @@
 - StyleGAN-XL: Scaling StyleGAN to Large Diverse Datasets | 2022 · 669회 인용, Image Generation, StyleGAN3, Projected GAN
 - StyleGAN2 : Analyzing and Improving the Image Quality of StyleGAN | 2019 · 8374회 인용, Image generation
 - StyleNAT: Efficient Image Generation with Variadic Attention Heads | Image Generation, Variadic Attention Heads, Neighborhood Attention(NA)
+- StyleSwin: Transformer-based GAN for High-resolution Image Generation | 2021 · 414회 인용, Image Generation
 - SuperPoint: Self-Supervised Interest Point Detection and Description | 2017 · 3820회 인용, Image matching, 3D reconstruction, Point detection
 - SwAV : Unsupervised Learning of Visual Features by Contrasting Cluster Assignments | 2020 · 5217회 인용, Image classification
 - SwiftFormer: Efficient Additive Attention for Transformer-based Real-time Mobile Vision Applications | 2023 · 217회 인용, Image classification
