@@ -461,6 +461,7 @@
 - PaDiM: a Patch Distribution Modeling Framework for Anomaly Detection and Localization | 2020 · 1562회 인용, Industrial Anomaly Detection, Localization, Pre-trained CNN
 - Paint by Example: Exemplar-based Image Editing with Diffusion Models | 2022 · 652회 인용, Image Editing
 - Palette: Image-to-Image Diffusion Models | 2021 · 1988회 인용, Image-to-Image translation
+- PanoHead: Geometry-Aware 3D Full-Head Synthesis in 360∘ | 2023 · 146회 인용, 3D Image Generation, 3D Image Synthesis
 - Parsing R-CNN for Instance-Level Human Analysis | 2018 · 167회 인용, Human Analysis
 - Pastiche Master: Exemplar-Based High-Resolution Portrait Style Transfer | 2022 · 183회 인용, Image-to-Image Translation
 - Patch Diffusion: Faster and More Data-Efficient Training of Diffusion Models | 2023 · 387회 인용, Image Generation, Patch-wise Training, Coordinate-conditioned Score Function, Plug-and-Play
