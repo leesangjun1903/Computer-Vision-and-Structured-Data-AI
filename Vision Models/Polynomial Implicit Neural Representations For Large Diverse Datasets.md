@@ -30,7 +30,7 @@
 
 이미지를 좌표 위치 $(x, y)$의 다항 함수로 모델링한다:
 
-$$G(x,y) = g_{00} + g_{10}x + g_{01}y + \cdots + g_{pq}x^{p}y^{q} \tag{1}$$
+$$G(x,y) = g_{00} + g_{10}x + g_{01}y + \cdots + g_{pq}x^{p}y^{q} $$
 
 여기서 $(x, y)$는 크기 $H \times W$의 좌표 그리드에서 샘플링한 정규화된 픽셀 위치이며, 다항식의 계수 $g_{pq}$는 알려진 분포에서 샘플링한 잠재 벡터 $z$에 의해 매개변수화되고 픽셀 위치와 독립적이다.
 
@@ -38,7 +38,7 @@ $$G(x,y) = g_{00} + g_{10}x + g_{01}y + \cdots + g_{pq}x^{p}y^{q} \tag{1}$$
 
 주어진 고정된 $z$에 대해 모든 픽셀 위치에서 $G$를 평가하여 이미지를 형성한다:
 
-$$I = \{G(x,y;z) \mid (x,y) \in \text{CoordinateGrid}(H,W)\} \tag{2}$$
+$$I = \{G(x,y;z) \mid (x,y) \in \text{CoordinateGrid}(H,W)\} $$
 
 여기서 
 
@@ -52,7 +52,7 @@ $$I = \{G(x,y;z) \mid (x,y) \in \text{CoordinateGrid}(H,W)\} \tag{2}$$
 
 핵심 메커니즘은 각 레벨에서 **아핀 변환된 좌표와 특징 간의 요소별 곱셈(element-wise multiplication)**을 통해 다항식 차수를 점진적으로 증가시키는 것이다:
 
-$$G_{syn} = \cdots \sigma\left(W_2\left((A_2 X) \odot \sigma\left(W_1\left((A_1 X) \odot \sigma(W_0(A_0 X))\right)\right)\right)\right) \tag{3}$$
+$$G_{syn} = \cdots \sigma\left(W_2\left((A_2 X) \odot \sigma\left(W_1\left((A_1 X) \odot \sigma(W_0(A_0 X))\right)\right)\right)\right) $$
 
 여기서:
 - $X \in \mathbb{R}^{3 \times HW}$: 바이어스 차원을 포함한 좌표 그리드
