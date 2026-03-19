@@ -1,4 +1,4 @@
-# "MetaFormer Is Actually What You Need for Vision" 논문 심층 분석
+# MetaFormer Is Actually What You Need for Vision
 
 ---
 
