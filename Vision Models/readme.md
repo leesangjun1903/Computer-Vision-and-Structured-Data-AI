@@ -401,6 +401,7 @@
 - Mask R-CNN | 2017 · 45369회 인용, Object detection, Semantic segmentation
 - Mask2Former : Masked-attention Mask Transformer for Universal Image Segmentation | 2021 · 3513회 인용, Semantic segmentation
 - MaskFormer : Per-Pixel Classification is Not All You Need for Semantic Segmentation | 2021 · 1974회 인용, Semattic segmentation
+- MaskFreeVIS : Mask-Free Video Instance Segmentation | 2023 · 38회 인용, Video Instance Segmentation
 - MaskGIT: Masked Generative Image Transformer | 2022 · 925회 인용, Image generation, Image manipulation, Image reconstruction
 - MaskViT: Masked Visual Pre-Training for Video Prediction | 2022 · 164회 인용, Masked Visual Modeling(MVM), Self-Supervised Learning, VQ-GAN, Masked Video Transformer, Window-Restricted Attention
 - MaxViT: Multi-Axis Vision Transformer | 2022 · 1206회 인용, Multi-Axis Attention
