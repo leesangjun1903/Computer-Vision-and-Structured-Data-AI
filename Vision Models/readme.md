@@ -411,6 +411,7 @@
 - MetaQNN : Designing Neural Network Architectures using Reinforcement Learning | 2016 · 2059회 인용 , Image classification, Reinforcement Learning
 - Microsoft COCO: Common Objects in Context | 2014 · 65007회 인용, Object Detection
 - MixDL : Few-shot Image Generation with Mixup-based Distance Learning | 2021 · 29회 인용, Image generation
+- MixFormer: Mixing Features across Windows and Dimensions | 2022 · 209회 인용, Image Classification
 - MoCov2 : Improved Baselines with Momentum Contrastive Learning | 2020 · 4325회 인용, Image classification, Object detection
 - MoCov3 : An Empirical Study of Training Self-Supervised Vision Transformers | 2021 · 2474회 인용, Image classification
 - MobileNetV1 : Efficient Convolutional Neural Networks for Mobile Vision Applications | 2017 · 34073회 인용, Image classification
