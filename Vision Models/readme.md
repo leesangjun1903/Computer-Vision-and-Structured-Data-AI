@@ -395,6 +395,7 @@
 - MS-DETR: Efficient DETR Training with Mixed Supervision | 2024 · 53회 인용, Object detection
 - MVDream: Multi-view Diffusion for 3D Generation | 2023 · 897회 인용, 3D Generation
 - MViT : Multiscale Vision Transformers | 2021 · 2137회 인용, Video Recognition, Image Recognition
+- MViTv2: Improved Multiscale Vision Transformers for Classification and Detection | 2021 · 1289회 인용, Image Classification, Object Detection, Video Recognition
 - MWDCNN : Multi-stage image denoising with the wavelet transform | 2022 · 360회 인용, Image Denoising : https://github.com/hellloxiaotian/MWDCNN
 - Make-It-3D: High-Fidelity 3D Creation from A Single Image with Diffusion Prior | 2023 · 381회 인용, 3D Reconstruction, Diffusion Prior, Point Cloud Modelling, Score Distillation Sampling, SDS
 - Marigold : Repurposing Diffusion-Based Image Generators for Monocular Depth Estimation | 2023 · 556회 인용, Depth estimation
