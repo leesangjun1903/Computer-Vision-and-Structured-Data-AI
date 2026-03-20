@@ -1,3 +1,298 @@
+# NeRF: Representing Scenes as Neural Radiance Fields for View Synthesis
+
+> **논문 정보**: Mildenhall, B., Srinivasan, P.P., Tancik, M., Barron, J.T., Ramamoorthi, R., Ng, R. — ECCV 2020
+
+---
+
+## 1. 핵심 주장 및 주요 기여 (요약)
+
+NeRF는 sparse한 입력 뷰 집합으로부터 복잡한 장면의 새로운 시점(novel view)을 합성하는 데 최첨단 결과를 달성하는 방법을 제시한다. 이 알고리즘은 완전 연결(non-convolutional) 심층 네트워크를 사용하여 장면을 표현하며, 입력은 연속적인 5D 좌표 $(x, y, z, \theta, \phi)$이고, 출력은 해당 공간 위치에서의 체적 밀도(volume density)와 시점 의존적 방출 복사(view-dependent emitted radiance)이다.
+
+원 논문은 NeRF를 뷰 합성의 핵심 방법으로 대중화하였으며, 사실적인(photorealistic) 출력을 생성하기 위한 3가지 주요 기여를 한다.
+
+### 3대 핵심 기여:
+
+| 기여 | 설명 |
+|------|------|
+| **(1) 5D Neural Radiance Field 표현** | 복잡한 기하와 외관을 가진 장면을 연속 함수로 표현 |
+| **(2) Positional Encoding** | 고주파 세부사항 복원을 위한 위치 인코딩 기법 |
+| **(3) Hierarchical Sampling** | 효율적 렌더링을 위한 계층적 샘플링 전략 |
+
+---
+
+## 2. 상세 분석
+
+### 2.1 해결하고자 하는 문제
+
+2020년 3월, NeRF는 암시적(implicit) 신경망 기반 장면 표현과 새로운 뷰 합성을 가능하게 하여 컴퓨터 비전 분야에 혁명을 일으켰다. 기존 뷰 합성 방법들은 다음과 같은 한계가 있었다:
+
+- **이산 표현의 한계**: 복셀(voxel) 기반 방법은 메모리 사용량이 $O(N^3)$으로 해상도에 제한됨
+- **메쉬 기반의 한계**: 복잡한 반투명 재질이나 세밀한 기하 표현에 부적합
+- **일반화 부재**: 장면별(per-scene) 최적화에 과도한 시간 소요
+
+### 2.2 제안 방법 및 수식
+
+#### (A) Neural Radiance Field 정의
+
+NeRF는 장면을 연속 함수 $F_\Theta$로 모델링한다:
+
+$$F_\Theta : (\mathbf{x}, \mathbf{d}) \rightarrow (\mathbf{c}, \sigma)$$
+
+여기서:
+- $\mathbf{x} = (x, y, z)$: 3D 공간 좌표
+- $\mathbf{d} = (\theta, \phi)$: 시선 방향(viewing direction)
+- $\mathbf{c} = (r, g, b)$: RGB 색상
+- $\sigma$: 체적 밀도(volume density)
+
+#### (B) Volume Rendering 수식
+
+카메라 광선(camera ray)을 따라 5D 좌표를 쿼리하고, 고전적인 체적 렌더링(volume rendering) 기법을 사용하여 출력 색상과 밀도를 이미지로 투영한다. 카메라 광선 $\mathbf{r}(t) = \mathbf{o} + t\mathbf{d}$를 따라 기대되는 색상 $C(\mathbf{r})$은 다음과 같이 계산된다:
+
+$$C(\mathbf{r}) = \int_{t_n}^{t_f} T(t) \cdot \sigma(\mathbf{r}(t)) \cdot \mathbf{c}(\mathbf{r}(t), \mathbf{d}) \, dt$$
+
+여기서 누적 투과율(accumulated transmittance) $T(t)$는:
+
+$$T(t) = \exp\left(-\int_{t_n}^{t} \sigma(\mathbf{r}(s)) \, ds\right)$$
+
+실제 구현 시 **수치적 적분(quadrature)**을 사용한 이산화:
+
+$$\hat{C}(\mathbf{r}) = \sum_{i=1}^{N} T_i \cdot \alpha_i \cdot \mathbf{c}_i$$
+
+$$T_i = \prod_{j=1}^{i-1}(1 - \alpha_j), \quad \alpha_i = 1 - \exp(-\sigma_i \delta_i)$$
+
+여기서 $\delta_i = t_{i+1} - t_i$는 인접 샘플 사이의 거리이다.
+
+#### (C) Positional Encoding (위치 인코딩)
+
+신경망이 고주파(high-frequency) 함수를 학습하도록 돕기 위해, 입력 좌표를 더 높은 차원으로 매핑하는 위치 인코딩 $\gamma$를 적용한다:
+
+$$\gamma(p) = \left(\sin(2^0\pi p), \cos(2^0\pi p), \sin(2^1\pi p), \cos(2^1\pi p), \ldots, \sin(2^{L-1}\pi p), \cos(2^{L-1}\pi p)\right)$$
+
+논문에서는 $\mathbf{x}$에 대해 $L=10$ (60차원), $\mathbf{d}$에 대해 $L=4$ (24차원)을 사용한다.
+
+#### (D) 손실 함수
+
+체적 렌더링은 자연스럽게 미분 가능(differentiable)하므로, 표현을 최적화하는 데 필요한 유일한 입력은 알려진 카메라 포즈를 가진 이미지 집합이다.
+
+$$\mathcal{L} = \sum_{\mathbf{r} \in \mathcal{R}} \left[ \left\| \hat{C}_c(\mathbf{r}) - C_{gt}(\mathbf{r}) \right\|_2^2 + \left\| \hat{C}_f(\mathbf{r}) - C_{gt}(\mathbf{r}) \right\|_2^2 \right]$$
+
+여기서 $\hat{C}\_c$는 coarse network, $\hat{C}\_f$는 fine network의 렌더링 결과이며, $C_{gt}$는 ground truth 색상이다.
+
+### 2.3 모델 구조
+
+```
+입력 (x, y, z) → Positional Encoding (γ(x), 60D)
+         ↓
+   MLP Layer 1-4 (256 units, ReLU)
+         ↓
+   Skip Connection (Layer 5에서 입력 재결합)
+         ↓
+   MLP Layer 5-8 (256 units, ReLU)
+         ↓
+   σ 출력 (밀도, 시점 독립적)
+         ↓
+   + Viewing Direction (γ(d), 24D) 결합
+         ↓
+   MLP Layer 9 (128 units, ReLU)
+         ↓
+   RGB 색상 출력 (시점 의존적)
+```
+
+**Hierarchical Volume Sampling (계층적 샘플링):**
+- **Coarse Network**: 광선을 따라 $N_c = 64$개 점을 균일하게 샘플링
+- **Fine Network**: Coarse 결과의 밀도 분포에 기반하여 $N_f = 128$개 추가 점을 중요도 샘플링(importance sampling)
+
+### 2.4 성능
+
+NeRF는 복잡한 기하와 외관을 가진 장면의 사실적인 새로운 뷰를 효과적으로 최적화하여 렌더링하는 방법을 설명하며, 신경 렌더링 및 뷰 합성에 관한 이전 연구를 능가하는 결과를 입증했다.
+
+| 메트릭 | NeRF | SRN | LLFF | NV |
+|--------|------|-----|------|----|
+| **PSNR ↑** | **31.01** | 22.26 | 24.88 | 26.05 |
+| **SSIM ↑** | **0.947** | 0.846 | 0.911 | 0.893 |
+| **LPIPS ↓** | **0.081** | 0.170 | 0.114 | 0.160 |
+
+*(Blender Synthetic 데이터셋 기준)*
+
+### 2.5 한계점
+
+| 한계 | 설명 |
+|------|------|
+| **느린 학습/렌더링** | 장면당 1~2일 최적화, 렌더링에 수초 소요 |
+| **장면 고유 모델** | 새 장면마다 처음부터 재학습 필요 (일반화 불가) |
+| **정적 장면 한정** | 동적 객체나 시간적 변화 처리 불가 |
+| **카메라 포즈 필요** | 정확한 카메라 외부/내부 파라미터 사전 필요 |
+| **메모리 집약적** | 광선당 다수의 MLP 쿼리로 인한 연산량 |
+
+---
+
+## 3. 모델의 일반화 성능 향상 가능성
+
+NeRF의 가장 큰 한계 중 하나는 **장면별 최적화(per-scene optimization)** 패러다임으로, 이는 본질적으로 일반화를 제한한다. 이를 개선하기 위한 연구 방향은 다음과 같다:
+
+### 3.1 Generalizable NeRF의 핵심 전략
+
+일반화 가능한(generalizable) NeRF는 소스 뷰(source views)에서 장면 특징(scene features)을 추출하여 바닐라 NeRF를 조건화(conditioning)함으로써, 장면별 최적화의 필요성을 제거하고 상용 AR/VR 응용에 가장 실현 가능한 NeRF 솔루션으로 자리잡고 있다.
+
+#### (A) 이미지 조건화 접근법
+
+PixelNeRF는 처음으로 소스 이미지의 픽셀 특징(pixel features)을 위치 정보만 사용하는 바닐라 NeRF에 통합했다. 이를 통해:
+
+$$F_\Theta(\gamma(\mathbf{x}), \mathbf{d}, \mathbf{W}(\mathbf{x})) \rightarrow (\mathbf{c}, \sigma)$$
+
+여기서 $\mathbf{W}(\mathbf{x})$는 CNN으로 추출한 이미지 특징이다.
+
+이 모델은 단일 보정 이미지만으로도 학습 가능하지만, 단순한 기하에만 권장된다.
+
+#### (B) Multi-View Stereo 기반 접근법
+
+MVSNeRF는 장면별 최적화 대신, 단 세 장의 인접 입력 뷰로부터 빠른 네트워크 추론을 통해 복사 필드를 재구성하는 범용 심층 신경망을 제안한다. 이 접근법은 multi-view stereo에서 널리 사용되는 plane-swept cost volume을 활용하여 기하 인식 장면 추론을 수행한다.
+
+이 접근법은 장면 간 일반화가 가능하며(심지어 학습 데이터와 완전히 다른 실내 장면에서도), 세 장의 입력 이미지만으로 사실적인 뷰 합성 결과를 생성할 수 있다. 또한 밀집 이미지가 캡처된 경우 추정된 복사 필드를 쉽게 미세 조정할 수 있어 NeRF보다 상당히 적은 최적화 시간으로 더 높은 렌더링 품질을 달성한다.
+
+#### (C) Transformer 기반 일반화
+
+IBRNet과 GNT는 MLP 또는 트랜스포머를 통해 이러한 관계를 암시적으로 포착한다. 샘플링-렌더링 과정에서, 대부분의 연구들은 트랜스포머 기반 아키텍처를 활용하여 샘플링 포인트 특징을 집계하고 전통적인 볼륨 렌더링을 학습 가능한 기법으로 대체한다.
+
+#### (D) HyperNetwork 기반 접근법 (InsertNeRF, ICLR 2024)
+
+InsertNeRF는 GNT 대비 일관되게 우수한 렌더링 성능과 추론 효율성을 보여주며, 이 성공은 새로운 일반화 패러다임과 HyperNet 모듈의 컴팩트한 구조에 기인한다.
+
+#### (E) 확산 모델(Diffusion) 기반 접근법
+
+ID-NeRF는 사전 학습된 지식(pre-trained knowledge)을 score-based distillation을 통해 상상적 잠재 공간(imaginative latent space)으로 증류하고, attention 기반 정제 모듈을 통해 sparse 입력에서 추출된 재투영 특징을 개선한다. 다양한 데이터셋에 대한 실험 결과, 특히 sparse 설정에서 일반화 가능한 방식으로 새로운 뷰를 합성하는 데 효과적임을 입증한다.
+
+### 3.2 일반화 성능 향상 로드맵
+
+```
+[원본 NeRF: Per-Scene]
+        ↓
+[PixelNeRF/IBRNet: Image-Conditioned Generalization]
+        ↓
+[MVSNeRF: Geometry-Aware Generalization via Cost Volume]
+        ↓
+[GeoNeRF: Occlusion-Aware Geometry Priors]
+        ↓
+[InsertNeRF/GNT: Transformer + HyperNet]
+        ↓
+[ID-NeRF: Diffusion-Guided Generalization]
+```
+
+---
+
+## 4. 앞으로의 연구에 미치는 영향과 고려할 점
+
+### 4.1 NeRF가 후속 연구에 미친 영향
+
+2020년 NeRF 프레임워크 개발 이래, 성능과 기능을 극적으로 개선하는 많은 변형과 확장이 이루어졌다. 이 모델의 최첨단 결과와 사실적 렌더링 달성 능력은 뷰 합성 분야 및 그 너머에서 많은 기회를 제공하며, NeRF는 그 자체로 연구 분야가 되어 지속적으로 중요한 발전이 이루어지고 있다. 응용 분야로는 영화 제작의 3D 장면 렌더링, 3D 그래픽 생성, 가상 렌더링과 사이트 워크스루 등이 있다.
+
+NeRF 모델은 로보틱스, 도시 매핑, 자율 내비게이션, 가상 현실/증강 현실 등 다양한 분야에서 응용되고 있다.
+
+### 4.2 향후 연구 시 고려할 점
+
+최근 NeRF 연구는 렌더링 효율성 개선, 소수 뷰(few-view) 합성 최적화, 렌더링 품질 향상, 자기 지도 학습(self-supervised learning) 등 핵심 영역에 집중하고 있으며, 실시간 렌더링 요구 충족, 3D 재구성의 정확도와 일반화 능력 향상, 대규모 어노테이션 데이터에 대한 의존도 감소를 목표로 한다.
+
+| 연구 방향 | 세부 내용 |
+|-----------|----------|
+| **실시간 렌더링** | Instant-NGP, Plenoxels 등 해시 인코딩 기반 가속 |
+| **소수 뷰 합성** | RegNeRF, FreeNeRF, DietNeRF 등 정규화 기반 접근 |
+| **동적 장면** | D-NeRF, Nerfies, HyperNeRF 등 시간축 확장 |
+| **대규모 장면** | Block-NeRF, Mega-NeRF 등 분할 학습 전략 |
+| **합성-실제 도메인 갭** | ContraNeRF 등 도메인 적응 기법 |
+| **3DGS와의 통합** | NeRF-GS 등 하이브리드 접근법 |
+
+---
+
+## 5. 2020년 이후 관련 최신 연구 비교 분석
+
+### 5.1 주요 후속 연구 비교표
+
+| 방법 | 연도 | 핵심 개선 | 학습 시간 | 일반화 | 실시간 |
+|------|------|-----------|-----------|--------|--------|
+| **Original NeRF** | 2020 | - (baseline) | ~1-2일 | ✗ | ✗ |
+| **Mip-NeRF** | 2021 | 안티앨리어싱 (원뿔 추적) | ~1일 | ✗ | ✗ |
+| **PixelNeRF** | 2021 | CNN 조건화, 소수 뷰 | 사전학습 | ✓ | ✗ |
+| **IBRNet** | 2021 | Transformer 집계 | 사전학습 | ✓ | ✗ |
+| **MVSNeRF** | 2021 | Cost Volume 기반 | 사전학습 + 15분 미세조정 | ✓ | ✗ |
+| **Instant-NGP** | 2022 | 다중해상도 해시 인코딩 | ~5분 | ✗ | △ |
+| **Mip-NeRF 360** | 2022 | 무한 장면, 수축 함수 | ~수시간 | ✗ | ✗ |
+| **Zip-NeRF** | 2023 | Mip-NeRF 360 + Instant-NGP 결합 | 고속 | ✗ | △ |
+| **3D Gaussian Splatting** | 2023 | 명시적 가우시안, 래스터화 | ~수십 분 | ✗ | ✓ |
+| **InsertNeRF** | 2024 | HyperNet 기반 일반화 | 사전학습 | ✓ | △ |
+| **GP-NeRF** | 2024 | 의미론적 장면 이해 + 일반화 | 사전학습 | ✓ | ✗ |
+
+### 5.2 핵심 기술별 비교
+
+#### (A) Instant-NGP (Müller et al., 2022)
+Instant-NGP는 학습 가능한 다중 해상도 해시 인코딩(multi-resolution hash encoding)을 도입하여 장면을 효율적으로 적합시킨다. NeRF의 positional encoding을 해시 테이블 기반 인코딩으로 대체하여 학습 시간을 수 시간에서 수 분으로 단축했다.
+
+#### (B) Mip-NeRF (Barron et al., 2021)
+Mip-NeRF는 원뿔 추적(cone tracing)의 다중 스케일 속성과 자동 안티앨리어싱으로 NeRF를 향상시킨다. 광선을 원뿔로 확장하여 integrated positional encoding을 사용:
+
+$$\text{IPE}(\mu, \Sigma) = \mathbb{E}_{\mathbf{x} \sim \mathcal{N}(\mu, \Sigma)}[\gamma(\mathbf{x})]$$
+
+#### (C) Zip-NeRF (Barron et al., 2023)
+Zip-NeRF는 Mip-NeRF 360의 스케일 인식 및 안티앨리어싱 속성과 Instant-NGP의 빠른 학습을 결합한 모델이다. 다중 샘플링과 사전 필터링 기법으로 공간 안티앨리어싱 문제를 해결하고, "z-aliasing" 문제를 해결하기 위한 새로운 손실 함수를 도입했다. 이 접근법은 렌더링 품질을 개선할 뿐만 아니라 학습 속도를 크게 가속하여, Mip-NeRF 360보다 24배 빠르다.
+
+#### (D) 3D Gaussian Splatting (Kerbl et al., SIGGRAPH 2023)
+
+2023년 8월, NeRF 기반 프레임워크의 직접적인 경쟁자인 Gaussian Splatting이 제안되어 엄청난 모멘텀을 얻으며 새로운 뷰 합성의 지배적 프레임워크로서 NeRF 기반 연구를 추월하고 있다.
+
+3DGS는 카메라 캘리브레이션 중 생성된 sparse 포인트로부터 시작하여 3D 가우시안으로 장면을 표현하며, 이방성 공분산(anisotropic covariance) 최적화를 통해 정확한 장면 표현을 달성하고, 이방성 스플래팅을 지원하는 빠른 가시성 인식 렌더링 알고리즘을 개발하여 학습 가속과 실시간 렌더링을 모두 가능하게 한다.
+
+**NeRF vs. 3DGS 핵심 비교:**
+
+| 특성 | NeRF | 3DGS |
+|------|------|------|
+| 표현 | 암시적(implicit): 가중치 파일이 사람이 해석하기 어려운 난수처럼 보임 | 명시적(explicit): 파일이 사람이 읽을 수 있음 |
+| 렌더링 방식 | Ray Tracing (레이 마칭) | Rasterization (래스터화) |
+| 메모리 | 수십 MB의 작은 신경망 | 수백만 가우시안으로 약 1GB (10-100배 차이) |
+| 렌더링 속도 | 느린 레이 트레이싱 (광선당 다수의 느린 신경망 호출) | 복잡한 장면에서도 90fps 이상 |
+
+#### (E) NeRF-GS 하이브리드 (2025)
+
+NeRF-GS는 Neural Radiance Fields와 3D Gaussian Splatting을 공동 최적화하는 새로운 프레임워크로, NeRF의 고유한 연속 공간 표현을 활용하여 가우시안 초기화 민감도, 제한된 공간 인식, 약한 가우시안 간 상관관계 등 3DGS의 여러 한계를 완화한다.
+
+### 5.3 일반화 관련 최신 연구 특별 비교
+
+신경 장면 표현의 일반화 능력을 향상시키는 것은 도전적인 문제이다. pixelNeRF, IBRNet, MVSNeRF, GeoNeRF 등의 최근 연구들이 신경 복사 필드 기반의 일반화 가능한 새로운 뷰 합성을 달성하는 방법을 탐구하고 있다.
+
+pixelNeRF, GRF, MINE, SRF, IBRNet, MVSNeRF 등의 접근법은 인접 뷰의 소스 이미지에서 추출한 특징으로 NeRF 렌더러를 조건화하는 것이 공통 동기이다. 그러나 이 모델들의 장면 기하와 가림(occlusion)에 대한 이해는 제한적이어서, 렌더링 출력에 원치 않는 아티팩트가 발생한다.
+
+---
+
+## 6. 결론 및 전망
+
+NeRF는 신경 암시적 표현이라는 새로운 패러다임을 확립하여, 2020년 이후 컴퓨터 비전과 그래픽스 연구의 핵심 축이 되었다. Gaussian Splatting 이전 시대에는 NeRF가 새로운 뷰 합성과 3D 암시적/하이브리드 표현 학습 분야를 지배했으며, Gaussian Splatting 이후 시대에는 NeRF와 암시적/하이브리드 신경 필드가 더 전문화된(niche) 응용 분야를 찾고 있다.
+
+향후 연구의 핵심 고려사항:
+1. **일반화 vs. 품질의 트레이드오프**: 범용 모델은 장면 고유 최적화 대비 여전히 품질 격차 존재
+2. **실시간 렌더링과 품질의 양립**: 3DGS의 도전에 대응하는 NeRF 기반 실시간 솔루션 필요
+3. **소수 뷰 / 단일 뷰 재구성**: 실용적 배포를 위한 데이터 효율성 극대화
+4. **다중 모달리티 융합**: LiDAR, 이벤트 카메라, 시맨틱 정보와의 통합
+5. **NeRF-3DGS 하이브리드**: 양 패러다임의 장점을 결합하는 통합 프레임워크
+
+---
+
+### 참고 자료
+
+1. Mildenhall et al., "NeRF: Representing Scenes as Neural Radiance Fields for View Synthesis," ECCV 2020 — [arXiv:2003.08934](https://arxiv.org/abs/2003.08934)
+2. NeRF Project Page — [matthewtancik.com/nerf](https://www.matthewtancik.com/nerf)
+3. "Neural Radiance Fields (NeRFs): A Review and Some Recent Developments" — [arXiv:2305.00375](https://arxiv.org/abs/2305.00375)
+4. Gao et al., "NeRF: Neural Radiance Field in 3D Vision: A Comprehensive Review (Updated Post-Gaussian Splatting)" — [arXiv:2210.00379](https://arxiv.org/abs/2210.00379)
+5. "Neural Radiance Field-based Visual Rendering: A Comprehensive Review" — [arXiv:2404.00714](https://arxiv.org/abs/2404.00714)
+6. Chen et al., "MVSNeRF: Fast Generalizable Radiance Field Reconstruction from Multi-View Stereo," ICCV 2021
+7. Kerbl et al., "3D Gaussian Splatting for Real-Time Radiance Field Rendering," SIGGRAPH 2023 — [repo-sam.inria.fr](https://repo-sam.inria.fr/fungraph/3d-gaussian-splatting/)
+8. InsertNeRF, ICLR 2024 — [proceedings.iclr.cc](https://proceedings.iclr.cc/paper_files/paper/2024/)
+9. Li et al., "GP-NeRF: Generalized Perception NeRF for Context-Aware 3D Scene Understanding," CVPR 2024
+10. Johari et al., "GeoNeRF: Generalizing NeRF with Geometry Priors," CVPR 2022
+11. ID-NeRF: Indirect diffusion-guided neural radiance fields — ScienceDirect, 2024
+12. Gen-NeRF: Efficient and Generalizable Neural Radiance Fields via Algorithm-Hardware Co-Design — ISCA 2023
+13. ColNeRF: Collaboration for Generalizable Sparse Input Neural Radiance Field — [arXiv:2312.09095](https://arxiv.org/abs/2312.09095)
+14. NeRF-GS: NeRF Is a Valuable Assistant for 3D Gaussian Splatting — [arXiv:2507.23374](https://arxiv.org/abs/2507.23374)
+15. Mark Boss, "NeRF at CVPR 2023" — [markboss.me](https://markboss.me/post/nerf_at_cvpr23/)
+16. awesome-NeRF Paper List — [github.com/awesome-NeRF](https://github.com/awesome-NeRF/awesome-NeRF)
+
 # NeRF: Neural Radiance Fields for View Synthesis | 3D reconstruction, Neural rendering, Novel view synthesis
 
 ## 개요
