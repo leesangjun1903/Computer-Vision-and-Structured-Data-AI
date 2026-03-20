@@ -497,6 +497,7 @@
 - Prompt-Free Diffusion: Taking “Text” out of Text-to-Image Diffusion Models | 2023 · 94회 인용, Free-Text(Prompt), SeeCoder
 - Prompt-to-Prompt : Prompt-to-Prompt Image Editing with Cross Attention Control | 2022 · 2130회 인용, Image editing, Image generation
 - PromptSR : Image Super-Resolution with Text Prompt Diffusion | 2023 · 21회 인용, Super resolution
+- Proper Reuse of Image Classification Features Improves Object Detection | 2022 · 41회 인용, Object Detection
 - ProxylessNAS: Direct Neural Architecture Search on Target Task and Hardware |  2018 · 2511회 인용, NAS
 - Pseudo Numerical Methods for Diffusion Models on Manifolds | 2022 · 816회 인용, Sampling Method, Pseudo Numerical Methods
 - PvT : Pyramid Vision Transformer: A Versatile Backbone for Dense Prediction without Convolutions | 2021 · 5799회 인용, Image classification, Semantic segmenation, Object detection
