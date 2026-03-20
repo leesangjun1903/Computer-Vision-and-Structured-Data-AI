@@ -1,4 +1,4 @@
-# ConvNeXt V2: Co-designing and Scaling ConvNets with Masked Autoencoders — 종합 분석
+# ConvNeXt V2: Co-designing and Scaling ConvNets with Masked Autoencoders
 
 ---
 
