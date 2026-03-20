@@ -307,6 +307,7 @@
 - HLLHGAN : To learn image super-resolution, use a GAN to learn how to do image degradation first | 2018 · 526회 인용, Super resolution
 - HMANet: Hybrid Multi-Axis Aggregation Network for Image Super-Resolution | 2024 · 14회 인용, Super resolution
 - HO-CPConv : Factorized Higher-Order CNNs with an Application to Spatio-Temporal Emotion Estimation | 2019 · 114회 인용, Emotion estimation
+- HQ-SAM : Segment Anything in High Quality | 2023 · 720회 인용, Image Segmentation, Improved SAM 
 - HiDiffusion: Unlocking Higher-Resolution Creativity and Efficiency in Pretrained Diffusion Models | 2023 · 8회 인용, Super resolution
 - Hierarchical Representations for Efficient Architecture Search | 2017 · 1237회 인용, NAS
 - HiDT : High-Resolution Daytime Translation Without Domain Labels | 2020 · 116회 인용, Image generation
