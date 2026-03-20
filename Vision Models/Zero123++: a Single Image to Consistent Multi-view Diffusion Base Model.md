@@ -73,11 +73,11 @@ Zero123++는 **Reference Attention**을 사용한다 (Figure 6 참조):
 
 CLIP 이미지-텍스트 공간의 정렬을 활용하여 글로벌 이미지 조건부를 도입한다. 원래 프롬프트 임베딩 $T$에 CLIP 글로벌 이미지 임베딩 $I$를 가중합하여 수정된 임베딩을 얻는다:
 
-$$T'_i = T_i + w_i \cdot I, \quad i = 1, 2, \ldots, L \tag{1}$$
+$$T'_i = T_i + w_i \cdot I, \quad i = 1, 2, \ldots, L $$
 
 여기서 $L$은 토큰 길이, $D$는 토큰 임베딩 차원, $I \in \mathbb{R}^D$는 CLIP 글로벌 이미지 임베딩이다. 학습 가능한 가중치 $\{w_i\}_{i=1,...,L}$는 FlexDiffuse의 선형 가이던스로 초기화된다:
 
-$$w_i = \frac{i}{L} \tag{2}$$
+$$w_i = \frac{i}{L}$$
 
 글로벌 조건부 없이는 입력 이미지에서 보이지 않는 영역의 생성 품질이 현저히 저하된다 (Figure 8).
 
