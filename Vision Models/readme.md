@@ -411,6 +411,7 @@
 - MaskViT: Masked Visual Pre-Training for Video Prediction | 2022 · 164회 인용, Masked Visual Modeling(MVM), Self-Supervised Learning, VQ-GAN, Masked Video Transformer, Window-Restricted Attention
 - MaxViT: Multi-Axis Vision Transformer | 2022 · 1206회 인용, Multi-Axis Attention
 - Maximum Likelihood Training of Score-Based Diffusion Models | 2021 · 839회 인용, Image generation
+- MeD : Multi-view Self-supervised Disentanglement for General Image Denoising | 2023 · 17회 인용, Image Denoising
 - Mesh R-CNN | 2019 · 665회 인용, 3D segmentation
 - MetaFormer : MetaFormer Is Actually What You Need for Vision | 2021 · 1496회 인용, Image classification, Object detection, Semantic segmentation
 - MetaQNN : Designing Neural Network Architectures using Reinforcement Learning | 2016 · 2059회 인용 , Image classification, Reinforcement Learning
