@@ -29,6 +29,7 @@
 - 수정필:
 
 # Models(papers)
+- 360-GS: Layout-guided Panoramic Gaussian Splatting For Indoor Roaming | 2024 · 44회 인용, Novel View Synthesis, 3D Reconstruction
 - 3D Gaussian Splatting for Real-Time Radiance Field Rendering | 2023 · 6412회 인용, 3D Rendering, Novel View Synthesis
 - 3D Highlighter: Localizing Regions on 3D Shapes via Text Descriptions | 2022 · 38회 인용, 3D Localization
 - 3D Object Representations for Fine-Grained Categorization | 2013 · 5280회 인용, 3D estimation
