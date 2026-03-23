@@ -585,6 +585,7 @@
 - SUPIR : Scaling Up to Excellence: Practicing Model Scaling for Photo-Realistic Image Restoration In the Wild | 2024 · 87회 인용, Super resolution
 - SWAGAN: A Style-based Wavelet-driven Generative Model | 2021 · 130회 인용, Super-resolution
 - Same Same But DifferNet: Semi-Supervised Defect Detection with Normalizing Flows | 2020 · 599회 인용, Anomaly Detection, Normalizing Flow, Feature Extraction
+- Scaffold-GS: Structured 3D Gaussians for View-Adaptive Rendering | 2023 · 769회 인용, Novel View Synthesis, 3D Reconstruction
 - Scaling Up Your Kernels to 31×31: Revisiting Large Kernel Design in CNNs | 2022 · 1660회 인용, Large kernel receptive field, depth-wise convolution
 - Scaling Vision Transformers to 22BillionParameters | 2023 · 841회 인용, 22B-parameter ViT
 - Score-SDE : Score-Based Generative Modeling through Stochastic Differential Equations | 2020 · 8748회 인용, Image generation, Density estimation, Image inpainting
