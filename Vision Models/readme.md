@@ -35,6 +35,7 @@
 - 3D Semantic Segmentation with Submanifold Sparse Convolutional Networks | 2017 · 2051회 인용, Semantic segmentation
 - 3DiM : Novel View Synthesis with Diffusion Models | 2022 · 320회 인용, Novel View Synthesis, 3D generation
 - 4D Gaussian Splatting for Real-Time Dynamic Scene Rendering | 2023 · 1407회 인용, Novel View Synthesis, Video Rendering
+- 4D-Rotor Gaussian Splatting: Towards Efficient Novel View Synthesis for Dynamic Scenes | 2024 · 235회 인용, Novel View Synthesis, Video Rendering
 - A Performance Evaluation of Local Descriptors | 2005 · 11129회 인용, local descriptors, interest points, interest regions, invariance, Image matching, Image recognition
 - A Strong and Reproducible Object Detector with Only Public Datasets | 2023 · 15회 인용, Object Detection
 - A Theory of Generative ConvNet | 2016 · 388회 인용, Generation, EBM
