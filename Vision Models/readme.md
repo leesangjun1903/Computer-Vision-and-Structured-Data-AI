@@ -97,6 +97,7 @@
 - CMT: Convolutional Neural Networks Meet Vision Transformers | 2021 · 1183회 인용, Hybrid Architecture(CNN + ViT)
 - CNN Image Retrieval Learns from BoW: Unsupervised Fine-Tuning with Hard Examples | 2016 · 769회 인용, Image retrieval
 - CNN-Generated Images are Surprisingly Easy to Spot... for Now | 2019 · 1445회 인용, Deepfake Detection
+- COLMAP-Free 3D Gaussian Splatting | 2023 · 284회 인용, 3D Reconstruction, Novel View Synthesis
 - COLMAP : Structure-from-Motion Revisited | 2016 . 8045회 인용, 3D reconstruction
 - CPVT : Conditional Positional Encodings for Vision Transformers | 2021 · 914회 인용, Image classification, Transformer technique
 - CSPNet: A New Backbone that can Enhance Learning Capability of CNN | 2019 · 5843회 인용, Image classification, Object detection
