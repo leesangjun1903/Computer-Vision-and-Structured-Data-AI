@@ -34,7 +34,7 @@
 
 각 Gaussian sphere의 렌더링 색상 $\mathbf{c}$는 관찰 방향 $\omega_o$에 대해 다음과 같이 계산된다:
 
-$$\mathbf{c}(\omega_o) = \gamma\left(\mathbf{c}_d + \mathbf{s} \odot L_s(\omega_o, \mathbf{n}, \rho) + \mathbf{c}_r(\omega_o)\right) \tag{3}$$
+$$\mathbf{c}(\omega_o) = \gamma\left(\mathbf{c}_d + \mathbf{s} \odot L_s(\omega_o, \mathbf{n}, \rho) + \mathbf{c}_r(\omega_o)\right) $$
 
 여기서:
 - $\gamma$: 감마 톤 매핑 함수 (sRGB 변환)
@@ -52,7 +52,7 @@ $$\mathbf{c}(\omega_o) = \gamma\left(\mathbf{c}_d + \mathbf{s} \odot L_s(\omega_
 
 스펙큘러 조명 $L_s$는 GGX Normal Distribution Function [Walter et al., 2007]을 사용하여 입사 방사를 적분한다:
 
-$$L_s(\omega_o, \mathbf{n}, \rho) = \int_{\Omega} L(\omega_i) D(\mathbf{r}, \rho)(\omega_i \cdot \mathbf{n}) \, d\omega_i \tag{4}$$
+$$L_s(\omega_o, \mathbf{n}, \rho) = \int_{\Omega} L(\omega_i) D(\mathbf{r}, \rho)(\omega_i \cdot \mathbf{n}) \, d\omega_i $$
 
 여기서:
 - $\Omega$: 상반구(upper hemisphere)
@@ -68,27 +68,27 @@ $$L_s(\omega_o, \mathbf{n}, \rho) = \int_{\Omega} L(\omega_i) D(\mathbf{r}, \rho
 
 **예측 노멀 잔차(Predicted normal residual)**: 최단축의 방향 모호성(내/외 방향)을 처리하기 위해 두 개의 학습 가능한 잔차를 도입:
 
-$$\mathbf{n} = \begin{cases} \mathbf{v} + \Delta\mathbf{n}_1 & \text{if } \omega_o \cdot \mathbf{v} > 0, \\ -(\mathbf{v} + \Delta\mathbf{n}_2) & \text{otherwise.} \end{cases} \tag{5}$$
+$$\mathbf{n} = \begin{cases} \mathbf{v} + \Delta\mathbf{n}_1 & \text{if } \omega_o \cdot \mathbf{v} > 0, \\ -(\mathbf{v} + \Delta\mathbf{n}_2) & \text{otherwise.} \end{cases} $$
 
 노멀 잔차의 과도한 편차를 방지하기 위한 정규화:
 
-$$\mathcal{L}_{\text{reg}} = \|\Delta\mathbf{n}\|^2 \tag{6}$$
+$$\mathcal{L}_{\text{reg}} = \|\Delta\mathbf{n}\|^2 $$
 
 **노멀-기하 일관성 손실(Normal-geometry consistency)**: 개별 Gaussian의 노멀이 주변 Gaussian이 형성하는 국소 기하와 일관되도록 강제한다:
 
-$$\mathcal{L}_{\text{normal}} = \|\bar{\mathbf{n}} - \hat{\mathbf{n}}\|^2 \tag{7}$$
+$$\mathcal{L}_{\text{normal}} = \|\bar{\mathbf{n}} - \hat{\mathbf{n}}\|^2 $$
 
 여기서 $\bar{\mathbf{n}}$은 렌더링된 노멀 맵, $\hat{\mathbf{n}}$은 렌더링된 깊이 맵에 Sobel 유사 연산자를 적용하여 얻은 깊이 기울기 법선이다. KNN 검색 없이도 다수 Gaussian의 국소 기하 정보를 간접적으로 활용하는 효율적 방법이다.
 
 #### (D) 전체 손실 함수 (Sec. 3.4)
 
-$$\mathcal{L} = \mathcal{L}_{\text{color}} + \lambda_n \mathcal{L}_{\text{normal}} + \lambda_s \mathcal{L}_{\text{sparse}} + \lambda_r \mathcal{L}_{\text{reg}} \tag{9}$$
+$$\mathcal{L} = \mathcal{L}_{\text{color}} + \lambda_n \mathcal{L}_{\text{normal}} + \lambda_s \mathcal{L}_{\text{sparse}} + \lambda_r \mathcal{L}_{\text{reg}} $$
 
 여기서:
 
-$$\mathcal{L}_{\text{color}} = \|\mathbf{C} - \mathbf{C}_{\text{gt}}\|^2 \tag{2}$$
+$$\mathcal{L}_{\text{color}} = \|\mathbf{C} - \mathbf{C}_{\text{gt}}\|^2 $$
 
-$$\mathcal{L}_{\text{sparse}} = \frac{1}{|\alpha|} \sum_{\alpha_i} [\log(\alpha_i) + \log(1 - \alpha_i)] \tag{8}$$
+$$\mathcal{L}_{\text{sparse}} = \frac{1}{|\alpha|} \sum_{\alpha_i} [\log(\alpha_i) + \log(1 - \alpha_i)] $$
 
 하이퍼파라미터: $\lambda_n = 0.01$, $\lambda_s = 0.001$, $\lambda_r = 0.001$.
 
@@ -107,7 +107,7 @@ GaussianShader의 각 3D Gaussian sphere는 두 가지 범주의 속성을 갖�
 3. 카메라 파라미터에 따라 2D로 투영 및 타일 기반 래스터화
 4. $\alpha$-블렌딩으로 최종 픽셀 색상 합산:
 
-$$\mathbf{C} = \sum_{i \in N} \mathbf{c}_i \alpha_i \prod_{j=1}^{i-1} (1 - \alpha_j) \tag{1}$$
+$$\mathbf{C} = \sum_{i \in N} \mathbf{c}_i \alpha_i \prod_{j=1}^{i-1} (1 - \alpha_j)$$
 
 ### 2.4 성능 향상
 
