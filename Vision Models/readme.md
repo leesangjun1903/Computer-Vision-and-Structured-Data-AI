@@ -29,7 +29,7 @@
 - 수정필:
 
 # Models(papers)
-- 3D Gaussian Splatting for Real-Time Radiance Field Rendering | 2023 · 6412회 인용, 3D Rendering
+- 3D Gaussian Splatting for Real-Time Radiance Field Rendering | 2023 · 6412회 인용, 3D Rendering, Novel View Synthesis
 - 3D Highlighter: Localizing Regions on 3D Shapes via Text Descriptions | 2022 · 38회 인용, 3D Localization
 - 3D Object Representations for Fine-Grained Categorization | 2013 · 5280회 인용, 3D estimation
 - 3D Semantic Segmentation with Submanifold Sparse Convolutional Networks | 2017 · 2051회 인용, Semantic segmentation
@@ -416,6 +416,7 @@
 - MetaFormer : MetaFormer Is Actually What You Need for Vision | 2021 · 1496회 인용, Image classification, Object detection, Semantic segmentation
 - MetaQNN : Designing Neural Network Architectures using Reinforcement Learning | 2016 · 2059회 인용 , Image classification, Reinforcement Learning
 - Microsoft COCO: Common Objects in Context | 2014 · 65007회 인용, Object Detection
+- Mip-NeRF: A Multiscale Representation for Anti-Aliasing Neural Radiance Fields | 2021 · 3122회 인용, 3D Rendering, 3D Reconstruction, Novel Multi View Synthesis
 - MixDL : Few-shot Image Generation with Mixup-based Distance Learning | 2021 · 29회 인용, Image generation
 - MixFormer: Mixing Features across Windows and Dimensions | 2022 · 209회 인용, Image Classification
 - MoCov2 : Improved Baselines with Momentum Contrastive Learning | 2020 · 4325회 인용, Image classification, Object detection
