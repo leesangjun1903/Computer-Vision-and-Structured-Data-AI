@@ -464,6 +464,7 @@
 - Normalizing Flows : Variational Inference with Normalizing Flows | 2015 · 5592회 인용, Variational Inference, Image generation
 - Object-Centric Slot Diffusion | 2023 · 92회 인용, Object Detection, Conditional Image Generation, Video Prediction, Object-Centric Learning, Latent Diffusion Model
 - Diffusion Models Distillation : On Distillation of Guided Diffusion Models | 2022 · 682회 인용, Image generation
+- On the Error Analysis of 3D Gaussian Splatting and an Optimal Projection Strategy | 2024 · 46회 인용, Novel View Synthesis
 - On the Importance of Noise Scheduling for Diﬀusion Models | 2023 · 188회 인용, Image generation
 - One-2-3-45: Any Single Image to 3D Mesh in 45 Seconds without Per-Shape Optimization | 2023 · 703회 인용, 3D Reconstruction
 - One-Step Effective Diffusion Network for Real-World Image Super-Resolution | 2024 · 124회 인용, Image Enhancement
