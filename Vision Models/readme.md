@@ -638,7 +638,7 @@
 - StyleGAN2 : Analyzing and Improving the Image Quality of StyleGAN | 2019 · 8374회 인용, Image generation
 - StyleNAT: Efficient Image Generation with Variadic Attention Heads | Image Generation, Variadic Attention Heads, Neighborhood Attention(NA)
 - StyleSwin: Transformer-based GAN for High-resolution Image Generation | 2021 · 414회 인용, Image Generation
-- SuGaR: Surface-Aligned Gaussian Splatting for Efficient 3D Mesh Reconstruction and High-Quality Mesh Rendering | Novel View Synthesis, 3D Reconstruction
+- SuGaR: Surface-Aligned Gaussian Splatting for Efficient 3D Mesh Reconstruction and High-Quality Mesh Rendering | 2023 · 835회 인용, Novel View Synthesis, 3D Reconstruction
 - SuperPoint: Self-Supervised Interest Point Detection and Description | 2017 · 3820회 인용, Image matching, 3D reconstruction, Point detection
 - SwAV : Unsupervised Learning of Visual Features by Contrasting Cluster Assignments | 2020 · 5217회 인용, Image classification
 - SwiftFormer: Efficient Additive Attention for Transformer-based Real-time Mobile Vision Applications | 2023 · 217회 인용, Image classification
