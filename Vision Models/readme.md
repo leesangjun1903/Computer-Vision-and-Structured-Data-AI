@@ -529,6 +529,7 @@
 - RePaint: Inpainting using Denoising Diffusion Probabilistic Models | 2022 · 2505회 인용, Image Inpainting
 - ReStyle: A Residual-Based StyleGAN Encoder via Iterative Refinement | 2021 · 440회 인용, Image Editing, iterative refinement, residual learning
 - Real-ESRGAN: Training Real-World Blind Super-Resolution with Pure Synthetic Data | 2021 · 1911회 인용, Super resolution : https://github.com/xinntao/Real-ESRGAN
+- Real-time Photorealistic Dynamic Scene Representation and Rendering with 4D Gaussian Splatting | 2023 · 527회 인용, Novel View Synthesis, Video Rendering
 - RealFill: Reference-Driven Generation for Authentic Image Completion | 2023 · 77회 인용, Image Inpainting, Image Generation
 - RealFusion: 360° Reconstruction of Any Object from a Single Image | 2023 · 383회 인용, 3D Reconstruction, Diffusion Model, Textual Inversion, NeRF(Neural Radiance Field)
 - Ref-NeRF: Structured View-Dependent Appearance for Neural Radiance Fields | 2021 · 494회 인용, Novel View Synthesis
