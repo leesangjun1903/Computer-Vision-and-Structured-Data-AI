@@ -416,6 +416,7 @@
 - MetaFormer : MetaFormer Is Actually What You Need for Vision | 2021 · 1496회 인용, Image classification, Object detection, Semantic segmentation
 - MetaQNN : Designing Neural Network Architectures using Reinforcement Learning | 2016 · 2059회 인용 , Image classification, Reinforcement Learning
 - Microsoft COCO: Common Objects in Context | 2014 · 65007회 인용, Object Detection
+- Mip-NeRF 360: Unbounded Anti-Aliased Neural Radiance Fields | 2021 · 3098회 인용, 3D Reconstruction, Novel View Synthesis
 - Mip-NeRF: A Multiscale Representation for Anti-Aliasing Neural Radiance Fields | 2021 · 3122회 인용, 3D Rendering, 3D Reconstruction, Novel View Synthesis
 - MixDL : Few-shot Image Generation with Mixup-based Distance Learning | 2021 · 29회 인용, Image generation
 - MixFormer: Mixing Features across Windows and Dimensions | 2022 · 209회 인용, Image Classification
