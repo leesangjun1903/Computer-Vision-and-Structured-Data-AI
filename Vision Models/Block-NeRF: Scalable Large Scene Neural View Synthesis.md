@@ -1,5 +1,238 @@
 # Block-NeRF: Scalable Large Scene Neural View Synthesis
 
+---
+
+## 1. 핵심 주장 및 주요 기여 요약
+
+Block-NeRF는 Neural Radiance Fields(NeRF)의 변형으로, 대규모 환경을 표현할 수 있도록 설계되었다. 핵심 주장은 도시 규모(city-scale)의 장면을 렌더링할 때, 장면을 개별적으로 학습된 여러 NeRF로 분해(decompose)하는 것이 필수적이며, 이 분해를 통해 렌더링 시간을 장면 크기에서 분리(decouple)하고, 임의로 큰 환경으로 확장 가능하며, 블록 단위의 환경 업데이트를 허용한다는 것이다.
+
+### 주요 기여:
+1. **장면 분해(Scene Decomposition)**: 대규모 표현을 독립적으로 최적화할 수 있는 여러 블록으로 분할한다.
+2. **아키텍처 개선**: 각 개별 NeRF에 appearance embeddings, learned pose refinement, controllable exposure를 추가하고, 인접 Block-NeRF 간 외관 정렬(appearance alignment) 절차를 도입하여 매끄럽게 결합할 수 있도록 했다.
+3. **최대 규모 신경 장면 표현**: 280만 장의 이미지로 Block-NeRF 그리드를 구축하여, 당시 최대 규모의 신경 장면 표현을 생성하고, 샌프란시스코의 전체 이웃(neighborhood)을 렌더링할 수 있음을 시연했다.
+
+**저자 및 게재**: Matthew Tancik, Vincent Casser, Xinchen Yan, Sabeek Pradhan, Ben Mildenhall, Pratul P. Srinivasan, Jonathan T. Barron, Henrik Kretzschmar — CVPR 2022, pp. 8248-8258.
+
+---
+
+## 2. 상세 분석
+
+### 2.1 해결하고자 하는 문제
+
+기존 NeRF 기반 연구는 소규모·객체 중심(object-centric) 재구성에 집중해왔으며, 도시 규모 환경으로 확장(scale-up)하면 모델 용량(capacity) 제한으로 인해 아티팩트(artifacts)와 낮은 시각적 충실도(visual fidelity)가 발생한다.
+
+구체적으로 해결해야 할 세 가지 핵심 문제:
+
+1. **확장성(Scalability)**: 단일 NeRF는 메모리와 모델 용량의 한계로 도시 전체를 표현 불가
+2. **환경 변화에 대한 강건성(Robustness)**: 수개월에 걸쳐 다양한 환경 조건에서 수집된 데이터에 대해 NeRF를 강건하게 만들어야 한다.
+3. **일시적 객체(Transient Objects)**: 제안 방법은 세그멘테이션 알고리즘을 사용한 마스킹으로 학습 중 일시적 객체를 필터링하여 처리한다.
+
+### 2.2 제안 방법 (수식 포함)
+
+#### (A) 기본 볼륨 렌더링 (Volume Rendering)
+
+NeRF의 기본 볼륨 렌더링 수식은 다음과 같다. 카메라 원점 $\mathbf{o}$에서 방향 $\mathbf{d}$로 발사한 광선 $\mathbf{r}(t) = \mathbf{o} + t\mathbf{d}$에 대해:
+
+$$\hat{C}(\mathbf{r}) = \int_{t_n}^{t_f} T(t) \, \sigma(\mathbf{r}(t)) \, \mathbf{c}(\mathbf{r}(t), \mathbf{d}) \, dt$$
+
+여기서 누적 투과율(transmittance):
+
+$$T(t) = \exp\left(-\int_{t_n}^{t} \sigma(\mathbf{r}(s)) \, ds\right)$$
+
+이산화(discretized) 형태:
+
+$$\hat{C}(\mathbf{r}) = \sum_{i=1}^{N} T_i \, \alpha_i \, \mathbf{c}_i, \quad \text{where} \quad T_i = \prod_{j=1}^{i-1}(1 - \alpha_j), \quad \alpha_i = 1 - \exp(-\sigma_i \delta_i)$$
+
+#### (B) Block-NeRF 네트워크 구조
+
+네트워크는 mip-NeRF 구조를 따른다. Block-NeRF는 세 가지 하위 네트워크로 구성된다:
+
+1. **밀도 네트워크 $f_\sigma$**: 8개 레이어, 너비 512 (Mission Bay 실험) 또는 1024 (기타 실험)로 구성된다. 입력 좌표로부터 밀도 $\sigma$와 중간 특징 벡터를 출력한다.
+
+$$(\sigma, \mathbf{h}) = f_\sigma(\gamma(\mathbf{x}))$$
+
+여기서 $\gamma(\mathbf{x})$는 mip-NeRF의 **Integrated Positional Encoding (IPE)**이다. mip-NeRF는 NeRF의 ray tracing 대신 cone tracing을 도입하여, 원뿔 절두체(conical frustum)를 다변량 가우시안으로 근사하고 IPE 특징을 생성한다.
+
+2. **색상 네트워크 $f_c$**: 3개 레이어, 너비 128로 구성된다. 중간 특징, 시선 방향, appearance embedding, exposure 입력을 받아 RGB 색상을 출력한다.
+
+$$\mathbf{c} = f_c(\mathbf{h}, \mathbf{d}, \ell_a, \mathbf{e})$$
+
+여기서:
+- $\mathbf{d}$: 시선 방향 (viewing direction)
+- $\ell_a$: appearance embedding 벡터 (32차원)
+- $\mathbf{e}$: exposure 입력
+
+3. **가시성 네트워크 $f_v$**: 4개 레이어, 너비 128로 구성된다. 특정 위치에서의 가시성(visibility)을 예측한다.
+
+$$v = f_v(\mathbf{h}, \mathbf{d})$$
+
+#### (C) Appearance Embedding
+
+NeRF in the Wild에서 차용한 Appearance Embedding 기법으로, 네트워크에 보조 잠재 벡터(auxiliary latent vector)를 입력하여 외관 변화를 설명한다. 각 이미지에 잠재 벡터가 할당되어 해당 이미지에 고유한 외관 변화를 설명한다.
+
+잠재 벡터는 Generative Latent Optimization 기법으로 네트워크와 함께 최적화되며, 각 잠재 벡터에 대해 연관된 이미지와의 복원 손실(reconstruction loss)을 최소화하는 것이 목표이다.
+
+#### (D) Block 간 결합 (Interpolation)
+
+추론 시, 카메라 위치에서 볼 수 있는 여러 Block-NeRF의 렌더링을 **역거리 가중치(Inverse Distance Weighting)**로 결합한다:
+
+$$\hat{C}_{\text{final}} = \frac{\sum_{k} w_k \cdot \hat{C}_k}{\sum_{k} w_k}$$
+
+여기서 $w_k$는 카메라와 $k$번째 블록 중심 간의 역거리에 기반한 가중치이다. Block-NeRF가 예측한 가시성(visibility)을 보간에 활용하는 실험도 수행했다. 이미지 전체의 평균 가시성을 사용하는 방법과 픽셀별 가시성을 직접 활용하는 방법을 고려했다.
+
+#### (E) 학습 설정
+
+각 Block-NeRF는 Adam 옵티마이저로 300K 반복 학습되며, 배치 크기는 16,384이다. 학습률은 $2 \times 10^{-3}$에서 $2 \times 10^{-5}$로 로그 스케일 어닐링되며, 처음 1,024 반복 동안 워밍업 단계가 있다.
+
+손실 함수:
+
+$$\mathcal{L} = \mathcal{L}_{\text{recon}} + \lambda_v \mathcal{L}_{\text{vis}}$$
+
+여기서 $\mathcal{L}_{\text{recon}}$은 MSE 기반 복원 손실이고, 가시성은 MSE 손실로 감독되며 $\lambda_v = 10^{-6}$으로 스케일링된다.
+
+### 2.3 모델 구조 다이어그램 (개념적)
+
+```
+입력 이미지 → 세그멘테이션 마스크 (일시적 객체 제거)
+      ↓
+   [Block 1 NeRF]  [Block 2 NeRF]  ...  [Block N NeRF]
+      │                │                    │
+      ├─ f_σ (밀도)     ├─ f_σ              ├─ f_σ
+      ├─ f_c (색상)     ├─ f_c              ├─ f_c
+      └─ f_v (가시성)   └─ f_v              └─ f_v
+              │                │                    │
+              └────────── 역거리 가중 보간 ──────────┘
+                              ↓
+                     최종 렌더링 이미지
+```
+
+### 2.4 성능 향상
+
+장면을 여러 Block-NeRF로 분할하면, 전체 가중치 수를 동일하게 유지하더라도 재구성 정확도가 향상된다.
+
+주요 ablation 결과:
+- 포즈 최적화(pose optimization) 없이 학습하면 결과 장면이 흐릿해지고 포즈 불일치로 인한 중복 객체가 발생할 수 있다.
+- 노출(exposure) 입력은 재구성을 약간 향상시키며, 더 중요하게는 추론 시 노출 변경 능력을 제공한다.
+- 가시성 기반 보간(pixelwise/imagewise visibility)을 사용하면 더 선명한(sharper) 결과를 얻을 수 있다.
+
+### 2.5 한계
+
+1. **일시적 객체 처리의 불완전성**: 객체가 제대로 마스킹되지 않으면 렌더링에 아티팩트가 발생할 수 있다. 예를 들어, 자동차 자체는 올바르게 제거되더라도 차의 그림자가 남는 경우가 있다.
+2. **식생(vegetation) 문제**: 계절에 따라 변하고 바람에 움직이는 식물은 흐릿한 표현을 초래한다.
+3. **시간적 비일관성**: 건설 공사 등 학습 데이터의 시간적 비일관성은 자동으로 처리되지 않으며, 영향받은 블록의 수동 재학습이 필요하다.
+4. **시간적 일관성 문제**: 가시성 기반 보간은 더 선명한 재구성을 생성하지만 시간적 비일관성이 발생할 수 있어, 정지 이미지 렌더링에만 적합하다.
+5. **계산 비용**: 이 방법은 NeRF 모델의 높은 계산 비용을 그대로 상속하며, 전례 없는 규모로 적용한다.
+
+---
+
+## 3. 모델의 일반화 성능 향상 가능성
+
+Block-NeRF가 일반화 성능을 향상시키는 핵심 메커니즘과 한계를 다음과 같이 분석한다:
+
+### 3.1 일반화를 가능하게 하는 설계 요소
+
+| 설계 요소 | 일반화 기여 |
+|-----------|------------|
+| **Appearance Embedding** | 조명, 날씨, 시간대 등 다양한 환경 조건에 대한 적응력 제공 |
+| **Learned Pose Refinement** | 부정확한 카메라 포즈를 보정하여 다양한 데이터 소스 수용 |
+| **Controllable Exposure** | 다양한 노출 조건의 이미지에 대한 강건성 확보 |
+| **Transient Object Masking** | 동적 객체를 제거하여 정적 환경에 대한 일관된 표현 학습 |
+| **블록 분해** | 각 블록이 국소 영역에 집중하여 지역적 특성에 대한 높은 적합도 달성 |
+
+### 3.2 일반화 한계 및 향후 개선 방향
+
+현재 Block-NeRF는 **장면별(per-scene) 최적화** 패러다임에 기반한다. 즉:
+
+- 새로운 장면에 대해 처음부터 학습이 필요하다
+- **Cross-scene 일반화**는 지원하지 않는다
+- NeRF는 각 고유 장면에 대해 재학습이 필요하다.
+
+일반화 향상을 위한 가능한 방향:
+
+1. **사전학습된 특징(Pre-trained Features)**: Foundation model의 특징을 활용한 일반화 가능한 NeRF
+2. **메타러닝(Meta-Learning)**: Few-shot 설정에서 빠른 적응을 위한 학습
+3. **하이브리드 접근법**: 명시적(explicit) 표현과 암묵적(implicit) 표현의 결합
+4. **시간적 모델링(Temporal Modeling)**: 동적 장면과 계절 변화를 명시적으로 모델링
+
+### 3.3 Appearance Embedding의 일반화 수식
+
+Appearance embedding 공간에서 새로운 환경 조건으로의 외삽(extrapolation)은 다음과 같이 표현할 수 있다:
+
+$$\hat{C}_{\text{novel}} = f_c(\mathbf{h}, \mathbf{d}, \ell_a^{\text{interp}}, \mathbf{e}^{\text{target}})$$
+
+여기서 $\ell_a^{\text{interp}}$는 학습된 appearance embedding 공간에서의 보간 벡터이다. 이를 통해 학습 시 관찰된 다양한 조건 사이에서 부드러운 전환이 가능하지만, 학습 분포 밖의 극단적 조건으로의 일반화는 여전히 도전적이다.
+
+---
+
+## 4. 향후 연구에 미치는 영향 및 고려 사항
+
+### 4.1 연구 영향
+
+1. **대규모 신경 렌더링의 패러다임 확립**: Block-NeRF는 "분할 후 정복(divide-and-conquer)" 전략이 대규모 장면 재구성의 표준 접근법이 될 수 있음을 입증했다.
+2. **자율주행 시뮬레이션**: Block-NeRF는 NeRF를 확장하여 대규모의 사실적인 도시 지도를 재구성하며, 다양한 시나리오의 사실적인 주행 뷰를 시뮬레이션하여 고비용 데이터 수집을 절감할 수 있다.
+3. **모듈식 업데이트**: 환경 변화 시 전체 모델이 아닌 영향받은 블록만 재학습하면 되므로, 실용적 배포에 유리하다.
+
+### 4.2 향후 연구 시 고려할 점
+
+1. **실시간 렌더링**: NeRF 기반 방법의 높은 계산 비용 문제 해결
+2. **동적 장면 처리**: 시간에 따라 변화하는 객체의 명시적 모델링
+3. **자동화된 블록 분할**: 최적의 블록 크기와 배치를 자동으로 결정하는 방법
+4. **다중 모달 통합**: LiDAR, GPS 등 다양한 센서 데이터의 통합
+5. **품질 메트릭**: 대규모 장면에 적합한 새로운 평가 지표 개발
+
+---
+
+## 5. 2020년 이후 관련 최신 연구 비교 분석
+
+| 방법 | 연도 | 핵심 특징 | Block-NeRF 대비 차이점 |
+|------|------|-----------|----------------------|
+| **NeRF** (Mildenhall et al.) | 2020 | 기본 볼륨 렌더링 + MLP | 소규모 장면만 가능 |
+| **NeRF in the Wild** (Martin-Brualla et al.) | 2021 | Appearance/Transient embedding | Block-NeRF가 이를 채택하여 확장 |
+| **mip-NeRF** (Barron et al.) | 2021 | 안티앨리어싱을 위한 cone tracing + IPE | Block-NeRF의 기반 아키텍처 |
+| **Mega-NeRF** (Turki et al.) | 2022 | 드론 데이터 기반 대규모 장면 | 항공 뷰 중심, Block-NeRF는 지상 주행 뷰 |
+| **mip-NeRF 360** (Barron et al.) | 2022 | 비바운드 장면을 위한 비선형 파라미터화 | 단일 장면 최적화, 도시 규모 미지원 |
+| **Instant-NGP** (Müller et al., NVIDIA) | 2022 | 해시 기반 인코딩으로 실시간 학습 | 학습 속도 극대화, but 대규모 장면 미고려 |
+| **3D Gaussian Splatting** (Kerbl et al.) | 2023 | 가우시안 프리미티브 기반 실시간 렌더링 | 근본적으로 다른 표현 방식 |
+| **SCALAR-NeRF** | 2023+ | 확장 가능한 대규모 신경 장면 재구성 | Block-NeRF의 직접적 후속 연구 |
+| **GF-NeRF** | 2023+ | 글로벌 가이드 초점 신경 복사장 | 대규모 장면의 고충실도 렌더링 |
+
+### 3D Gaussian Splatting (3DGS) vs Block-NeRF
+
+두 접근법 모두 고충실도 재구성을 생성하지만, 3DGS는 계산 효율성과 노이즈 감소에서 NeRF를 일관되게 능가한다. 3DGS는 실용적 응용에서 NeRF를 대체하고 있으며, 실시간 렌더링(100+ FPS vs 5 FPS), 분 단위 학습(시간 단위 대신), 동등하거나 더 나은 시각적 품질을 제공한다.
+
+그러나 Block-NeRF의 핵심 기여인 **모듈식 분해 전략**과 **다중 시간/조건 데이터 통합 방법**은 3DGS 기반 대규모 시스템에도 적용 가능한 보편적 원리이다. 실제로 최근 연구에서는 5천만 개의 가우시안 타원체(Gaussian ellipsoids)로 대규모 도시 환경을 처리하는 가우시안 스플래팅 기반 SLAM 시스템이 개발되고 있으며, 전역 일관성을 보장하기 위한 Loop Closure 모듈이 설계되고 있다.
+
+### 핵심 연구 동향 정리
+
+```
+[2020] NeRF → [2021] mip-NeRF / NeRF-W → [2022] Block-NeRF / Instant-NGP
+                                                      ↓
+                                          [2023] 3D Gaussian Splatting
+                                                      ↓
+                                    [2024-2025] 대규모 GS / 하이브리드 방법
+```
+
+---
+
+## 참고자료
+
+1. **Tancik, M. et al.** "Block-NeRF: Scalable Large Scene Neural View Synthesis." *CVPR 2022*, pp. 8248-8258. (arXiv: 2202.05263)
+2. **Barron, J.T. et al.** "Mip-NeRF: A Multiscale Representation for Anti-Aliasing Neural Radiance Fields." *ICCV 2021*. (arXiv: 2103.13415)
+3. **Mildenhall, B. et al.** "NeRF: Representing Scenes as Neural Radiance Fields for View Synthesis." *ECCV 2020 / Communications of the ACM 2022*.
+4. **Martin-Brualla, R. et al.** "NeRF in the Wild: Neural Radiance Fields for Unconstrained Photo Collections." *CVPR 2021*.
+5. **Kerbl, B. et al.** "3D Gaussian Splatting for Real-Time Radiance Field Rendering." *ACM Trans. Graph. 2023*, 42(4).
+6. **Waymo Research — Block-NeRF Project Page**: https://waymo.com/research/block-nerf/
+7. **Block-NeRF Supplement** (CVPR 2022 Open Access): https://openaccess.thecvf.com/content/CVPR2022/supplemental/
+8. **ar5iv HTML version**: https://ar5iv.labs.arxiv.org/html/2202.05263
+9. **BeyondPixels: A Comprehensive Review of the Evolution of Neural Radiance Fields** (arXiv: 2306.03000v3)
+10. **Neural Radiance Field — Wikipedia**: https://en.wikipedia.org/wiki/Neural_radiance_field
+11. **PyImageSearch** — "3D Gaussian Splatting vs NeRF: The End Game of 3D Reconstruction?" (2024)
+12. **Synced Review** — "UC Berkeley, Waymo & Google's Block-NeRF" (2022): https://medium.com/syncedreview/
+13. **Paper Summary Blog by Alex Lau**: https://riven314.github.io/ (2022)
+14. **GitHub — UnboundedNeRFPytorch**: https://github.com/sjtuytc/UnboundedNeRFPytorch
+
+# Block-NeRF: Scalable Large Scene Neural View Synthesis
+
 ### 1. 핵심 주장 및 주요 기여
 
 **Block-NeRF**는 Neural Radiance Fields(NeRF)를 **도시 규모의 대규모 환경**에 확장하기 위한 혁신적인 방법론입니다. 논문의 핵심 주장은 다음과 같습니다:[1]
