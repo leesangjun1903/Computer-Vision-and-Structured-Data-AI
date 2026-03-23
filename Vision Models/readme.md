@@ -228,6 +228,7 @@
 - Don't Play Favorites: Minority Guidance for Diffusion Models | 2023 · 31회 인용, Minority Guidance, classifier guidance
 - Drag Your GAN: Interactive Point-based Manipulation on the Generative Image Manifold | 2023 · 313회 인용, Image manipulation
 - DragDiffusion: Harnessing Diffusion Models for Interactive Point-based Image Editing | 2023 · 321회 인용, Image Editing, Identity-preserving Fine-tuning, Latent Optimization
+- DrivingGaussian: Composite Gaussian Splatting for Surrounding Dynamic Autonomous Driving Scenes | 2023 · 438회 인용, Novel View Synthesis, 3D Reconstruction
 - DreamBooth: Fine Tuning Text-to-Image Diffusion Models for Subject-Driven Generation | 2022 · 3668회 인용, Image generation
 - Drop an Octave: Reducing Spatial Redundancy in Convolutional Neural Networks with Octave Convolution | 2019 · 866회 인용, Image classification, Video action recognition
 - DuDGAN: Improving Class-Conditional GANs via Dual-Diffusion | 2023 · 18회 인용, Image Generation, Dual-Diffusion
