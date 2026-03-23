@@ -627,6 +627,7 @@
 - Static and Moving Object Detection Using Flux Tensor with Split Gaussian Models | 2014 · 289회 인용, Change detection
 - SteadyDancer: Harmonized and Coherent Human Image Animation with First-Frame Preservation | Image-to-Video
 - StoryDiffusion: Consistent Self-Attention for Long-Range Image and Video Generation | 2024 · 132회 인용, Image, Video Generation
+- Street Gaussians: Modeling Dynamic Urban Scenes with Gaussian Splatting | 2024 · 372회 인용, Novel View Synthesis, 3D Modelling
 - Structural-analogy from a Single Image Pair | 2020 · 21회 인용, Image generation
 - Structure and Content-Guided Video Synthesis with Diffusion Models | 2023 · 708회 인용, Video
 - Structure from Motion with Objects | 2016 · 58회 인용, 3D reconstruction
