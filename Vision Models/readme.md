@@ -260,6 +260,7 @@
 - FEAT : Few-Shot Learning via Embedding Adaptation with Set-to-Set Functions | 2018 · 1000회 인용, Image classification
 - FP-DETR: Detection Transformer Advanced by Fully Pre-training | 2023 . 46회 인용, Object detection
 - FPN : Feature Pyramid Networks for Object Detection | 2016 · 37578회 인용, Object Detection, Bottom-up Pathway, Top-down Pathway, Lateral Connections
+- FSGS: Real-Time Few-shot View Synthesis using Gaussian Splatting | 2023 · 353회 인용, Novel View Synthesis
 - FVAE : Factorized Variational Autoencoders for Modeling Audience Reactions to Movies | 2017 · 71회 인용, Facial Expression Recognition
 - Face Alignment using Cascade Gaussian Process Regression Trees | 2015 · 152회 인용, Face Alignment
 - Face-SPARNet : Learning Spatial Attention for Face Super-Resolution | 2020 · 231회 인용, Super resolution
