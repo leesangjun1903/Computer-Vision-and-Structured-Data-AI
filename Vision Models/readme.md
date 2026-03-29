@@ -299,6 +299,7 @@
 - GLPN : Global-Local Path Networks for Monocular Depth Estimation with Vertical CutDepth | 2022 · 194회 인용, Depth estimation
 - GNeRF: GAN-based Neural Radiance Field without Posed Camera | 2021 · 234회 인용, 3D reconstruction
 - Gaussian Splatting with NeRF-based Color and Opacity | 2023 · 38회 인용, Novel View Synthesis, NeRF, 3D Reconstruction
+- GaussianPro: 3D Gaussian Splatting with Progressive Propagation | 2024 · 194회 인용, Novel View Synthesis, Depth Estimation
 - GaussianShader: 3D Gaussian Splatting with Shading Functions for Reflective Surfaces | 2023 · 309회 인용, 3D Reconstruction, 3D Rendering
 - GeM : Fine-tuning CNN Image Retrieval with No Human Annotation | 2017 · 1719회 인용, Image retrieval
 - GeNeVA-GAN : Tell, Draw, and Repeat: Generating and Modifying Images Based on Continual Linguistic Instruction | 2018 · 91회 인용, Text(Image)-Image generation
