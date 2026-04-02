@@ -33,7 +33,7 @@ $$\mathcal{I}_i^r = \mathcal{R}(\mathbf{G}, \mathcal{C}_i)$$
 
 기본 손실 함수는 다음과 같다:
 
-$$\mathcal{L} = (1 - \lambda)\mathcal{L}_1(\mathcal{I}_i^r, \mathcal{I}_i) + \lambda \mathcal{L}_{\text{D-SSIM}}(\mathcal{I}_i^r, \mathcal{I}_i) \tag{1}$$
+$$\mathcal{L} = (1 - \lambda)\mathcal{L}_1(\mathcal{I}_i^r, \mathcal{I}_i) + \lambda \mathcal{L}_{\text{D-SSIM}}(\mathcal{I}_i^r, \mathcal{I}_i) $$
 
 여기서 $\lambda$는 하이퍼파라미터, $\mathcal{L}_{\text{D-SSIM}}$은 D-SSIM 손실이다.
 
@@ -70,13 +70,13 @@ NeRF 기반 방법은 ray-marching 시 appearance embedding을 MLP에 입력하�
 3. CNN을 통해 $\mathcal{D}_i$를 원본 해상도의 transformation map $\mathcal{M}_i$로 업샘플링
 4. 픽셀별 변환 $\mathcal{T}$를 적용하여 외관 조정 이미지 생성:
 
-$$\mathcal{I}_i^a = \mathcal{T}(\mathcal{I}_i^r; \mathcal{M}_i) \tag{2}$$
+$$\mathcal{I}_i^a = \mathcal{T}(\mathcal{I}_i^r; \mathcal{M}_i) $$
 
 실험에서는 간단한 **픽셀별 곱셈(pixel-wise multiplication)**이 효과적이었다.
 
 수정된 손실 함수:
 
-$$\mathcal{L} = (1 - \lambda)\mathcal{L}_1(\mathcal{I}_i^a, \mathcal{I}_i) + \lambda \mathcal{L}_{\text{D-SSIM}}(\mathcal{I}_i^r, \mathcal{I}_i) \tag{3}$$
+$$\mathcal{L} = (1 - \lambda)\mathcal{L}_1(\mathcal{I}_i^a, \mathcal{I}_i) + \lambda \mathcal{L}_{\text{D-SSIM}}(\mathcal{I}_i^r, \mathcal{I}_i) $$
 
 - $\mathcal{L}_{\text{D-SSIM}}$: $\mathcal{I}_i^r$과 $\mathcal{I}_i$ 사이에 적용 → **구조적 일관성** 학습 (외관 변동 제외)
 - $\mathcal{L}_1$: $\mathcal{I}_i^a$와 $\mathcal{I}_i$ 사이에 적용 → **외관 변동**을 embedding과 CNN이 흡수
