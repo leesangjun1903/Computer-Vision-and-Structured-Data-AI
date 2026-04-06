@@ -455,6 +455,7 @@
 - NeRF--: Neural Radiance Fields Without Known Camera Parameters | 2021 · 749회 인용, 3D reconstruction, photometric reconstruction
 - NeRF: Neural Radiance Fields for View Synthesis | 2020 · 14429회 인용, 3D reconstruction, Neural rendering, Novel view synthesis
 - NetVLAD: CNN architecture for weakly supervised place recognition | 2015 · 3910회 인용, Image retrieval, Visual localization
+- NeuSG: Neural Implicit Surface Reconstruction with 3D Gaussian Splatting Guidance | 2023 · 187회 인용, Novel View Synthesis, 3D Gaussian Splatting
 - Neural Architecture Search with Reinforcement Learning | 2016 · 7555회 인용, NAS
 - Neural Haircut: Prior-Guided Strand-Based Hair Reconstruction | 2023 · 59회 인용, 3D Reconstruction, Coarse Stage, Fine Stage, Differentiable Renderer
 - Neuralangelo: High-Fidelity Neural Surface Reconstruction | 2023 · 586회 인용, 3D reconstruction
