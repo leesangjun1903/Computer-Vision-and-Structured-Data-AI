@@ -526,6 +526,7 @@
 - R-CNN : Rich Feature Hierarchies for Accurate Object Detection and Semantic Segmentation | 2013 · 44495회 인용, Object detection, Semantic segmentation
 - R-CNN minus R | 2015 · 143회 인용, Object Detection
 - R-MAC : Particular Object Retrieval with Integral Max-Pooling of CNN Activations | 2015 · 1265회 인용, Image retrieval
+- RAIN-GS : Relaxing Accurate Initialization Constraint for 3D Gaussian Splatting | 2024 · 49회 인용, Gaussian Splatting, Novel View Synthesis
 - RAN : Residual Attention Network for Image Classification | 2017 · 4843회 인용, Image classification
 - RDDM : Residual Denoising Diffusion Models | 2023 · 120회 인용, Image generation, Image Enhancement
 - REGO-DETR : Recurrent Glimpse-based Decoder for Detection with Transformer | 2021 · 43회 인용, Object detection
