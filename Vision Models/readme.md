@@ -158,6 +158,7 @@
 - DMD : One-step Diffusion with Distribution Matching Distillation | 2023 · 355회 인용, Image generation
 - DMD2 : Improved Distribution Matching Distillation for Fast Image Synthesis | 2024 · 155회 인용, Image generation, Accelerate sampling
 - DN-DETR: Accelerate DETR Training by Introducing Query DeNoising | 2022 · 1121회 인용, Object detection
+- DNGaussian: Optimizing Sparse-View 3D Gaussian Radiance Fields with Global-Local Depth Normalization | 2024 · 320회 인용, 3D Reconstruction, Novel View Synthesis
 - DPM : Deep Unsupervised Learning using Nonequilibrium Thermodynamics | 2015 · 9541회 인용, Image generation : https://github.com/Sohl-Dickstein/Diffusion-Probabilistic-Models
 - DPM-Solver: A Fast ODE Solver for Diffusion Probabilistic Model Sampling in Around 10 Steps | 2022 · 1982회 인용, Fast Sampling
 - DPN : Dual Path Networks | 2017 · 1121회 인용, Image classification
