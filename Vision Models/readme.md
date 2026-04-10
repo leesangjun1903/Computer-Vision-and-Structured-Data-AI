@@ -663,6 +663,7 @@
 - Swin Transformer: Hierarchical Vision Transformer using Shifted Windows | 2021 · 35845회 인용, Image classification, Object Detection, Semantic Segmentation
 - Swin Transformer V2: Scaling Up Capacity and Resolution | 2021 · 2891회 인용, Image classification, Object Detection, Semantic Segmentation
 - Swin2SR: SwinV2 Transformer for Compressed Image Super-Resolution and Restoration | 2022 · 218회 인용, Super resolution, Image restoration
+- SwinFIR: Revisiting the SwinIR with Fast Fourier Convolution and Improved Training for Image Super-Resolution | 2022 · 243회 인용, Super-Resolution, Image Reconstruction
 - SwinIA: Self-Supervised Blind-Spot Image Denoising without Convolutions | 2023 · 7회 인용, Image denoising
 - SwinIR : Image Restoration Using Swin Transformer | 2021 · 4934회 인용, Image reconstruction, Super resolution, Image denoising : https://github.com/JingyunLiang/SwinIR/tree/main
 - Synthetic Data from Diffusion Models Improves ImageNet Classification | 2023 · 441회 인용, Image Augmentation, Image Classification
