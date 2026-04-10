@@ -415,6 +415,7 @@
 - MViTv2: Improved Multiscale Vision Transformers for Classification and Detection | 2021 · 1289회 인용, Image Classification, Object Detection, Video Recognition
 - MWDCNN : Multi-stage image denoising with the wavelet transform | 2022 · 360회 인용, Image Denoising : https://github.com/hellloxiaotian/MWDCNN
 - Make-It-3D: High-Fidelity 3D Creation from A Single Image with Diffusion Prior | 2023 · 381회 인용, 3D Reconstruction, Diffusion Prior, Point Cloud Modelling, Score Distillation Sampling, SDS
+- MambaIRv2: Attentive State Space Restoration | 2024 · 173회 인용, Super-Resolution, Image Reconstruction
 - Marigold : Repurposing Diffusion-Based Image Generators for Monocular Depth Estimation | 2023 · 556회 인용, Depth estimation
 - Mask DINO: Towards A Unified Transformer-based Framework for Object Detection and Segmentation | 2022 · 617회 인용, Object detection, Semantic segmentation
 - Mask R-CNN | 2017 · 45369회 인용, Object detection, Semantic segmentation
