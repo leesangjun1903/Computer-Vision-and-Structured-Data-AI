@@ -114,6 +114,7 @@
 - Co-DETR : DETRs with Collaborative Hybrid Assignments Training | 2022 · 692회 인용, Object Detection, Collaborative Hybrid Assignments Training, Auxiliary Heads
 - Co-Mod GAN : Large Scale Image Completion via Co-Modulated Generative Adversarial Networks | 2021 · 391회 인용, Image generation, Image inpainting
 - CoAtNet: Marrying Convolution and Attention for All Data Sizes | 2021 · 1781회 인용, Image classification
+- CoR-GS: Sparse-View 3D Gaussian Splatting via Co-Regularization | 2024 · 129회 인용, Gaussian Splatting, Novel View Synthesis
 - CoSeR: Bridging Image and Language for Cognitive Super-Resolution | 2023 · 70회 인용, Super resolution
 - CoTracker: It is Better to Track Together | 2023 · 528회 인용, Point Tracking, Point Estimation
 - CoaT : Co-Scale Conv-Attentional Image Transformers | 2021 · 513회 인용, Image classification, Object detection, Semantic segmentation
