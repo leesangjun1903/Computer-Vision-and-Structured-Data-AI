@@ -235,6 +235,7 @@
 - DnCNN : Beyond a Gaussian Denoiser: Residual Learning of Deep CNN for Image Denoising | 2016 · 10020회 인용, Image Denoising, Super resolution : https://github.com/anushkayadav/Denoising_cifar10
 - Don't Play Favorites: Minority Guidance for Diffusion Models | 2023 · 31회 인용, Minority Guidance, classifier guidance
 - Drag Your GAN: Interactive Point-based Manipulation on the Generative Image Manifold | 2023 · 313회 인용, Image manipulation
+- Drag Your Noise: Interactive Point-based Editing via Diffusion Semantic Propagation | 2024 · 59회 인용, Image Editing
 - DragDiffusion: Harnessing Diffusion Models for Interactive Point-based Image Editing | 2023 · 321회 인용, Image Editing, Identity-preserving Fine-tuning, Latent Optimization
 - DrivingGaussian: Composite Gaussian Splatting for Surrounding Dynamic Autonomous Driving Scenes | 2023 · 438회 인용, Novel View Synthesis, 3D Reconstruction
 - DreamBooth: Fine Tuning Text-to-Image Diffusion Models for Subject-Driven Generation | 2022 · 3668회 인용, Image generation
