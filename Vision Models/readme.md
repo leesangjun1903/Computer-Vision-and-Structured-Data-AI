@@ -192,6 +192,7 @@
 - Deformable DETR: Deformable Transformers for End-to-End Object Detection | 2020 · 8074회 인용, Object detection
 - DeiT : Training data-efficient image transformers & Distillation through attention | 2020 · 9723회 인용, Image classification
 - Delving Deep into Rectifiers: Surpassing Human-Level Performance on ImageNet Classification | 2015 · 28266회 인용, Image classification
+- DemoFusion: Democratising High-Resolution Image Generation With No $$$ | 2023 · 90회 인용, Image Generation
 - Denoising Diffusion Bridge Models | 2023 · 109회 인용, Image generation
 - Denoising MCMC for Accelerating Diffusion-Based Generative Models | 2022 · 23회 인용 , Image generation, Accelerating Technique
 - DenseCL : Dense Contrastive Learning for Self-Supervised Visual Pre-Training | 2020 · 930회 인용, Image classification
