@@ -471,6 +471,7 @@
 - NetVLAD: CNN architecture for weakly supervised place recognition | 2015 · 3910회 인용, Image retrieval, Visual localization
 - NeuSG: Neural Implicit Surface Reconstruction with 3D Gaussian Splatting Guidance | 2023 · 187회 인용, Novel View Synthesis, 3D Gaussian Splatting
 - Neural Architecture Search with Reinforcement Learning | 2016 · 7555회 인용, NAS
+- Neural Directional Encoding for Efficient and Accurate View-Dependent Appearance Modeling | 2024 · 21회 인용, Novel View Synthesis, 3D Reconstruction
 - Neural Haircut: Prior-Guided Strand-Based Hair Reconstruction | 2023 · 59회 인용, 3D Reconstruction, Coarse Stage, Fine Stage, Differentiable Renderer
 - Neuralangelo: High-Fidelity Neural Surface Reconstruction | 2023 · 586회 인용, 3D reconstruction
 - Noise Flow: Noise Modeling with Conditional Normalizing Flows | 2019 · 222회 인용, Image denoising
