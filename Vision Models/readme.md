@@ -110,6 +110,7 @@
 - CaiT : Going deeper with Image Transformers | 2021 · 1492회 인용, Image classification
 - Change Detection with Weightless Neural Networks | 2014 · 145회 인용, Change detection
 - ChangeNet: A Deep Learning Architecture for Visual Change Detection | 2018 · 200회 인용, Change detection, Semantic segmentation
+- CityGaussian: Real-time High-quality Large-Scale Scene Rendering with Gaussians | 2024 · 272회 인용, Novel View Synthesis, 3D Reconstruction
 - Class-Balancing Diffusion Models | 2023 · 92회 인용, Image Generation, Distribution Adjustment Regularizer, Conditional Transfer Probability, Knowledge Transfer, Fine-tuning
 - Click-Gaussian: Interactive Segmentation to Any 3D Gaussians | 2024 · 60회 인용, 3D Gaussian Splatting, Image Segmentation
 - Co-DETR : DETRs with Collaborative Hybrid Assignments Training | 2022 · 692회 인용, Object Detection, Collaborative Hybrid Assignments Training, Auxiliary Heads
