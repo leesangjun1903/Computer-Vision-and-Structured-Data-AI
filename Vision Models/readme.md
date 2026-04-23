@@ -333,6 +333,7 @@
 - HO-CPConv : Factorized Higher-Order CNNs with an Application to Spatio-Temporal Emotion Estimation | 2019 · 114회 인용, Emotion estimation
 - HQ-SAM : Segment Anything in High Quality | 2023 · 720회 인용, Image Segmentation, Improved SAM 
 - HiDiffusion: Unlocking Higher-Resolution Creativity and Efficiency in Pretrained Diffusion Models | 2023 · 8회 인용, Super resolution
+- Hiera: A Hierarchical Vision Transformer without the Bells-and-Whistles | 2023 · 472회 인용, ViT Techniques
 - Hierarchical Representations for Efficient Architecture Search | 2017 · 1237회 인용, NAS
 - HiDT : High-Resolution Daytime Translation Without Domain Labels | 2020 · 116회 인용, Image generation
 - How to Train Your Energy-Based Models | 2021 · 360회 인용, Generation, EBM
