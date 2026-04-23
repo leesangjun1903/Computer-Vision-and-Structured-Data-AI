@@ -372,6 +372,7 @@
 - InternImage: Exploring Large-Scale Vision Foundation Models with Deformable Convolutions | 2022 · 1349회 인용, DCNv3 (Deformable Convolution v3), Adaptive Spatial Aggregation, CNN Foundation Model
 - Interpolating between Images with Diffusion Models | 2023 · 31회 인용, Image Interpolation, Latent Diffusion Models, Zero-shot, Latent Interpolation, Conditioning
 - IPViT : Intriguing Properties of Vision Transformers | 2021 · 834회 인용 , Image classification
+- Intrinsic Image Diffusion for Indoor Single-view Material Estimation | 2023 · 94회 인용, Image Estimation
 - InvSR : Arbitrary-steps Image Super-resolution via Diffusion Inversion | 2024 · 26회 인용, Super-Resolution
 - K-Planes: Explicit Radiance Fields in Space, Time, and Appearance | 2023 · 792회 인용, 3D reconstruction
 - TimeSformer : Is Space-Time Attention All You Need for Video Understanding? | 2021 · 3033회 인용, Action recognition
