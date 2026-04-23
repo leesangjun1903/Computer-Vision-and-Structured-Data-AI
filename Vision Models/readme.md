@@ -317,6 +317,7 @@
 - Generating Long Videos of Dynamic Scenes | 2022 · 159회 인용, Video Generation, Hierarchical Generator, Temporal Latent Representation, 
 - Generative Flow Networks for Discrete Probabilistic Modeling | 2022 · 134회 인용, Image generation
 - Genetic CNN | 2017 · 1242회 인용, Image classification
+- Geometry Transfer for Stylizing Radiance Fields | 2024 · 17회 인용, 3D Style Transfer
 - GhostNet: More Features from Cheap Operations | 2019 · 5193회 인용, Image classification
 - Gold-YOLO: Efficient Object Detector via Gather-and-Distribute Mechanism | 2023 · 535회 인용, Object detection
 - GoogLeNet : Going Deeper with Convolutions | 2014 · 69113회 인용, Image classification
