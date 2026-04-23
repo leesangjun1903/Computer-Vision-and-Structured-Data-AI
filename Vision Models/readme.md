@@ -111,6 +111,7 @@
 - Change Detection with Weightless Neural Networks | 2014 · 145회 인용, Change detection
 - ChangeNet: A Deep Learning Architecture for Visual Change Detection | 2018 · 200회 인용, Change detection, Semantic segmentation
 - Class-Balancing Diffusion Models | 2023 · 92회 인용, Image Generation, Distribution Adjustment Regularizer, Conditional Transfer Probability, Knowledge Transfer, Fine-tuning
+- Click-Gaussian: Interactive Segmentation to Any 3D Gaussians | 2024 · 60회 인용, 3D Gaussian Splatting, Image Segmentation
 - Co-DETR : DETRs with Collaborative Hybrid Assignments Training | 2022 · 692회 인용, Object Detection, Collaborative Hybrid Assignments Training, Auxiliary Heads
 - Co-Mod GAN : Large Scale Image Completion via Co-Modulated Generative Adversarial Networks | 2021 · 391회 인용, Image generation, Image inpainting
 - CoAtNet: Marrying Convolution and Attention for All Data Sizes | 2021 · 1781회 인용, Image classification
