@@ -631,6 +631,7 @@
 - Semi-Parametric Neural Image Synthesis | 2022 · 44회 인용, Image Generation, Parametric Model, Non-parametric Model
 - Semi-Supervised Learning with Generative Adversarial Networks | 2016 · 977회 인용, Image generation
 - Shadow Removal via Shadow Image Decomposition | 2019 · 255회 인용, Shadow removal
+- Shape of Motion: 4D Reconstruction from a Single Video | 2024 · 203회 인용, Video Reconstruction
 - Shap·E: Generating Conditional 3D Implicit Functions | 2023 · 645회 인용, 3D Generation, Implicit Functions generation, NeRF(Neural Radiance Fields), Textured Mesh
 - Sharing Residual Units Through Collective Tensor Factorization in Deep Neural Networks | 2017 · 26회 인용, Image classification
 - ShuffleNet: An Extremely Efficient Convolutional Neural Network for Mobile Devices | 2017 · 10997회 인용, Image classification, Object detection
