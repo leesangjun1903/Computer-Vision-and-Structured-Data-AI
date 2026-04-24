@@ -357,6 +357,7 @@
 - Image Style Transfer Using Convolutional Neural Networks | 2016 · 7513회 인용, Image generation
 - ImageGPT : Generative Pretraining from Pixels | 2020 · 2122회 인용, Image classification
 - Images Speak in Images: A Generalist Painter for In-Context Visual Learning | 2022 · 409회 인용, Image Segmentation, Visual-Learning
+- Implicit Gaussian Splatting with Efficient Multi-Level Tri-Plane Representation | 2024 · 23회 인용, Gaussian Splatting, Novel View Synthesis
 - Implicit Generation and Modeling with Energy-Based Models | 2019 · 896회 인용, Image generation, Image reconstruction
 - Improved Contrastive Divergence Training of Energy-Based Model | 2020 · 183회 인용, Image generation
 - Improved Masked Image Generation with Token-Critic | 2022 · 67회 인용, Image Generation, MaskGIT Improvement, Token-Critic
