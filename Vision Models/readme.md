@@ -592,6 +592,7 @@
 - Reverse Convolution and Its Applications to Image Restoration | 2025 · 1회 인용, Image Restoration, Image Reconstruction, Reverse Convolution, Fourier Transform
 - Robust Classification via a Single Diffusion Model | 2023 · 100회 인용, Image Classification, Generative Classifier, Adversarial Robustness, Multi-head U-Net
 - Robust and Efficient Object Change Detection by Combining Global Semantic Information and Local Geometric Verification | 2020 · 28회 인용, 3D object detection
+- RobustSAM: Segment Anything Robustly on Degraded Images | 2024 · 59회 인용, Image Segmentation
 - S3Diff : Degradation-Guided One-Step Image Super-Resolution with Diffusion Priors | 2024 · 14회 인용, Super resolution
 - SAGAN : Self-Attention Generative Adversarial Networks | 2018 · 5484회 인용, Image generation
 - SAM 3D: 3Dfy Anything in Images | 3D reconstruction
