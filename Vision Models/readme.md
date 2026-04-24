@@ -541,6 +541,7 @@
 - Polynomial Implicit Neural Representations For Large Diverse Datasets | 2023 · 44회 인용, Image Generation
 - Progressive Distillation for Fast Sampling of Diffusion Models | 2022 · 1677회 인용, Image generation
 - Progressive Neural Architecture Search | 2017 · 2661회 인용, NAS
+- Progressive Radiance Distillation for Inverse Rendering with Gaussian Splatting | 2024 · 3회 인용, Gaussian Splatting, 3D Rendering
 - Prompt-Free Diffusion: Taking “Text” out of Text-to-Image Diffusion Models | 2023 · 94회 인용, Free-Text(Prompt), SeeCoder
 - Prompt-to-Prompt : Prompt-to-Prompt Image Editing with Cross Attention Control | 2022 · 2130회 인용, Image editing, Image generation
 - PromptSR : Image Super-Resolution with Text Prompt Diffusion | 2023 · 21회 인용, Super resolution
