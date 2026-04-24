@@ -632,6 +632,7 @@
 - SeemoRe : See More Details: Efficient Image Super-Resolution by Experts Mining | 2024 · 25회 인용, Super resolution
 - SegFormer: Simple and Efficient Design for Semantic Segmentation with Transformers | 2021 · 7588회 인용, Semantic Segmentation
 - SegGPT: Segmenting Everything In Context | 2023 · 323회 인용, Image segmentation
+- Segment Anything in 3D with Radiance Fields | 2023 · 42회 인용, 3D Segmentation
 - Self-Conditioned GAN : Diverse Image Generation via Self-Conditioned GANs | 2020 · 136회 인용, Image generation
 - TokenCut : Self-Supervised Transformers for Unsupervised Object Discovery using Normalized Cut | 2022 · 221회 인용, Object detection
 - Semantic Image Synthesis via Diffusion Models | 2022 · 256회 인용, Semantic Image Synthesis 
