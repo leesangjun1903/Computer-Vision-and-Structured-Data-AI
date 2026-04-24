@@ -323,6 +323,7 @@
 - Genetic CNN | 2017 · 1242회 인용, Image classification
 - Geometry Transfer for Stylizing Radiance Fields | 2024 · 17회 인용, 3D Style Transfer
 - GhostNet: More Features from Cheap Operations | 2019 · 5193회 인용, Image classification
+- Global Structure-from-Motion Revisited | 2024 · 260회 인용, Structure From Motion
 - Gold-YOLO: Efficient Object Detector via Gather-and-Distribute Mechanism | 2023 · 535회 인용, Object detection
 - GoogLeNet : Going Deeper with Convolutions | 2014 · 69113회 인용, Image classification
 - GoogLeNet,Inception V1 : Going Deeper with Convolutions | 2014 · 70013회 인용
