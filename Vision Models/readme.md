@@ -529,6 +529,7 @@
 - NeRF-SH : PlenOctrees for Real-time Rendering of Neural Radiance Fields | 2021 · 1288회 인용, 3D reconstruction
 - Plenoxels: Radiance Fields without Neural Networks | 2021 · 231회 인용, 3D reconstruction
 - PnP-DETR: Towards Efficient Visual Analysis with Transformers | 2021 · 135회 인용, Object detection
+- Point-NeRF: Point-based Neural Radiance Fields | 2022 · 939회 인용, 3D Reconstruction, Novel View Synthesis
 - PointNet: Deep Learning on Point Sets for 3D Classification and Segmentation | 2016 · 21463회 인용, 3D classification, 3D Segmentation
 - PointRend: Image Segmentation as Rendering | 2019 · 1379회 인용, Semantic segementation
 - PolyNet: A Pursuit of Structural Diversity in Very Deep Networks | 2016 · 339회 인용, Image classification
