@@ -351,6 +351,7 @@
 - Image Denoising Based on Non-Local Means Filter and Its Method Noise Thresholding | 2013 . 207회 인용, Image denoising
 - Image Denoising Using A Generative Adversarial Network | 2019 · 83회 인용, Image denoising : https://github.com/manumathewthomas/ImageDenoisingGAN/tree/master?tab=readme-ov-file
 - Image Inpainting via Iteratively Decoupled Probabilistic Modeling | 2022 · 16회 인용, Image Inpainting, Iteratively Decoupled Probabilistic Modeling
+- Image Neural Field Diffusion Models | 2024 · 19회 인용, 3D Reconstruction, Novel View Synthesis
 - Image Style Transfer Using Convolutional Neural Networks | 2016 · 7513회 인용, Image generation
 - ImageGPT : Generative Pretraining from Pixels | 2020 · 2122회 인용, Image classification
 - Images Speak in Images: A Generalist Painter for In-Context Visual Learning | 2022 · 409회 인용, Image Segmentation, Visual-Learning
