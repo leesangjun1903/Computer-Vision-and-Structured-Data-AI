@@ -275,6 +275,7 @@
 - FBCNN : Towards Flexible Blind JPEG Artifacts Removal | 2021 · 156회 인용, Image compression, JPEG Artifact correlation, Image restoration
 - FCN : Fully Convolutional Networks for Semantic Segmentation | 2014 · 58727회 인용, Semantic segmentation
 - FEAT : Few-Shot Learning via Embedding Adaptation with Set-to-Set Functions | 2018 · 1000회 인용, Image classification
+- FLoD: Integrating Flexible Level of Detail into 3D Gaussian Splatting for Customizable Rendering | 2024 · 27회 인용, 3D Gaussian Splatting, 3D Reconstruction, 3D Rendering, Novel View Synthesis
 - FP-DETR: Detection Transformer Advanced by Fully Pre-training | 2023 . 46회 인용, Object detection
 - FPN : Feature Pyramid Networks for Object Detection | 2016 · 37578회 인용, Object Detection, Bottom-up Pathway, Top-down Pathway, Lateral Connections
 - FSGS: Real-Time Few-shot View Synthesis using Gaussian Splatting | 2023 · 353회 인용, Novel View Synthesis
