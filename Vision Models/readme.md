@@ -635,6 +635,7 @@
 - Scaffold-GS: Structured 3D Gaussians for View-Adaptive Rendering | 2023 · 769회 인용, Novel View Synthesis, 3D Reconstruction
 - Scaling Up Your Kernels to 31×31: Revisiting Large Kernel Design in CNNs | 2022 · 1660회 인용, Large kernel receptive field, depth-wise convolution
 - Scaling Vision Transformers to 22BillionParameters | 2023 · 841회 인용, 22B-parameter ViT
+- Score Jacobian Chaining: Lifting Pretrained 2D Diffusion Models for 3D Generation | 2022 · 728회 인용, 3D Generation
 - Score-SDE : Score-Based Generative Modeling through Stochastic Differential Equations | 2020 · 8748회 인용, Image generation, Density estimation, Image inpainting
 - SeeSR: Towards Semantics-Aware Real-World Image Super-Resolution | 2023 · 215회 인용, Super resolution
 - SeemoRe : See More Details: Efficient Image Super-Resolution by Experts Mining | 2024 · 25회 인용, Super resolution
