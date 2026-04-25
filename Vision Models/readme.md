@@ -569,6 +569,7 @@
 - Real-time Photorealistic Dynamic Scene Representation and Rendering with 4D Gaussian Splatting | 2023 · 527회 인용, Novel View Synthesis, Video Rendering
 - RealFill: Reference-Driven Generation for Authentic Image Completion | 2023 · 77회 인용, Image Inpainting, Image Generation
 - RealFusion: 360° Reconstruction of Any Object from a Single Image | 2023 · 383회 인용, 3D Reconstruction, Diffusion Model, Textual Inversion, NeRF(Neural Radiance Field)
+- ReconX: Reconstruct Any Scene from Sparse Views with Video Diffusion Model | 2024 · 110회 인용, 3D Reconstruction, Novel View Synthesis
 - Ref-NeRF: Structured View-Dependent Appearance for Neural Radiance Fields | 2021 · 494회 인용, Novel View Synthesis
 - DG : Refining Generative Process with Discriminator Guidance in Score-based Diffusion Models | 2022 · 118회 인용, Image generation
 - Refusion: Enabling Large-Size Realistic Image Restoration with Latent-Space Diffusion Models | 2023 · 172회 인용, Image denoising, Image dehazing, Image restoration, Super resolution
