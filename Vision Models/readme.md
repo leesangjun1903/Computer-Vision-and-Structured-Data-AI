@@ -34,6 +34,7 @@
 - 3D Gaussian Splatting with Deferred Reflection | 2024 · 75회 인용, Gaussian Splatting, Novel View Synthesis
 - 3D Highlighter: Localizing Regions on 3D Shapes via Text Descriptions | 2022 · 38회 인용, 3D Localization
 - 3D Object Representations for Fine-Grained Categorization | 2013 · 5280회 인용, 3D estimation
+- 3D Reconstruction with Spatial Memory | 2024 · 207회 인용, 3D Reconstruction
 - 3D Semantic Segmentation with Submanifold Sparse Convolutional Networks | 2017 · 2051회 인용, Semantic segmentation
 - 3DiM : Novel View Synthesis with Diffusion Models | 2022 · 320회 인용, Novel View Synthesis, 3D generation
 - 4D Gaussian Splatting for Real-Time Dynamic Scene Rendering | 2023 · 1407회 인용, Novel View Synthesis, Video Rendering
