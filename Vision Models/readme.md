@@ -295,6 +295,7 @@
 - Feature 3DGS: Supercharging 3D Gaussian Splatting to Enable Distilled Feature Fields | 2023 · 417회 인용, Gaussian Splatting, 3D Reconstruction, Novel View Synthesis
 - Fine-Tuning Image-Conditional Diffusion Models Is Easier than You Think | 2024 · 47회 인용, Depth estimation
 - FixEfficientNet : Fixing the Train–Test Resolution Discrepancy | 2020 · 713회 인용, Image classification, Data augmentation, preprocessing
+- FlashSplat: 2D to 3D Gaussian Splatting Segmentation Solved Optimally | 2024 · 59회 인용, 3D Segmentation
 - Flexible Background Subtraction With Self-Balanced Local Sensitivity | 2014 · 158회 인용, Change detection
 - Flow Contrastive Estimation of Energy-Based Models | 2019 · 131회 인용, Image generation
 - Flow Straight and Fast: Learning to Generate and Transfer Data with Rectified Flow | 2022 · 1696회 인용, Rectified Flow (RF), image-to-image translation
