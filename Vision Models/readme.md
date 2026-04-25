@@ -522,6 +522,7 @@
 - Pastiche Master: Exemplar-Based High-Resolution Portrait Style Transfer | 2022 · 183회 인용, Image-to-Image Translation
 - Patch Diffusion: Faster and More Data-Efficient Training of Diffusion Models | 2023 · 387회 인용, Image Generation, Patch-wise Training, Coordinate-conditioned Score Function, Plug-and-Play
 - Patch SVDD: Patch-level SVDD for Anomaly Detection and Segmentation | 2020 · 731회 인용, Anomaly Detection
+- Patch n' Pack: NaViT, a Vision Transformer for any Aspect Ratio and Resolution | 2023 · 255회 인용, Image Classification, ViT Technique
 - Patched Denoising Diffusion Models For High-Resolution Image Synthesis | 2023 · 45회 인용, Super-Resolution, Image Generation
 - ConvMixer : Patches Are All You Need? | 2022 · 686회 인용, Image Classification
 - Perceptual Losses for Real-Time Style Transfer and Super-Resolution | 2016 · 13726회 인용, Image generation, Optimization
