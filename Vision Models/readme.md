@@ -203,6 +203,7 @@
 - DenseCL : Dense Contrastive Learning for Self-Supervised Visual Pre-Training | 2020 · 930회 인용, Image classification
 - DenseNet : Densely Connected Convolutional Networks | 2016 · 56904회 인용, Image classification
 - DensePose: Dense Human Pose Estimation In The Wild | 2018 · 1976회 인용, Pose Estimation
+- Depth Any Video with Scalable Synthetic Data | 2024 · 54회 인용, Depth Estimation
 - Depth Anything 3: Recovering the Visual Space from Any Views | Depth Estimation
 - Depth Anything: Unleashing the Power of Large-Scale Unlabeled Data | 2024 · 1352회 인용, Depth Estimation
 - Depth Anything V2 | 2024 · 1875회 인용, Depth Estimation
