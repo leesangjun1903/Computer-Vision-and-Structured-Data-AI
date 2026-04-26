@@ -719,6 +719,7 @@
 - Taming Video Diffusion Prior with Scene-Grounding Guidance for 3D Gaussian Splatting from Sparse Inputs | 3D Gaussian Splatting
 - TensoRF: Tensorial Radiance Fields | 2022 · 1879회 인용, 3D reconstruction
 - TerDiT: Ternary Diffusion Models with Transformers | 2024 · 4회 인용, Image generation
+- TextureDreamer: Image-guided Texture Synthesis through Geometry-aware Diffusion | 2024 · 57회 인용, 3D Generation, Personalization
 - That’s BAD: Blind Anomaly Detection by Implicit Local Feature Clustering | 2023 · 6회 인용, Anomaly detection
 - The GAN is dead; long live the GAN! A Modern Baseline GAN | 2025 · 50회 인용, Image generation
 - Three things everyone should know to improve object retrieval | 2012 · 1880회 인용, Image retrieval
