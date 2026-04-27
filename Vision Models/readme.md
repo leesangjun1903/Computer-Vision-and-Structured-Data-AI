@@ -772,6 +772,7 @@
 - ViTMSN : Masked Siamese Networks for Label-Efficient Learning | 2022 · 437회 인용, Image classification
 - ViTMatte: Boosting Image Matting with Pretrained Plain Vision Transformers | 2023 · 94회 인용, Image matting
 - ViViT: A Video Vision Transformer | 2021 · 3361회 인용, Video classification, Action recognition
+- Video Depth without Video Models | 2024 · 28회 인용, Video Depth Estimation
 - Video Probabilistic Diffusion Models in Projected Latent Space | 2023 · 256회 인용 , Video Generation
 - VideoFusion: Decomposed Diffusion Models for High-Quality Video Generation | 2023 · 473회 인용, Video Generation
 - VideoMAE: Masked Autoencoders are Data-Efficient Learners for Self-Supervised Video Pre-Training | 2022 · 1649회 인용, Video reconstruction
