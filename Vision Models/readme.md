@@ -475,6 +475,7 @@
 - MobileStyleGAN: A Lightweight Convolutional Neural Network for High-Fidelity Image Synthesis | 2021 · 28회 인용, Image generation
 - MobileViT: Light-weight, General-purpose, and Mobile-friendly Vision Transformer | 2021 · 2430회 인용, Image classification, Object detection
 - MobileViTv2 : Separable Self-Attention for Mobile Vision Transformers | 2022 · 481회 인용, Image classification
+- MonST3R: A Simple Approach for Estimating Geometry in the Presence of Motion | 2024 · 342회 인용, Monocular Depth Estimation
 - Multi-Architecture Multi-Expert Diffusion Models | 2023 · 36회 인용, Image Generation, Multi-Expert, iU-Net Architecture, Frequency Analysis, Soft Interval Assignment
 - Multi-Modal Self-Supervision from Generalized Data Transformations | 2020 . 201회 인용, Video
 - Vision Longformer : Multi-Scale Vision Longformer: A New Vision Transformer for High-Resolution Image Encoding | 2021 · 451회 인용, Image classification, Object detection, Semantic segmentation
