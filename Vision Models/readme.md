@@ -207,6 +207,7 @@
 - Depth Anything 3: Recovering the Visual Space from Any Views | Depth Estimation
 - Depth Anything: Unleashing the Power of Large-Scale Unlabeled Data | 2024 · 1352회 인용, Depth Estimation
 - Depth Anything V2 | 2024 · 1875회 인용, Depth Estimation
+- Depth Pro: Sharp Monocular Metric Depth in Less Than a Second | 2024 · 465회 인용, Monocular Depth Estimation
 - Depth-Aware Multi-Grid Deep Homography Estimation with Contextual Correlation | 2021 · 98회 인용, Image stitching
 - Depth-Regularized Optimization for 3D Gaussian Splatting in Few-Shot Images | 2023 · 236회 인용, Novel View Systhesis, 3D Reconstruction
 - DeshadowNet: A Multi-context Embedding Deep Network for Shadow Removal | 2017 · 396회 인용, Shadow removal
