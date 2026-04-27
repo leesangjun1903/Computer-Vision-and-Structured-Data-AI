@@ -310,6 +310,7 @@
 - FreGS: 3D Gaussian Splatting with Progressive Frequency Regularization | 2024 · 146회 인용, 3D Reconstruction, Gaussian Splatting
 - FreeNeRF: Improving Few-shot Neural Rendering with Free Frequency Regularization | 2023 · 403회 인용, 3D reconstruction
 - FreeSOLO: Learning to Segment Objects without Annotations | 2022 · 160회 인용, Object detection, Semantic segmentation
+- FreeSplat: Generalizable 3D Gaussian Splatting Towards Free-View Synthesis of Indoor Scenes | 2024 · 80회 인용, 3D Gaussian Splatting, Novel View Synthesis
 - FreqNet : Frequency-Aware Deepfake Detection | 2024 · 134회 인용, Image detection
 - GAN Dissection: Visualizing and Understanding Generative Adversarial Networks | 2018 · 710회 인용, XAI
 - GANomaly: Semi-Supervised Anomaly Detection via Adversarial Training | 2018 · 2337회 인용, Anomaly Detection, Semi-supervised Learning, Adversarial Training
