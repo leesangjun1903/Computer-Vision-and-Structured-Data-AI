@@ -790,6 +790,7 @@
 - WGAN GP : Improved Training of Wasserstein GANs | 2017 · 13836회 인용, Image generation, Optimization
 - WRN : Wide Residual Networks | 2016 · 10868회 인용, Image classification
 - Wavelet Diffusion Models are fast and scalable Image Generators | 2022 · 216회 인용, Image Generation
+- Wavelet Latent Diffusion (Wala): Billion-Parameter 3D Generative Model with Compact Wavelet Encodings | 2024 · 9회 인용, 3D Generation
 - What is YOLOv8: An In-Depth Exploration of the Internal Features of the Next-Generation Object Detector | 2024 · 197회 인용, Object detection
 - WildGaussians: 3D Gaussian Splatting in the Wild | 2024 · 151회 인용, Novel View Synthesis, 3D Reconstruction
 - Xception: Deep Learning with Depthwise Separable Convolutions | 2016 · 24140회 인용, Image classification
