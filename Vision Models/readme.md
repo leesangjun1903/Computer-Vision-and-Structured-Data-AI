@@ -54,6 +54,7 @@
 - AdaMixer: A Fast-Converging Query-Based Object Detector | 2022 · 170회 인용, Object detection
 - Aggregating Deep Convolutional Features for Image Retrieval | 2015 · 366회 인용, Image retrieval
 - AlexNet : ImageNet Classification with Deep Convolutional Neural Networks | 2012 · 149105회 인용, Image classification
+- An Image is Worth 32 Tokens for Reconstruction and Generation | 2024 · 267회 인용, Image Reconstruction, Image Generation
 - Analytic-Splatting: Anti-Aliased 3D Gaussian Splatting via Analytic Integration | 2024 · 85회 인용, 3D Reconstruction, Novel View Synthesis
 - AnomalyDiffusion: Few-Shot Anomaly Image Generation with Diffusion Model | 2023 · 120회 인용, Anomaly Detection
 - Anchor DETR: Query Design for Transformer-Based Object Detection | 2021 · 75회 인용, Object detection
