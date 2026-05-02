@@ -412,6 +412,7 @@
 - LSGAN : Least Squares Generative Adversarial Networks | 2016 · 6781회 인용, Image generation
 - LSGM : Score-based Generative Modeling in Latent Space | 2021 · 792회 인용, Image generation
 - LU-NeRF: Scene and Pose Estimation by Synchronizing Local Unposed NeRFs | 2023 · 43회 인용, Pose Estimation, global-optimization
+- LVSM: A Large View Synthesis Model with Minimal 3D Inductive Bias | 2024 · 116회 인용, Novel View Synthesis, 3D Reconstruction
 - LW-DETR: A Transformer Replacement to YOLO for Real-Time Detection | 2024 · 30회 인용, Object detection
 - Label-Efficient Semantic Segmentation with Diffusion Models | Semantic segmentation
 - Labelling unlabelled videos from scratch with multi-modal self-supervision | 2020 · 200회 인용
