@@ -29,6 +29,7 @@
 - 수정필:
 
 # Models(papers)
+- 2D Gaussian Splatting for Geometrically Accurate Radiance Fields | 2024 · 1298회 인용, Novel View Synthesis
 - 360-GS: Layout-guided Panoramic Gaussian Splatting For Indoor Roaming | 2024 · 44회 인용, Novel View Synthesis, 3D Reconstruction
 - 3D Gaussian Splatting for Real-Time Radiance Field Rendering | 2023 · 6412회 인용, 3D Rendering, Novel View Synthesis
 - 3D Gaussian Splatting with Deferred Reflection | 2024 · 75회 인용, Gaussian Splatting, Novel View Synthesis
