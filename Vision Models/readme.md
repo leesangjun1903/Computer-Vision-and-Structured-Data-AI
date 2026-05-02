@@ -295,6 +295,7 @@
 - Fast Sampling of Diffusion Models via Operator Learning | 2022 · 198회 인용, Fast Sampling, Diffusion Model Sampling with Neural Operator
 - Fast Training of Diffusion Models with Masked Transformers | 2023 · 120회 인용, Image Generation, Patch Masking, Encoder-Decoder, Auxiliary Task
 - Feature-Critic Networks for Heterogeneous Domain Generalization | 2019 · 340회 인용, Domain Generalization, Meta-Learning, Feature-Critic Network
+- Feed-Forward Bullet-Time Reconstruction of Dynamic Scenes from Monocular Videos | 2024 · 36회 인용, Novel View Synthesis, 3D Reconstruction
 - Few-Example Object Detection with Model Communication | 2017 · 212회 인용, Object detection
 - FastGAN : Towards Faster and Stabilized GAN Training for High-fidelity Few-shot Image Synthesis | 2021 · 357회 인용, Image generation
 - FastNeRF: High-Fidelity Neural Rendering at 200FPS | 2021 · 814회 인용, 3D reconstruction
