@@ -179,6 +179,7 @@
 - DR2: Diffusion-based Robust Degradation Remover for Blind Face Restoration | 2023 · 128회 인용, Image Enhancement, Face Restoration
 - DRAW: A Recurrent Neural Network For Image Generation | 2015 · 2650회 인용, Image generation
 - DSD : Diffusion Self-Distillation for Zero-Shot Customized Image Generation | 2024 · 16회 인용, Image generation
+- DUSt3R: Geometric 3D Vision Made Easy | 2023 · 1412회 인용, Novel View Synthesis, 3D Reconstruction
 - DeCo: Frequency-Decoupled Pixel Diffusion for End-to-End Image Generation | Image generation
 - Deblurring 3D Gaussian Splatting | 2024 · 119회 인용, Novel View Synthesis
 - Decoupled DMD: CFG Augmentation as the Spear, Distribution Matching as the Shield | Distribution Matching Distillation
