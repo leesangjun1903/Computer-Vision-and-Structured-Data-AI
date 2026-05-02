@@ -344,6 +344,7 @@
 - GoogLeNet,Inception V1 : Going Deeper with Convolutions | 2014 · 70013회 인용
 - GraphEBM: Molecular Graph Generation with Energy-Based Models | 2021 · 124회 인용, Molecular generation
 - Grounding DINO: Marrying DINO with Grounded Pre-Training for Open-Set Object Detection | 2023 · 2950회 인용, Object detection
+- Grounding Image Matching in 3D with MASt3R | 2024 · 722회 인용, Image Matching
 - Group Equivariant Convolutional Networks | 2016 · 2741회 인용, Convolution Technique
 - HAT : Activating More Pixels in Image Super-Resolution Transformer | 2022 · 1157회 인용, Super-resolution
 - HF-Net : Robust Hierarchical Localization at Large Scale | 2018 · 1210회 인용, Visual Localization, Visual Place Recognition : https://github.com/cvg/Hierarchical-Localization?tab=readme-ov-file
