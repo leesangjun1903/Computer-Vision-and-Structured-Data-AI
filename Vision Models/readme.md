@@ -324,6 +324,7 @@
 - GS-CPR: Efficient Camera Pose Refinement via 3D Gaussian Splatting | 2024 · 49회 인용, 3D Gaussian Splatting, Novel View Synthesis
 - GS-LRM: Large Reconstruction Model for 3D Gaussian Splatting | 2024 · 311회 인용, Image Reconstruction, Novel View Synthesis, Gaussian Splatting
 - GS2Mesh: Surface Reconstruction from Gaussian Splatting via Novel Stereo Views | 2024 · 84회 인용, Novel View Synthesis, 3D Reconstruction
+- GSDF: 3DGS Meets SDF for Improved Rendering and Reconstruction | 2024 · 172회 인용, Gaussian Splatting, 3D Reconstruction
 - Gaussian Masked Autoencoders | 2025 · 5회 인용, Gaussian Splatting, Image Generation
 - Gaussian Splatting with NeRF-based Color and Opacity | 2023 · 38회 인용, Novel View Synthesis, NeRF, 3D Reconstruction
 - GaussianPro: 3D Gaussian Splatting with Progressive Propagation | 2024 · 194회 인용, Novel View Synthesis, Depth Estimation
