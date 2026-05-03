@@ -131,6 +131,7 @@
 - CondenseNet: An Efficient DenseNet using Learned Group Convolutions | 2017 · 1123회 인용, Image classification
 - Conditional DETR for Fast Training Convergence | 2021 · 1016회 인용, Object detection
 - Conffusion: Confidence Intervals for Diffusion Models | 2022 · 38회 인용, Super-Resolution, Image Inpainting, Image Colorization, Image-to-Image Translation
+- Continuous 3D Perception Model with Persistent State | 2025 · 336회 인용, Novel View Synthesis, 3D Reconstruction, Depth Estimation
 - Contrastive Feature Loss for Image Prediction | 2021 · 43회 인용, Image generation
 - Contrastive Learning Rivals Masked Image Modeling in Fine-tuning via Feature Distillation | 2022 · 171회 인용, Image Classification, Masked Image Modelling
 - ControlNet : Adding Conditional Control to Text-to-Image Diffusion Models | 2023 · 5873회 인용, Image generation
