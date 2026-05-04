@@ -730,6 +730,7 @@
 - SwinIA: Self-Supervised Blind-Spot Image Denoising without Convolutions | 2023 · 7회 인용, Image denoising
 - SwinIR : Image Restoration Using Swin Transformer | 2021 · 4934회 인용, Image reconstruction, Super resolution, Image denoising : https://github.com/JingyunLiang/SwinIR/tree/main
 - Synthetic Data from Diffusion Models Improves ImageNet Classification | 2023 · 441회 인용, Image Augmentation, Image Classification
+- T-Stitch: Accelerating Sampling in Pre-Trained Diffusion Models with Trajectory Stitching | 2024 · 35회 인용, Image Generation
 - TRACT: Denoising Diffusion Models with Transitive Closure Time-Distillation |  2023 · 127회 인용, Image Generation, Transitive Closure Time-Distillation, Fast Sampling
 - TRIPS: Trilinear Point Splatting for Real-Time Radiance Field Rendering | 2024 · 44회 인용, Novel View Synthesis, 3D Reconstruction
 - TSIT: A Simple and Versatile Framework for Image-to-Image Translation | 2020 · 166회 인용
