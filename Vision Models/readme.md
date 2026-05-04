@@ -297,6 +297,7 @@
 - Fast R-CNN | 2015 · 42594회 인용, Object detection
 - Fast Sampling of Diffusion Models via Operator Learning | 2022 · 198회 인용, Fast Sampling, Diffusion Model Sampling with Neural Operator
 - Fast Training of Diffusion Models with Masked Transformers | 2023 · 120회 인용, Image Generation, Patch Masking, Encoder-Decoder, Auxiliary Task
+- Fast3R: Towards 3D Reconstruction of 1000+ Images in One Forward Pass | 2025 · 252회 인용, Multi-View 3D Reconstruction
 - Feature-Critic Networks for Heterogeneous Domain Generalization | 2019 · 340회 인용, Domain Generalization, Meta-Learning, Feature-Critic Network
 - Feed-Forward Bullet-Time Reconstruction of Dynamic Scenes from Monocular Videos | 2024 · 36회 인용, Novel View Synthesis, 3D Reconstruction
 - Few-Example Object Detection with Model Communication | 2017 · 212회 인용, Object detection
