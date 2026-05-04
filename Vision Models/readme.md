@@ -408,6 +408,7 @@
 - KernelGAN : Blind Super-Resolution Kernel Estimation using an Internal-GAN | 2019 · 620회 인용, Super resolution
 - KiloNeRF: Speeding up Neural Radiance Fields with Thousands of Tiny MLPs | 2021 · 993회 인용, 3D reconstruction
 - L4GM: Large 4D Gaussian Reconstruction Model | 2024 · 135회 인용, Video Generation, Gaussian Splatting
+- L4P: Towards Unified Low-Level 4D Vision Perception | 2025 · 4회 인용, Video Generation, Depth Estimation
 - LAVT: Language-Aware Vision Transformer for Referring Image Segmentation | 2021 · 488회 인용, Semantic segmentation
 - LCM : Latent Consistency Models: Synthesizing High-Resolution Images with Few-Step Inference | 2023 · 523회 인용, Image generation, Accelerate sampling
 - LCM-LoRA: A Universal Stable-Diffusion Acceleration Module | 2023 · 180회 인용, Accelerate Sampling
