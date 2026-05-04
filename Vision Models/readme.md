@@ -599,6 +599,7 @@
 - ReconX: Reconstruct Any Scene from Sparse Views with Video Diffusion Model | 2024 · 110회 인용, 3D Reconstruction, Novel View Synthesis
 - Ref-NeRF: Structured View-Dependent Appearance for Neural Radiance Fields | 2021 · 494회 인용, Novel View Synthesis
 - DG : Refining Generative Process with Discriminator Guidance in Score-based Diffusion Models | 2022 · 118회 인용, Image generation
+- Reflective Gaussian Splatting | 2024 · 19회 인용, Novel View Synthesis
 - Refusion: Enabling Large-Size Realistic Image Restoration with Latent-Space Diffusion Models | 2023 · 172회 인용, Image denoising, Image dehazing, Image restoration, Super resolution
 - RegNet : Designing Network Design Spaces | 2020 · 2495회 인용, Image classification
 - Region Mutual Information Loss for Semantic Segmentation | 2019 · 158회 인용, Semantic segmentation, Optimization
