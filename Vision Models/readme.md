@@ -38,6 +38,7 @@
 - 3D Reconstruction with Spatial Memory | 2024 · 207회 인용, 3D Reconstruction
 - 3D Semantic Segmentation with Submanifold Sparse Convolutional Networks | 2017 · 2051회 인용, Semantic segmentation
 - 3DGS-Enhancer: Enhancing Unbounded 3D Gaussian Splatting with View-consistent 2D Diffusion Priors | 2024 · 99회 인용, 3D Gaussian Splatting, Novel View Synthesis
+- 3DGUT: Enabling Distorted Cameras and Secondary Rays in Gaussian Splatting | 2024 · 66회 인용, Novel View Synthesis
 - 3DiM : Novel View Synthesis with Diffusion Models | 2022 · 320회 인용, Novel View Synthesis, 3D generation
 - 4D Gaussian Splatting for Real-Time Dynamic Scene Rendering | 2023 · 1407회 인용, Novel View Synthesis, Video Rendering
 - 4D-Rotor Gaussian Splatting: Towards Efficient Novel View Synthesis for Dynamic Scenes | 2024 · 235회 인용, Novel View Synthesis, Video Rendering
