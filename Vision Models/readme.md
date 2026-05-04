@@ -243,6 +243,7 @@
 - DiffusionCLIP: Text-Guided Diffusion Models for Robust Image Manipulation | 2021 · 870회 인용, Image generation
 - DiffusionDet: Diffusion Model for Object Detection | 2022 · 800회 인용, Object Detection
 - DiffusionInst: Diffusion Model for Instance Segmentation | 2022 · 124회 인용, Instance Segmentation
+- DiffusionRenderer: Neural Inverse and Forward Rendering with Video Diffusion Models | 2025 · 75회 인용, Video Generation, Rendering
 - DiffusionRig: Learning Personalized Priors for Facial Appearance Editing | 2023 · 91회 인용, Face Editing, Rigged by 3D, Personalized Priors, Conditional Diffusion Model
 - Direction-aware Spatial Context Features for Shadow Detection and Removal | 2018 · 507회 인용, Shadow detection, Shadow removal
 - DiscoGAN : Learning to Discover Cross-Domain Relations with Generative Adversarial Networks | 2017 · 2874회 인용, Image generation
