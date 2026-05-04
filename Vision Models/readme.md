@@ -65,6 +65,7 @@
 - Attention U-Net: Learning Where to Look for the Pancreas | 2018 · 9212회 인용, Semantic segmentation
 - AttentionGAN: Unpaired Image-to-Image Translation using Attention-Guided Generative Adversarial Networks | 2019 · 331회 인용, Image generation
 - Attentive Group Equivariant Convolutional Networks | 2020 · 113회 인용, Image Classification, Object Detection
+- Guiding a Diffusion Model with a Bad Version of Itself | 2024 · 215회 인용, Image Generation
 - AuXFT : Cross-Architecture Auxiliary Feature Space Translation for Efficient Few-Shot Personalized Object Detection | 2024 · 5회 인용, Object detection
 - Auto-Exposure Fusion for Single-Image Shadow Removal | 2021 · 201회 인용, Shadow removal
 - Autoregressive Diffusion Models | 2021 · 232회 인용, Image Generation, Order-agnostic, Fast Diffusion Sampling
