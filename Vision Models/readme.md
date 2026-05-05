@@ -443,6 +443,7 @@
 - Learning to Measure Changes: Fully Convolutional Siamese Metric Networks for Scene Change Detection | 2018 · 129회 인용, Change detection, Semantic segmentation
 - LightGlue: Local Feature Matching at Light Speed | 2023 · 795회 인용, Feature Matching, 3D resonstruction, Image matching
 - Lite DETR: An Interleaved Multi-Scale Encoder for Efficient DETR | 2023 · 130회 인용, Object detection
+- LoRA3D: Low-Rank Self-Calibration of 3D Geometric Foundation Models | 2024 · 12회 인용, Novel View Synthesis
 - LoRA: Low-Rank Adaptation of Large Language Models | 2021 · 18638회 인용, LLM, Fine-tuning
 - Low-Light Image Enhancement with Wavelet-based Diffusion Models | 2023 · 262회 인용, Image Enhancement
 - LucidFlux: Caption-Free Universal Image Restoration via a Large-Scale Diffusion Transformer | 2025 · 5회 인용, Image Restoration
