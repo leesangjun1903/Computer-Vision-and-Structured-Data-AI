@@ -78,6 +78,7 @@
 - BCRN : A Very Lightweight Image Super-Resolution Network | 2024 · 10회 인용, Super resolution, Lightweight
 - BEGAN: Boundary Equilibrium Generative Adversarial Networks | 2017 · 1617회 인용, Image generation
 - BEIT: BERT Pre-Training of Image Transformers | 2021 · 3870회 인용, Image classification, Semantic segmentation
+- BG-Triangle: Bézier Gaussian Triangle for 3D Vectorization and Rendering | 2025 · 7회 인용, 3D Rendering
 - BEIT V2: Masked Image Modeling with Vector-Quantized Visual Tokenizers | 2022 · 377회 인용, 미세 조정(fine-tuning), 선형 탐색(linear probing), 의미론적 분할(semantic segmentation)
 - BK-SDM: A Lightweight, Fast, and Cheap Version of Stable Diffusion | 2023 · 52회 인용, Image generation
 - BRDNet : Image Denoising Using Deep CNN with Batch Renormalization | 2020 · 615회 인용, Image denoising
