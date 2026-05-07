@@ -88,6 +88,7 @@
 - Big Transfer (BiT): General Visual Representation Learning | 2019 · 1586회 인용, Image classification
 - Binary Latent Diffusion | 2023 · 30회 인용, Image Generation, Binary Latent Space, Bernoulli Distribution Based Diffusion
 - Block-NeRF: Scalable Large Scene Neural View Synthesis | 2022 · 1039회 인용, 3D representation
+- BlockDance: Reuse Structurally Similar Spatio-Temporal Features to Accelerate Diffusion Transformers | 2025 · 19회 인용, Image Reconstruction
 - Background Segmentation with Feedback: The Pixel-Based Adaptive Segmenter | 2012 · 769회 인용, Change detection
 - Background Subtraction: Experiments and Improvements for ViBe | 2012 · 382회 인용, Semantic segmentation
 - BatchNorm-based Weakly Supervised Video Anomaly Detection | 2023 · 52회 인용, Video Anomaly Detection, DFM(Divergence of Feature from Mean), Batch-level Selection Strategy(SBS), BatchNorm Technique
