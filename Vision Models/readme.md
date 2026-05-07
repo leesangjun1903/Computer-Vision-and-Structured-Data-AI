@@ -583,6 +583,7 @@
 - PolyNet: A Pursuit of Structural Diversity in Very Deep Networks | 2016 · 339회 인용, Image classification
 - Polynomial Implicit Neural Representations For Large Diverse Datasets | 2023 · 44회 인용, Image Generation
 - PoseTraj: Pose-Aware Trajectory Control in Video Diffusion | 2025 · 4회 인용, Video Dragging
+- Pow3R: Empowering Unconstrained 3D Reconstruction with Camera and Scene Priors | 2025 · 49회 인용, 3D Reconstruction
 - Progressive Distillation for Fast Sampling of Diffusion Models | 2022 · 1677회 인용, Image generation
 - Progressive Neural Architecture Search | 2017 · 2661회 인용, NAS
 - Progressive Radiance Distillation for Inverse Rendering with Gaussian Splatting | 2024 · 3회 인용, Gaussian Splatting, 3D Rendering
