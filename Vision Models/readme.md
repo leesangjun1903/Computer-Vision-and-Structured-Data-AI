@@ -219,6 +219,7 @@
 - Depth Pro: Sharp Monocular Metric Depth in Less Than a Second | 2024 · 465회 인용, Monocular Depth Estimation
 - Depth-Aware Multi-Grid Deep Homography Estimation with Contextual Correlation | 2021 · 98회 인용, Image stitching
 - Depth-Regularized Optimization for 3D Gaussian Splatting in Few-Shot Images | 2023 · 236회 인용, Novel View Systhesis, 3D Reconstruction
+- DepthCrafter: Generating Consistent Long Depth Sequences for Open-world Videos | 2024 · 210회 인용, Video Depth Estimation
 - DeshadowNet: A Multi-context Embedding Deep Network for Shadow Removal | 2017 · 396회 인용, Shadow removal
 - Detecting AI-Generated Images via Diffusion Snap-Back Reconstruction | Image Reconstruction, Snapshot-based Reconstruction, Diffusion Model
 - Detection Transformer with Stable Matching | 2023 · 86회 인용, Object Detection
