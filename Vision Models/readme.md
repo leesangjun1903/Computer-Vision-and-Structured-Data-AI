@@ -427,6 +427,7 @@
 - LPTN : High-Resolution Photorealistic Image Translation in Real-Time: A Laplacian Pyramid Translation Network | 2021 · 163회 인용, Image generation
 - LSGAN : Least Squares Generative Adversarial Networks | 2016 · 6781회 인용, Image generation
 - LSGM : Score-based Generative Modeling in Latent Space | 2021 · 792회 인용, Image generation
+- LT3SD: Latent Trees for 3D Scene Diffusion | 2024 · 41회 인용, 3D Scene Generation
 - LU-NeRF: Scene and Pose Estimation by Synchronizing Local Unposed NeRFs | 2023 · 43회 인용, Pose Estimation, global-optimization
 - LVSM: A Large View Synthesis Model with Minimal 3D Inductive Bias | 2024 · 116회 인용, Novel View Synthesis, 3D Reconstruction
 - LW-DETR: A Transformer Replacement to YOLO for Real-Time Detection | 2024 · 30회 인용, Object detection
