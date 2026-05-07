@@ -846,6 +846,7 @@
 - ZSSR : "Zero-Shot" Super-Resolution using Deep Internal Learning | 2018 · 1111회 인용, Image generation, zero shot learning
 - ZeCon : Zero-Shot Contrastive Loss for Text-Guided Diffusion Image Style Transfer | 2023 · 100회 인용, Image-to-Image generation
 - Zero-1-to-3: Zero-shot One Image to 3D Object | 2023 · 1462회 인용, 3D Reconstruction,. Hybrid Conditioning
+- Zero-Shot Novel View and Depth Synthesis with Multi-View Geometric Diffusion | 2025 · 7회 인용, Novel View Synthesis
 - Zero123++: a Single Image to Consistent Multi-view Diffusion Base Model | 2023 · 498회 인용, 3D Image Generation, Multi-View Image Generation
 - cGAN : Conditional Generative Adversarial Nets | 2014 · 16150회 인용, Image generation
 - f-GAN: Training Generative Neural Samplers using Variational Divergence Minimization | 2016 · 2138회 인용, Image generation
