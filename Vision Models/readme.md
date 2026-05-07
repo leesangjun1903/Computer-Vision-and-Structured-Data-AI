@@ -593,6 +593,7 @@
 - PvT : Pyramid Vision Transformer: A Versatile Backbone for Dense Prediction without Convolutions | 2021 · 5799회 인용, Image classification, Semantic segmenation, Object detection
 - PVTv2: Improved Baselines with Pyramid Vision Transformer | 2021 · 2229회 인용, Image classification, Object detection, Semantic segmentation
 - Pyramid Adversarial Training Improves ViT Performance | Image Classification, Robustness/Out-of-distribution, Matched Dropout, Stochastic Depth
+- QuickSplat: Fast 3D Surface Reconstruction via Learned Gaussian Initialization | 2025 · 6회 인용, 3D Gaussian Splatting, 3D Reconstruction
 - R-CNN : Rich Feature Hierarchies for Accurate Object Detection and Semantic Segmentation | 2013 · 44495회 인용, Object detection, Semantic segmentation
 - R-CNN minus R | 2015 · 143회 인용, Object Detection
 - R-MAC : Particular Object Retrieval with Integral Max-Pooling of CNN Activations | 2015 · 1265회 인용, Image retrieval
