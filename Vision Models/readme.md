@@ -203,6 +203,7 @@
 - DeepSIM : Image Shape Manipulation from a Single Augmented Training Sample | 2020 · 28회 인용, Image generation, Image manipulation
 - DeepViT: Towards Deeper Vision Transformer | 2021 · 801회 인용, Image classification
 - Deep Spectral Methods: A Surprisingly Strong Baseline for Unsupervised Semantic Segmentation and Localization | 2022 · 208회 인용, Image localization, Semantic segmentation
+- Deformable Beta Splatting | 2025 · 37회 인용, Gaussian Splatting, 3D Reconstruction
 - Deformable DETR: Deformable Transformers for End-to-End Object Detection | 2020 · 8074회 인용, Object detection
 - DeiT : Training data-efficient image transformers & Distillation through attention | 2020 · 9723회 인용, Image classification
 - Delving Deep into Rectifiers: Surpassing Human-Level Performance on ImageNet Classification | 2015 · 28266회 인용, Image classification
