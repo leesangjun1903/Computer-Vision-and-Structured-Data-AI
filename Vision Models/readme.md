@@ -555,6 +555,7 @@
 - PRNet :  Joint 3D Face Reconstruction and Dense Alignment with Position Map Regression Network | 2018 · 953회 인용, 3D reconstruction, Face alignment, Face reconstruction
 - PSConv: Squeezing Feature Pyramid into One Compact Poly-Scale Convolutional Layer | 2020 · 46회 인용, Image classification
 - PSLD : Solving Linear Inverse Problems Provably via Posterior Sampling with Latent Diffusion Models | 2023 · 118회 인용, Image Enhancement
+- PUP 3D-GS: Principled Uncertainty Pruning for 3D Gaussian Splatting | 2024 · 85회 인용, Gaussian Splatting, 3D Reconstruction
 - PVANET: Deep but Lightweight Neural Networks for Real-time Object Detection | 2016 · 332회 인용, Object Detection
 - PaDiM: a Patch Distribution Modeling Framework for Anomaly Detection and Localization | 2020 · 1562회 인용, Industrial Anomaly Detection, Localization, Pre-trained CNN
 - Paint by Example: Exemplar-based Image Editing with Diffusion Models | 2022 · 652회 인용, Image Editing
