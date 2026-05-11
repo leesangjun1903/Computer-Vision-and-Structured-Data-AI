@@ -97,7 +97,7 @@
 - BicycleGAN : Toward Multimodal Image-to-Image Translation | 2017 · 2094회 인용, Image-to-Image generation
 - BlockQNN : Practical Block-wise Neural Network Architecture Generation | 2017 · 671회 인용, Image classification, Reinforcement Learning
 - Boosting Robustness of Image Matting with Context Assembling and Strong Data Augmentation | 2022 · 42회 인용, Image matting
-- Buffer Anytime: Zero-Shot Video Depth and Normal from Image Priors | 2024 · 10회 인용
+- Buffer Anytime: Zero-Shot Video Depth and Normal from Image Priors | 2024 · 10회 인용, Video Generation
 - CAE : Stacked Convolutional Auto-Encoders for Hierarchical Feature Extraction | 2011 · 2931회 인용, Image reconstruction : https://github.com/bogus215/Stacked-Convolutional-Auto-Encoders-for-Hierarchical-Feature-Extraction
 - CAMixerSR: Only Details Need More “Attention” | 2024 · 63회 인용, Super resolution : https://github.com/icandle/CAMixerSR/tree/main?tab=readme-ov-file
 - CANet: A Context-Aware Network for Shadow Removal | 2021 · 131회 인용, Shadow removal
