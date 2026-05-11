@@ -252,6 +252,7 @@
 - DiffusionInst: Diffusion Model for Instance Segmentation | 2022 · 124회 인용, Instance Segmentation
 - DiffusionRenderer: Neural Inverse and Forward Rendering with Video Diffusion Models | 2025 · 75회 인용, Video Generation, Rendering
 - DiffusionRig: Learning Personalized Priors for Facial Appearance Editing | 2023 · 91회 인용, Face Editing, Rigged by 3D, Personalized Priors, Conditional Diffusion Model
+- DiffusionSfM: Predicting Structure and Motion via Ray Origin and Endpoint Diffusion | 2025 · 11회 인용, 3D Reconstruction, Novel View Synthesis
 - Direction-aware Spatial Context Features for Shadow Detection and Removal | 2018 · 507회 인용, Shadow detection, Shadow removal
 - DiscoGAN : Learning to Discover Cross-Domain Relations with Generative Adversarial Networks | 2017 · 2874회 인용, Image generation
 - Distilling Monocular Foundation Model for Fine-grained Depth Completion | 2025 · 18회 인용, Depth Completion
