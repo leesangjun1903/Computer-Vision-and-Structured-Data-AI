@@ -254,6 +254,7 @@
 - DiffusionRig: Learning Personalized Priors for Facial Appearance Editing | 2023 · 91회 인용, Face Editing, Rigged by 3D, Personalized Priors, Conditional Diffusion Model
 - Direction-aware Spatial Context Features for Shadow Detection and Removal | 2018 · 507회 인용, Shadow detection, Shadow removal
 - DiscoGAN : Learning to Discover Cross-Domain Relations with Generative Adversarial Networks | 2017 · 2874회 인용, Image generation
+- Distilling Monocular Foundation Model for Fine-grained Depth Completion | 2025 · 18회 인용, Depth Completion
 - Diﬀ-Font: Diﬀusion Model for Robust One-Shot Font Generation | 2022 · 73회 인용, Image Generation, Robust One-Shot Generation
 - DnCNN : Beyond a Gaussian Denoiser: Residual Learning of Deep CNN for Image Denoising | 2016 · 10020회 인용, Image Denoising, Super resolution : https://github.com/anushkayadav/Denoising_cifar10
 - Don't Play Favorites: Minority Guidance for Diffusion Models | 2023 · 31회 인용, Minority Guidance, classifier guidance
