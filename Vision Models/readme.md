@@ -482,6 +482,7 @@
 - Marigold : Repurposing Diffusion-Based Image Generators for Monocular Depth Estimation | 2023 · 556회 인용, Depth estimation
 - Mask DINO: Towards A Unified Transformer-based Framework for Object Detection and Segmentation | 2022 · 617회 인용, Object detection, Semantic segmentation
 - Mask R-CNN | 2017 · 45369회 인용, Object detection, Semantic segmentation
+- Mask-Adapter: The Devil is in the Masks for Open-Vocabulary Segmentation | 2024 · 21회 인용, Image Segmentation
 - Mask2Former : Masked-attention Mask Transformer for Universal Image Segmentation | 2021 · 3513회 인용, Semantic segmentation
 - MaskFormer : Per-Pixel Classification is Not All You Need for Semantic Segmentation | 2021 · 1974회 인용, Semattic segmentation
 - MaskFreeVIS : Mask-Free Video Instance Segmentation | 2023 · 38회 인용, Video Instance Segmentation
