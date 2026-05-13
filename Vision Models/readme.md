@@ -548,6 +548,7 @@
 - One-2-3-45: Any Single Image to 3D Mesh in 45 Seconds without Per-Shape Optimization | 2023 · 703회 인용, 3D Reconstruction
 - One-Step Effective Diffusion Network for Real-World Image Super-Resolution | 2024 · 124회 인용, Image Enhancement
 - OneFormer: One Transformer to Rule Universal Image Segmentation | 2022 · 727회 인용, Image Segmentation
+- OpenGaussian: Towards Point-Level 3D Gaussian-based Open Vocabulary Understanding | 2024 · 140회 인용, Novel View Synthesis, 3D Reconstruction
 - OverFeat: Integrated Recognition, Localization and Detection using Convolutional Networks | 2013 · 8137회 인용, Object Detection, Localization
 - P2 weighting : Perception Prioritized Training of Diffusion Models | 2022 · 318회 인용, Image generation
 - Path Aggregation Network for Instance Segmentation | 2018 · 11419회 인용, Instance Segmentation, Bottom-up Path Augmentation, Adaptive Feature Pooling, Fully-connected Fusion
