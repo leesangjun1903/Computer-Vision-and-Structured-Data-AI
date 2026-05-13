@@ -584,6 +584,7 @@
 - Pix2Pix : Image-to-Image Translation with Conditional Adversarial Networks | 2016 · 28621회 인용, Image generation : https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix?tab=readme-ov-file
 - Pix2Pix-zero : Zero-shot Image-to-Image Translation | 2023 · 582회 인용, Image generation
 - Pix2PixHD : High-Resolution Image Synthesis and Semantic Manipulation with Conditional GANs | 2017 · 5683회 인용, Image generation, Semantic segmentation
+- PlanarSplatting: Accurate Planar Surface Reconstruction in 3 Minutes | 2024 · 15회 인용, 3D Reconstruction
 - NeRF-SH : PlenOctrees for Real-time Rendering of Neural Radiance Fields | 2021 · 1288회 인용, 3D reconstruction
 - Plenoxels: Radiance Fields without Neural Networks | 2021 · 231회 인용, 3D reconstruction
 - PnP-DETR: Towards Efficient Visual Analysis with Transformers | 2021 · 135회 인용, Object detection
