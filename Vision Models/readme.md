@@ -189,6 +189,7 @@
 - DSD : Diffusion Self-Distillation for Zero-Shot Customized Image Generation | 2024 · 16회 인용, Image generation
 - DUSt3R: Geometric 3D Vision Made Easy | 2023 · 1412회 인용, Novel View Synthesis, 3D Reconstruction
 - DeCo: Frequency-Decoupled Pixel Diffusion for End-to-End Image Generation | Image generation
+- DeSplat: Decomposed Gaussian Splatting for Distractor-Free Rendering | 2024 · 15회 인용, 3D Reconstruction, Novel View Synthesis, 3D Gaussian Splatting
 - Deblurring 3D Gaussian Splatting | 2024 · 119회 인용, Novel View Synthesis
 - Decoupled DMD: CFG Augmentation as the Spear, Distribution Matching as the Shield | Distribution Matching Distillation
 - Deep Generator Priors for Bayesian Seismic Inversion | 2020 · 18회 인용, Image generation, Seismic Imaging, Uncertainty Quantification
