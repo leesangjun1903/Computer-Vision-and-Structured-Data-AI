@@ -542,6 +542,7 @@
 - Neural Directional Encoding for Efficient and Accurate View-Dependent Appearance Modeling | 2024 · 21회 인용, Novel View Synthesis, 3D Reconstruction
 - Neural Haircut: Prior-Guided Strand-Based Hair Reconstruction | 2023 · 59회 인용, 3D Reconstruction, Coarse Stage, Fine Stage, Differentiable Renderer
 - Neuralangelo: High-Fidelity Neural Surface Reconstruction | 2023 · 586회 인용, 3D reconstruction
+- No Pose at All: Self-Supervised Pose-Free 3D Gaussian Splatting from Sparse Views | 2025 · 24회 인용, Novel View Synthesis, 3D Reconstruction
 - No Pose, No Problem: Surprisingly Simple 3D Gaussian Splats from Sparse Unposed Images | 2024 · 181회 인용, Novel View Synthesis, 3D Reconstruction
 - Noise Flow: Noise Modeling with Conditional Normalizing Flows | 2019 · 222회 인용, Image denoising
 - Noise2Noise: Learning Image Restoration without Clean Data | 2018 · 2454회 인용, Image denoising
