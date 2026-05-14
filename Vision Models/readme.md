@@ -821,6 +821,7 @@
 - VAEBM: A Symbiosis between Variational Autoencoders and Energy-based Models | 2020 · 147회 인용, Image generation
 - VAN : Visual Attention Network | 2022 · 1100회 인용, Image classification, Object detection, Semantic segmentation, Pose estimation
 - VGG : Very Deep Convolutional Networks for Large-Scale Image Recognition | 2014 · 150415회 인용, Image classification
+- VGGT: Visual Geometry Grounded Transformer | 2025 · 1162회 인용, Camera Pose Estimation, Multi-view Depth Estimation, Point Map Estimation, Image Matching
 - VMRF: View Matching Neural Radiance Fields | 2022 · 88회 인용, 3D reconstruction
 - VOLO: Vision Outlooker for Visual Recognition | 2021 · 432회 인용, Image Classification
 - VT-ADL: A Vision Transformer Network for Image Anomaly Detection and Localization | 2021 · 571회 인용, Industrial Anomaly Detection, Reconstruction-based, Patch Embedding, Gaussian Mixture Density Network
