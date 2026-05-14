@@ -486,6 +486,7 @@
 - Make-It-3D: High-Fidelity 3D Creation from A Single Image with Diffusion Prior | 2023 · 381회 인용, 3D Reconstruction, Diffusion Prior, Point Cloud Modelling, Score Distillation Sampling, SDS
 - MambaIRv2: Attentive State Space Restoration | 2024 · 173회 인용, Super-Resolution, Image Reconstruction
 - Mani-GS: Gaussian Splatting Manipulation with Triangular Mesh | 2024 · 32회 인용, 3D Reconstruction, Novel View Synthesis, Gaussian Splatting
+- MapAnything: Universal Feed-Forward Metric 3D Reconstruction | 2025 · 144회 인용, 3D Reconstruction, Multi View Synthesis
 - Marigold : Repurposing Diffusion-Based Image Generators for Monocular Depth Estimation | 2023 · 556회 인용, Depth estimation
 - Mask DINO: Towards A Unified Transformer-based Framework for Object Detection and Segmentation | 2022 · 617회 인용, Object detection, Semantic segmentation
 - Mask R-CNN | 2017 · 45369회 인용, Object detection, Semantic segmentation
