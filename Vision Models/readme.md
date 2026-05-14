@@ -119,6 +119,7 @@
 - CSPNet: A New Backbone that can Enhance Learning Capability of CNN | 2019 · 5843회 인용, Image classification, Object detection
 - CUT : Contrastive Learning for Unpaired Image-to-Image Translation | 2020 · 1815회 인용, Image generation
 - CaiT : Going deeper with Image Transformers | 2021 · 1492회 인용, Image classification
+- Cavia: Camera-controllable Multi-view Video Diffusion with View-Integrated Attention | 2024 · 18회 인용, Video Generation
 - Change Detection with Weightless Neural Networks | 2014 · 145회 인용, Change detection
 - ChangeNet: A Deep Learning Architecture for Visual Change Detection | 2018 · 200회 인용, Change detection, Semantic segmentation
 - CityGaussian: Real-time High-quality Large-Scale Scene Rendering with Gaussians | 2024 · 272회 인용, Novel View Synthesis, 3D Reconstruction
