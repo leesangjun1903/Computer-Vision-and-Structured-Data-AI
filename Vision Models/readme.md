@@ -103,6 +103,7 @@
 - CANet: A Context-Aware Network for Shadow Removal | 2021 · 131회 인용, Shadow removal
 - CARD: Classification and Regression Diffusion Models | 2022 · 201회 인용, Image Classification, Image Regression
 - CBAM: Convolutional Block Attention Module | 2018 · 30618회 인용, Image classification, Object detection
+- CCL-LGS: Contrastive Codebook Learning for 3D Language Gaussian Splatting | 2025 · 7회 인용, 3D Segmentation
 - CDM : Cascaded Diffusion Models for High Fidelity Image Generation | 2021 · 1500회 인용, Image generation, Super resolution
 - CF-DETR: Coarse-to-Fine Transformers for End-to-End Object Detection | 2022 · 53회 인용, Object detection
 - CFG : Classifier-Free Diffusion Guidance | 2022 · 5339회 인용, Data diversity, Optimization
