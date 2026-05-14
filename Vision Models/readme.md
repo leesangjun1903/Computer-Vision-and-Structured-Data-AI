@@ -506,6 +506,7 @@
 - MeshAnything: Artist-Created Mesh Generation with Autoregressive Transformers | 2024 · 135회 인용, Mesh Generation
 - MeshAnything V2: Artist-Created Mesh Generation With Adjacent Mesh Tokenization | 2024 · 86회 인용, Mesh Generation
 - MeshGPT: Generating Triangle Meshes with Decoder-Only Transformers | 2023 · 288회 인용, 3D Reconstruction, 3D Generation
+- Meshtron: High-Fidelity, Artist-Like 3D Mesh Generation at Scale | 2024 · 67회 인용, Mesh Generation
 - MetaFormer : MetaFormer Is Actually What You Need for Vision | 2021 · 1496회 인용, Image classification, Object detection, Semantic segmentation
 - MetaQNN : Designing Neural Network Architectures using Reinforcement Learning | 2016 · 2059회 인용 , Image classification, Reinforcement Learning
 - Microsoft COCO: Common Objects in Context | 2014 · 65007회 인용, Object Detection
