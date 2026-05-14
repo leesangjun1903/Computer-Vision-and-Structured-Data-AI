@@ -88,6 +88,7 @@
 - BYOL : Bootstrap your own latent, A new approach to self-supervised Learning | 2020 · 9134회 인용, Image augmentation, Image classification
 - Back to Basics: Let Denoising Generative Models Denoise | x-prediction, Image Denoising
 - Big Transfer (BiT): General Visual Representation Learning | 2019 · 1586회 인용, Image classification
+- BillBoard Splatting (BBSplat): Learnable Textured Primitives for Novel View Synthesis | 2024 · 18회 인용, Novel View Synthesis
 - Binary Latent Diffusion | 2023 · 30회 인용, Image Generation, Binary Latent Space, Bernoulli Distribution Based Diffusion
 - Block-NeRF: Scalable Large Scene Neural View Synthesis | 2022 · 1039회 인용, 3D representation
 - BlockDance: Reuse Structurally Similar Spatio-Temporal Features to Accelerate Diffusion Transformers | 2025 · 19회 인용, Image Reconstruction
