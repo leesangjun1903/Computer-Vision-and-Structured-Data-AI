@@ -433,6 +433,7 @@
 - LMAR : Empowering Resampling Operation for Ultra-High-Definition Image Enhancement with Model-Aware Guidance | 2024 · 6회 인용, Super resolution, Image enhancement
 - LMD : Unsupervised Out-of-Distribution Detection with Diffusion Inpainting | 2023 · 61회 인용, Image inpainting, Out of distribution(OOD)
 - LODGE: Level-of-Detail Large-Scale Gaussian Splatting with Efficient Rendering | 2025 · 21회 인용, Novel View Synthesis, 3D Reconstruction, Gaussian Splatting
+- LONG3R: Long Sequence Streaming 3D Reconstruction | 2025 · 26회 인용, 3D Reconstruction, Pose Estimation
 - LOST : Localizing Objects with Self-Supervised Transformers and No Labels | 2021 · 267회 인용, Image localization
 - LPTN : High-Resolution Photorealistic Image Translation in Real-Time: A Laplacian Pyramid Translation Network | 2021 · 163회 인용, Image generation
 - LSGAN : Least Squares Generative Adversarial Networks | 2016 · 6781회 인용, Image generation
