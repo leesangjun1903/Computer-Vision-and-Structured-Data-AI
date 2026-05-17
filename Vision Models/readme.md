@@ -634,6 +634,7 @@
 - RIS-GAN: Explore Residual and Illumination with Generative Adversarial Networks for Shadow Removal | 2019 · 112회 인용, Shadow removal
 - RLFN : Residual Local Feature Network for Efficient Super-Resolution | 2022 · 292회 인용, Super-Resolution
 - RT-DETR : DETRs Beat YOLOs on Real-time Object Detection | 2023 · 2350회 인용, Object detection
+- Radiance Surfaces: Optimizing Surface Representations with a 5D Radiance Field Loss | 2025 · 1회 인용, Novel View Synthesis
 - Radiant Foam: Real-Time Differentiable Ray Tracing | 2025 · 27회 인용, Novel View Synthesis
 - Random Conditioning with Distillation for Data-Efficient Diffusion Model Compression | 2025 · 3회 인용, Knoledge Distillation
 - ReACGAN : Rebooting ACGAN: Auxiliary Classifier GANs with Stable Training | 2021 · 144회 인용, Image generation, Data diversity
