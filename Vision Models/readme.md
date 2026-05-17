@@ -541,6 +541,7 @@
 - Natural Image Denoising with Convolutional Networks | 2008 · 1329회 인용, Image denoising
 - NeRF On-the-go: Exploiting Uncertainty for Distractor-free NeRFs in the Wild | 2024 · 94회 인용, Novel View Synthesis, 3D Reconstruction
 - NeRF--: Neural Radiance Fields Without Known Camera Parameters | 2021 · 749회 인용, 3D reconstruction, photometric reconstruction
+- NeRF-Casting: Improved View-Dependent Appearance with Consistent Reflections | 2024 · 32회 인용, Novel View Synthesis
 - NeRF: Neural Radiance Fields for View Synthesis | 2020 · 14429회 인용, 3D reconstruction, Neural rendering, Novel view synthesis
 - NeRFLiX: High-Quality Neural View Synthesis by Learning a Degradation-Driven Inter-viewpoint MiXer | 2023 · 51회 인용, Novel View Synthesis, 3D Reconstrcution
 - NetVLAD: CNN architecture for weakly supervised place recognition | 2015 · 3910회 인용, Image retrieval, Visual localization
