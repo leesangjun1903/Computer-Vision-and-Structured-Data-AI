@@ -205,6 +205,7 @@
 - DeepCache: Accelerating Diffusion Models for Free | 2023 · 235회 인용, Image generation
 - DeepFaceDrawing: Deep Generation of Face Images from Sketches | 2020 · 207회 인용, Image Drawing
 - DeepFashion: Powering Robust Clothes Recognition and Retrieval with Rich Annotations | 2016 · 2397회 인용, Image classification
+- DeepMesh: Auto-Regressive Artist-mesh Creation with Reinforcement Learning | 2025 · 43회 인용, Mesh Generation
 - DeepPainter: Painter Classification Using Deep Convolutional Autoencoders | 2017 · 93회 인용, Image classification
 - DeepSIM : Image Shape Manipulation from a Single Augmented Training Sample | 2020 · 28회 인용, Image generation, Image manipulation
 - DeepViT: Towards Deeper Vision Transformer | 2021 · 801회 인용, Image classification
