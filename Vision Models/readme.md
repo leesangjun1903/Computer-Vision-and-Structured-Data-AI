@@ -354,6 +354,7 @@
 - Gaussian Splatting with NeRF-based Color and Opacity | 2023 · 38회 인용, Novel View Synthesis, NeRF, 3D Reconstruction
 - GaussianPro: 3D Gaussian Splatting with Progressive Propagation | 2024 · 194회 인용, Novel View Synthesis, Depth Estimation
 - GaussianShader: 3D Gaussian Splatting with Shading Functions for Reflective Surfaces | 2023 · 309회 인용, 3D Reconstruction, 3D Rendering
+- GaussianVideo: Efficient Video Representation via Hierarchical Gaussian Splatting | 2025 · 12회 인용, Video Representation
 - GeM : Fine-tuning CNN Image Retrieval with No Human Annotation | 2017 · 1719회 인용, Image retrieval
 - GeNeVA-GAN : Tell, Draw, and Repeat: Generating and Modifying Images Based on Continual Linguistic Instruction | 2018 · 91회 인용, Text(Image)-Image generation
 - Generating Long Videos of Dynamic Scenes | 2022 · 159회 인용, Video Generation, Hierarchical Generator, Temporal Latent Representation, 
