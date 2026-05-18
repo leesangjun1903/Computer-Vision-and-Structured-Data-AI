@@ -521,6 +521,7 @@
 - MixFormer: Mixing Features across Windows and Dimensions | 2022 · 209회 인용, Image Classification
 - MoCov2 : Improved Baselines with Momentum Contrastive Learning | 2020 · 4325회 인용, Image classification, Object detection
 - MoCov3 : An Empirical Study of Training Self-Supervised Vision Transformers | 2021 · 2474회 인용, Image classification
+- MoGe: Unlocking Accurate Monocular Geometry Estimation for Open-Domain Images with Optimal Training Supervision | 2024 · 212회 인용, Monocular Depth Estimation
 - MobileNetV1 : Efficient Convolutional Neural Networks for Mobile Vision Applications | 2017 · 34073회 인용, Image classification
 - MobileNetV2: Inverted Residuals and Linear Bottlenecks | 2018 · 31765회 인용, Image classification
 - MobileNetV3 : Searching for MobileNetV3 | 2019 · 12219회 인용, Image classification, Object detection, Semantic segmenation
