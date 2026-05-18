@@ -285,6 +285,7 @@
 - EPDN : Enhanced Pix2pix Dehazing Network | 2019 · 902회 인용, Image Dehazing
 - ESPCN : Real-Time Single Image and Video Super-Resolution Using an Efficient Sub-Pixel Convolutional Neural Network | 2016 · 8663회 인용, Super resolution
 - ESRGAN: Enhanced Super-Resolution Generative Adversarial Networks | 2018 · 5950회 인용, Super resolution
+- Easi3R: Estimating Disentangled Motion from DUSt3R Without Training | 2025 · 69회 인용, 3D Reconstruction, Pose Estimation
 - EdgeConnect: Generative Image Inpainting with Adversarial Edge Learning | 2019 · 1048회 인용, Image generation
 - EdgeRunner: Auto-regressive Auto-encoder for Artistic Mesh Generation | 2024 · 75회 인용, 3D Generation, Mesh Generation
 - EdgeSRGAN : Generative Adversarial Super-Resolution at the Edge with Knowledge Distillation | 2022 · 48회 인용, Super resolution : https://github.com/PIC4SeR/EdgeSRGAN?tab=readme-ov-file
