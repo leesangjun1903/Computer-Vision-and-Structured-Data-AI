@@ -681,6 +681,7 @@
 - RetinaNet : Focal Loss for Dense Object Detection | 2017 · 41640회 인용, Object detection
 - Rev-ViT : Reversible Vision Transformers | 2023 · 99회 인용, Image Classification, Video Classification, Object Detection
 - Reverse Convolution and Its Applications to Image Restoration | 2025 · 1회 인용, Image Restoration, Image Reconstruction, Reverse Convolution, Fourier Transform
+- Rig3R: Rig-Aware Conditioning for Learned 3D Reconstruction | 2025 · 10회 인용, Pose Estimation
 - Robust Classification via a Single Diffusion Model | 2023 · 100회 인용, Image Classification, Generative Classifier, Adversarial Robustness, Multi-head U-Net
 - Robust and Efficient Object Change Detection by Combining Global Semantic Information and Local Geometric Verification | 2020 · 28회 인용, 3D object detection
 - RobustSAM: Segment Anything Robustly on Degraded Images | 2024 · 59회 인용, Image Segmentation
