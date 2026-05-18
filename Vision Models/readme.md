@@ -388,6 +388,7 @@
 - IGCv2: Interleaved Structured Sparse Convolutional Neural Networks | 2018 · 165회 인용, Image classification
 - IGCv3: Interleaved Low-Rank Group Convolutions for Efficient Deep Neural Networks | 2018 · 148회 인용, Image classification, Object detection
 - IR-SDE : Image Restoration with Mean-Reverting Stochastic Differential Equations | 2023 · 275회 인용, Image deblurring, Image denoising, Image generation, Image restoration, Super resolution, Image dehazing
+- IRIS: Inverse Rendering of Indoor Scenes from Low Dynamic Range Images | 2024 · 11회 인용, Novel View Synthesis
 - ResNet-1K-layer : Identity Mappings in Deep Residual Networks | 2016 · 14315회 인용, Image classification
 - Image Blind Denoising With Generative Adversarial Network Based Noise Modeling | 2018 · 749회 인용, Image denoising
 - Image Denoising Based on Non-Local Means Filter and Its Method Noise Thresholding | 2013 . 207회 인용, Image denoising
