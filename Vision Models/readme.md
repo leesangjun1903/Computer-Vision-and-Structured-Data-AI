@@ -572,6 +572,7 @@
 - P2 weighting : Perception Prioritized Training of Diffusion Models | 2022 · 318회 인용, Image generation
 - Path Aggregation Network for Instance Segmentation | 2018 · 11419회 인용, Instance Segmentation, Bottom-up Path Augmentation, Adaptive Feature Pooling, Fully-connected Fusion
 - PASD : Pixel-Aware Stable Diffusion for Realistic Image Super-Resolution and Personalized Stylization | 2023 · 195회 인용, Super resolution
+- PBR-NeRF: Inverse Rendering with Physics-Based Neural Fields | 2024 · 12회 인용, Novel View Synthesis
 - PFGM : Poisson Flow Generative Models | 2022 · 123회 인용, Image generation
 - PFGM++: Unlocking the Potential of Physics-Inspired Generative Models | 2023 · 78회 인용, Image generation
 - PGDiff: Guiding Diffusion Models for Versatile Face Restoration via Partial Guidance | 2023 · 60회 인용, Image generation, Image restoration, Face restoration
