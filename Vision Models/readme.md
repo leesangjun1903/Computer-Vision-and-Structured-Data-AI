@@ -361,6 +361,7 @@
 - Generating Long Videos of Dynamic Scenes | 2022 · 159회 인용, Video Generation, Hierarchical Generator, Temporal Latent Representation, 
 - Generative Flow Networks for Discrete Probabilistic Modeling | 2022 · 134회 인용, Image generation
 - Genetic CNN | 2017 · 1242회 인용, Image classification
+- GeoSplatting: Towards Geometry Guided Gaussian Splatting for Physically-based Inverse Rendering | 2024 · 12회 인용, Gaussian Splatting, 3D Reconstruction
 - Geometry Transfer for Stylizing Radiance Fields | 2024 · 17회 인용, 3D Style Transfer
 - GhostNet: More Features from Cheap Operations | 2019 · 5193회 인용, Image classification
 - Global Structure-from-Motion Revisited | 2024 · 260회 인용, Structure From Motion
