@@ -757,6 +757,7 @@
 - Spacetime Gaussian Feature Splatting for Real-Time Dynamic View Synthesis | 2023 · 411회 인용, Novel View Synthesis, 3D Reconstruction
 - SnapFusion: Text-to-Image Diffusion Model on Mobile Devices within Two Seconds | 2023 · 232회 인용, Image generation
 - Sparse DETR: Efficient End-to-End Object Detection with Learnable Sparsity | 2021 · 280회 인용, Object detection
+- SparseFlex: High-Resolution and Arbitrary-Topology 3D Shape Modeling | 2025 · 43회 인용, Mesh Generation
 - Sparse Voxels Rasterization: Real-time High-fidelity Radiance Field Rendering | 2024 · 30회 인용, Novel View Synthesis
 - SparseGS: Real-Time 360° Sparse View Synthesis using Gaussian Splatting | 2023 · 103회 인용, 3D Reconstruction, Novel View Synthesis
 - Spatial Pyramid Pooling in Deep Convolutional Networks for Visual Recognition | 2014 · 18665회 인용, Image Classification
