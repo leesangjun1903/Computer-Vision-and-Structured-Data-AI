@@ -843,6 +843,7 @@
 - Variational Diffusion Auto-encoder: Latent Space Extraction from Pre-trained Diffusion Models | 2023 · 1회 인용, Anomaly Detection, Image Generation, Image Reconstruction, Pre-trained Diffusion Model, Latent Space Extraction
 - Variational Diffusion Models | 2021 · 1509회 인용, Content(Image, Audio, Text, etc) Generation
 - VastGaussian: Vast 3D Gaussians for Large Scene Reconstruction | 2024 · 292회 인용, 3D Reconstruction
+- ViPE: Video Pose Engine for 3D Geometric Perception | 2025 · 64회 인용, Camera Pose Estimation, Depth Estimation
 - VPD : Unleashing Text-to-Image Diffusion Models for Visual Perception | 2023 · 284회 인용, Semantic segmentation, Depth estimation
 - ViT : An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale | 2020 · 73108회 인용, Image classification
 - ViTAE: Vision Transformer Advanced by Exploring Intrinsic Inductive Bias | 2021 · 750회 인용, Image Classification, Image Segmentation, Object Detection, Reduction Cell (RC), Normal Cell (NC)
