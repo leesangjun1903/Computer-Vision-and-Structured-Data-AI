@@ -467,6 +467,7 @@
 - Lite DETR: An Interleaved Multi-Scale Encoder for Efficient DETR | 2023 · 130회 인용, Object detection
 - LoRA3D: Low-Rank Self-Calibration of 3D Geometric Foundation Models | 2024 · 12회 인용, Novel View Synthesis
 - LoRA: Low-Rank Adaptation of Large Language Models | 2021 · 18638회 인용, LLM, Fine-tuning
+- Lotus: Diffusion-based Visual Foundation Model for High-quality Dense Prediction | 2024 · 151회 인용, Depth Estimation
 - Low-Light Image Enhancement with Wavelet-based Diffusion Models | 2023 · 262회 인용, Image Enhancement
 - LucidFlux: Caption-Free Universal Image Restoration via a Large-Scale Diffusion Transformer | 2025 · 5회 인용, Image Restoration
 - LumiGauss: Relightable Gaussian Splatting in the Wild | 2024 · 18회 인용, Novel View Synthesis, 3D Reconstruction
