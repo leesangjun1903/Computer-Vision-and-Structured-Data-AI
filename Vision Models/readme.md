@@ -198,6 +198,7 @@
 - DeSplat: Decomposed Gaussian Splatting for Distractor-Free Rendering | 2024 · 15회 인용, 3D Reconstruction, Novel View Synthesis, 3D Gaussian Splatting
 - Deblurring 3D Gaussian Splatting | 2024 · 119회 인용, Novel View Synthesis
 - Decoupled DMD: CFG Augmentation as the Spear, Distribution Matching as the Shield | Distribution Matching Distillation
+- Deep Compression Autoencoder for Efficient High-Resolution Diffusion Models | 2024 · 177회 인용, Image Compression, Image Reconstruction
 - Deep Generator Priors for Bayesian Seismic Inversion | 2020 · 18회 인용, Image generation, Seismic Imaging, Uncertainty Quantification
 - Deep Layer Aggregation | 2017 · 1914회 인용, Image classification, Fine-grained Recognition, Semantic Segmentation
 - Deep Learning of Partial Graph Matching via Differentiable Top-K | 2023 · 18회 인용, Graph matching, Image matching
