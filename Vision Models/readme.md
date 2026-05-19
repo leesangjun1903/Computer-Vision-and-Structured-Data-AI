@@ -37,6 +37,7 @@
 - 3D Object Representations for Fine-Grained Categorization | 2013 · 5280회 인용, 3D estimation
 - 3D Reconstruction with Spatial Memory | 2024 · 207회 인용, 3D Reconstruction
 - 3D Semantic Segmentation with Submanifold Sparse Convolutional Networks | 2017 · 2051회 인용, Semantic segmentation
+- 3D Student Splatting and Scooping | 2025 · 20회 인용, Novel View Synthesis
 - 3DGS-Enhancer: Enhancing Unbounded 3D Gaussian Splatting with View-consistent 2D Diffusion Priors | 2024 · 99회 인용, 3D Gaussian Splatting, Novel View Synthesis
 - 3DGUT: Enabling Distorted Cameras and Secondary Rays in Gaussian Splatting | 2024 · 66회 인용, Novel View Synthesis
 - 3DiM : Novel View Synthesis with Diffusion Models | 2022 · 320회 인용, Novel View Synthesis, 3D generation
