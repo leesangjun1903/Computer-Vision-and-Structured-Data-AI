@@ -155,6 +155,7 @@
 - CvT : Introducing Convolutions to Vision Transformers | 2021 · 2904회 인용, Image classification
 - CycleGAN: Unpaired Image-to-Image Translation using Cycle-Consistent Adversarial Networks | 2017 · 29137회 인용, Image generation
 - CycleISP: Real Image Restoration via Improved Data Synthesis | 2020 · 491회 인용, Image denoising, Image restoration
+- D2USt3R: Enhancing 3D Reconstruction for Dynamic Scenes | 2025, Pose Estimation
 - D3PM : Structured Denoising Diffusion Models in Discrete State-Spaces | 2021 · 1560회 인용, Image Generation, Discrete State-Spaces, Markov Transition Matrices
 - DAB-DETR: Dynamic Anchor Boxes are Better Queries for DETR | 2022 · 1262회 인용, Object detection
 - DAG: Depth-Aware Guidance with Denoising Diffusion Probabilistic Models | 2022 · 16회 인용, Depth Prior Guidance, Depth Estimation
