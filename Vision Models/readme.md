@@ -663,6 +663,7 @@
 - RealFill: Reference-Driven Generation for Authentic Image Completion | 2023 · 77회 인용, Image Inpainting, Image Generation
 - RealFusion: 360° Reconstruction of Any Object from a Single Image | 2023 · 383회 인용, 3D Reconstruction, Diffusion Model, Textual Inversion, NeRF(Neural Radiance Field)
 - ReconX: Reconstruct Any Scene from Sparse Views with Video Diffusion Model | 2024 · 110회 인용, 3D Reconstruction, Novel View Synthesis
+- Rectified Point Flow: Generic Point Cloud Pose Estimation | 2025 · 8회 인용, Point Cloud Pose Estimation
 - Ref-NeRF: Structured View-Dependent Appearance for Neural Radiance Fields | 2021 · 494회 인용, Novel View Synthesis
 - DG : Refining Generative Process with Discriminator Guidance in Score-based Diffusion Models | 2022 · 118회 인용, Image generation
 - Reflective Gaussian Splatting | 2024 · 19회 인용, Novel View Synthesis
