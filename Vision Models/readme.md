@@ -329,6 +329,7 @@
 - FastNeRF: High-Fidelity Neural Rendering at 200FPS | 2021 · 814회 인용, 3D reconstruction
 - Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks | 2015 · 55990회 인용, Object detection
 - Feature 3DGS: Supercharging 3D Gaussian Splatting to Enable Distilled Feature Fields | 2023 · 417회 인용, Gaussian Splatting, 3D Reconstruction, Novel View Synthesis
+- FiffDepth: Feed-forward Transformation of Diffusion-Based Generators for Detailed Depth Estimation | 2024 · 5회 인용, Monocular Depth Estimation
 - Fine-Tuning Image-Conditional Diffusion Models Is Easier than You Think | 2024 · 47회 인용, Depth estimation
 - FixEfficientNet : Fixing the Train–Test Resolution Discrepancy | 2020 · 713회 인용, Image classification, Data augmentation, preprocessing
 - FlashSplat: 2D to 3D Gaussian Splatting Segmentation Solved Optimally | 2024 · 59회 인용, 3D Segmentation
