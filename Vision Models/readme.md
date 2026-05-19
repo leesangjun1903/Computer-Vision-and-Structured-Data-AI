@@ -570,6 +570,7 @@
 - Noise2Noise: Learning Image Restoration without Clean Data | 2018 · 2454회 인용, Image denoising
 - Noise2Void - Learning Denoising from Single Noisy Images | 2018 · 1627회 인용, Image denoising
 - NoisyStudent : Self-training with Noisy Student improves ImageNet classification | 2019 · 3272회 인용, Image classification
+- NormalCrafter: Learning Temporally Consistent Normals from Video Diffusion Priors | 2025 · 11회 인용, Surface Normal Estimation
 - Normalizing Flows : Variational Inference with Normalizing Flows | 2015 · 5592회 인용, Variational Inference, Image generation
 - Object-Centric Slot Diffusion | 2023 · 92회 인용, Object Detection, Conditional Image Generation, Video Prediction, Object-Centric Learning, Latent Diffusion Model
 - Diffusion Models Distillation : On Distillation of Guided Diffusion Models | 2022 · 682회 인용, Image generation
