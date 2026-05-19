@@ -746,6 +746,7 @@
 - Shape of Motion: 4D Reconstruction from a Single Video | 2024 · 203회 인용, Video Reconstruction
 - Shap·E: Generating Conditional 3D Implicit Functions | 2023 · 645회 인용, 3D Generation, Implicit Functions generation, NeRF(Neural Radiance Fields), Textured Mesh
 - Sharing Residual Units Through Collective Tensor Factorization in Deep Neural Networks | 2017 · 26회 인용, Image classification
+- SharpDepth: Sharpening Metric Depth Predictions Using Diffusion Distillation | 2024 · 19회 인용, Depth Estimation
 - ShuffleNet: An Extremely Efficient Convolutional Neural Network for Mobile Devices | 2017 · 10997회 인용, Image classification, Object detection
 - ShuffleNetV2: Practical Guidelines for Efficient CNN Architecture Design | 2018 · 8184회 인용, Image classification
 - SiT: Self-supervised Vision Transformer | 2021 · 174회 인용, Image classification, Semantic segmentation
