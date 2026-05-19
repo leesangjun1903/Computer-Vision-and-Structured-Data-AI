@@ -680,6 +680,7 @@
 - Relightable 3D Gaussians: Realistic Point Cloud Relighting with BRDF Decomposition and Ray Tracing | 2023 · 286회 인용, Novel View Synthesis, 3D Reconstruction
 - Reloc3r: Large-Scale Training of Relative Camera Pose Regression for Generalizable, Fast, and Accurate Visual Localization | 2024 · 75회 인용, Camera Pose Estimation, Image Localization
 - RCM : Reparameterizing Convolutions for Incremental Multi-Task Learning without Task Interference | 2020 · 112회 인용, Image classification, Semantic segmentation, Multi-Task Learning
+- Representation Alignment for Generation: Training Diffusion Transformers Is Easier Than You Think | 2024 · 463회 인용, Image Generation
 - Res2Net: A New Multi-scale Backbone Architecture | 2019 · 3684회 인용, Image classification
 - ResNeXt: Aggregated Residual Transformations for Deep Neural Networks | 2016 · 15486회 인용, Image classification
 - ResNet : Deep Residual Learning for Image Recognition | 2015 · 286531회 인용, Image classification
