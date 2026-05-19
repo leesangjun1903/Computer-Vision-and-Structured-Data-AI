@@ -160,6 +160,7 @@
 - DAG: Depth-Aware Guidance with Denoising Diffusion Probabilistic Models | 2022 · 16회 인용, Depth Prior Guidance, Depth Estimation
 - DARTS: Differentiable Architecture Search | 2018 · 6142회 인용, NAS
 - DBPN : Deep Back-Projection Networks for Single Image Super-resolution | 2019 · 151회 인용 , Super resolution : https://github.com/Lornatang/DBPN-PyTorch?tab=readme-ov-file
+- DC-AE 1.5: Accelerating Diffusion Model Convergence with Structured Latent Space | 2025 · 25회 인용, Image Generation
 - DCGAN : Unsupervised Representation Learning with Deep Convolutional Generative Adversarial Networks | 2015 · 20818회 인용, Image generation
 - DCLGAN : Dual Contrastive Learning for Unsupervised Image-to-Image Translation | 2021 · 266회 인용, Image generation
 - DDGANs : Tackling the Generative Learning Trilemma with Denoising Diffusion GANs | 2021 · 765회 인용, Image generation
