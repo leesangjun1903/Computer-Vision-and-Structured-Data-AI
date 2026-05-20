@@ -596,6 +596,7 @@
 - PGDiff: Guiding Diffusion Models for Versatile Face Restoration via Partial Guidance | 2023 · 60회 인용, Image generation, Image restoration, Face restoration
 - PGGAN : Progressive Growing of GANs for Improved Quality, Stability, and Variation | 2017 · 10367회 인용, Image generation
 - PITI : Pretraining is All You Need for Image-to-Image Translation | 2022 · 271회 인용, Image-to-Image Translation
+- PLADIS: Pushing the Limits of Attention in Diffusion Models at Inference Time by Leveraging Sparsity | 2025 · 4회 인용, Image Generation
 - PP-LiteSeg: A Superior Real-Time Semantic Segmentation Model | 2022 · 333회 인용, Semantic Segmentation
 - PRNet :  Joint 3D Face Reconstruction and Dense Alignment with Position Map Regression Network | 2018 · 953회 인용, 3D reconstruction, Face alignment, Face reconstruction
 - PSConv: Squeezing Feature Pyramid into One Compact Poly-Scale Convolutional Layer | 2020 · 46회 인용, Image classification
