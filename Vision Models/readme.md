@@ -835,6 +835,8 @@
 - That’s BAD: Blind Anomaly Detection by Implicit Local Feature Clustering | 2023 · 6회 인용, Anomaly detection
 - The GAN is dead; long live the GAN! A Modern Baseline GAN | 2025 · 50회 인용, Image generation
 - Three things everyone should know to improve object retrieval | 2012 · 1880회 인용, Image retrieval
+- Tile-wise vs. Image-wise: Random-Tile Loss and Training Paradigm for
+Gaussian Splatting | 2025, 3D Reconstruction
 - TinyGAN: Distilling BigGAN for Conditional Image Generation | 2020 · 38회 인용, Image generation
 - Token Merging for Fast Stable Diffusion | 2023 · 167회 인용, Image generation, Fast generation
 - TokenCut Video : Segmenting Objects in Images and Videos with Self-supervised Transformer and Normalized Cut | 2022 · 125회 인용, Unsupervised object discovery
