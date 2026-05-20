@@ -647,6 +647,7 @@
 - PVTv2: Improved Baselines with Pyramid Vision Transformer | 2021 · 2229회 인용, Image classification, Object detection, Semantic segmentation
 - Pyramid Adversarial Training Improves ViT Performance | Image Classification, Robustness/Out-of-distribution, Matched Dropout, Stochastic Depth
 - Quadratic Gaussian Splatting: High Quality Surface Reconstruction with Second-order Geometric Primitives | 2024 · 15회 인용, Novel View Synthesis, 3D Reconstruction
+- Quantile Rendering: Efficiently Embedding High-dimensional Feature on 3D Gaussian Splatting | 2025, Novel View Synthesis
 - QuickSplat: Fast 3D Surface Reconstruction via Learned Gaussian Initialization | 2025 · 6회 인용, 3D Gaussian Splatting, 3D Reconstruction
 - R-CNN : Rich Feature Hierarchies for Accurate Object Detection and Semantic Segmentation | 2013 · 44495회 인용, Object detection, Semantic segmentation
 - R-CNN minus R | 2015 · 143회 인용, Object Detection
