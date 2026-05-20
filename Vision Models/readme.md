@@ -925,6 +925,7 @@ Gaussian Splatting | 2025, 3D Reconstruction
 - YOLOv12: Attention-Centric Real-Time Object Detectors | 2025 · 597회 인용, Object detection
 - YOLOv13: Real-Time Object Detection with Hypergraph-Enhanced Adaptive Visual Perception | 2025 · 30회 인용, Object detection
 - YOLO26: Key Architectural Enhancements and Performance Benchmarking for Real-Time Object Detection | 2025 · 8회 인용, Object Detection
+- Your ViT is Secretly an Image Segmentation Model | 2025 · 57회 인용, Image Segmentation
 - Z-Order Transformer for Feed-Forward Gaussian Splatting | 2026, Novel View Synthesis
 - ZSSR : "Zero-Shot" Super-Resolution using Deep Internal Learning | 2018 · 1111회 인용, Image generation, zero shot learning
 - ZeCon : Zero-Shot Contrastive Loss for Text-Guided Diffusion Image Style Transfer | 2023 · 100회 인용, Image-to-Image generation
