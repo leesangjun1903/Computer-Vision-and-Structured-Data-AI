@@ -464,6 +464,7 @@
 - LaplacianShot : Laplacian Regularized Few-Shot Learning | 2020 · 250회 인용, Image classification
 - Large-scale Video Classification with Convolutional Neural Networks | 2014 · 9257회 인용, Video Classification
 - LassoNet: Deep Lasso-Selection of 3D Point Clouds | 2019 · 60회 인용, 3D Point Cloud Preparation, Lasso-Selection
+- Latent Radiance Fields with 3D-aware 2D Representations | 2025 · 7회 인용, Novel View Synthesis
 - LayerCAM: Exploring Hierarchical Class Activation Maps for Localization | 2021 · 1158회 인용, XAI
 - LeViT: a Vision Transformer in ConvNet’s Clothing for Faster Inference | 2021 · 932회 인용 , Image classification
 - Learning Fine-grained Image Similarity with Deep Ranking | 2014 · 1774회 인용, Similarity precision
