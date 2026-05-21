@@ -286,6 +286,7 @@
 - Dynamic Convolution: Attention over Convolution Kernels | 2019 · 1503회 인용, Image classification
 - Dynamic DETR: End-to-End Object Detection with Dynamic Attention | 2021 · 486회 인용, Object detection
 - Dynamic Dual-Output Diffusion Models | 2022 · 42회 인용, Image Prediction
+- Dynamic Point Maps: A Versatile Representation for Dynamic 3D Reconstruction | 2025 · 31회 인용, Monoculart Depth Estimation, 3D Reconstruction
 - D²ETR: Decoder-Only DETR with Computationally Efficient Cross-Scale Attention | 2022 · 42회 인용, Object detection
 - EDM : Elucidating the Design Space of Diffusion-Based Generative Models | 2022 · 2592회 인용, Image generation
 - EDSR : Enhanced Deep Residual Networks for Single Image Super-Resolution | 2017 · 8961회 인용, Super-Resolution
