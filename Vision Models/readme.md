@@ -55,6 +55,7 @@
 - ADP : Adversarial Purification with Score-based Generative Models | 2021 · 234회 인용, Image classification
 - ALAE : Adversarial Latent Autoencoders | 2020 · 346회 인용, Image generation
 - ALIKED: A Lighter Keypoint and Descriptor Extraction Network via Deformable Transformation | 2023 · 128회 인용, Image Matching
+- ALTER: All-in-One Layer Pruning and Temporal Expert Routing for Efficient Diffusion Generation | 2025 · 2회 인용, Image Generation, Knowledge Distillation
 - AdaIN : Arbitrary Style Transfer in Real-time with Adaptive Instance Normalization | 2017 · 6085회 인용, Image generation
 - AdaMixer: A Fast-Converging Query-Based Object Detector | 2022 · 170회 인용, Object detection
 - Adding Additional Control to One-Step Diffusion with Joint Distribution Matching | 2025 · 6회 인용, Image Generation
