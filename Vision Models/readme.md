@@ -305,6 +305,7 @@
 - EfficientFormer: Vision Transformers at MobileNet Speed | 2022 · 593회 인용, Image classification, Object detection, Instance segmentation, Semantic segmentation
 - EfficientNet: Rethinking Model Scaling for Convolutional Neural Networks | 2019 · 30645회 인용, Image classification
 - EfficientViT: Memory Efficient Vision Transformer with Cascaded Group Attention | 2023 · 1028회 인용, Image Classification
+- Efficiently Reconstructing Dynamic Scenes One D4RT at a Time | 2025 · 6회 인용, Video Reconstruction
 - EluCD : Elucidating The Design Space of Classifier-Guided Diffusion Generation | 2023 · 16회 인용, Image generation, Image denoising
 - Emergent Correspondence from Image Diffusion | 2023 · 695회 인용, Image Correspondense Extraction
 - End-to-End Learning of Deep Visual Representations for Image Retrieval | 2016 · 711회 인용, Image retrieval
