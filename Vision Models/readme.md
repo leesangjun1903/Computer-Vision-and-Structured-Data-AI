@@ -667,6 +667,7 @@
 - Radiance Surfaces: Optimizing Surface Representations with a 5D Radiance Field Loss | 2025 · 1회 인용, Novel View Synthesis
 - Radiant Foam: Real-Time Differentiable Ray Tracing | 2025 · 27회 인용, Novel View Synthesis
 - Random Conditioning with Distillation for Data-Efficient Diffusion Model Compression | 2025 · 3회 인용, Knoledge Distillation
+- RayZer: A Self-supervised Large View Synthesis Model | 2025 · 45회 인용, Multi-View Synthesis
 - ReACGAN : Rebooting ACGAN: Auxiliary Classifier GANs with Stable Training | 2021 · 144회 인용, Image generation, Data diversity
 - RePaint: Inpainting using Denoising Diffusion Probabilistic Models | 2022 · 2505회 인용, Image Inpainting
 - ReStyle: A Residual-Based StyleGAN Encoder via Iterative Refinement | 2021 · 440회 인용, Image Editing, iterative refinement, residual learning
