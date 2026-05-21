@@ -1,4 +1,211 @@
 
+
+# Upsample Anything: A Simple and Hard to Beat Baseline for Feature Upsampling
+
+> **논문 정보**
+> - **제목**: Upsample Anything: A Simple and Hard to Beat Baseline for Feature Upsampling
+> - **저자**: Minseok Seo 외 2인
+> - **arXiv ID**: 2511.16301 (2025년 11월)
+> - **프로젝트 페이지**: https://seominseok0429.github.io/Upsample-Anything/
+
+---
+
+## 1. 핵심 주장 및 주요 기여 요약
+
+**Upsample Anything**은 학습(training) 없이 저해상도 피처(feature)를 고해상도 픽셀 단위 출력으로 복원하는 **경량 Test-Time Optimization(TTO) 프레임워크**입니다.
+
+### 핵심 주장
+
+| 항목 | 내용 |
+|------|------|
+| 문제 인식 | VFM의 표현은 14×/16× 다운샘플링되어 픽셀 수준 태스크에 직접 사용 불가 |
+| 기존 한계 | 데이터셋별 재학습 또는 heavy implicit 최적화 필요 |
+| 제안 | 이미지별 경량 TTO로 anisotropic Gaussian 커널 학습 |
+| 결과 | 추가 학습 없이 SOTA 달성 |
+
+### 주요 기여
+
+1. 어떤 사전학습 VFM에서도 데이터셋 수준 재학습 없이 저해상도 피처를 업샘플링하는 TTO 프레임워크를 도입하고, 피처·깊이·세그멘테이션·3D 데이터 등 다양한 모달리티에 강건하게 일반화합니다.
+
+2. 핵심 방법론은 Joint Bilateral Upsampling(JBU)에서 영감을 받아 이를 2D Gaussian Splatting(2DGS)의 연속적 프레임워크로 재해석하며, 이를 통해 고정된 등방성(isotropic) 커널 대신 **적응적 비등방성(anisotropic) Gaussian 커널**을 학습할 수 있습니다.
+
+3. 224×224 이미지 기준 $\approx 0.419\text{s}$의 처리 속도로 시맨틱 세그멘테이션, 깊이 추정, 깊이 맵 및 확률 맵 업샘플링에서 SOTA 성능을 달성합니다.
+
+---
+
+## 2. 상세 설명
+
+### 2-1. 해결하고자 하는 문제
+
+DINO, CLIP 및 파생 모델과 같은 Vision Foundation Models(VFMs)은 인코더 설계를 혁신했지만, 이 모델들은 구조적으로 원본 입력보다 14× 또는 16× 작은 고도로 다운샘플링된 피처 맵을 생성하여 공간적으로 정밀한 픽셀 수준 예측을 복원하는 데 어려움을 줍니다.
+
+기존의 표준 접근법들은 무거운 분리형 디코더 아키텍처나 재학습된 업샘플러에 의존하며, 이는 계산 집약적이고 메모리 비효율적이며 도메인에 특화되어 있습니다.
+
+피처 업샘플링 방법은 업샘플러가 최적화되는 방식에 따라 크게 두 가지 패러다임으로 분류됩니다: **(a) 데이터셋 수준 학습**과 **(b) Test-Time Optimization(TTO)**.
+
+### 2-2. 제안하는 방법 (수식 포함)
+
+#### ① 전체 파이프라인
+
+입력 이미지가 주어지면, Upsample Anything은 RGB 가이던스를 저해상도(LR) 피처맵 크기에 맞게 리사이즈하고, 최적화를 통해 고해상도(HR) 색상 이미지를 재구성하며, 픽셀별 anisotropic Gaussian 파라미터인 $(\sigma_x, \sigma_y, \theta, \sigma_r)$을 학습합니다. 이 파라미터들은 연속적인 spatial–range splatting 커널을 정의하며, 최적화된 커널은 파운데이션 인코더의 LR 피처 맵에 적용되어 원본 이미지 그리드에 정렬된 HR 피처 맵을 생성합니다.
+
+#### ② GSJBU 커널 (Gaussian Splatting Joint Bilateral Upsampling)
+
+본 논문의 핵심은 **GSJBU(Gaussian Splatting Joint Bilateral Upsampling)**로, JBU를 연속적 Gaussian Splatting 관점으로 일반화한 것입니다.
+
+**Joint Bilateral Upsampling(JBU)의 기본 형태:**
+
+$$\hat{F}(p) = \frac{1}{Z(p)} \sum_{q \in \Omega} F(q) \cdot k_s(p, q) \cdot k_r(I(p), I(q))$$
+
+여기서:
+- $\hat{F}(p)$: 고해상도 위치 $p$에서의 업샘플링된 피처
+- $F(q)$: 저해상도 피처 맵의 값
+- $k_s(p, q)$: 공간적(spatial) Gaussian 커널
+- $k_r(I(p), I(q))$: 색상(range) Gaussian 커널
+- $Z(p)$: 정규화 상수
+
+**GSJBU의 anisotropic 확장:**
+
+등방성 한계(isotropic limit)에서 JBU로 수렴하는 비등방성 일반화(anisotropic generalization)를 통해 각 중심(center)별 공분산(covariance) 학습이 가능한 **GSJBU**를 구현합니다.
+
+각 픽셀 $p$에 대해 학습 가능한 파라미터로 이루어진 비등방성 Gaussian 커널:
+
+$$k(p, q; \Sigma_p) = \exp\!\left(-\frac{1}{2}(p-q)^{\top}\Sigma_p^{-1}(p-q)\right)$$
+
+공분산 행렬 $\Sigma_p$는 다음과 같이 파라미터화됩니다:
+
+$$\Sigma_p = R(\theta_p) \begin{pmatrix} \sigma_{x,p}^2 & 0 \\ 0 & \sigma_{y,p}^2 \end{pmatrix} R(\theta_p)^{\top}$$
+
+여기서 $R(\theta_p)$는 회전각 $\theta_p$에 의한 회전 행렬이며, 결합된 spatial–range 커널은:
+
+$$k_{\text{GSJBU}}(p, q) = \exp\!\left(-\frac{1}{2}(p-q)^{\top}\Sigma_p^{-1}(p-q) - \frac{\|I(p)-I(q)\|^2}{2\sigma_{r,p}^2}\right)$$
+
+> **⚠️ 주의**: 위 수식은 논문의 공개 arXiv HTML 버전(17번 인용)에서 언급된 파라미터 $(\sigma_x, \sigma_y, \theta, \sigma_r)$와 블록 대각 공분산(block-diagonal covariance) 구조를 기반으로 구성한 것으로, 논문 내 정확한 수식 번호(eq. 12 등)의 세부 전개는 PDF 직접 열람이 필요합니다.
+
+#### ③ 최적화 목표
+
+최적화는 색상 재구성만을 가이드로 사용하지만, 학습된 커널은 암묵적으로 기하학적 구조와 의미 정보(geometry and semantics)를 포착합니다.
+
+$$\min_{\{\sigma_{x,p}, \sigma_{y,p}, \theta_p, \sigma_{r,p}\}} \mathcal{L}_{\text{recon}}(I_{\text{HR}}, \hat{I}_{\text{HR}})$$
+
+표 8의 하이퍼파라미터들은 TTO를 위한 소프트 사전(soft priors)으로 기능하며, 모든 공간 및 범위 파라미터가 50회 최적화 스텝 동안 정제되므로 최종 성능은 초기값에 크게 의존하지 않습니다.
+
+### 2-3. 모델 구조
+
+```
+[입력: HR RGB 이미지 I_HR]
+        ↓ 다운샘플링
+[LR RGB 이미지 I_LR]
+        ↓ TTO 최적화 (50 steps)
+[픽셀별 Anisotropic Gaussian 파라미터 학습]
+    {σ_x, σ_y, θ, σ_r} per pixel
+        ↓
+[학습된 GSJBU 커널]
+        ↓ LR Feature에 적용
+[HR Feature Map 생성]
+        ↓
+[Downstream Task (1×1 conv decoder 등)]
+```
+
+이러한 방법들은 저해상도 파운데이션 피처를 고해상도로 매핑하는 업샘플링 연산자를 학습하여, 다운스트림 디코더 이전에 의미론적-공간적 갭을 효과적으로 연결하며, 단일 $1\times1$ 컨볼루션 디코더만으로도 다양한 픽셀 수준 태스크에서 강력한 성능을 달성합니다.
+
+### 2-4. 성능 향상
+
+224×224 이미지 기준 $0.419\text{s}$의 처리 시간으로 시맨틱 세그멘테이션, 깊이 추정, 깊이 맵 및 확률 맵 업샘플링에서 SOTA 성능을 달성합니다.
+
+COCO, PASCAL-VOC, ADE20k 데이터셋에서 다양한 업샘플링 방법을 비교하였으며, 공정한 비교를 위해 기존 연구와 동일하게 $1\times1$ 컨볼루션 헤드만을 파인튜닝하는 linear-probe 프로토콜을 채택했습니다.
+
+100 에폭 학습과 코사인 학습률 스케줄 적용 결과, 백본 표현이 강력할 경우 모든 방법이 단순한 bilinear 업샘플링 대비 최종 성능 향상이 크지 않다는 경향이 발견되었습니다.
+
+### 2-5. 한계
+
+AnyUp은 노이즈에 안정적인 반면, TTO 기반인 Upsample Anything은 손상된 입력 픽셀에 과적합(overfits)되는 한계를 보이며, 이는 노이즈가 있는 입력에 직접 최적화할 때의 제한점을 드러냅니다.
+
+---
+
+## 3. 일반화 성능 향상 가능성
+
+Upsample Anything은 2D 피처 해상도를 향상시킬 뿐만 아니라 깊이, 세그멘테이션, 심지어 3D 표현과 같은 다른 픽셀/복셀 수준 신호에도 재학습 없이 일반화되며, 이러한 특성은 **2D 및 3D 도메인에 걸친 통합적이고 경량화된 해상도-자유(resolution-free) 업샘플링 연산자**로서의 잠재력을 부각시킵니다.
+
+학습된 커널은 **범용적이고 엣지를 인식하는(edge-aware) 연산자**로 작동하여, 아키텍처와 모달리티에 걸쳐 원활하게 전이되어 피처, 깊이, 확률 맵의 정밀한 고해상도 재구성을 가능하게 합니다.
+
+이 논문은 놀라울 정도로 단순하면서도 매우 효과적인 피처 업샘플링을 위한 TTO 프레임워크를 제시하며, 이 방법은 완전히 학습이 필요 없고(training-free) **도메인, 태스크, 백본 아키텍처에 걸쳐 원활하게 일반화됩니다**.
+
+일반화 성능 향상 가능성을 구체적으로 정리하면:
+
+| 차원 | 일반화 범위 |
+|------|------------|
+| **모달리티** | RGB 피처 → 깊이 맵, 세그멘테이션, 확률 맵, 3D 표현 |
+| **아키텍처** | ViT, DINO, CLIP, MAE 등 다양한 백본 |
+| **해상도** | 임의의 입력/출력 해상도 지원 |
+| **도메인** | 재학습 없이 다양한 데이터셋 적용 가능 |
+
+---
+
+## 4. 관련 최신 연구 비교 분석 (2020년 이후)
+
+| 방법 | 연도 | 최적화 방식 | 일반화 | 속도 | 특징 |
+|------|------|------------|--------|------|------|
+| **Bilinear** | - | 없음 | ✅ 높음 | ✅ 매우 빠름 | 단순, 엣지 손실 |
+| **FeatUp (JBU)** | ICLR 2024 | Dataset-level | ❌ 낮음 | ✅ 빠름 | MLP 기반 range kernel |
+| **FeatUp (Implicit)** | ICLR 2024 | Dataset-level | ❌ 낮음 | ❌ 느림 | 임의 해상도 학습 |
+| **LiFT** | 2024 | Dataset-level | ❌ 낮음 | ✅ 빠름 | 좌표 기반 피처 |
+| **JAFAR** | 2025 | Dataset-level | ❌ 낮음 | ✅ 빠름 | Flow matching |
+| **AnyUp** | 2025 | Inference-time | ✅ 높음 | ✅ 빠름 | 피처 비지정 아키텍처 |
+| **Upsample Anything** | 2025 | TTO(per-image) | ✅ 높음 | ✅ ~0.419s | GSJBU, 학습불필요 |
+
+FeatUp은 멀티뷰 일관성을 이용해 딥 피처를 업샘플링하는 새로운 접근법으로, JBU 기반 업샘플러는 강력한 공간적 사전을 부과하여 소실된 공간 정보를 Joint Bilateral Upsampling의 일반화를 기반으로 한 빠른 피드포워드 네트워크로 정확하게 복원합니다.
+
+FeatUp, LoftUp, JAFAR 등의 피처 업샘플링 방법들은 학습된 비전 인코더와 쌍을 이룰 때 좋은 성능을 보이지만, 일반적으로 인퍼런스 시 인코더에 독립적이지 않아 다른 피처 추출기에 사용하려면 재학습이 필요하며, 이는 최신 대형 비전 모델의 경우 제한된 컴퓨팅 자원으로는 불가능할 수도 있습니다.
+
+Upsample Anything은 효율적인 TTO 하에 anisotropic Gaussian splatting과 joint bilateral filtering을 조화시켜 해상도·모델 독립적이고 엣지를 보존하는 업샘플링을 이미지당 1초 미만의 런타임으로 달성하며, 데이터셋 수준 업샘플러 재학습의 필요성에 강건하게 도전하고 현대 비전 파이프라인에서 유연하고 효율적이며 일반화 가능한 피처 업샘플링의 길을 열어줍니다.
+
+---
+
+## 5. 앞으로의 연구에 미치는 영향 및 고려 사항
+
+### 5-1. 연구에 미치는 영향
+
+Upsample Anything 프레임워크는 범용 피처 업샘플링을 위한 새롭고 단순하며 매우 효과적인 베이스라인을 확립합니다. anisotropic Gaussian splatting과 joint bilateral filtering을 효율적인 TTO 하에 조화시킴으로써, 이미지당 1초 이내의 런타임으로 해상도 및 모델에 독립적인 엣지 보존 업샘플링을 달성하며, 데이터셋 수준 업샘플러 재학습의 필요성에 도전하고 현대 비전 파이프라인에서 유연하고 일반화 가능한 피처 업샘플링의 길을 엽니다.
+
+**구체적 영향:**
+
+1. **VFM 기반 픽셀 예측 연구의 패러다임 전환**: 재학습 없이 어떤 VFM에도 적용 가능한 업샘플러가 표준 베이스라인이 될 수 있음
+2. **3D·의료·위성 이미징 응용**: 깊이, 세그멘테이션, 3D 표현에 재학습 없이 일반화되는 특성은 의료 영상, 원격 탐사 등 데이터 부족 도메인에서 특히 유용
+3. **Gaussian Splatting과 2D 비전의 융합**: 3DGS 기법을 2D 피처 업샘플링에 적용한 최초 시도 중 하나로, 후속 연구의 이론적 토대 제공
+
+### 5-2. 향후 연구 시 고려할 점
+
+1. **노이즈 강건성 확보**: TTO 기반 방법이 노이즈가 있는 픽셀에 과적합되는 한계를 극복하기 위해 노이즈 인식(noise-aware) 정규화 항 추가 연구 필요
+
+2. **고해상도 확장성**: 224×224에서 0.419s이지만, 고해상도 이미지(1K, 4K)에서의 확장성 및 메모리 효율성 검증 필요
+
+3. **강력한 백본에서의 효과 재검토**: 백본 표현이 강력할 경우, 단순 bilinear 업샘플링 대비 피처 업샘플링의 실제 이득이 크지 않을 수 있어, 어떤 조건에서 피처 업샘플링이 유효한지에 대한 연구가 필요합니다.
+
+4. **TTO와 Dataset-level 방법의 앙상블**: 두 패러다임의 장점을 결합하는 하이브리드 접근법 탐색
+
+5. **비디오·시계열 확장**: 현재는 이미지별(per-image) 최적화이므로, 시간적 일관성을 고려한 비디오 업샘플링으로의 확장
+
+6. **자기지도 신호 활용**: 색상 재구성만으로 최적화하는 현재 방식에서 더 풍부한 자기지도 신호(depth consistency, flow, 등)를 활용하는 연구 방향
+
+---
+
+## 참고 문헌 및 출처
+
+| # | 출처 |
+|---|------|
+| 1 | **[주 논문]** Minseok Seo et al., "Upsample Anything: A Simple and Hard to Beat Baseline for Feature Upsampling," arXiv:2511.16301, Nov. 2025. https://arxiv.org/abs/2511.16301 |
+| 2 | **[프로젝트 페이지]** https://seominseok0429.github.io/Upsample-Anything/ |
+| 3 | **[논문 HTML]** https://arxiv.org/html/2511.16301v1 |
+| 4 | **[논문 PDF]** https://arxiv.org/pdf/2511.16301 |
+| 5 | **[리뷰]** The Moonlight, "Literature Review: Upsample Anything," https://www.themoonlight.io/en/review/upsample-anything-a-simple-and-hard-to-beat-baseline-for-feature-upsampling |
+| 6 | **[요약]** Emergent Mind, https://www.emergentmind.com/papers/2511.16301 |
+| 7 | **[HuggingFace]** Paper page, https://huggingface.co/papers/2511.16301 |
+| 8 | **[비교: FeatUp]** Fu et al., "FeatUp: A Model-Agnostic Framework for Features at Any Resolution," ICLR 2024. https://arxiv.org/html/2403.10516v1 |
+| 9 | **[비교: AnyUp]** Wimmer et al., "AnyUp: Universal Feature Upsampling," arXiv:2510.12764, 2025. https://arxiv.org/pdf/2510.12764 |
+| 10 | **[비교: UPLiFT]** "UPLiFT: Efficient Pixel-Dense Feature Upsampling with Local Attenders," arXiv:2601.17950. https://arxiv.org/pdf/2601.17950 |
+| 11 | **[Cool Papers]** https://papers.cool/arxiv/2511.16301 |
+
 # Upsample Anything: A Simple and Hard to Beat Baseline for Feature Upsampling
 
 ## 1. 핵심 주장 및 기여 요약
