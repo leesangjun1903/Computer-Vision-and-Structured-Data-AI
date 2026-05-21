@@ -529,6 +529,7 @@
 - Maximum Likelihood Training of Score-Based Diffusion Models | 2021 · 839회 인용, Image generation
 - MeD : Multi-view Self-supervised Disentanglement for General Image Denoising | 2023 · 17회 인용, Image Denoising
 - Mesh R-CNN | 2019 · 665회 인용, 3D segmentation
+- Mesh-RFT: Enhancing Mesh Generation via Fine-grained Reinforcement Fine-Tuning | 2025 · 10회 인용, Mesh Generation
 - Mesh-based Gaussian Splatting for Real-time Large-scale Deformation | 2024 · 48회 인용, Novel View Synthesis
 - MeshAnything: Artist-Created Mesh Generation with Autoregressive Transformers | 2024 · 135회 인용, Mesh Generation
 - MeshAnything V2: Artist-Created Mesh Generation With Adjacent Mesh Tokenization | 2024 · 86회 인용, Mesh Generation
