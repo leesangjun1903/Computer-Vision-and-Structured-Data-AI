@@ -918,6 +918,7 @@ Gaussian Splatting | 2025, 3D Reconstruction
 - Wavelet Diffusion Models are fast and scalable Image Generators | 2022 · 216회 인용, Image Generation
 - Wavelet Latent Diffusion (Wala): Billion-Parameter 3D Generative Model with Compact Wavelet Encodings | 2024 · 9회 인용, 3D Generation
 - What is YOLOv8: An In-Depth Exploration of the Internal Features of the Next-Generation Object Detector | 2024 · 197회 인용, Object detection
+- When Gaussian Meets Surfel: Ultra-fast High-fidelity Radiance Field Rendering | 2025 · 14회 인용, Novel View Synthesis
 - WildGaussians: 3D Gaussian Splatting in the Wild | 2024 · 151회 인용, Novel View Synthesis, 3D Reconstruction
 - Xception: Deep Learning with Depthwise Separable Convolutions | 2016 · 24140회 인용, Image classification
 - YOLACT Real-time Instance Segmentation | 2019 · 3374회 인용, Instance Segmentation, Protonet (Prototype Generation), Prediction Head (Mask Coefficients), Assembly, Fast NMS(Non-Maximum Suppression)
