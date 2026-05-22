@@ -491,6 +491,7 @@
 - Low-Light Image Enhancement with Wavelet-based Diffusion Models | 2023 · 262회 인용, Image Enhancement
 - LucidFlux: Caption-Free Universal Image Restoration via a Large-Scale Diffusion Transformer | 2025 · 5회 인용, Image Restoration
 - LumiGauss: Relightable Gaussian Splatting in the Wild | 2024 · 18회 인용, Novel View Synthesis, 3D Reconstruction
+- LuxDiT: Lighting Estimation with Video Diffusion Transformer | 2025 · 5회 인용, Novel View Synthesis
 - MAE : Masked Autoencoders Are Scalable Vision Learners | 2021 · 11570회 인용, Image reconstruction, Image generation
 - Masked Autoencoders Are Effective Tokenizers for Diffusion Models | 2025 · 64회 인용, Image Reconstruction
 - MAGVIT: Masked Generative Video Transformer | 2022 · 334회 인용, Video generation, Text-to-video generation
