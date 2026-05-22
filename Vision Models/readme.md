@@ -587,6 +587,7 @@
 - NormalCrafter: Learning Temporally Consistent Normals from Video Diffusion Priors | 2025 · 11회 인용, Surface Normal Estimation
 - Normalizing Flows : Variational Inference with Normalizing Flows | 2015 · 5592회 인용, Variational Inference, Image generation
 - Object-Centric Slot Diffusion | 2023 · 92회 인용, Object Detection, Conditional Image Generation, Video Prediction, Object-Centric Learning, Latent Diffusion Model
+- OctGPT: Octree-based Multiscale Autoregressive Models for 3D Shape Generation | 2025 · 18회 인용, 3D Shape Generation
 - Diffusion Models Distillation : On Distillation of Guided Diffusion Models | 2022 · 682회 인용, Image generation
 - On the Error Analysis of 3D Gaussian Splatting and an Optimal Projection Strategy | 2024 · 46회 인용, Novel View Synthesis
 - On the Importance of Noise Scheduling for Diﬀusion Models | 2023 · 188회 인용, Image generation
