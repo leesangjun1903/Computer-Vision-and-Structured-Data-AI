@@ -753,6 +753,7 @@
 - SRGAN : Photo-Realistic Single Image Super-Resolution Using a Generative Adversarial Network | 2016 · 15662회 인용, Super resolution : https://github.com/manumathewthomas/ImageDenoisingGAN/tree/master?tab=readme-ov-file
 - SSD: Single Shot MultiBox Detector | 2015 · 49970회 인용, Object detection
 - ST-CGAN : Stacked Conditional Generative Adversarial Networks for Jointly Learning Shadow Detection and Shadow Removal | 2017 · 571회 인용, Shadow detection, Shadow removal
+- STream3R: Scalable Sequential 3D Reconstruction with Causal Transformer | 2025 · 36회 인용, 3D Reconstruction
 - SUPIR : Scaling Up to Excellence: Practicing Model Scaling for Photo-Realistic Image Restoration In the Wild | 2024 · 87회 인용, Super resolution
 - SV3D: Novel Multi-view Synthesis and 3D Generation from a Single Image using Latent Video Diffusion | 2024 · 372회 인용, 3D Reconstruction, Novel View Synthesis
 - SWAGAN: A Style-based Wavelet-driven Generative Model | 2021 · 130회 인용, Super-resolution
