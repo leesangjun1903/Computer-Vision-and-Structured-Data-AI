@@ -382,6 +382,7 @@
 - Genetic CNN | 2017 · 1242회 인용, Image classification
 - GeoSplatting: Towards Geometry Guided Gaussian Splatting for Physically-based Inverse Rendering | 2024 · 12회 인용, Gaussian Splatting, 3D Reconstruction
 - Geometry Transfer for Stylizing Radiance Fields | 2024 · 17회 인용, 3D Style Transfer
+- Geometry-Grounded Gaussian Splatting | 2026 · 1회 인용, Novel View Synthesis
 - GhostNet: More Features from Cheap Operations | 2019 · 5193회 인용, Image classification
 - Global Structure-from-Motion Revisited | 2024 · 260회 인용, Structure From Motion
 - Gold-YOLO: Efficient Object Detector via Gather-and-Distribute Mechanism | 2023 · 535회 인용, Object detection
