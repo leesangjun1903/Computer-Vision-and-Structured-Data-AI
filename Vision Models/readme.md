@@ -609,6 +609,7 @@
 - PFGM++: Unlocking the Potential of Physics-Inspired Generative Models | 2023 · 78회 인용, Image generation
 - PGDiff: Guiding Diffusion Models for Versatile Face Restoration via Partial Guidance | 2023 · 60회 인용, Image generation, Image restoration, Face restoration
 - PGGAN : Progressive Growing of GANs for Improved Quality, Stability, and Variation | 2017 · 10367회 인용, Image generation
+- PI-Light: Physics-Inspired Diffusion for Full-Image Relighting | 2026 · 2회 인용, Novel View Synthesis
 - PITI : Pretraining is All You Need for Image-to-Image Translation | 2022 · 271회 인용, Image-to-Image Translation
 - PLADIS: Pushing the Limits of Attention in Diffusion Models at Inference Time by Leveraging Sparsity | 2025 · 4회 인용, Image Generation
 - PP-LiteSeg: A Superior Real-Time Semantic Segmentation Model | 2022 · 333회 인용, Semantic Segmentation
