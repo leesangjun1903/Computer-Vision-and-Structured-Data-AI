@@ -531,6 +531,7 @@
 - MaxViT: Multi-Axis Vision Transformer | 2022 · 1206회 인용, Multi-Axis Attention
 - Maximum Likelihood Training of Score-Based Diffusion Models | 2021 · 839회 인용, Image generation
 - MeD : Multi-view Self-supervised Disentanglement for General Image Denoising | 2023 · 17회 인용, Image Denoising
+- Mean Flows for One-step Generative Modeling | 2025 · 324회 인용, Image Generation
 - Mesh R-CNN | 2019 · 665회 인용, 3D segmentation
 - Mesh-RFT: Enhancing Mesh Generation via Fine-grained Reinforcement Fine-Tuning | 2025 · 10회 인용, Mesh Generation
 - Mesh-based Gaussian Splatting for Real-time Large-scale Deformation | 2024 · 48회 인용, Novel View Synthesis
