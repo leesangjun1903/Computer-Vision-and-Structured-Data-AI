@@ -726,6 +726,7 @@
 - RobustSAM: Segment Anything Robustly on Degraded Images | 2024 · 59회 인용, Image Segmentation
 - RogSplat: Robust Gaussian Splatting via Generative Priors | 2025 · 6회 인용, 3D Rendering
 - S3Diff : Degradation-Guided One-Step Image Super-Resolution with Diffusion Priors | 2024 · 14회 인용, Super resolution
+- S3OD: Towards Generalizable Salient Object Detection with Synthetic Data | 2025 · 2회 인용, Salient Object Detection
 - SAGAN : Self-Attention Generative Adversarial Networks | 2018 · 5484회 인용, Image generation
 - SAM 3D: 3Dfy Anything in Images | 3D reconstruction
 - SAM-DiffSR: Structure-Modulated Diffusion Model for Image Super-Resolution | 2024 · 21회 인용, Super resolution
