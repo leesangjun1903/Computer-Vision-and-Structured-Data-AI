@@ -762,6 +762,7 @@
 - SV3D: Novel Multi-view Synthesis and 3D Generation from a Single Image using Latent Video Diffusion | 2024 · 372회 인용, 3D Reconstruction, Novel View Synthesis
 - SWAGAN: A Style-based Wavelet-driven Generative Model | 2021 · 130회 인용, Super-resolution
 - Same Same But DifferNet: Semi-Supervised Defect Detection with Normalizing Flows | 2020 · 599회 인용, Anomaly Detection, Normalizing Flow, Feature Extraction
+- Sapiens2 | 2026, Image Segmentation, Monocular Depth Estimation
 - Scaffold-GS: Structured 3D Gaussians for View-Adaptive Rendering | 2023 · 769회 인용, Novel View Synthesis, 3D Reconstruction
 - Scalable Autoregressive Monocular Depth Estimation | 2024 · 12회 인용, Monocular Depth Estimation
 - Scalable High-Resolution Pixel-Space Image Synthesis with Hourglass Diffusion Transformers | 2024 · 103회 인용, Image Generation
