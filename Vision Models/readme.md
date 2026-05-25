@@ -339,6 +339,7 @@
 - Few-Example Object Detection with Model Communication | 2017 · 212회 인용, Object detection
 - FastGAN : Towards Faster and Stabilized GAN Training for High-fidelity Few-shot Image Synthesis | 2021 · 357회 인용, Image generation
 - FastNeRF: High-Fidelity Neural Rendering at 200FPS | 2021 · 814회 인용, 3D reconstruction
+- FastVGGT: Training-Free Acceleration of Visual Geometry Transformer | 2025 · 58회 인용, 3D Reconstruction
 - Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks | 2015 · 55990회 인용, Object detection
 - Feature 3DGS: Supercharging 3D Gaussian Splatting to Enable Distilled Feature Fields | 2023 · 417회 인용, Gaussian Splatting, 3D Reconstruction, Novel View Synthesis
 - FiffDepth: Feed-forward Transformation of Diffusion-Based Generators for Detailed Depth Estimation | 2024 · 5회 인용, Monocular Depth Estimation
