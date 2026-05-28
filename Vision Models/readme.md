@@ -877,6 +877,7 @@ Gaussian Splatting | 2025, 3D Reconstruction
 - TransUNet: Transformers Make Strong Encoders for Medical Image Segmentation | 2021 · 8483회 인용, Image Segmentation
 - Transformer in Transformer | 2021 · 2416회 인용, Image classification
 - Tree-Ring Watermarks: Fingerprints for Diffusion Images that are Invisible and Robust | 2023 · 197회 인용, Wartermarks Technique, Digital Fingerprint
+- TriSplat: Simulation-Ready Feed-Forward 3D Scene Reconstruction | 3D Reconstruction, Novel View Synthesis
 - Triangle Splatting for Real-Time Radiance Field Rendering | 2025 · 14회 인용, Novel View Synthesis
 - Truncated Consistency Models | 2024 · 18회 인용, Image Generation, Consistency Models
 - TryOnDiffusion: A Tale of Two UNets | 2023 · 185회 인용, Virtual Try-on 
