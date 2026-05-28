@@ -493,6 +493,7 @@
 - LoGeR: Long-Context Geometric Reconstruction with Hybrid Memory | 2026 · 9회 인용, Geometric Reconstruction, Video Reconstruction
 - LoRA3D: Low-Rank Self-Calibration of 3D Geometric Foundation Models | 2024 · 12회 인용, Novel View Synthesis
 - LoRA: Low-Rank Adaptation of Large Language Models | 2021 · 18638회 인용, LLM, Fine-tuning
+- LongLive-2.0: An NVFP4 Parallel Infrastructure for Long Video Generation | 2026
 - Lotus: Diffusion-based Visual Foundation Model for High-quality Dense Prediction | 2024 · 151회 인용, Depth Estimation
 - Low-Light Image Enhancement with Wavelet-based Diffusion Models | 2023 · 262회 인용, Image Enhancement
 - LucidFlux: Caption-Free Universal Image Restoration via a Large-Scale Diffusion Transformer | 2025 · 5회 인용, Image Restoration
