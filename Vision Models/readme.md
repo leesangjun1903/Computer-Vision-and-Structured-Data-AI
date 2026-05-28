@@ -144,6 +144,7 @@
 - CoaT : Co-Scale Conv-Attentional Image Transformers | 2021 · 513회 인용, Image classification, Object detection, Semantic segmentation
 - CodeFormer : Towards Robust Blind Face Restoration with Codebook Lookup Transformer | 2022 · 338회 인용, Image restoration, Blind Face restoration
 - CoherentGS: Sparse Novel View Synthesis with Coherent 3D Gaussians | 2024 · 88회 인용, Novel View Synthesis, 3D Reconstruction
+- Coloring the Noise: Adversarial Sobolev Alignment for Faithful Image Super Resolution | 2026, Super-Resolution
 - Compositional Visual Generation with Energy Based Models | 2020 · 197회 인용, Image generation
 - CondenseNet: An Efficient DenseNet using Learned Group Convolutions | 2017 · 1123회 인용, Image classification
 - Conditional DETR for Fast Training Convergence | 2021 · 1016회 인용, Object detection
