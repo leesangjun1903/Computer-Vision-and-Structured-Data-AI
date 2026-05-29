@@ -647,6 +647,7 @@
 - Pix2Pix : Image-to-Image Translation with Conditional Adversarial Networks | 2016 · 28621회 인용, Image generation : https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix?tab=readme-ov-file
 - Pix2Pix-zero : Zero-shot Image-to-Image Translation | 2023 · 582회 인용, Image generation
 - Pix2PixHD : High-Resolution Image Synthesis and Semantic Manipulation with Conditional GANs | 2017 · 5683회 인용, Image generation, Semantic segmentation
+- Pixal3D: Pixel-Aligned 3D Generation from Images | 2026
 - Pixel-Perfect Depth with Semantics-Prompted Diffusion Transformers | 2025 · 19회 인용, Monocular Depth Estimation
 - Pixie: Fast and Generalizable Supervised Learning of 3D Physics from Pixels | 2025 · 13회 인용, 3D Generation, Novel View Synthesis
 - PlanarSplatting: Accurate Planar Surface Reconstruction in 3 Minutes | 2024 · 15회 인용, 3D Reconstruction
