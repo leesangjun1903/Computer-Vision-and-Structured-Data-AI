@@ -723,6 +723,7 @@
 - ResViT: Residual Vision Transformers for Multi-Modal Medical Image Synthesis | 2021 · 549회 인용, Image generation
 - Resnet in Resnet: Generalizing Residual Architectures | 2016 · 1490회 인용, Image classification
 - Restoration based Generative Models | 2023 · 6회 인용, Image Reconstruction
+- Rethinking Cross-Layer Information Routing in Diffusion Transformers | 2026, Image Generation
 - Rethinking the Up-Sampling Operations in CNN-based Generative Network for Generalizable Deepfake Detection | 2023 · 210회 인용, Deepfake Detection
 - RetinaNet : Focal Loss for Dense Object Detection | 2017 · 41640회 인용, Object detection
 - Rev-ViT : Reversible Vision Transformers | 2023 · 99회 인용, Image Classification, Video Classification, Object Detection
