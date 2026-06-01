@@ -292,6 +292,7 @@
 - Dynamic Dual-Output Diffusion Models | 2022 · 42회 인용, Image Prediction
 - Dynamic Point Maps: A Versatile Representation for Dynamic 3D Reconstruction | 2025 · 31회 인용, Monoculart Depth Estimation, 3D Reconstruction
 - D²ETR: Decoder-Only DETR with Computationally Efficient Cross-Scale Attention | 2022 · 42회 인용, Object detection
+- E3C: Video Generation with 3D Environmental Memory and Ego-Exo Human Pose Control | 2026, Video Generation
 - EDM : Elucidating the Design Space of Diffusion-Based Generative Models | 2022 · 2592회 인용, Image generation
 - EDSR : Enhanced Deep Residual Networks for Single Image Super-Resolution | 2017 · 8961회 인용, Super-Resolution
 - EGC: Image Generation and Classification via a Diffusion Energy-Based Model | 2023 · 18회 인용, Image Classification, Image Generation, Energy Based Model(EBM)
