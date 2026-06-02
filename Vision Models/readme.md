@@ -597,6 +597,7 @@
 - Noise2Void - Learning Denoising from Single Noisy Images | 2018 · 1627회 인용, Image denoising
 - NoisyStudent : Self-training with Noisy Student improves ImageNet classification | 2019 · 3272회 인용, Image classification
 - NormalCrafter: Learning Temporally Consistent Normals from Video Diffusion Priors | 2025 · 11회 인용, Surface Normal Estimation
+- Normality-Calibrated Autoencoder for Unsupervised Anomaly Detection on Data Contamination | 2021 · 28회 인용, Anomaly Detection
 - Normalizing Flows : Variational Inference with Normalizing Flows | 2015 · 5592회 인용, Variational Inference, Image generation
 - Object-Centric Slot Diffusion | 2023 · 92회 인용, Object Detection, Conditional Image Generation, Video Prediction, Object-Centric Learning, Latent Diffusion Model
 - OctGPT: Octree-based Multiscale Autoregressive Models for 3D Shape Generation | 2025 · 18회 인용, 3D Shape Generation
