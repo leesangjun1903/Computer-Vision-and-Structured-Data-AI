@@ -56,7 +56,7 @@ $$V_{j|O}(d) = \frac{1}{n_O} \left( \frac{\left(\sum_{\{x_i \in O: x_{ij} \leq d
 
 상위 $a \times 100\%$ 인스턴스 집합 $A$, 나머지에서 $b \times 100\%$ 랜덤 샘플 집합 $B$에 대해:
 
-$$\tilde{V}_j(d) = \frac{1}{n} \left( \frac{\left(\sum_{x_i \in A_l} g_i + \frac{1-a}{b} \sum_{x_i \in B_l} g_i\right)^2}{n^j_l(d)} + \frac{\left(\sum_{x_i \in A_r} g_i + \frac{1-a}{b} \sum_{x_i \in B_r} g_i\right)^2}{n^j_r(d)} \right) \tag{1}$$
+$$\tilde{V}_j(d) = \frac{1}{n} \left( \frac{\left(\sum_{x_i \in A_l} g_i + \frac{1-a}{b} \sum_{x_i \in B_l} g_i\right)^2}{n^j_l(d)} + \frac{\left(\sum_{x_i \in A_r} g_i + \frac{1-a}{b} \sum_{x_i \in B_r} g_i\right)^2}{n^j_r(d)} \right) $$
 
 여기서 계수 $\frac{1-a}{b}$는 $B$의 기울기 합을 $A^c$ 크기로 정규화하는 역할을 한다.
 
