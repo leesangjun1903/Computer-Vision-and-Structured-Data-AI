@@ -275,6 +275,7 @@
 - DiffusionSfM: Predicting Structure and Motion via Ray Origin and Endpoint Diffusion | 2025 · 11회 인용, 3D Reconstruction, Novel View Synthesis
 - Direction-aware Spatial Context Features for Shadow Detection and Removal | 2018 · 507회 인용, Shadow detection, Shadow removal
 - DiscoGAN : Learning to Discover Cross-Domain Relations with Generative Adversarial Networks | 2017 · 2874회 인용, Image generation
+- Disentangling Human Dynamics for Pedestrian Locomotion Forecasting with Noisy Supervision | 2019 · 73회 인용, Human Locomotion Forecasting
 - Distilling Monocular Foundation Model for Fine-grained Depth Completion | 2025 · 18회 인용, Depth Completion
 - Diﬀ-Font: Diﬀusion Model for Robust One-Shot Font Generation | 2022 · 73회 인용, Image Generation, Robust One-Shot Generation
 - DnCNN : Beyond a Gaussian Denoiser: Residual Learning of Deep CNN for Image Denoising | 2016 · 10020회 인용, Image Denoising, Super resolution : https://github.com/anushkayadav/Denoising_cifar10
