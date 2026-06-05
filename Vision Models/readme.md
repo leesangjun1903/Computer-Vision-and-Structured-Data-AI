@@ -391,6 +391,7 @@
 - Geometry-Grounded Gaussian Splatting | 2026 · 1회 인용, Novel View Synthesis
 - GhostNet: More Features from Cheap Operations | 2019 · 5193회 인용, Image classification
 - Global Structure-from-Motion Revisited | 2024 · 260회 인용, Structure From Motion
+- Global-Local GCN: Large-Scale Label Noise Cleansing for Face Recognition | 2020 · 96회 인용, Face Recognition
 - Gold-YOLO: Efficient Object Detector via Gather-and-Distribute Mechanism | 2023 · 535회 인용, Object detection
 - GoogLeNet : Going Deeper with Convolutions | 2014 · 69113회 인용, Image classification
 - GoogLeNet,Inception V1 : Going Deeper with Convolutions | 2014 · 70013회 인용
