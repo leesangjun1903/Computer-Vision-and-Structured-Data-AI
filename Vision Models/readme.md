@@ -594,6 +594,7 @@
 - No Pose at All: Self-Supervised Pose-Free 3D Gaussian Splatting from Sparse Views | 2025 · 24회 인용, Novel View Synthesis, 3D Reconstruction
 - No Pose, No Problem: Surprisingly Simple 3D Gaussian Splats from Sparse Unposed Images | 2024 · 181회 인용, Novel View Synthesis, 3D Reconstruction
 - Noise Flow: Noise Modeling with Conditional Normalizing Flows | 2019 · 222회 인용, Image denoising
+- Noise Robust Generative Adversarial Networks | 2019 · 51회 인용, Image Generation
 - Noise2Noise: Learning Image Restoration without Clean Data | 2018 · 2454회 인용, Image denoising
 - Noise2Void - Learning Denoising from Single Noisy Images | 2018 · 1627회 인용, Image denoising
 - NoisyStudent : Self-training with Noisy Student improves ImageNet classification | 2019 · 3272회 인용, Image classification
