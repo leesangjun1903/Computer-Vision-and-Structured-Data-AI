@@ -261,6 +261,7 @@
 - Differential Diffusion: Giving Each Pixel Its Strength | 2023 · 25회 인용, Image Editing, Change Map, Soft-Inpainting, Heterogeneous Editing
 - DiffiT: Diffusion Vision Transformers for Image Generation | 2023 · 143회 인용, Image Generation
 - DiffuseIT : Diffusion-based Image Translation using Disentangled Style and Content Representation | 2022 · 215회 인용, Image-to-Image Translation
+- Diffusion Adversarial Post-Training for One-Step Video Generation | 2025 · 97회 인용, Video Generation
 - Diffusion Autoencoders: Toward a Meaningful and Decodable Representation | 2021 · 618회 인용, Image Reconstruction
 - Diffusion Classifier : Your Diffusion Model is Secretly a Zero-Shot Classifier | 2023 · 320회 인용, Image classification
 - Diffusion Transformers with Representation Autoencoders | 2025 · 116회 인용, Image Generation
