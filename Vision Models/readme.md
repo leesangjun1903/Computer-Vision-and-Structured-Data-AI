@@ -847,6 +847,7 @@
 - StyleNAT: Efficient Image Generation with Variadic Attention Heads | Image Generation, Variadic Attention Heads, Neighborhood Attention(NA)
 - StyleSwin: Transformer-based GAN for High-resolution Image Generation | 2021 · 414회 인용, Image Generation
 - SuGaR: Surface-Aligned Gaussian Splatting for Efficient 3D Mesh Reconstruction and High-Quality Mesh Rendering | 2023 · 835회 인용, Novel View Synthesis, 3D Reconstruction
+- Sub-center ArcFace: Boosting Face Recognition by Large-scale Noisy Web Faces | 2020 · 389회 인용, Face Recognition
 - SuperDec: 3D Scene Decomposition with Superquadric Primitives | 2025 · 18회 인용, 3D Reconstruction, Novel View Synthesis
 - SuperGaussian: Repurposing Video Models for 3D Super Resolution | 2024 · 25회 인용, Novel View Synthesis, 3D Reconstruction
 - SuperPoint: Self-Supervised Interest Point Detection and Description | 2017 · 3820회 인용, Image matching, 3D reconstruction, Point detection
