@@ -492,6 +492,7 @@
 - hierarchical_primitives : Learning Unsupervised Hierarchical Part Decomposition of 3D Objects from a Single RGB Image | 2020 · 140회 인용, 3D Segmentation, 3D reconstruction
 - Learning to Compare: Relation Network for Few-Shot Learning | 2017 · 5826회 인용, Image classification, Few-shot learning, Zero-shot learning
 - Learning to Measure Changes: Fully Convolutional Siamese Metric Networks for Scene Change Detection | 2018 · 129회 인용, Change detection, Semantic segmentation
+- Learning with Noisy Class Labels for Instance Segmentation | 2020 · 39회 인용, Instance Segmentation
 - LightGlue: Local Feature Matching at Light Speed | 2023 · 795회 인용, Feature Matching, 3D resonstruction, Image matching
 - Light-A-Video: Training-free Video Relighting via Progressive Light Fusion | 2025 · 23회 인용, Video Relighting, Video Generation
 - Lite DETR: An Interleaved Multi-Scale Encoder for Efficient DETR | 2023 · 130회 인용, Object detection
