@@ -316,10 +316,12 @@
 - Efficiently Reconstructing Dynamic Scenes One D4RT at a Time | 2025 · 6회 인용, Video Reconstruction
 - EluCD : Elucidating The Design Space of Classifier-Guided Diffusion Generation | 2023 · 16회 인용, Image generation, Image denoising
 - Emergent Correspondence from Image Diffusion | 2023 · 695회 인용, Image Correspondense Extraction
+- End-to-End Autoregressive Image Generation with 1D Semantic Tokenizer | 2026, Image Generation
 - End-to-End Learning of Deep Visual Representations for Image Retrieval | 2016 · 711회 인용, Image retrieval
 - Energy-Based Learning for Scene Graph Generation | 2021 · 213회 인용, Scene Graph Generation
 - Energy-based Out-of-distribution Detection | 2020 · 1933회 인용, OOD Detection
 - EnvGS: Modeling View-Dependent Appearance with Environment Gaussian | 2024 · 25회 인용, Novel View Synthesis
+- Equiformer: Equivariant Graph Attention Transformer for 3D Atomistic Graphs | 2022 · 493회 인용, 3D atomistic graph Generation
 - EsViT : Efficient Self-supervised Vision Transformers for Representation Learning | 2021 · 259회 인용, Image classification, Semantic segmentation
 - Evaluating image matching methods for book cover identification | 2020, Image matching
 - FBCNN : Towards Flexible Blind JPEG Artifacts Removal | 2021 · 156회 인용, Image compression, JPEG Artifact correlation, Image restoration
