@@ -452,6 +452,7 @@
 - IPViT : Intriguing Properties of Vision Transformers | 2021 · 834회 인용 , Image classification
 - Intrinsic Image Diffusion for Indoor Single-view Material Estimation | 2023 · 94회 인용, Image Estimation
 - InvSR : Arbitrary-steps Image Super-resolution via Diffusion Inversion | 2024 · 26회 인용, Super-Resolution
+- Joint Noise-Tolerant Learning and Meta Camera Shift Adaptation for Unsupervised Person Re-Identification | 2021 · 174회 인용, Camera Shift Adaptation
 - K-Planes: Explicit Radiance Fields in Space, Time, and Appearance | 2023 · 792회 인용, 3D reconstruction
 - TimeSformer : Is Space-Time Attention All You Need for Video Understanding? | 2021 · 3033회 인용, Action recognition
 - KernelGAN : Blind Super-Resolution Kernel Estimation using an Internal-GAN | 2019 · 620회 인용, Super resolution
