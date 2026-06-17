@@ -485,6 +485,7 @@
 - Label-Efficient Semantic Segmentation with Diffusion Models | Semantic segmentation
 - Labelling unlabelled videos from scratch with multi-modal self-supervision | 2020 · 200회 인용
 - LaplacianShot : Laplacian Regularized Few-Shot Learning | 2020 · 250회 인용, Image classification
+- Large-Scale Pre-training for Person Re-identification with Noisy Labels | 2022 · 105회 인용, Person Tracking, Person Re-ID
 - Large-scale Video Classification with Convolutional Neural Networks | 2014 · 9257회 인용, Video Classification
 - LassoNet: Deep Lasso-Selection of 3D Point Clouds | 2019 · 60회 인용, 3D Point Cloud Preparation, Lasso-Selection
 - Latent Radiance Fields with 3D-aware 2D Representations | 2025 · 7회 인용, Novel View Synthesis
