@@ -213,6 +213,7 @@
 - Deep Layer Aggregation | 2017 · 1914회 인용, Image classification, Fine-grained Recognition, Semantic Segmentation
 - Deep Learning of Partial Graph Matching via Differentiable Top-K | 2023 · 18회 인용, Graph matching, Image matching
 - Deep Networks with Stochastic Depth | 2016 · 3115회 인용, Image classification
+- Deep Neural Networks Learn Meta-Structures from Noisy Labels in Semantic Segmentation | 2021 · 12회 인용, Semantic Segmentation
 - Deep Pyramidal Residual Networks | 2016 · 957회 인용, Image classification
 - ResNet : Deep Residual Learning for Image Recognition | 2015 · 286531회 인용, Optimization, Object Detection/Localization, Image classification
 - DeepBedMap: a deep neural network for resolving the bed topography of Antarctica | 2020 · 53회 인용, Super resolution, GAN
