@@ -877,6 +877,7 @@
 - TSRFormer: Table Structure Recognition with Transformers | 2022 · 64회 인용, Table Structure Recognition, Line Regression, SepRETR (Separator REgression TRansformer), Relation Network-based Cell Merging
 - TTT3R: 3D Reconstruction as Test-Time Training | 3D reconstruction
 - TUNIT : Rethinking the Truly Unsupervised Image-to-Image Translation | 2020 · 142회 인용, Image generation
+- Tailoring Self-Supervision for Supervised Learning | 2022 · 17회 인용, Self-Supervision
 - Taming Video Diffusion Prior with Scene-Grounding Guidance for 3D Gaussian Splatting from Sparse Inputs | 3D Gaussian Splatting
 - TensoRF: Tensorial Radiance Fields | 2022 · 1879회 인용, 3D reconstruction
 - TerDiT: Ternary Diffusion Models with Transformers | 2024 · 4회 인용, Image generation
