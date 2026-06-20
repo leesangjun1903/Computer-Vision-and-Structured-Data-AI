@@ -736,6 +736,7 @@
 - ResNet-RS : Revisiting ResNets: Improved Training and Scaling Strategies | 2021 · 422회 인용, Image classification : https://arxiv.org/abs/2103.07579, https://github.com/nachiket273/pytorch_resnet_rs
 - ResShift: Efficient Diffusion Model for Image Super-Resolution by Residual Shifting | 2023 · 362회 인용, Super resolution
 - ResViT: Residual Vision Transformers for Multi-Modal Medical Image Synthesis | 2021 · 549회 인용, Image generation
+- Residual Primitive Fitting of 3D Shapes with SuperFrusta | 2025 · 1회 인용, 3D Mesh Generation
 - Resnet in Resnet: Generalizing Residual Architectures | 2016 · 1490회 인용, Image classification
 - Restoration based Generative Models | 2023 · 6회 인용, Image Reconstruction
 - Rethinking Cross-Layer Information Routing in Diffusion Transformers | 2026, Image Generation
