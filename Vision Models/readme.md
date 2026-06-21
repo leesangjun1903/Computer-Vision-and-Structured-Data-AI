@@ -626,6 +626,7 @@
 - OverFeat: Integrated Recognition, Localization and Detection using Convolutional Networks | 2013 · 8137회 인용, Object Detection, Localization
 - P2 weighting : Perception Prioritized Training of Diffusion Models | 2022 · 318회 인용, Image generation
 - Path Aggregation Network for Instance Segmentation | 2018 · 11419회 인용, Instance Segmentation, Bottom-up Path Augmentation, Adaptive Feature Pooling, Fully-connected Fusion
+- PARTFIELD: Learning 3D Feature Fields for Part Segmentation and Beyond | 2025 · 73회 인용, 3D Segmentation
 - PASD : Pixel-Aware Stable Diffusion for Realistic Image Super-Resolution and Personalized Stylization | 2023 · 195회 인용, Super resolution
 - PBR-NeRF: Inverse Rendering with Physics-Based Neural Fields | 2024 · 12회 인용, Novel View Synthesis
 - PDT: Point Distribution Transformation with Diffusion Models | 2025 · 1회 인용, Mesh Generation
