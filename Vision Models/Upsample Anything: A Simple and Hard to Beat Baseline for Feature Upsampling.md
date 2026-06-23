@@ -74,7 +74,9 @@ $$k(p, q; \Sigma_p) = \exp\!\left(-\frac{1}{2}(p-q)^{\top}\Sigma_p^{-1}(p-q)\rig
 
 공분산 행렬 $\Sigma_p$는 다음과 같이 파라미터화됩니다:
 
-$$\Sigma_p = R(\theta_p) \begin{pmatrix} \sigma_{x,p}^2 & 0 \\ 0 & \sigma_{y,p}^2 \end{pmatrix} R(\theta_p)^{\top}$$
+```math
+\Sigma_p = R(\theta_p) \begin{pmatrix} \sigma_{x,p}^2 & 0 \\ 0 & \sigma_{y,p}^2 \end{pmatrix} R(\theta_p)^{\top}
+```
 
 여기서 $R(\theta_p)$는 회전각 $\theta_p$에 의한 회전 행렬이며, 결합된 spatial–range 커널은:
 
