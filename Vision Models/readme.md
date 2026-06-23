@@ -60,6 +60,8 @@
 - AdaIN : Arbitrary Style Transfer in Real-time with Adaptive Instance Normalization | 2017 · 6085회 인용, Image generation
 - AdaMixer: A Fast-Converging Query-Based Object Detector | 2022 · 170회 인용, Object detection
 - Adaptive Early-Learning Correction for Segmentation from Noisy Annotations | 2021 · 192회 인용, Semantic Segmentation
+- Adaptive Object Detection with Dual
+Multi-Label Prediction | 2020 · 70회 인용, Object Detection
 - Adding Additional Control to One-Step Diffusion with Joint Distribution Matching | 2025 · 6회 인용, Image Generation
 - Aggregating Deep Convolutional Features for Image Retrieval | 2015 · 366회 인용, Image retrieval
 - AlexNet : ImageNet Classification with Deep Convolutional Neural Networks | 2012 · 149105회 인용, Image classification
