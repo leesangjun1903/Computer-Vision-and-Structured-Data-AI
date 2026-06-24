@@ -166,6 +166,7 @@ Cross-Domain Object Detection | 2020 · 7회 인용, Object Detection
 - CrossViT: Cross-Attention Multi-Scale Vision Transformer for Image Classification | 2021 · 2401회 인용, Image classification
 - CutLER: Cut and Learn for Unsupervised Object Detection and Instance Segmentation | 2023 · 274회 인용, Object detection, Semantic segmentation
 - CvT : Introducing Convolutions to Vision Transformers | 2021 · 2904회 인용, Image classification
+- CyCADA: Cycle-Consistent Adversarial Domain Adaptation | 2017 · 4199회 인용, Image Generation, Domain Adaptation
 - CycleGAN: Unpaired Image-to-Image Translation using Cycle-Consistent Adversarial Networks | 2017 · 29137회 인용, Image generation
 - CycleISP: Real Image Restoration via Improved Data Synthesis | 2020 · 491회 인용, Image denoising, Image restoration
 - D2USt3R: Enhancing 3D Reconstruction for Dynamic Scenes | 2025, Pose Estimation
