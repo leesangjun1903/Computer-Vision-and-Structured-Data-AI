@@ -814,6 +814,7 @@ Cross-Domain Object Detection | 2020 · 7회 인용, Object Detection
 - Semi-DETR: Semi-Supervised Object Detection with Detection Transformers | 2023 · 93회 인용, Object Detection
 - Semi-Parametric Neural Image Synthesis | 2022 · 44회 인용, Image Generation, Parametric Model, Non-parametric Model
 - Semi-Supervised Learning with Generative Adversarial Networks | 2016 · 977회 인용, Image generation
+- Semi-supervised Adversarial Learning to Generate Photorealistic Face Images of New Identities from 3D Morphable Model | 2018 · 78회 인용, Image Generation, Adversarial Learning
 - Shadow Removal via Shadow Image Decomposition | 2019 · 255회 인용, Shadow removal
 - Shape of Motion: 4D Reconstruction from a Single Video | 2024 · 203회 인용, Video Reconstruction
 - Shap·E: Generating Conditional 3D Implicit Functions | 2023 · 645회 인용, 3D Generation, Implicit Functions generation, NeRF(Neural Radiance Fields), Textured Mesh
