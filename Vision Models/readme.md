@@ -373,6 +373,7 @@ Cross-Domain Object Detection | 2020 · 7회 인용, Object Detection
 - FreqNet : Frequency-Aware Deepfake Detection | 2024 · 134회 인용, Image detection
 - From Blobs to Spokes: High-Fidelity Surface Reconstruction via Oriented Gaussians | 2026, Multi-View Synthesis
 - From Slow Bidirectional to Fast Autoregressive Video Diffusion Models | 2024 · 225회 인용, Video Generation
+- From source to target and back: Symmetric Bi-Directional Adaptive GAN | 2017 · 311회 인용, Image Generation, Domain Adaptation
 - GAN Dissection: Visualizing and Understanding Generative Adversarial Networks | 2018 · 710회 인용, XAI
 - GANomaly: Semi-Supervised Anomaly Detection via Adversarial Training | 2018 · 2337회 인용, Anomaly Detection, Semi-supervised Learning, Adversarial Training
 - GDP : Generative Diffusion Prior for Unified Image Restoration and Enhancement | 2023 · 320회 인용, Image restoration
