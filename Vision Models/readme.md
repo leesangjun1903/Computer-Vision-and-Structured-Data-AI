@@ -931,6 +931,7 @@ Gaussian Splatting | 2025, 3D Reconstruction
 - Unlimited-Size Diffusion Restoration | 2023 · 27회 인용, Image Reconstruction, Mask-Shift Restoration, Hierarchical Restoration
 - Unsupervised Discovery of Semantic Latent Directions in Diffusion Models | 2023 · 25회 인용, Image Editing, Unsupervised Learning, Riemannian Geometry
 - Unsupervised Pixel–Level Domain Adaptation with Generative Adversarial Networks | 2016 · 2166회 인용, Image Generation, Domain Adaptation
+- Unsupervised Video Domain Adaptation with Masked Pre-Training and Collaborative Self-Training | 2023 · 16회 인용, Video Classification, Domain Adaptation
 - Upsample Anything: A Simple and Hard to Beat Baseline for Feature Upsampling | Image Upscaling, Feature Upscaling
 - V-MoE : Scaling Vision with Sparse Mixture of Experts | 2021 · 817회 인용, Image classification
 - VAE : Auto-Encoding Variational Bayes | 2013 · 48645회 인용, Image generation
