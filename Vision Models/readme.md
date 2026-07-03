@@ -812,6 +812,9 @@ Cross-Domain Object Detection | 2020 · 7회 인용, Object Detection
 - Segment Anything in 3D with Radiance Fields | 2023 · 42회 인용, 3D Segmentation
 - Self-Calibrating Gaussian Splatting for Large Field of View Reconstruction | 2025 · 9회 인용, Novel View Synthesis
 - Self-Conditioned GAN : Diverse Image Generation via Self-Conditioned GANs | 2020 · 136회 인용, Image generation
+- Self-Supervised CycleGAN for
+Object-Preserving Image-to-Image Domain
+Adaptation | 2020 · 45회 인용, Image Translation, Self-Supervised Learning, Domain Adaptation
 - TokenCut : Self-Supervised Transformers for Unsupervised Object Discovery using Normalized Cut | 2022 · 221회 인용, Object detection
 - Semantic Image Synthesis via Diffusion Models | 2022 · 256회 인용, Semantic Image Synthesis 
 - Semantics Lead the Way: Harmonizing Semantic and Texture Modeling with Asynchronous Latent Diffusion | Image Generation, Asynchronous Denoising, Semantic-First Diffusion
