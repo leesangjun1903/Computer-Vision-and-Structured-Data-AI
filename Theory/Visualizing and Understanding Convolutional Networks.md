@@ -1,271 +1,178 @@
 # Visualizing and Understanding Convolutional Networks
 
-### 1. 핵심 주장 및 주요 기여 (요약)
+---
 
-이 논문의 가장 핵심적인 주장은 **"깊은 합성곱 신경망이 왜 우수한 성능을 발휘하는지, 그리고 이를 어떻게 개선할 수 있는가"**에 대한 답을 제시하는 것입니다. 저자들(Matthew Zeiler와 Rob Fergus)은 신경망의 내부 동작을 시각화하는 혁신적인 방법을 제안함으로써, 이전까지 불명확했던 CNN의 블랙박스를 열어 해석 가능한 과학으로 전환했습니다.[1]
+## 1. 핵심 주장과 주요 기여 요약
 
-**주요 기여:**
+이 논문(흔히 **ZFNet** 논문으로 불림)은 2012년 AlexNet이 ImageNet 대회에서 압도적 성능을 보였음에도 "왜, 어떻게" 그런 성능이 나오는지 설명할 수 없었던 문제의식에서 출발한다. 이 논문은 대형 컨볼루션 네트워크 모델에서 중간 특징 층의 기능과 분류기의 동작에 대한 통찰을 제공하는 새로운 시각화 기법을 소개하며, 이를 진단 도구로 사용하여 Krizhevsky et al.의 성능을 능가하는 모델 구조를 찾아낸다.
 
-1. **Deconvolutional Network(역합성곱 신경망) 기반 시각화 기법** - 중간 계층의 특징 맵을 입력 이미지 공간으로 역사영하여 어떤 패턴이 특정 뉴런을 활성화시키는지 직관적으로 파악 가능하게 함[1]
+주요 기여는 다음 세 가지로 요약된다.
 
-2. **아키텍처 개선 통한 성능 향상** - 시각화 결과를 기반으로 Krizhevsky et al.(2012)의 AlexNet 아키텍처를 개선하여 ImageNet Top-5 오류율을 18.2%에서 15.3%로 단축[1]
-
-3. **특징의 일반화 능력 입증** - ImageNet에서 학습한 특징이 Caltech-101, Caltech-256 등 다른 데이터셋에서도 강력한 성능을 발휘함을 실증적으로 증명[1]
+- **Deconvnet 기반 시각화 기법 제안**: 입력 픽셀 공간으로 특징 활동을 역으로 매핑하여, 특징 맵에서 특정 활성화를 원래 유발한 입력 패턴이 무엇인지 보여주는 새로운 방법을 제시하며, 이 매핑은 Deconvolutional Network(deconvnet)로 수행된다. 이전 연구에서 deconvnet은 비지도 학습 수행 방법으로 제안되었으나, 이 논문에서는 학습 능력 없이 이미 학습된 convnet을 조사하는 프로브(probe)로만 사용된다.
+- **아키텍처 개선(ZFNet)**: 시각화를 통해 발견한 문제(1층 필터의 앨리어싱, 죽은 뉴런 등)를 바탕으로 AlexNet의 구조를 개선하여 ImageNet 분류 성능을 향상시켰다.
+- **일반화(전이 학습) 실증**: ImageNet으로 학습한 모델이 다른 데이터셋에도 잘 일반화됨을 보였으며, softmax 분류기만 재학습했을 때 Caltech-101과 Caltech-256 데이터셋에서 당시 최신 결과를 확실히 능가했다. DeCAF 논문과 동시에 발표되면서, 전이 학습(transfer learning)의 최초 사례 중 하나를 실증적으로 보여주었다.
 
 ---
 
-### 2. 문제 정의, 제안 방법 및 기술 상세
+## 2. 해결 문제, 방법론(수식), 모델 구조, 성능, 한계
 
-#### 2.1 해결하고자 하는 문제
+### 2.1 해결하고자 하는 문제
 
-당시(2013년) CNN의 주요 문제점은 다음과 같았습니다:[1]
+2013년 이전까지 CNN의 학습은 사실상 "시행착오(hit-and-trial)" 방식에 의존했다. 2013년 이전 CNN의 학습 메커니즘은 주로 시행착오에 기반했으며, 성능 향상의 정확한 원인을 알지 못했고, 이러한 이해 부족은 복잡한 이미지에 대한 심층 CNN 성능을 제한했다. 또한 첫 번째 층 이후의 CNN을 시각화하는 것은 특징 맵을 픽셀 공간으로 다시 매핑할 수 없기 때문에 어려웠고, 기존 시각화 기법들은 입력 이미지의 어느 부분이 어느 특징 맵에 직접 영향을 주는지 보여주지 못했다.
 
-- 대규모 CNN 모델(Krizhevsky et al., 2012)이 ImageNet에서 우수한 성능을 보였지만, **왜 이렇게 잘 작동하는지에 대한 과학적 이해 부족**
-- 모델 개선이 **시행착오 기반의 시각적 이해 없는 과정**이었음
-- 중간 계층 이상에서 학습된 특징을 **해석할 수 없음**
+### 2.2 제안 방법 (수식 포함)
 
-#### 2.2 제안 방법: Deconvolutional Network 시각화
+**(1) Deconvnet 구조**
 
-**방법론의 핵심:**
+Deconvnet 층은 convnet 층에 부착되며, convnet의 층 아래에서 온 특징의 근사적 재구성 버전을 만든다. 언풀링(unpooling) 연산은 convnet에서 풀링을 수행하는 동안 각 풀링 영역에서 로컬 최댓값의 위치를 기록하는 스위치(switches)를 이용한다.
 
-저자들은 역합성곱 신경망(Deconvnet)을 사용하여 CNN의 특징 맵을 원본 이미지 공간으로 재구성합니다. 이 과정은 세 가지 주요 단계로 구성됩니다:[1]
-
-**1) 역 풀링(Unpooling):**
-
-CNN의 최대 풀링(Max Pooling)은 비가역적이므로, 저자들은 **스위치 변수(switch variables)**를 사용하여 풀링 시 최댓값의 위치를 기록합니다. Deconvnet에서 역풀링 시 이 위치 정보를 활용하여 다음 계층의 재구성값을 적절한 위치에 배치합니다.[1]
-
-**수식 표현:**
+이를 수식으로 표현하면, 컨볼루션 층의 순전파가 필터 $W_l$, 편향 $b_l$, 비선형함수 ReLU에 대해
 
 $$
-\text{unpooled}_i = \begin{cases}
-\text{reconstructed}_j & \text{if } i = \arg\max(\text{pooling region}) \\
-0 & \text{otherwise}
-\end{cases}
+h_l = \text{ReLU}(W_l * h_{l-1} + b_l), \qquad p_l = \text{pool}(h_l)
 $$
 
-**2) 정류화(Rectification):**
+로 주어질 때, deconvnet의 역과정은 세 단계로 구성된다.
 
-CNN에서 ReLU 비선형성을 적용했으므로, Deconvnet도 재구성된 신호에 ReLU를 적용하여 양수만 유지합니다:[1]
-
-$$
-\text{rectified} = \max(\text{unpooled}, 0)
-$$
-
-**3) 필터링(Filtering):**
-
-CNN의 합성곱 필터를 역방향으로 적용합니다. 이는 필터를 수직/수평으로 뒤집은 후 전치(transpose)하여 사용하는 것과 동등합니다:[1]
+1. **Unpooling**: 풀링 과정에서 기록한 switch 위치 $s_l$을 이용해 활성값을 원래 위치에만 복원(나머지는 0)
 
 $$
-\text{reconstruction}_{l-1} = F_l^T * \text{rectified}_l
+u_l = \text{unpool}(a_l, s_l)
 $$
 
-여기서 $$F_l^T$$는 $$l$$번째 계층의 필터를 전치한 것입니다.
+2. **Rectification**: 재구성된 신호를 다시 ReLU에 통과
 
-#### 2.3 모델 구조 및 아키텍처 개선
+$$
+r_l = \max(0, u_l)
+$$
 
-**원본 AlexNet(Krizhevsky et al., 2012)의 문제점:**
-- 1층 필터 크기: 11×11, 보폭(stride): 4
-- 이로 인해 저주파와 고주파 정보만 주로 캡처되고 중주파 정보 손실[1]
-- 2층에서 **에일리어싱(aliasing) 아티팩트** 발생[1]
+3. **Filtering(전치 컨볼루션)**: 학습된 필터를 수평·수직으로 뒤집은 전치 필터 $W_l^{T}$를 이용해 역컨볼루션 수행
 
-**제안된 개선 사항:**
-- 1층 필터 크기: 11×11 → **7×7**
-- 1층 보폭: 4 → **2**
-- 2층 보폭: 4 → **2**
+$$
+d_{l-1} = W_l^{T} * r_l
+$$
 
-**개선 효과:**
+이 과정을 최하위 층까지 반복하면 특정 뉴런의 활성화를 유발한 입력 패턴이 픽셀 공간에 재구성된다. 이 재구성물은 모델에서 샘플링된 것이 아니라, 주어진 특징 맵에서 높은 활성화를 유발하는 검증 세트의 재구성된 패턴이다.
 
-| 항목 | AlexNet(원본) | 개선된 모델 | 개선율 |
-|------|---------|----------|------|
-| Val Top-1 오류 | 40.7% | 38.4% | ↓2.3%[1] |
-| Val Top-5 오류 | 18.2% | 16.5% | ↓1.7%[1] |
+**(2) Occlusion Sensitivity(가림 민감도) 분석**
 
-**완전한 모델 아키텍처 사양:**[1]
+모델이 실제로 객체 위치를 근거로 분류하는지 검증하기 위해, 입력 이미지의 특정 영역을 회색 패치로 가리면서 정답 클래스에 대한 확률 $p(c \mid x)$의 변화를 측정한다.
 
-```
-입력: 224×224 RGB 이미지
+$$
+S(i,j) = p\big(c \mid x\big) - p\big(c \mid x \odot M_{i,j}\big)
+$$
 
-Layer 1: 
-  - 96개의 7×7 필터, 보폭=2
-  - ReLU 활성화
-  - 3×3 Max Pooling (보폭=2)
-  - 로컬 대비 정규화
-  
-Layer 2-5: 
-  - 유사 구조 반복
-  - Layer 5 출력: 256개 특징 맵
-  
-Layer 6-7: 
-  - 완전 연결층 (각 4096 유닛)
-  - Dropout (확률=0.5)
-  
-Output: 
-  - 1000개 클래스에 대한 Softmax 분류기
-```
+여기서 $M_{i,j}$는 위치 $(i,j)$를 중심으로 한 가림 마스크이다. 이 실험은 convnet이 실제로 원하는 객체를 배경의 다른 패턴이 아니라 이미지 내에서 위치시키고 탐지하는지를 테스트하기 위해 수행된다.
 
-***
+### 2.3 모델 구조
 
-### 3. 성능 향상 및 실험 결과
+모델은 8층 convnet 구조이다. 224×224 크기로 자른 입력 이미지(3개 색상 평면 포함)가 입력되며, 이는 11×11 크기의 96개의 서로 다른 1층 필터와 컨볼루션된다.(원 AlexNet 기준) ZFNet은 이를 개선하여, 1층 필터 크기를 11×11 대신 7×7로 줄이고, 1층과 2층 모두에서 stride 2 컨볼루션 층을 사용하여 해당 층의 특징에서 더 많은 정보를 보존했다. 최상위 컨볼루션 층은 벡터 형태(6×6×256=9216 차원)로 입력되며, 마지막 층은 클래스 수 C에 대한 C-way softmax 함수이다.
 
-#### 3.1 ImageNet 2012 성능
+### 2.4 성능 향상
 
-**최종 성능:**[1]
+- 이 아키텍처는 2013년 ImageNet 대회에서 우승했으며, 14.8%의 오류율을 달성했다(전년도 15.4% 대비 개선).
+- 단일 ZFNet 모델은 top-1, top-5 테스트 오류율 각각 38.4%, 16.5%를 달성하여 AlexNet보다 1.7% 낮은 결과를 보였다.
+- 이 아키텍처가 대회에서 직접 우승한 것은 아니지만, 그 추론 방식은 그해 우승자(Zeiler가 설립한 Clarifai)에 의해 구현되었다.
+- 아키텍처 변경 근거가 된 실험: 완전연결층(6, 7)을 제거해도 오류율은 약간만 증가했는데, 이는 해당 층들이 모델 파라미터의 대부분을 차지한다는 점에서 예상 밖의 결과였다. 중간 컨볼루션 층 두 개를 제거해도 오류율은 별로 변하지 않았다. 하지만 특정 영역이 아니라 네트워크에 최소한의 깊이를 갖추는 것이 모델 성능에 결정적임을 어블레이션 연구를 통해 보였다.
 
-- **단일 모델**: Top-5 오류율 16.5% (AlexNet 18.2% 대비 1.7% 개선)
-- **앙상블 (6개 모델 결합)**: Top-5 오류율 **14.8%** (당시 최고 성능)
+### 2.5 한계
 
-#### 3.2 모델 깊이의 중요성 (Ablation Study)
+- Deconvnet 재구성은 근사적(approximate) 산물이며 원인-결과를 엄밀하게 규명하는 정량적 지표가 아니다.
+- 시각화 결과, AlexNet의 1·2층에서는 일부 뉴런만 활성화되고 다른 뉴런은 죽어(dead) 있었으며, 2층 특징에는 앨리어싱 아티팩트가 나타났다. 이는 개선의 단서였지만 근본적 원인 분석(왜 그런 현상이 생기는지)에는 한계가 있었다.
+- 시각화는 최대 활성화 예제(top-9)에 의존하므로 뉴런의 전체 반응 분포를 대표하지 못할 수 있다.
+- 방법론이 max-pooling·ReLU·컨볼루션이 명확히 계층화된 순차적 CNN 구조에 최적화되어 있어, 이후 등장한 skip-connection(ResNet), attention 기반(Transformer) 구조에는 직접 적용이 어렵다.
 
-저자들은 각 계층을 제거했을 때의 영향을 분석했습니다:[1]
+---
 
-| 제거 계층 | 오류율 변화 | 결론 |
-|---------|----------|------|
-| Layer 6, 7 제거 | 40.0% → 44.8% (+4.8%) | 완전 연결층은 상대적으로 중요도 낮음 |
-| Layer 3, 4 제거 | 40.5% → 45.4% (+4.9%) | 중간 합성곱층은 수정 가능 |
-| Layer 3, 4, 6, 7 모두 제거 | **71.3%** | **네트워크의 전체 깊이가 필수적** |
+## 3. 모델의 일반화 성능 향상 가능성
 
-**결론**: 개별 계층보다 **네트워크의 전체 깊이가 성능에 결정적**입니다.[1]
+이 논문은 시각화 자체보다 **"일반화 가능성 실증"**이라는 측면에서 이후 연구에 더 큰 영향을 주었다.
 
-#### 3.3 특징 계층별 판별력 분석
+**(1) 불변성(invariance) 분석**: 모델 내의 수직 이동, 스케일, 회전 불변성 분석을 수행하였으며, 변환을 겪는 예시 이미지들을 통해 계층별 불변성 정도를 조사했다. 이는 상위 층으로 갈수록 각 특징 맵 내의 강한 그룹화, 상위 층에서의 더 큰 불변성, 이미지의 판별적 부분(예: 개의 눈과 코)의 강조가 나타남을 보여주었으며, 이러한 불변성 획득이 일반화 성능의 근원임을 시사한다.
 
-ImageNet 사전학습 모델의 각 계층이 얼마나 판별 정보를 담고 있는지 측정했습니다:[1]
+**(2) 깊이(depth)의 중요성**: 위에서 언급했듯 특정 영역보다 네트워크의 최소 깊이가 모델 성능에 결정적이라는 발견은, 얕은 특징이 아니라 깊은 계층적 특징 추출이 일반화에 핵심적임을 시사하며, 이후 VGG·ResNet 등 "더 깊게(deeper)" 가는 연구 흐름의 실증적 근거가 되었다.
 
-| 사용 계층 | Caltech-101 | Caltech-256 |
-|----------|-----------|-----------|
-| Layer 1 | 44.8% | 24.6% |
-| Layer 2 | 66.2% | 39.6% |
-| Layer 3 | 72.3% | 46.0% |
-| Layer 4 | 76.6% | 51.3% |
-| Layer 5 | 86.2% | 65.6% |
-| Layer 7 (전체) | 85.4% | 72.6% |
+**(3) 전이 학습(Transfer Learning) 실증**: 가장 직접적인 일반화 성능 증거다. Caltech-256에서 60개 학습 이미지/클래스 기준 Bo et al.의 55.2% 대비 74.2%로 상당한 격차의 성능을 보였다. 다만 Caltech-101과 마찬가지로 처음부터(scratch) 학습한 모델은 성능이 나빴으며, 사전학습된 모델을 사용하면 단 6개의 Caltech-256 학습 이미지만으로 10배 많은 이미지를 사용한 기존 최고 방법을 능가했다. 이는 "one-shot/few-shot" 일반화 가능성을 최초로 시사한 실험 중 하나다.
 
-→ **높은 계층일수록 더 강력한 판별 특징 학습**[1]
+또한 층별로 재학습 범위를 달리하며 선형 SVM을 얹는 실험에서, Caltech-101과 Caltech-256 모두 계층을 올라갈수록 성능이 꾸준히 개선되어, 특징 계층이 깊어질수록 더 강력한 특징을 학습한다는 것을 보였다.
 
-***
+**(4) 국소 구조를 넘어선 문맥(context) 민감도**: 가림(occlusion) 실험을 통해 모델이 이미지 내 국소 구조뿐 아니라 넓은 장면 맥락(broad scene context)에도 민감함을 보였다. 이는 CNN이 단순 패턴 매칭이 아니라 문맥 정보까지 활용하는 표현을 학습함으로써 일반화 능력을 확보할 수 있음을 시사한다.
 
-### 4. 일반화 성능 향상 가능성 (핵심 초점)
+**(5) 후속 검증**: 이후 연구들은 이 논문의 프로토콜을 그대로 따라 일반화 가능성을 재확인했다. 예를 들어 Caltech-101에서 (Zeiler & Fergus, 2014)의 40±1.7% 결과를 기준으로, 동일한 실험 프로토콜(클래스당 30개 이미지 무작위 선택, 나머지는 테스트)을 따라 여러 후속 연구가 재현·비교를 수행했다.
 
-#### 4.1 전이 학습(Transfer Learning) 성능
+종합하면, 이 논문은 "CNN이 학습한 특징은 학습 데이터셋에 국한되지 않고 다른 도메인·태스크에도 재사용 가능하다"는 것을 최초로 체계적인 실험을 통해 보여준 논문 중 하나이며, 이는 오늘날 사전학습-미세조정(pretrain-finetune), 나아가 파운데이션 모델 패러다임의 초기 실증적 토대가 되었다.
 
-이 논문의 가장 중요한 발견 중 하나는 **ImageNet 사전학습 특징의 강력한 전이 학습 능력**입니다:[1]
+---
 
-**Caltech-101 데이터셋:**
-- 기존 최고 성능: 81.4%
-- 사전학습 모델(새 softmax만 학습): **86.5%** (+5.1%)[1]
-- 처음부터 학습한 모델: 46.5% (대조적으로 매우 저조)
+## 4. 후속 연구에 대한 영향과 향후 고려사항
 
-**Caltech-256 데이터셋:**
-- 기존 최고 성능: 55.2%
-- 사전학습 모델: **74.2%** (+19.0%, 매우 큰 개선)[1]
-- 60개 학습 이미지/클래스 기준
+### 4.1 미친 영향
 
-**원샷 학습(One-shot Learning) 성능:**
-- 클래스당 **6개 이미지만으로** Caltech-256에서 기존 최고 방법(60개 사용)을 초과[1]
-- 10배 적은 데이터로 더 나은 성능
+- **설명가능 AI(XAI) 분야의 초석**: Zeiler and Fergus가 제안한 DeConvNets 방법은 역컨볼루션과 언풀링을 통해 CNN의 순전파 과정을 재구성하여 고차원 추상 특징을 픽셀 공간으로 매핑했으며, CNN 특징의 픽셀 수준 시각화를 최초로 달성했다. 이는 CAM(2016), Grad-CAM(2017), LRP 등 후속 해석가능성 연구의 직접적 출발점이 되었다.
+- **아키텍처 설계 관행 확립**: 시각화를 통한 "진단 후 개선" 방법론은 이후 신경망 아키텍처 탐색 연구의 방법론적 선례가 되었다.
+- **전이학습 패러다임 확산**: DeCAF과 함께 ImageNet 사전학습 특징의 범용성을 입증하여, 컴퓨터 비전 전반에서 "사전학습된 CNN을 특징 추출기로 사용"하는 관행을 정착시켰다.
 
-#### 4.2 일반화 메커니즘 분석
+### 4.2 향후 연구 시 고려할 점
 
-**계층별 불변성(Invariance) 분석:**[1]
+1. **설명의 신뢰성(faithfulness) 검증 필요**: Deconvnet이나 occlusion 기반 시각화가 실제 모델의 의사결정 근거와 일치하는지에 대한 정량적 검증(what you see is what the network gets) 없이 사용될 위험이 있다. 이후 OpenXAI(2022) 같은 벤치마크가 이 문제를 다룬다(§5 참고).
+2. **모델 구조 변화에 따른 적용 한계**: ResNet의 skip-connection, Transformer의 self-attention 구조에서는 deconvnet의 switch 기반 언풀링 개념이 그대로 적용되지 않으므로, 구조에 특화된 새로운 해석 기법(예: attention rollout, relevance propagation)이 필요하다.
+3. **일반화 평가의 데이터 오염(data leakage) 문제**: 전이 학습 성능 평가 시 Caltech 데이터셋과 ImageNet 간 이미지 중복 가능성을 반드시 검증해야 한다. 실제로 후속 연구에서도 Zeiler & Fergus(2014)가 한 것처럼 정규화된 상관관계를 이용해 중복 이미지를 식별·제거하는 절차를 따랐다.
+4. **정성적 시각화에서 정량적 평가로의 전환 필요**: 시각화만으로는 재현성과 객관적 비교가 어렵기 때문에, 최근 연구는 ADCC(Average Drop-Coherence-Complexity) 등 정량 지표를 사용한다.
 
-저자들은 이미지를 변환(평행이동, 회전, 스케일링)했을 때 특징 벡터의 안정성을 측정했습니다:
+---
 
-- **Layer 1**: 작은 변환에 매우 민감 (낮은 불변성)
-- **Layer 7**: 평행이동과 스케일링에 강건 (높은 불변성)
-- **회전**: 일반적으로 불변성이 낮음 (대칭 구조 제외)
+## 5. 2020년 이후 관련 최신 연구 비교 분석
 
-**결론**: 높은 계층이 기하학적 변환에 더 큰 불변성을 가지므로, 일반화 능력이 우수합니다.[1]
+Zeiler & Fergus(2014)의 deconvnet/occlusion 접근은 "**재구성(reconstruction)/섭동(perturbation) 기반**" 해석 방법의 원류로 자리매김했고, 2020년 이후 연구는 크게 세 방향으로 발전했다.
 
-#### 4.3 피쳐 대응성(Correspondence) 분석
+**(1) CAM 계열의 정교화(그래디언트/섭동 기반)**
+- Ablation-CAM(WACV 2020)은 그래디언트 없이(gradient-free) 국소화를 수행하는 시각적 설명 기법이다.
+- Axiom-based Grad-CAM(BMVC 2020)과 Score-CAM(CVPRW 2020)은 Grad-CAM의 그래디언트 불안정성 문제를 개선했다.
+- LayerCAM(IEEE TIP, 2021)은 국소화를 위한 계층적 클래스 활성화 맵을 탐구한다.
+- Relevance-CAM(CVPR 2021)은 "모델은 이미 어디를 봐야 하는지 알고 있다"는 관점에서 관련성 기반 설명을 제안한다.
 
-모델이 다른 이미지에서 **같은 물체 부위를 일관되게 인식**하는지 확인했습니다:[1]
+이들은 여전히 Zeiler & Fergus의 "입력 영역을 체계적으로 가려서(masking) 모델 출력의 변화를 직접 측정하는" 섭동 기반 아이디어를 계승하되, 그래디언트 정보를 결합해 계산 효율성과 국소화 정밀도를 높였다는 차이가 있다.
 
-5개의 개 정면 이미지에서:
-- 왼쪽 눈 마스킹 → Hamming 거리: 0.069 (Layer 5), 0.068 (Layer 7)
-- 오른쪽 눈 마스킹 → Hamming 거리: 0.067 (Layer 5), 0.007 (Layer 7)
-- 무작위 부위 마스킹 → Hamming 거리: 0.107 (Layer 5), 0.073 (Layer 7)
+**(2) 트랜스포머 구조로의 확장**
 
-→ **눈과 코 같은 중요 부위에서 훨씬 낮은 거리**: 모델이 객체 부위 간 대응성을 학습함[1]
+ZFNet 시대의 deconvnet은 CNN 고유의 풀링·컨볼루션 구조에 의존하므로 Vision Transformer(ViT)에는 그대로 적용할 수 없다. 이에 따라:
+- Chefer, Gur, Wolf의 "Transformer interpretability beyond attention visualization"(CVPR 2021)은 어텐션 시각화를 넘어선 트랜스포머 해석 기법을 제안했다.
+- ViT-ReciproCAM(2023)은 공간 마스크 인코딩 특징과 네트워크 예측 결과 간의 상호적 관계를 활용하는 그래디언트·어텐션 프리(free) XAI 기법이다.
+- ICLR 2022 전후로 등장한 여러 ViT 해석 연구들은 CNN의 deconvnet적 접근과 달리 self-attention map을 직접적인 해석 신호로 활용한다.
 
-***
-
-### 5. 주요 한계 및 제약
-
-#### 5.1 데이터셋 편향(Dataset Bias)
-
-**PASCAL VOC 2012에서의 성능 저하:**[1]
-
-- ImageNet: 단일 객체 중심
-- PASCAL VOC: 복잡한 장면, 다중 객체
-- 평균 정확도: 79.0% (최고 성능 82.2% 대비 3.2% 저조)
-
-**원인**: 다른 데이터 분포에 적응하기 어려움
-
-#### 5.2 시각화의 한계
-
-1. **비생성적 특성**: 시각화는 실제 모델 샘플이 아니라 학습 데이터의 재구성[1]
-2. **고차원 복잡성**: 극도로 복잡한 불변성은 간단한 이차 근사로 포착 불가[1]
-3. **회전 불변성 부족**: 회전에 대한 명시적 불변성 학습 메커니즘 없음
-
-#### 5.3 모델 크기 제약
-
-- 매우 깊은 모델은 과적합 위험 증가
-- 레이어 6, 7을 8192 유닛으로 확장 시 성능 개선 미미
-
-***
-
-### 6. 모델 일반화 성능 개선의 핵심 요소 정리
-
-| 요소 | 메커니즘 | 효과 |
-|------|--------|------|
-| **계층적 특징 학습** | 낮은 계층은 간단한 패턴(모서리), 높은 계층은 복잡한 의미(물체) 학습 | 높은 계층의 특징이 더 일반화 가능[1] |
-| **기하학적 불변성** | 높은 계층의 뉴런이 평행이동/스케일에 강건 | 새로운 데이터셋에 안정적 성능[1] |
-| **객체 부위 대응성** | 모델이 이미지 간 동일 부위를 암묵적으로 인식 | 의미 있는 특징 추출[1] |
-| **깊이의 중요성** | 네트워크 깊이 ↑ → 표현 능력 ↑ | 단순한 특징 추출보다 우수[1] |
-| **충분한 학습 | 상위 계층은 40-50 에포크 이후에야 수렴 | 완전히 학습된 모델 필수[1] |
-
-***
-
-### 7. 연구 영향 및 향후 고려사항
-
-#### 7.1 학계 및 산업에 미친 영향
-
-1. **해석 가능한 딥러닝의 선구** - CNN의 블랙박스를 부분적으로 열어 후속 연구의 기초 제공[1]
-2. **전이 학습의 실증적 근거** - ImageNet 사전학습의 가치를 정량적으로 증명하여 전이 학습 활성화[1]
-3. **아키텍처 설계 원칙 제시** - 시각화 기반 모델 개선 패러다임 정립[1]
-
-#### 7.2 향후 연구 시 고려할 점
-
-**1) 일반화 성능 향상 관점:**
-- 다양한 데이터 분포에 강건한 특징 학습 방법 개발 필요
-- 회전 불변성 같은 명시적 불변성 학습 메커니즘 도입 고려[1]
-- 대규모 다중 영역 데이터로 사전학습하여 범용성 확대
-
-**2) 모델 해석성 확대:**
-- Deconvnet 외 다른 시각화 기법 병행 (주의맵, 그래디언트 기반 방법)
-- 계층 간 상호작용 분석으로 깊이의 중요성 더 심화 연구
-- 더 깊은 네트워크(ResNet, VGG)에 시각화 기법 확장
-
-**3) 데이터셋 편향 해결:**
-- 목표 데이터셋과 유사한 데이터로 추가 미세조정[1]
-- 다중 손실 함수 적용 (다중 객체 감지용)
-- 도메인 적응 기법 결합
-
-**4) 신경망 설계 원칙:**
-- 모델 깊이와 너비의 최적 균형 탐색[1]
-- Regularization (Dropout, 배치 정규화)의 효과 정량화
-- 계산 효율과 성능의 트레이드오프 분석
-
-**5) 임상 응용 (의료 영상 분야):**
-- 특징 시각화를 통해 모델 신뢰성 검증 가능성[1]
-- 의료진이 이해할 수 있는 "설명 가능한" 분류기 개발
-- 예를 들어, 흉부 X-ray 분석 시 어느 영역이 질병 판정에 기여했는지 시각화 가능
-
-***
-
-## 결론
-
-**"Visualizing and Understanding Convolutional Networks"**는 CNN의 불명확한 동작 방식을 처음으로 체계적으로 분석한 기념비적 논문입니다. 특히 **전이 학습의 효능을 실증적으로 입증**하고, **일반화 성능의 핵심이 계층적 특징 학습과 기하학적 불변성**임을 보여주었습니다.[1]
-
-이러한 통찰은 현재 딥러닝의 다양한 응용(의료영상 분석, 자율주행, 객체 인식)에 있어 사전학습 모델 사용이 표준화된 근거가 되었습니다. 향후 연구에서는 **모델 해석성의 한계를 보완하고, 더 깊고 복잡한 네트워크에 대한 이해를 확대**하며, **도메인 간 일반화 성능 개선**에 중점을 두어야 할 것으로 사료됩니다.[1]
-
-[1](https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/65988149/97c0cb0d-c16b-4e03-a37d-2d9a0d48995a/1311.2901v3.pdf)
+**(3) 정량적 벤치마크 및 개념 기반(concept-based) 해석으로의 전환**
+- OpenXAI(2022)는 모델 설명의 투명한 평가를 지향하는 벤치마크이다.
+- B-cos Networks(CVPR 2022)는 정렬(alignment)이 해석가능성에 핵심이라는 관점에서 아예 네트워크 자체를 해석 가능하도록 설계한다.
+- Concept Whitening(Nature Machine Intelligence, 2020)은 특징 맵 자체를 사람이 이해 가능한 개념 축에 정렬시키는 방식으로, Zeiler & Fergus식 사후(post-hoc) 시각화에서 "설계 단계의 해석가능성 내재화"로 패러다임이 이동했음을 보여준다.
+
+**비교 요약**: Zeiler & Fergus(2014)는 (i) 단일 뉴런의 최대 활성화 예제를 역투영하는 재구성 기반 시각화와 (ii) 입력 가림을 통한 섭동 기반 민감도 분석이라는 두 축을 제시했다. 2020년 이후 연구는 이 두 축을 계승하면서도, ① 그래디언트·관련성 전파 결합으로 계산 효율과 정밀도 향상, ② CNN 전용 구조(풀링/컨볼루션)에서 벗어나 트랜스포머의 어텐션 구조에 맞춘 새로운 해석 프레임워크 개발, ③ 정성적 시각화에서 ADCC·OpenXAI 등 정량적·재현 가능한 평가 체계로의 전환이라는 세 가지 뚜렷한 방향으로 발전했다.
+
+---
+
+## 참고 문헌 (출처)
+
+1. Zeiler, M.D. & Fergus, R., *Visualizing and Understanding Convolutional Networks*, ECCV 2014 — https://cs.nyu.edu/~fergus/papers/zeilerECCV2014.pdf
+2. Zeiler, M.D. & Fergus, R., arXiv:1311.2901 — https://arxiv.org/pdf/1311.2901
+3. Springer Link, *Visualizing and Understanding Convolutional Networks* — https://link.springer.com/chapter/10.1007/978-3-319-10590-1_53
+4. Semantic Scholar 논문 페이지 — https://www.semanticscholar.org/paper/Visualizing-and-Understanding-Convolutional-Zeiler-Fergus/1a2a770d23b4a171fa81de62a78a3deb0588f238
+5. Medium, "Paper Summary: Visualizing and Understanding Convolutional Networks" — https://karan3-zoh.medium.com/paper-summary-visualizing-and-understanding-convolutional-networks-aaa4a87a35f9
+6. GitHub, saketd403 구현 — https://github.com/saketd403/Visualizing-and-Understanding-Convolutional-neural-networks
+7. dev.to, "A Decade of Deep CNN Archs. - ZFNet" — https://dev.to/zohebabai/zfnet-ilsvrc-runner-up-2013-4hnj
+8. Pechyonkin, "Key Deep Learning Architectures - ZFNet" — https://pechyonkin.me/architectures/zfnet/
+9. Medium (Sik-Ho Tsang), "Review: ZFNet" — https://medium.com/coinmonks/paper-review-of-zfnet-the-winner-of-ilsvlc-2013-image-classification-d1a5a0c45103
+10. 구조 조사 논문, arXiv:1901.06032, "A Survey of the Recent Architectures of Deep Convolutional Neural Networks"
+11. Achlioptas 외, "Greedy Layerwise Learning Can Scale to ImageNet", arXiv:1812.11446
+12. ResearchGate PDF, "Visualizing and Understanding Convolutional Networks" — https://www.researchgate.net/publication/364640176
+13. "Basic Level Categorization Facilitates Visual Object Recognition", arXiv:1511.04103
+14. ResearchGate 그림, "Transfer learning results on Caltech-101 and Caltech-256" — https://www.researchgate.net/publication/283986647
+15. "A Generative Model for Deep Convolutional Learning", arXiv:1504.04054
+16. ResearchGate, DeConvNets 관련 RequestPDF — https://www.researchgate.net/publication/258424423
+17. arXiv:2405.12175, "Enhancing Explainable AI: Hybrid GradCAM/LRP"
+18. arXiv:2503.14640, "Dynamic Accumulated Attention Map for Interpreting Vision Transformer"
+19. arXiv:2310.02588, "ViT-ReciproCAM"
+20. arXiv:2309.08035, "Interpretability-Aware Vision Transformer"
+21. arXiv:2404.02388, "CAPE: CAM as a Probabilistic Ensemble"
+22. arXiv:2312.05975, "FM-G-CAM: A Holistic Approach for Explainable AI"
+23. arXiv:2509.16745, "CAMBench-QR"
+24. NetVLAD, arXiv:1511.07247
+25. USPTO 특허 문서, "Structure defect detection using machine learning algorithms"
