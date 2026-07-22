@@ -3,10 +3,12 @@
 - CVPR, WACV, ICCV, etc journal papers : https://github.com/52CV?tab=repositories
 
 ## Awesome Series
-> ## 현재 paperswithcode 사이트가 터진 상태입니다. (언제 복원될지 미정) 아카이브로 우회접속가능. : https://github.com/World-Snapshot/papers-with-code?tab=readme-ov-file
-> https://web.archive.org/web/20250616051252/https://paperswithcode.com/
-> https://web.archive.org/web/20240416020926/https://paperswithcode.com/task/conditional-image-generation/latest?page=3
-> Paper with code : Computer Vision https://paperswithcode.com/area/computer-vision
+~> ## 현재 paperswithcode 사이트가 터진 상태입니다. (언제 복원될지 미정) 아카이브로 우회접속가능. : https://github.com/World-Snapshot/papers-with-code?tab=readme-ov-file~
+~> https://web.archive.org/web/20250616051252/https://paperswithcode.com/~
+~> https://web.archive.org/web/20240416020926/https://paperswithcode.com/task/conditional-image-generation/latest?page=3~
+~> Paper with code : Computer Vision https://paperswithcode.com/area/computer-vision~
+
+> ## 접속가능 : https://paperswithcode.co/
 
 - Awesome Computer Vision : https://github.com/jbhuang0604/awesome-computer-vision
 - LearnOpenCV : https://github.com/spmallick/learnopencv
