@@ -8,7 +8,7 @@
 ~> https://web.archive.org/web/20240416020926/https://paperswithcode.com/task/conditional-image-generation/latest?page=3~
 ~> Paper with code : Computer Vision https://paperswithcode.com/area/computer-vision~
 
-> ## 접속가능 : https://paperswithcode.co/
+> ## Papers with Code 접속가능 : https://paperswithcode.co/
 
 - Awesome Computer Vision : https://github.com/jbhuang0604/awesome-computer-vision
 - LearnOpenCV : https://github.com/spmallick/learnopencv
