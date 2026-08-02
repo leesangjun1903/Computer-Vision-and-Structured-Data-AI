@@ -8,6 +8,7 @@
 - Gen4U: Unifying Video Generation and Understanding via Diffusion | 2026, Video Generation
 - Motion Attribution for Video Generation | 2026, Video Generation
 - Prox-E: Fine-Grained 3D Shape Editing via Primitive-Based Abstractions | 2026 · 1회 인용, 3D Editing
+- Self Forcing: Bridging the Train-Test Gap in Autoregressive Video Diffusion | 2025 · 409회 인용, Video Generation
 - TetWeave: Isosurface Extraction using On-The-Fly Delaunay Tetrahedral Grids for Gradient-Based Mesh Optimization | 2025 · 12회 인용, Mesh Optimization, 3D Generation
 - Vision Pretraining for Dense Spatial Perception | 2026, Depth Estimation, Video Segmentation 
 
