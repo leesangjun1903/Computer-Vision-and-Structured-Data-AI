@@ -1,4 +1,5 @@
 # Papers
+- A Machine Learning Approach That Beats Large Rubik's Cubes | 2025 · 3회 인용, Rubik's Cube with Machine Learning
 - A Random Matrix Theory Perspective on the Consistency of Diffusion Models | 2026, Diffusion Model Technique
 - ArtiFixer: Enhancing and Extending 3D Reconstruction with Auto-Regressive Diffusion Models | 2026, Video Generation
 - Cameras as Relative Positional Encoding | 2025 · 73회 인용, Novel View Synthesis
