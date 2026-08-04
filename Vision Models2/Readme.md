@@ -1,6 +1,7 @@
 # Papers
 - A Random Matrix Theory Perspective on the Consistency of Diffusion Models | 2026, Diffusion Model Technique
 - ArtiFixer: Enhancing and Extending 3D Reconstruction with Auto-Regressive Diffusion Models | 2026, Video Generation
+- Cameras as Relative Positional Encoding | 2025 · 73회 인용, Novel View Synthesis
 - Deep Marching Tetrahedra: a Hybrid Representation for High-Resolution 3D Shape Synthesis | 2021 · 703회 인용, 3D Reconstruction, 3D Generation
 - Déjà View: Looping Transformers for Multi-View 3D Reconstruction | 2026, 3D Reconstruction
 - Flexible Isosurface Extraction for Gradient-Based Mesh Optimization | 2023 · 214회 인용, Mesh Generation
