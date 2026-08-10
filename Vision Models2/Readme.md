@@ -13,5 +13,6 @@
 - Prox-E: Fine-Grained 3D Shape Editing via Primitive-Based Abstractions | 2026 · 1회 인용, 3D Editing
 - Self Forcing: Bridging the Train-Test Gap in Autoregressive Video Diffusion | 2025 · 409회 인용, Video Generation
 - TetWeave: Isosurface Extraction using On-The-Fly Delaunay Tetrahedral Grids for Gradient-Based Mesh Optimization | 2025 · 12회 인용, Mesh Optimization, 3D Generation
-- Vision Pretraining for Dense Spatial Perception | 2026, Depth Estimation, Video Segmentation 
+- Vision Pretraining for Dense Spatial Perception | 2026, Depth Estimation, Video Segmentation
+- WSOD²: Learning Bottom-up and Top-down Objectness Distillation for Weakly-supervised Object Detection | 2019 · 209회 인용, Object Detection
 
