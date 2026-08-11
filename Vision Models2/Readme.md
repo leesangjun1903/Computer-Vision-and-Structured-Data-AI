@@ -8,6 +8,7 @@
 - Flexible Isosurface Extraction for Gradient-Based Mesh Optimization | 2023 · 214회 인용, Mesh Generation
 - Flow Matching in Feature Space for Stochastic World Modeling | 2026, Video Generation
 - Gen4U: Unifying Video Generation and Understanding via Diffusion | 2026, Video Generation
+- Instance-Aware, Context-Focused, and Memory-Efficient Weakly Supervised Object Detection | 2020 · 295회 인용, Object Detection
 - LVSM: A Large View Synthesis Model with Minimal 3D Inductive Bias | 2024 · 152회 인용, Novel View Synthesis
 - Local Optimization for Robust Signed Distance Field Collision | 2026, Mesh Optimization
 - Motion Attribution for Video Generation | 2026, Video Generation
