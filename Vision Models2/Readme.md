@@ -9,6 +9,7 @@
 - Flow Matching in Feature Space for Stochastic World Modeling | 2026, Video Generation
 - Gen4U: Unifying Video Generation and Understanding via Diffusion | 2026, Video Generation
 - LVSM: A Large View Synthesis Model with Minimal 3D Inductive Bias | 2024 · 152회 인용, Novel View Synthesis
+- Local Optimization for Robust Signed Distance Field Collision | 2026, Mesh Optimization
 - Motion Attribution for Video Generation | 2026, Video Generation
 - Prox-E: Fine-Grained 3D Shape Editing via Primitive-Based Abstractions | 2026 · 1회 인용, 3D Editing
 - SAM Fails to Segment Anything? – SAM-Adapter: Adapting SAM in Underperformed Scenes: Camouflage, Shadow, Medical Image Segmentation, and More | 2023 · 375회 인용, Object Detection
