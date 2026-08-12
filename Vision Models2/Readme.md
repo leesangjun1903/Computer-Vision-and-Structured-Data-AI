@@ -11,6 +11,7 @@
 - Instance-Aware, Context-Focused, and Memory-Efficient Weakly Supervised Object Detection | 2020 · 295회 인용, Object Detection
 - LVSM: A Large View Synthesis Model with Minimal 3D Inductive Bias | 2024 · 152회 인용, Novel View Synthesis
 - Local Optimization for Robust Signed Distance Field Collision | 2026, Mesh Optimization
+- Lyra: Generative 3D Scene Reconstruction via Video Diffusion Model Self-Distillation | 2025 · 7회 인용, 3D Generation
 - Motion Attribution for Video Generation | 2026, Video Generation
 - Prox-E: Fine-Grained 3D Shape Editing via Primitive-Based Abstractions | 2026 · 1회 인용, 3D Editing
 - SAM Fails to Segment Anything? – SAM-Adapter: Adapting SAM in Underperformed Scenes: Camouflage, Shadow, Medical Image Segmentation, and More | 2023 · 375회 인용, Object Detection
