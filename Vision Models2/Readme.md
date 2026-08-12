@@ -7,6 +7,7 @@
 - Déjà View: Looping Transformers for Multi-View 3D Reconstruction | 2026, 3D Reconstruction
 - Flexible Isosurface Extraction for Gradient-Based Mesh Optimization | 2023 · 214회 인용, Mesh Generation
 - Flow Matching in Feature Space for Stochastic World Modeling | 2026, Video Generation
+- GaussianGPT: Towards Autoregressive 3D Gaussian Scene Generation | 2026 · 2회 인용, 3D Generation
 - Gen4U: Unifying Video Generation and Understanding via Diffusion | 2026, Video Generation
 - Instance-Aware, Context-Focused, and Memory-Efficient Weakly Supervised Object Detection | 2020 · 295회 인용, Object Detection
 - LVSM: A Large View Synthesis Model with Minimal 3D Inductive Bias | 2024 · 152회 인용, Novel View Synthesis
