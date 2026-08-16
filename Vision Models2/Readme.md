@@ -17,6 +17,7 @@
 - Prox-E: Fine-Grained 3D Shape Editing via Primitive-Based Abstractions | 2026 · 1회 인용, 3D Editing
 - SAM Fails to Segment Anything? – SAM-Adapter: Adapting SAM in Underperformed Scenes: Camouflage, Shadow, Medical Image Segmentation, and More | 2023 · 375회 인용, Object Detection
 - Self Forcing: Bridging the Train-Test Gap in Autoregressive Video Diffusion | 2025 · 409회 인용, Video Generation
+- SoftVQ-VAE: Efficient 1-Dimensional Continuous Tokenizer | 2024 · 66회 인용, Image Tokenization, Image Generation
 - TetWeave: Isosurface Extraction using On-The-Fly Delaunay Tetrahedral Grids for Gradient-Based Mesh Optimization | 2025 · 12회 인용, Mesh Optimization, 3D Generation
 - Vision Pretraining for Dense Spatial Perception | 2026, Depth Estimation, Video Segmentation
 - WSOD²: Learning Bottom-up and Top-down Objectness Distillation for Weakly-supervised Object Detection | 2019 · 209회 인용, Object Detection
