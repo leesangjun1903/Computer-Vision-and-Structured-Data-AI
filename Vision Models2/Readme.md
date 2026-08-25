@@ -1,6 +1,7 @@
 # Papers
 - A Machine Learning Approach That Beats Large Rubik's Cubes | 2025 · 3회 인용, Rubik's Cube with Machine Learning
 - A Random Matrix Theory Perspective on the Consistency of Diffusion Models | 2026, Diffusion Model Technique
+- Adaptive Length Image Tokenization via Recurrent Allocation | 2024 · 23회 인용, Image Tokenization
 - ArtiFixer: Enhancing and Extending 3D Reconstruction with Auto-Regressive Diffusion Models | 2026, Video Generation
 - Cameras as Relative Positional Encoding | 2025 · 73회 인용, Novel View Synthesis
 - Deep Marching Tetrahedra: a Hybrid Representation for High-Resolution 3D Shape Synthesis | 2021 · 703회 인용, 3D Reconstruction, 3D Generation
