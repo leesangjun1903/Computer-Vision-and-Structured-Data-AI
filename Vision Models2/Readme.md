@@ -18,6 +18,7 @@
 - Local Optimization for Robust Signed Distance Field Collision | 2026, Mesh Optimization
 - Lyra: Generative 3D Scene Reconstruction via Video Diffusion Model Self-Distillation | 2025 · 7회 인용, 3D Generation
 - Motion Attribution for Video Generation | 2026, Video Generation
+- PointDiT: Pixel-Space Diffusion for Monocular Geometry Estimation | 2026 · 3회 인용, Monocular Geometry Estimation
 - Prox-E: Fine-Grained 3D Shape Editing via Primitive-Based Abstractions | 2026 · 1회 인용, 3D Editing
 - SAM Fails to Segment Anything? – SAM-Adapter: Adapting SAM in Underperformed Scenes: Camouflage, Shadow, Medical Image Segmentation, and More | 2023 · 375회 인용, Object Detection
 - Self Forcing: Bridging the Train-Test Gap in Autoregressive Video Diffusion | 2025 · 409회 인용, Video Generation
