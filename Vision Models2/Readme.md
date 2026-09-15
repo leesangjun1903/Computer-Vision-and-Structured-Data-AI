@@ -4,6 +4,7 @@
 - Adaptive Length Image Tokenization via Recurrent Allocation | 2024 · 23회 인용, Image Tokenization
 - ArtiFixer: Enhancing and Extending 3D Reconstruction with Auto-Regressive Diffusion Models | 2026, Video Generation
 - Boosting Out-of-Distribution Image Detection With Epistemic Uncertainty | 2022 · 7회 인용, Image Detection
+- Back to Basics: Let Denoising Generative Models Denoise | 2025 · 269회 인용, Diffusion Technique, Image Generation
 - Cameras as Relative Positional Encoding | 2025 · 73회 인용, Novel View Synthesis
 - Contrastive Feature Bin Loss for Monocular Depth Estimation | 2025 · 1회 인용, Depth Estimation
 - Deep Marching Tetrahedra: a Hybrid Representation for High-Resolution 3D Shape Synthesis | 2021 · 703회 인용, 3D Reconstruction, 3D Generation
