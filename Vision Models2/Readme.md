@@ -9,6 +9,7 @@
 - Contrastive Feature Bin Loss for Monocular Depth Estimation | 2025 · 1회 인용, Depth Estimation
 - Deep Marching Tetrahedra: a Hybrid Representation for High-Resolution 3D Shape Synthesis | 2021 · 703회 인용, 3D Reconstruction, 3D Generation
 - Déjà View: Looping Transformers for Multi-View 3D Reconstruction | 2026, 3D Reconstruction
+- Flex-Forcing: Towards a Unified Autoregressive and Bidirectional Video Diffusion Model | 2026 · 1회 인용, Video Generation
 - Flexible Isosurface Extraction for Gradient-Based Mesh Optimization | 2023 · 214회 인용, Mesh Generation
 - Flow Matching in Feature Space for Stochastic World Modeling | 2026, Video Generation
 - GaussianGPT: Towards Autoregressive 3D Gaussian Scene Generation | 2026 · 2회 인용, 3D Generation
