@@ -18,6 +18,7 @@
 - LVSM: A Large View Synthesis Model with Minimal 3D Inductive Bias | 2024 · 152회 인용, Novel View Synthesis
 - Local Optimization for Robust Signed Distance Field Collision | 2026, Mesh Optimization
 - Lyra: Generative 3D Scene Reconstruction via Video Diffusion Model Self-Distillation | 2025 · 7회 인용, 3D Generation
+- Marigold V2: Revisiting Diffusion Transformers for Monocular Depth Estimation | 2026, Depth Estimation
 - Motion Attribution for Video Generation | 2026, Video Generation
 - PointDiT: Pixel-Space Diffusion for Monocular Geometry Estimation | 2026 · 3회 인용, Monocular Geometry Estimation
 - Prox-E: Fine-Grained 3D Shape Editing via Primitive-Based Abstractions | 2026 · 1회 인용, 3D Editing
