@@ -28,6 +28,7 @@
 - SoftVQ-VAE: Efficient 1-Dimensional Continuous Tokenizer | 2024 · 66회 인용, Image Tokenization, Image Generation
 - TetWeave: Isosurface Extraction using On-The-Fly Delaunay Tetrahedral Grids for Gradient-Based Mesh Optimization | 2025 · 12회 인용, Mesh Optimization, 3D Generation
 - Variable-Length Tokenization via Learnable Global Merging for Diffusion Transformers | 2026, Image Tokenization
+- ViT³: Unlocking Test-Time Training in Vision | 2025 · 16회 인용, Image Classification, Object Detection, Semantic Segmentation
 - Vision Pretraining for Dense Spatial Perception | 2026, Depth Estimation, Video Segmentation
 - WSOD²: Learning Bottom-up and Top-down Objectness Distillation for Weakly-supervised Object Detection | 2019 · 209회 인용, Object Detection
 
