@@ -35,5 +35,6 @@
 - Variable-Length Tokenization via Learnable Global Merging for Diffusion Transformers | 2026, Image Tokenization
 - ViT³: Unlocking Test-Time Training in Vision | 2025 · 16회 인용, Image Classification, Object Detection, Semantic Segmentation
 - Vision Pretraining for Dense Spatial Perception | 2026, Depth Estimation, Video Segmentation
+- VoMP: Predicting Volumetric Mechanical Property Fields | 2025 · 6회 인용, 3D Reconstruction
 - WSOD²: Learning Bottom-up and Top-down Objectness Distillation for Weakly-supervised Object Detection | 2019 · 209회 인용, Object Detection
 
