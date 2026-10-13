@@ -24,6 +24,7 @@
 - Lyra: Generative 3D Scene Reconstruction via Video Diffusion Model Self-Distillation | 2025 · 7회 인용, 3D Generation
 - Marigold V2: Revisiting Diffusion Transformers for Monocular Depth Estimation | 2026, Depth Estimation
 - Motion Attribution for Video Generation | 2026, Video Generation
+- One-step Latent-free Image Generation with Pixel Mean Flows | 2026 · 49회 인용, Image Generation
 - PixelDiT: Pixel Diffusion Transformers for Image Generation | 2025 · 67회 인용, Image Generation
 - PointDiT: Pixel-Space Diffusion for Monocular Geometry Estimation | 2026 · 3회 인용, Monocular Geometry Estimation
 - Prox-E: Fine-Grained 3D Shape Editing via Primitive-Based Abstractions | 2026 · 1회 인용, 3D Editing
