@@ -9,6 +9,7 @@
 - Contrastive Feature Bin Loss for Monocular Depth Estimation | 2025 · 1회 인용, Depth Estimation
 - DIFIX3D+: Improving 3D Reconstructions with Single-Step Diffusion Models | 2025 · 120회 인용, Novel-View Synthesis, 3D Reconstruction
 - Deep Marching Tetrahedra: a Hybrid Representation for High-Resolution 3D Shape Synthesis | 2021 · 703회 인용, 3D Reconstruction, 3D Generation
+- DiffusionNFT: Online Diffusion Reinforcement with Forward Process | 2025 · 207회 인용, Image Generation, Diffusion Technique
 - Déjà View: Looping Transformers for Multi-View 3D Reconstruction | 2026, 3D Reconstruction
 - Elastic Diffusion Transformer | 2026 · 5회 인용, Diffusion Model Technique, Video Generation
 - Flex-Forcing: Towards a Unified Autoregressive and Bidirectional Video Diffusion Model | 2026 · 1회 인용, Video Generation
