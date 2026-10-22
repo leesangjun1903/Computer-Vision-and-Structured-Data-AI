@@ -34,6 +34,7 @@
 - Self Forcing: Bridging the Train-Test Gap in Autoregressive Video Diffusion | 2025 · 409회 인용, Video Generation
 - SoftVQ-VAE: Efficient 1-Dimensional Continuous Tokenizer | 2024 · 66회 인용, Image Tokenization, Image Generation
 - TetWeave: Isosurface Extraction using On-The-Fly Delaunay Tetrahedral Grids for Gradient-Based Mesh Optimization | 2025 · 12회 인용, Mesh Optimization, 3D Generation
+- Towards Learning to Complete Anything in Lidar | 2025 · 4회 인용, Semantic Segmentation
 - TokenGS: Decoupling 3D Gaussian Prediction from Pixels with Learnable Tokens | 2026 · 12회 인용, Novel-View Synthesis, 3D Reconstruction
 - UniEvo-VL: An On-policy Self-Distillation Training Recipe for Multimodal Model Self-improvement | 2026
 - VGG-T³: Offline Feed-Forward 3D Reconstruction at Scale | 2026 · 14회 인용, 3D Reconstruction
