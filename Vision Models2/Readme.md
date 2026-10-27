@@ -12,6 +12,7 @@
 - DiffusionNFT: Online Diffusion Reinforcement with Forward Process | 2025 · 207회 인용, Image Generation, Diffusion Technique
 - Déjà View: Looping Transformers for Multi-View 3D Reconstruction | 2026, 3D Reconstruction
 - Elastic Diffusion Transformer | 2026 · 5회 인용, Diffusion Model Technique, Video Generation
+- FastMesh: Efficient Artistic Mesh Generation via Component Decoupling | 2025 · 15회 인용, Mesh Generation
 - Flex-Forcing: Towards a Unified Autoregressive and Bidirectional Video Diffusion Model | 2026 · 1회 인용, Video Generation
 - Flexible Isosurface Extraction for Gradient-Based Mesh Optimization | 2023 · 214회 인용, Mesh Generation
 - Flow Matching in Feature Space for Stochastic World Modeling | 2026, Video Generation
