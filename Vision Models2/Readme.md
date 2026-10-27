@@ -7,6 +7,7 @@
 - Back to Basics: Let Denoising Generative Models Denoise | 2025 · 269회 인용, Diffusion Technique, Image Generation
 - Cameras as Relative Positional Encoding | 2025 · 73회 인용, Novel View Synthesis
 - Contrastive Feature Bin Loss for Monocular Depth Estimation | 2025 · 1회 인용, Depth Estimation
+- DDT: Decoupled Diffusion Transformer | 2025 · 169회 인용, Image Generation
 - DIFIX3D+: Improving 3D Reconstructions with Single-Step Diffusion Models | 2025 · 120회 인용, Novel-View Synthesis, 3D Reconstruction
 - Deep Marching Tetrahedra: a Hybrid Representation for High-Resolution 3D Shape Synthesis | 2021 · 703회 인용, 3D Reconstruction, 3D Generation
 - DiffusionNFT: Online Diffusion Reinforcement with Forward Process | 2025 · 207회 인용, Image Generation, Diffusion Technique
