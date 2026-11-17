@@ -20,6 +20,7 @@
 - GaussianGPT: Towards Autoregressive 3D Gaussian Scene Generation | 2026 · 2회 인용, 3D Generation
 - Gen4U: Unifying Video Generation and Understanding via Diffusion | 2026, Video Generation
 - Global Structure-from-Motion Meets Feedforward Reconstruction | 2026 · 5회 인용, Structure from Motion, 3D Reconstruction
+- Infinity-RoPE: Action-Controllable Infinite Video Generation Emerges From Autoregressive Self-Rollout | 2025 · 89회 인용, Video Generation
 - Instance-Aware, Context-Focused, and Memory-Efficient Weakly Supervised Object Detection | 2020 · 295회 인용, Object Detection
 - Learning Convex Decomposition via Feature Fields | 2026, Convex Decomposition
 - LVSM: A Large View Synthesis Model with Minimal 3D Inductive Bias | 2024 · 152회 인용, Novel View Synthesis
